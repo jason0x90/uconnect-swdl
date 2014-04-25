@@ -1,0 +1,6 @@
+mapWidth 640
+mapHeight 480
+mapSwitchLayers 
+ipcWatchDogIntervalMs 180000
+gwxXMCheckIntervalMs 180000
+clusterFilterGlobalStreets true

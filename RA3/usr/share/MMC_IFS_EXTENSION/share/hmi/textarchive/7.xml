@@ -1,0 +1,2306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<textresources>
+<text id="0x00000044" string="pant comp"/>
+<text id="0x00000059" string="mapa"/>
+<text id="0x0000006e" string="info."/>
+<text id="0x00000083" string="pist"/>
+<text id="0x00000098" string="bluetooth"/>
+<text id="0x000000c2" string="audio"/>
+<text id="0x000000d7" string="repetir"/>
+<text id="0x000000ec" string="%s de %s"/>
+<text id="0x00000101" string="mezclar"/>
+<text id="0x00000116" string="N.º pista"/>
+<text id="0x0000012b" string="desconocido"/>
+<text id="0x00000140" string="Artista"/>
+<text id="0x00000155" string="Título"/>
+<text id="0x0000016a" string="Álbum"/>
+<text id="0x0000017f" string="Composit"/>
+<text id="0x00000194" string="Género"/>
+<text id="0x000001a9" string="Año"/>
+<text id="0x000001be" string="IR"/>
+<text id="0x000001d3" string="Sint dir"/>
+<text id="0x000001e8" string="Hecho"/>
+<text id="0x000001fd" string="Ingrese el código antirrobo"/>
+<text id="0x00000212" string="Código incorrecto. Vuelva a intentar."/>
+<text id="0x00000227" string="Radio bloqueada"/>
+<text id="0x0000023c" string="Radio bloqueada - Espere %s minutos."/>
+<text id="0x00000251" string="Encienda el vehículo"/>
+<text id="0x00000266" string="Balance/Esfumar"/>
+<text id="0x0000027b" string="Ecualizador"/>
+<text id="0x00000290" string="Vol ajustado a la vel"/>
+<text id="0x000002a5" string="Sonido envolvente"/>
+<text id="0x000002ba" string="Borrar info. de música"/>
+<text id="0x000002cf" string="On"/>
+<text id="0x000002e4" string="Off"/>
+<text id="0x000002f9" string="Sonido env no existe en todos los modos."/>
+<text id="0x0000030e" string="de"/>
+<text id="0x00000338" string="Aumenta nivel de volumen al aumentar velocidad del vehículo."/>
+<text id="0x0000034d" string="Bajo"/>
+<text id="0x00000362" string="Med"/>
+<text id="0x00000377" string="Agud"/>
+<text id="0x0000038c" string="Delant"/>
+<text id="0x000003a1" string="Izq"/>
+<text id="0x000003b6" string="Atras"/>
+<text id="0x000003cb" string="Der"/>
+<text id="0x000003e0" string="C"/>
+<text id="0x000003f5" string="Almacen..."/>
+<text id="0x0000041f" string="Almacen..."/>
+<text id="0x00000434" string="mapa"/>
+<text id="0x00000449" string="info."/>
+<text id="0x000004c7" string="Estación"/>
+<text id="0x000004dc" string="info."/>
+<text id="0x000004f1" string="ETI"/>
+<text id="0x0000055a" string="pausa"/>
+<text id="0x00000584" string="Directo"/>
+<text id="0x00000599" string="PRES p/conf"/>
+<text id="0x000005ae" string="buscar"/>
+<text id="0x000005c3" string="reprod"/>
+<text id="0x000005d8" string="sint"/>
+<text id="0x00000602" string="audio"/>
+<text id="0x0000062c" string="audio"/>
+<text id="0x00000641" string="sint"/>
+<text id="0x00000656" string="buscar"/>
+<text id="0x0000066b" string="audio"/>
+<text id="0x00000680" string="PRES. p/config"/>
+<text id="0x00000695" string="Nombre est"/>
+<text id="0x000006aa" string="Presint"/>
+<text id="0x000006bf" string="Todo"/>
+<text id="0x000006d4" string="Actual Lista"/>
+<text id="0x000006e9" string="Todas las estaciones"/>
+<text id="0x000006fe" string="Género"/>
+<text id="0x00000713" string="Presint"/>
+<text id="0x00000728" string="Todas las estaciones"/>
+<text id="0x0000073d" string="Presint"/>
+<text id="0x00000767" string="PRESIONE p/config"/>
+<text id="0x00000791" string="Elim. Fav"/>
+<text id="0x000007d0" string="Eliminar Selección"/>
+<text id="0x00000824" string="Selec ciud p/informes de tránsito y clima:"/>
+<text id="0x00000839" string="Favoritos"/>
+<text id="0x00000878" string="TOQUE LA PANTALLA PARA ENCENDER"/>
+<text id="0x0000088d" string="DIREC"/>
+<text id="0x000008a2" string="directo"/>
+<text id="0x0000095f" string="Código incorrecto. Vuelva a intentar."/>
+<text id="0x00000974" string="OK"/>
+<text id="0x00000989" string="Editar Fav"/>
+<text id="0x0000099e" string="Cancelar"/>
+<text id="0x000009b3" string="Sí"/>
+<text id="0x000009c8" string="No"/>
+<text id="0x000009dd" string="Hora"/>
+<text id="0x000009f2" string="&#xA;¿Desea ajustar su configuración de reloj?"/>
+<text id="0x00000a07" string="Favoritos"/>
+<text id="0x00000a1c" string="Lista de fav llena.&#xA;¿Borrar fav para agregar nuevos?"/>
+<text id="0x00000a31" string="¿Desea borrar todos los favoritos?"/>
+<text id="0x00000a70" string="Espere, por favor..."/>
+<text id="0x00000a85" string="Captando datos…"/>
+<text id="0x00000aee" string="Sin señal&#xA;&#xA;Consultar el serv al distribuidor"/>
+<text id="0x00000b18" string="Sin suscribir"/>
+<text id="0x00000b2d" string="Actualizando suscripción. Espere…"/>
+<text id="0x00000b96" string="Agregar"/>
+<text id="0x00000bab" string="¿Desea agregar a favoritos?"/>
+<text id="0x00000bc0" string="Bloqueo de velocidad"/>
+<text id="0x00000bd5" string="Función no disponible con el vehículo en movimiento."/>
+<text id="0x00000bea" string="El teléfono no admite esta función. &#xA;&#xA;Ingrese a %s para info de compatibilidad."/>
+<text id="0x00000bff" string="Música Silenciada"/>
+<text id="0x00000c14" string="Canción etiquetada"/>
+<text id="0x00000c29" string="Conectar el iPod para comprar por iTunes"/>
+<text id="0x00000c3e" string="Lista canc etiq llena.Conectar iPod y transferir lista"/>
+<text id="0x00000c53" string="Lista de canc etiq llena.&#xA;Conectar iPod comp p/transferir info de canciones etiquetadas."/>
+<text id="0x00000c68" string="Transfiriendo la información de la canción etiquetada al iPod"/>
+<text id="0x00000c7d" string="Error al transferir la información de la canción etiquetada al iPod."/>
+<text id="0x00000c92" string="No es posible transferir los datos de la canción etiquetada.&#xA;La memoria del iPod está llena."/>
+<text id="0x00000ca7" string="Canción etiquetada Memoria de iPod llena, no se transferirán datos"/>
+<text id="0x00000cbc" string="Canción etiquetada.&#xA;Conectar iPod compatible para transferir&#xA;info de canciones etiquetadas."/>
+<text id="0x00000cd1" string="El iPod conectado no admite etiquetas de canciones,&#xA;esta información no se transferirá."/>
+<text id="0x00000ce6" string="Adver-&#xA;tencia"/>
+<text id="0x00000cfb" string="Pantalla recalentada, se apagará"/>
+<text id="0x00000d10" string="Conf idioma"/>
+<text id="0x00000d25" string="Ajustes"/>
+<text id="0x00000d3a" string="elementos de la lista"/>
+<text id="0x00000d4f" string="elemento de la lista"/>
+<text id="0x00000d64" string="Modo de Pantalla"/>
+<text id="0x00000d79" string="Brillo de pantalla con faros delanteros encendidos"/>
+<text id="0x00000d8e" string="Brillo de pantalla con faros delanteros apagados"/>
+<text id="0x00000da3" string="Configurar el Idioma"/>
+<text id="0x00000db8" string="Unidades"/>
+<text id="0x00000dcd" string="Longitud de respuesta de voz"/>
+<text id="0x00000de2" string="Bip de pantalla táctil"/>
+<text id="0x00000df7" string="Nav Turn-by-Turn mostrado en Cluster"/>
+<text id="0x00000e0c" string="Visualización de Ahorro de Gasolina en Conjunto"/>
+<text id="0x00000e21" string="Auto"/>
+<text id="0x00000e36" string="noche"/>
+<text id="0x00000e4b" string="día"/>
+<text id="0x00000e75" string="Métrica"/>
+<text id="0x00000e8a" string="Breve"/>
+<text id="0x00000e9f" string="Detall"/>
+<text id="0x00000eb4" string="No hay medios disponibles"/>
+<text id="0x00000ec9" string="N.º de pista: %s"/>
+<text id="0x00000ede" string="Pantalla"/>
+<text id="0x00000ef3" string="Reloj "/>
+<text id="0x00000f08" string="Brújula"/>
+<text id="0x00000f1d" string="Asist para Conducir con Seguridad"/>
+<text id="0x00000f32" string="Luces"/>
+<text id="0x00000f47" string="Puertas y Seguros"/>
+<text id="0x00000f5c" string="Confort Automatico"/>
+<text id="0x00000f71" string="Opciones para Apagar el Motor"/>
+<text id="0x00000f86" string="Audio"/>
+<text id="0x00000f9b" string="Teléfono/Bluetooth"/>
+<text id="0x00000fda" string="Sincronizar reloj con GPS"/>
+<text id="0x00000fef" string="Configurar la Hora"/>
+<text id="0x00001019" string="Formato de Hora"/>
+<text id="0x0000102e" string="Mostrar hora en barra de estado"/>
+<text id="0x00001043" string="Horario de verano"/>
+<text id="0x0000106d" string="h"/>
+<text id="0x00001082" string="Accionar Claxon con Arranque Remoto"/>
+<text id="0x00001097" string="Asiento y Volante del Conductor con Calef y Ventil "/>
+<text id="0x000010ac" string="   al encender el vehículo"/>
+<text id="0x00001100" string="Radio"/>
+<text id="0x00001115" string="Reprod"/>
+<text id="0x0000112a" string="Controles"/>
+<text id="0x0000113f" string="Nav"/>
+<text id="0x00001154" string="Teléfono"/>
+<text id="0x00001169" string="Más"/>
+<text id="0x0000117e" string="a."/>
+<text id="0x00001193" string="Música Silenc"/>
+<text id="0x000011a8" string="Transm audio "/>
+<text id="0x00001211" string="Clima"/>
+<text id="0x00001226" string="LO"/>
+<text id="0x0000123b" string="HI"/>
+<text id="0x00001250" string="LO"/>
+<text id="0x00001265" string="HI"/>
+<text id="0x0000127a" string="Alerta visual"/>
+<text id="0x0000128f" string="Alerta sonora y visual"/>
+<text id="0x000012f8" string="PRESIONE p/config"/>
+<text id="0x00001448" string="Favoritos"/>
+<text id="0x00001487" string="Eliminar Favoritos"/>
+<text id="0x000014b1" string="Eliminar Selección"/>
+<text id="0x000014db" string="Saltar a tránsito y clima"/>
+<text id="0x000014f0" string="Puerta&#xA;Conduct"/>
+<text id="0x00001505" string="Todas&#xA;Puertas"/>
+<text id="0x0000151a" string="Bloqueo Automático de Puertas"/>
+<text id="0x0000152f" string="Desbloqueo Automático al Salir"/>
+<text id="0x00001544" string="Parpadeo de Faros al Bloquear"/>
+<text id="0x00001559" string="Cuerno Sonido Bloq."/>
+<text id="0x0000156e" string="Accionar Claxon con Arranque Remoto"/>
+<text id="0x00001583" string="Desbloq. c/primera presión"/>
+<text id="0x00001598" string="Ingreso Pasivo"/>
+<text id="0x000015ad" string="Configuración personal del llavero"/>
+<text id="0x000015c2" string="Alerta de Deslizamiento de Puerta"/>
+<text id="0x000015d7" string="min."/>
+<text id="0x000015ec" string="seg."/>
+<text id="0x00001601" string="Fácil Salida de Asiento"/>
+<text id="0x00001616" string="Demora en apagar el motor"/>
+<text id="0x0000162b" string="Demora en apagar faros delanteros"/>
+<text id="0x00001640" string="OK"/>
+<text id="0x00001655" string="Deshabilitar"/>
+<text id="0x0000166a" string="¿Desea actualizar el software?"/>
+<text id="0x000016a9" string="Favoritos"/>
+<text id="0x000016d3" string="Ningún favorito seleccionado en aire ahora"/>
+<text id="0x000016e8" string="Sin artículos"/>
+<text id="0x000016fd" string="- Borrar Todos -"/>
+<text id="0x0000173c" string="Iluminación de Faros al Acercarse"/>
+<text id="0x00001751" string="Faros delanteros con limpiaparabrisas"/>
+<text id="0x00001766" string="Obscurecer Automático Luces Altas"/>
+<text id="0x0000177b" string="Luces de posición de día"/>
+<text id="0x00001790" string="Faros delanteros dirigidos c/volante"/>
+<text id="0x000017a5" string="Regulador de faros (cambia con el tránsito)"/>
+<text id="0x000017ba" string="Advert. Colisión Frontal"/>
+<text id="0x000017cf" string="Asistencia estacionar"/>
+<text id="0x000017e4" string="Espejo con Inclinación Lateral para Retroceso"/>
+<text id="0x000017f9" string="Alerta de Punto Ciego"/>
+<text id="0x0000180e" string="Cámara retro p/estac"/>
+<text id="0x00001823" string="Limpiaparabrisas con Sensores de lluvia"/>
+<text id="0x00001838" string="Asistencia para nacimiento de colinas"/>
+<text id="0x0000184d" string="Off"/>
+<text id="0x00001862" string="Lejos"/>
+<text id="0x00001877" string="Cerca"/>
+<text id="0x0000188c" string="Sonido"/>
+<text id="0x000018a1" string="Sonido+&#xA;Pantalla"/>
+<text id="0x000018b6" string="Luces"/>
+<text id="0x000018cb" string="Luces +&#xA;Timbre"/>
+<text id="0x000018f5" string="Información de Suscripción"/>
+<text id="0x0000190a" string="Llamar"/>
+<text id="0x0000195e" string="Suscrito"/>
+<text id="0x00001973" string="Sin suscribir"/>
+<text id="0x00001988" string="Llame %s para habilitar servicios"/>
+<text id="0x00001a1b" string="Espere"/>
+<text id="0x00001a30" string="Conectado"/>
+<text id="0x00001a45" string="Sinc&#xA;Teléfonos&#xA;"/>
+<text id="0x00001a5a" string="Sinc&#xA;Audio&#xA;Dispos."/>
+<text id="0x00001a6f" string="Sinc&#xA;Dispos&#xA;de datos&#xA;"/>
+<text id="0x00001a84" string="Agregar&#xA;dispos."/>
+<text id="0x00001a99" string="Cambiar&#xA;PIN"/>
+<text id="0x00001aae" string="Bluetooth"/>
+<text id="0x00001ac3" string="llam recien"/>
+<text id="0x00001ad8" string="marcar"/>
+<text id="0x00001aed" string="mensajes"/>
+<text id="0x00001b02" string="ajustes"/>
+<text id="0x00001b17" string="agenda"/>
+<text id="0x00001b2c" string="Cambiar"/>
+<text id="0x00001b41" string="Llam conf"/>
+<text id="0x00001b56" string="Mudo"/>
+<text id="0x00001b6b" string="Fin"/>
+<text id="0x00001b80" string="Camb llam"/>
+<text id="0x00001b95" string="Remarcar"/>
+<text id="0x00001baa" string="Espera"/>
+<text id="0x00001bbf" string="Responder"/>
+<text id="0x00001bd4" string="Ignorar"/>
+<text id="0x00001be9" string="Transfer &#xA;nuevam."/>
+<text id="0x00001bfe" string="PRES p/conf"/>
+<text id="0x00001c13" string="Llamadas entrantes:"/>
+<text id="0x00001c28" string="Llamadas"/>
+<text id="0x00001c3d" string="Ir a config. para conectar un telé"/>
+<text id="0x00001c52" string="Teléfono Listo"/>
+<text id="0x00001c67" string="Llam en conferencia"/>
+<text id="0x00001c7c" string="Ningún tel conectado"/>
+<text id="0x00001c91" string="Llam finaliz %s"/>
+<text id="0x00001ca6" string="Llam retenida: %s"/>
+<text id="0x00001cbb" string="Tiempo Llam: %s"/>
+<text id="0x00001cd0" string="Roaming"/>
+<text id="0x00001ce5" string="Vacío"/>
+<text id="0x00001cfa" string="Cancelar&#xA;Todos"/>
+<text id="0x00001d0f" string="Selec.&#xA;Todos"/>
+<text id="0x00001d39" string="Mis favoritos"/>
+<text id="0x00001db7" string="Marca"/>
+<text id="0x00001dcc" string="Distancia"/>
+<text id="0x00001e35" string="Agr"/>
+<text id="0x00001e5f" string="Última actualización %s"/>
+<text id="0x00001e89" string="Buscar"/>
+<text id="0x00001f31" string="Buscar"/>
+<text id="0x00001f5b" string="Información"/>
+<text id="0x00001f9a" string="m"/>
+<text id="0x00001faf" string="km"/>
+<text id="0x00001fc4" string="No hay teléfono sincronizado."/>
+<text id="0x00001fd9" string="¿Desea transferir su llamada al modo manos libres?"/>
+<text id="0x00001fee" string="Aceptar"/>
+<text id="0x00002003" string="No se puede agregar el dispositivo. Lista de dispositivos sincronizados llena."/>
+<text id="0x00002018" string="Comenzar procedimiento de sincronización en el teléfono o el dispositivo Bluetooth."/>
+<text id="0x00002042" string="Nombre disp veh: %s"/>
+<text id="0x00002057" string="Borre dispositivo sin usar. Intente nuevamente."/>
+<text id="0x0000206c" string="PIN: %s"/>
+<text id="0x00002081" string="Conexión Bluetooth en progreso. Espere."/>
+<text id="0x00002096" string="Ingrese sit d veh web para lista disp comp"/>
+<text id="0x000020ab" string="Reintentar"/>
+<text id="0x000020c0" string="Conexión Bluetooth incorrecta. Vuelva a intentar."/>
+<text id="0x000020d5" string="Conexión Bluetooth correcta."/>
+<text id="0x000020ea" string="Borrar Dispositivo"/>
+<text id="0x000020ff" string="Dispositivo no disponible.&#xA;&#xA;Asegúrese de que esté encendido y al alcance."/>
+<text id="0x00002114" string="Sincronizando Bluetooth"/>
+<text id="0x00002129" string="Favoritos"/>
+<text id="0x0000213e" string="Para conf un n.º fav,&#xA;presione durante la llamada o&#xA;Ir a Agenda y seleccionar Favoritos."/>
+<text id="0x00002153" string="Ir a Agenda y seleccionar Favoritos."/>
+<text id="0x00002210" string="Llamar"/>
+<text id="0x00002225" string="Hecho"/>
+<text id="0x0000223a" string="Marcado directo"/>
+<text id="0x0000224f" string="Ingresar tono"/>
+<text id="0x00002264" string="Ingresar PIN"/>
+<text id="0x00002279" string="OK"/>
+<text id="0x000022b8" string="Buscar"/>
+<text id="0x00002321" string="No hay información disponible."/>
+<text id="0x0000234b" string="Nombre"/>
+<text id="0x0000239f" string="Duración"/>
+<text id="0x000023b4" string="min."/>
+<text id="0x00002408" string="Ninguno de estos"/>
+<text id="0x0000241d" string="HI"/>
+<text id="0x00002432" string="LO"/>
+<text id="0x00002447" string="Asiento&#xA;Calef"/>
+<text id="0x0000245c" string="Ajustes"/>
+<text id="0x00002471" string="Parasol&#xA;Trasero"/>
+<text id="0x00002486" string="Asiento&#xA;Ventilad."/>
+<text id="0x0000249b" string="Volante&#xA;Calef"/>
+<text id="0x000024b0" string="Controles"/>
+<text id="0x000024c5" string="Conductor"/>
+<text id="0x000024da" string="Pasajero"/>
+<text id="0x000024ef" string="Econ"/>
+<text id="0x00002504" string="Deport"/>
+<text id="0x00002519" string="Parasol"/>
+<text id="0x0000252e" string="Toma"/>
+<text id="0x00002543" string="AWD"/>
+<text id="0x00002558" string="Auto"/>
+<text id="0x0000256d" string="ON"/>
+<text id="0x00002582" string="OFF"/>
+<text id="0x00002597" string="Ver"/>
+<text id="0x000025ac" string="Oír"/>
+<text id="0x000025c1" string="Ignorar"/>
+<text id="0x000025d6" string="Mensaje de texto"/>
+<text id="0x000025eb" string="Todas&#xA;las llam."/>
+<text id="0x00002600" string="Llamadas&#xA;entrantes"/>
+<text id="0x00002615" string="Llamadas&#xA;salientes"/>
+<text id="0x0000262a" string="Llamadas&#xA;perdidas"/>
+<text id="0x0000263f" string="Todas las llamadas"/>
+<text id="0x00002654" string="Llamadas entrantes"/>
+<text id="0x00002669" string="Llamadas salientes"/>
+<text id="0x0000267e" string="Llamadas perdidas"/>
+<text id="0x00002693" string="Llamadas recientes"/>
+<text id="0x000026a8" string="Ingresar detalles"/>
+<text id="0x000026bd" string="Llam"/>
+<text id="0x000026d2" string="Detalles"/>
+<text id="0x00002726" string="Seleccionar estado"/>
+<text id="0x0000273b" string="Seleccionar estado"/>
+<text id="0x00002750" string="Estado operativo"/>
+<text id="0x00002765" string="Abr"/>
+<text id="0x0000278f" string="Función no disponible con el vehículo en movimiento"/>
+<text id="0x000027f8" string="Actual"/>
+<text id="0x00002876" string="5 Días"/>
+<text id="0x0000288b" string="Agregar a favoritos"/>
+<text id="0x000028a0" string="Reemplazar Fav"/>
+<text id="0x000028b5" string="Mis favoritos"/>
+<text id="0x00002972" string="Espere"/>
+<text id="0x00002a05" string="modo"/>
+<text id="0x00002a1a" string="Buzón "/>
+<text id="0x00002a2f" string="Mensaje Nuevo"/>
+<text id="0x00002a44" string="Ver"/>
+<text id="0x00002a59" string="Oír"/>
+<text id="0x00002a6e" string="No hay mensajes"/>
+<text id="0x00002a83" string="Sí"/>
+<text id="0x00002a98" string="No"/>
+<text id="0x00002aad" string="Bien"/>
+<text id="0x00002ac2" string="No puedo hablar ahora."/>
+<text id="0x00002ad7" string="Llámeme."/>
+<text id="0x00002aec" string="Te llamaré luego."/>
+<text id="0x00002b01" string="Estoy en camino."/>
+<text id="0x00002b16" string="Gracias."/>
+<text id="0x00002b2b" string="Llegaré tarde."/>
+<text id="0x00002b40" string="Llegaré %s minutos tarde."/>
+<text id="0x00002b55" string="Nos vemos en %s minutos."/>
+<text id="0x00002b6a" string="En embotellamiento."/>
+<text id="0x00002b7f" string="Comienza sin mí."/>
+<text id="0x00002b94" string="¿Dónde estás?"/>
+<text id="0x00002ba9" string="¿Sigue allí?"/>
+<text id="0x00002bbe" string="¿Como llego ahi?"/>
+<text id="0x00002bd3" string="Estoy perdido."/>
+<text id="0x00002be8" string="Nos vemos luego."/>
+<text id="0x00002bfd" string="Nos vemos en %s minutos."/>
+<text id="0x00002c12" string="Llegaré %s minutos tarde."/>
+<text id="0x00002c27" string="Mensajes"/>
+<text id="0x00002c3c" string="Buzón "/>
+<text id="0x00002c51" string="Mensaje nuevo"/>
+<text id="0x00002c66" string="Cancel"/>
+<text id="0x00002c7b" string="Selec."/>
+<text id="0x00002c90" string="Móvil"/>
+<text id="0x00002ca5" string="Favoritos"/>
+<text id="0x00002cba" string="Teclado"/>
+<text id="0x00002ccf" string="Enviar a:"/>
+<text id="0x00002ce4" string="Llamar"/>
+<text id="0x00002cf9" string="Reenv"/>
+<text id="0x00002d0e" string="Buzón "/>
+<text id="0x00002d23" string="Oír"/>
+<text id="0x00002d38" string="Respnd"/>
+<text id="0x00002d4d" string="Cancelar"/>
+<text id="0x00002d62" string="Enviar"/>
+<text id="0x00002d77" string="Mensaje para: %s"/>
+<text id="0x00002d8c" string="Mensaje de texto"/>
+<text id="0x00002da1" string="Enviando mensaje…"/>
+<text id="0x00002db6" string="Se envió correctamente."/>
+<text id="0x00002dcb" string="Error al enviar su mensaje."/>
+<text id="0x00002de0" string="Desconectar tel"/>
+<text id="0x00002df5" string="Marcar como fav"/>
+<text id="0x00002e0a" string="Borrar Teléfono"/>
+<text id="0x00002e1f" string="Opciones"/>
+<text id="0x00002e34" string="Conectar tel"/>
+<text id="0x00002e49" string="Copiado en favoritos"/>
+<text id="0x00002e5e" string="Copiar en favoritos"/>
+<text id="0x00002e73" string="Agenda"/>
+<text id="0x00002e88" string="Selec contacto p/actual"/>
+<text id="0x00002e9d" string="Selec contacto para favoritos"/>
+<text id="0x00002eb2" string="Móvil"/>
+<text id="0x00002ec7" string="Selec n.º contacto p/favoritos"/>
+<text id="0x00002edc" string="Información de contacto"/>
+<text id="0x00002ef1" string="Opciones"/>
+<text id="0x00002f06" string="Móvil"/>
+<text id="0x00002f1b" string="Cancelar"/>
+<text id="0x00002f30" string="Buscr"/>
+<text id="0x00002f45" string="Agregar d móvil"/>
+<text id="0x00002f5a" string="Agregar a fav"/>
+<text id="0x00002f6f" string="Agregar a favoritos de nav."/>
+<text id="0x00002f84" string="Eliminar de Favs."/>
+<text id="0x00002f99" string="Llam"/>
+<text id="0x00002fae" string="Selec."/>
+<text id="0x00002fc3" string="Ð ÑƒÑÑÐºÐ¸Ð¹ ÑÐ·Ñ‹Ðº"/>
+<text id="0x00002fd8" string="Inglés"/>
+<text id="0x00002fed" string="Ir a ABC"/>
+<text id="0x00003002" string="Géneros"/>
+<text id="0x00003017" string="Podcasts"/>
+<text id="0x0000302c" string="Audiolibro"/>
+<text id="0x00003041" string="Artistas"/>
+<text id="0x00003056" string="List rep"/>
+<text id="0x0000306b" string="Canc"/>
+<text id="0x00003080" string="Álbumes"/>
+<text id="0x00003095" string="ABC"/>
+<text id="0x000030aa" string="Buscr"/>
+<text id="0x000030bf" string="Artistas"/>
+<text id="0x000030d4" string="List rep"/>
+<text id="0x000030e9" string="Canciones"/>
+<text id="0x000030fe" string="Álbumes"/>
+<text id="0x00003113" string="Géneros"/>
+<text id="0x00003128" string="Podcasts"/>
+<text id="0x0000313d" string="Audiolibro"/>
+<text id="0x00003152" string="Tarj SD"/>
+<text id="0x00003167" string="Otra"/>
+<text id="0x0000317c" string="Carpetas"/>
+<text id="0x00003191" string="Todos los álbumes"/>
+<text id="0x000031a6" string="Todas las canciones"/>
+<text id="0x000031bb" string="Todos los artistas"/>
+<text id="0x000031d0" string="Importante:"/>
+<text id="0x000031e5" string="Obedezca las reglas de tránsito y preste atención mientras maneja. &#xA;Algunas aplicaciones estan limitadas mientras el vehículo se encuentra&#xA;en movimiento. Por favor lea el manual del conductor para más detalles."/>
+<text id="0x000031fa" string="LO"/>
+<text id="0x0000320f" string="HI"/>
+<text id="0x00003224" string="Aceptar"/>
+<text id="0x00003239" string="cargando…"/>
+<text id="0x0000324e" string="conductor"/>
+<text id="0x00003263" string="pasajero"/>
+<text id="0x00003278" string="Off Clima Trasera"/>
+<text id="0x0000328d" string="TRAS ON"/>
+<text id="0x000032a2" string="CLIMAT DELANT"/>
+<text id="0x000032b7" string="BLOQ TRAS"/>
+<text id="0x000032cc" string="ATRÁS AUTO"/>
+<text id="0x00003320" string="CLIMAT DEL"/>
+<text id="0x00003335" string="BLOQ TRAS"/>
+<text id="0x0000334a" string="ATRÁS AUTO"/>
+<text id="0x0000335f" string="ON"/>
+<text id="0x00003374" string="ATRÁS"/>
+<text id="0x00003389" string="Climatización Off"/>
+<text id="0x0000339e" string="Clima Trasero"/>
+<text id="0x000033b3" string="SINC"/>
+<text id="0x000033c8" string="TRAS OFF&#xA;"/>
+<text id="0x000033dd" string="OFF"/>
+<text id="0x000033f2" string="AUTO"/>
+<text id="0x00003407" string="DELAN"/>
+<text id="0x0000341c" string="CLIMA TRASERO"/>
+<text id="0x00003431" string="HI"/>
+<text id="0x00003446" string="LO"/>
+<text id="0x0000345b" string="AUTO"/>
+<text id="0x00003470" string="OFF"/>
+<text id="0x00003485" string="Actualización de software en progreso.Espere…"/>
+<text id="0x0000349a" string="USB contiene una actualización de software.&#xA;La autenticación está en progreso..."/>
+<text id="0x000034af" string="La imágen de la instalación&#xA;esta lista para actualizar. &#xA;¿Desea actualizar %s %s &#xA;de %s a %s?"/>
+<text id="0x000034c4" string="Restableciendo el sistema...&#xA;Guardar datos correctamente podría&#xA;llevar hasta 35 segundos."/>
+<text id="0x000034d9" string="Error"/>
+<text id="0x000034ee" string="N"/>
+<text id="0x00003503" string="S"/>
+<text id="0x00003518" string="E"/>
+<text id="0x0000352d" string="O"/>
+<text id="0x00003542" string="Agregar a fav"/>
+<text id="0x00003557" string="Eliminar de fav"/>
+<text id="0x0000356c" string="Destinos"/>
+<text id="0x00003581" string="Editar Nombre"/>
+<text id="0x00003596" string="Most en map"/>
+<text id="0x000035ab" string="Evit calle"/>
+<text id="0x000035c0" string="N.º teléfono"/>
+<text id="0x000035d5" string="Arriba"/>
+<text id="0x000035ea" string="Abajo"/>
+<text id="0x000035ff" string="Agenda"/>
+<text id="0x00003614" string="¿A Dónde?"/>
+<text id="0x00003629" string="Ubicación actual"/>
+<text id="0x0000363e" string="Más rápido"/>
+<text id="0x00003653" string="Más corto"/>
+<text id="0x00003668" string="Económico"/>
+<text id="0x0000367d" string="Ida y Vuelta"/>
+<text id="0x00003692" string="Elim casa"/>
+<text id="0x000036a7" string="Camb nombre"/>
+<text id="0x000036bc" string="Hora de llegada"/>
+<text id="0x000036d1" string="Tiempo p/ destino"/>
+<text id="0x000036e6" string="Distanc"/>
+<text id="0x000036fb" string="Deshab"/>
+<text id="0x00003710" string="2D"/>
+<text id="0x00003725" string="3D"/>
+<text id="0x0000373a" string="N arriba"/>
+<text id="0x0000374f" string="Adelante"/>
+<text id="0x00003764" string="Colocar Marca"/>
+<text id="0x00003779" string="Eliminar Marca"/>
+<text id="0x0000378e" string="Off"/>
+<text id="0x000037a3" string="Autom"/>
+<text id="0x000037b8" string="Manual"/>
+<text id="0x000037cd" string="Por demora"/>
+<text id="0x000037e2" string="Opciones"/>
+<text id="0x000037f7" string="Evitar"/>
+<text id="0x0000380c" string="Guardar"/>
+<text id="0x00003821" string="Mapa"/>
+<text id="0x00003836" string="GPS"/>
+<text id="0x0000384b" string="Demorar"/>
+<text id="0x00003860" string="Favoritos"/>
+<text id="0x00003875" string="Todo"/>
+<text id="0x0000388a" string="Asistenc"/>
+<text id="0x0000389f" string="Información"/>
+<text id="0x000038b4" string="Otra"/>
+<text id="0x000038c9" string="Social"/>
+<text id="0x000038de" string="Herram"/>
+<text id="0x000038f3" string="Música"/>
+<text id="0x00003908" string="Ordenar por nombr"/>
+<text id="0x0000391d" string="Ordenar por usado rec"/>
+<text id="0x0000395c" string="iniciando…"/>
+<text id="0x00003971" string="pausa"/>
+<text id="0x00003986" string="deteniendo…"/>
+<text id="0x0000399b" string="detenido"/>
+<text id="0x000039c5" string="Selec nuevo fav"/>
+<text id="0x000039da" string="Agregar nuevo fav"/>
+<text id="0x000039ef" string="Selec."/>
+<text id="0x00003a04" string="%s elementos en la lista"/>
+<text id="0x00003a2e" string="Conexión"/>
+<text id="0x00003a43" string="Conexión activa"/>
+<text id="0x00003a82" string="Conexión Bluetooth "/>
+<text id="0x00003aac" string="Conectado"/>
+<text id="0x00003ac1" string="Sin conectar"/>
+<text id="0x00003b93" string="Marcar como fav"/>
+<text id="0x00003ba8" string="Borrar Disposit"/>
+<text id="0x00003bbd" string="Habilitar conexión de datos"/>
+<text id="0x00003be7" string="Configurar conexión de datos"/>
+<text id="0x00003bfc" string="Hab conexión de datos en este dispositivo"/>
+<text id="0x00003c11" string="Probar conexión"/>
+<text id="0x00003c26" string="Nombre de usuario:"/>
+<text id="0x00003c50" string="Comandos de inicio:"/>
+<text id="0x00003c8f" string="Agregar red de fav"/>
+<text id="0x00003d22" string="Vacío"/>
+<text id="0x00003d37" string="OK"/>
+<text id="0x00003d4c" string="Sí"/>
+<text id="0x00003d61" string="No"/>
+<text id="0x00003d76" string="Cargando"/>
+<text id="0x00003d8b" string="Opciones"/>
+<text id="0x00003da0" string="Ajustes"/>
+<text id="0x00003ddf" string="Contrase"/>
+<text id="0x00003df4" string="Espere."/>
+<text id="0x00003e09" string="Prueba de conexión Bluetooth en progreso."/>
+<text id="0x00003e1e" string="Prueba de conexión Bluetooth positiva:"/>
+<text id="0x00003e33" string="Prueba de conexión Bluetooth negativa:"/>
+<text id="0x00003e48" string="Cancelar"/>
+<text id="0x00003e72" string="Dispositivos"/>
+<text id="0x00003e87" string="Seguridad"/>
+<text id="0x00003e9c" string="Agregar"/>
+<text id="0x00003edb" string="Borrar"/>
+<text id="0x00003ef0" string="Métrica (m)"/>
+<text id="0x00003f05" string="EE. UU. (mi/pies)"/>
+<text id="0x00003f1a" string="Imperial (mi/yarda)"/>
+<text id="0x00003f2f" string="Decimal"/>
+<text id="0x00003f6e" string="Menú principal"/>
+<text id="0x00003f83" string="¿A Dónde?"/>
+<text id="0x00003f98" string="Ver mapa"/>
+<text id="0x00003fad" string="Información"/>
+<text id="0x00003fc2" string="Emergencia"/>
+<text id="0x00003fd7" string="Repetir"/>
+<text id="0x00003fec" string="Detener"/>
+<text id="0x00004001" string="Desvío"/>
+<text id="0x00004016" string="Ajustes"/>
+<text id="0x0000402b" string="Dirección"/>
+<text id="0x00004040" string="Reciente"/>
+<text id="0x00004055" string="Punto de interés"/>
+<text id="0x0000406a" string="Intersección"/>
+<text id="0x0000407f" string="ir a casa"/>
+<text id="0x00004094" string="Viajes"/>
+<text id="0x000040a9" string="Coord. GEO"/>
+<text id="0x000040be" string="Punto en map"/>
+<text id="0x000040d3" string="Centro ciudad"/>
+<text id="0x000040e8" string="Ciudad más cercana"/>
+<text id="0x000040fd" string="Caminos"/>
+<text id="0x00004112" string="Número teléfono"/>
+<text id="0x00004127" string="Favoritos"/>
+<text id="0x0000413c" string="Tránsito"/>
+<text id="0x00004151" string="¿Dónde estoy?"/>
+<text id="0x00004166" string="Cámara velocidad"/>
+<text id="0x0000417b" string="Comp a bordo"/>
+<text id="0x00004190" string="Conf dir hogar"/>
+<text id="0x000041a5" string="Hospital"/>
+<text id="0x000041ba" string="Policia"/>
+<text id="0x000041cf" string="Bomberos"/>
+<text id="0x000041e4" string="Ubicación"/>
+<text id="0x000041f9" string="Deletr Nombre"/>
+<text id="0x0000420e" string="Cambiar área de búsqueda"/>
+<text id="0x00004223" string="Navegación"/>
+<text id="0x00004238" string="Alrededor mío"/>
+<text id="0x0000424d" string="En una ciudad"/>
+<text id="0x00004262" string="Destino cercano"/>
+<text id="0x00004277" string="Por la ruta"/>
+<text id="0x0000428c" string="PDI en %s"/>
+<text id="0x000042a1" string="PDI alrededor mío"/>
+<text id="0x000042b6" string="PDI cerca d destino"/>
+<text id="0x000042cb" string="PDI por la ruta"/>
+<text id="0x000042e0" string="Ingresar dirección"/>
+<text id="0x000042f5" string="Deletrear ciudad"/>
+<text id="0x0000430a" string="Deletrear calle"/>
+<text id="0x0000431f" string="Cambiar provincia, país"/>
+<text id="0x00004334" string="Cambiar estado, país"/>
+<text id="0x00004349" string="Ingresar intersección"/>
+<text id="0x0000435e" string="Deletrear intersección"/>
+<text id="0x00004373" string="Seleccionar país"/>
+<text id="0x00004388" string="Selec prov para %s"/>
+<text id="0x0000439d" string="Selec estado para %s"/>
+<text id="0x000043b2" string="Seleccionar ciudad"/>
+<text id="0x000043c7" string="Selec calle"/>
+<text id="0x000043dc" string="Selec intersección"/>
+<text id="0x000043f1" string="Seleccionar un país."/>
+<text id="0x00004406" string="Evitar"/>
+<text id="0x0000441b" string="Caminos con peaje"/>
+<text id="0x00004430" string="Túneles"/>
+<text id="0x00004445" string="Ferries"/>
+<text id="0x0000445a" string="Sin pavimentar"/>
+<text id="0x0000446f" string="Trenes"/>
+<text id="0x00004484" string="Bloquear rutas adelante"/>
+<text id="0x00004499" string="Maniobras"/>
+<text id="0x000044ae" string="Detener ruta:"/>
+<text id="0x000044c3" string="DETENER TODAS"/>
+<text id="0x000044d8" string="Destinos recientes"/>
+<text id="0x00004502" string="Agregar favorito"/>
+<text id="0x00004517" string="Selec posición de destino"/>
+<text id="0x0000452c" string="Agregar destino"/>
+<text id="0x00004541" string="Cancelar ruta anterior"/>
+<text id="0x00004556" string="Agregar como primer destino"/>
+<text id="0x0000456b" string="Agregar como parada"/>
+<text id="0x00004580" string="Agregar como último destino"/>
+<text id="0x00004595" string="Agregar aquí"/>
+<text id="0x000045aa" string="Reemplazar un destino"/>
+<text id="0x000045bf" string="Confirmar destino"/>
+<text id="0x000045d4" string="Información de destino"/>
+<text id="0x000045e9" string="Destino alcanzado"/>
+<text id="0x000045fe" string="IR"/>
+<text id="0x00004613" string="FALLADO"/>
+<text id="0x00004628" string="Guardar destino como"/>
+<text id="0x0000463d" string="Destino reconocido por voz"/>
+<text id="0x00004652" string="Guardar como fav"/>
+<text id="0x00004667" string="Ingresar calle"/>
+<text id="0x0000467c" string="Ingresar número de casa"/>
+<text id="0x00004691" string="Ingresar ciudad"/>
+<text id="0x000046a6" string="Ingresar provincia"/>
+<text id="0x000046bb" string="Ingresar estado"/>
+<text id="0x000046d0" string="Ingresar país"/>
+<text id="0x000046e5" string="Ingresar nombre"/>
+<text id="0x000046fa" string="Ingresar intersección"/>
+<text id="0x0000470f" string="Ingresar nombre como favorito"/>
+<text id="0x00004724" string="Ingresar número de teléfono"/>
+<text id="0x00004739" string="Ingresar demora de trafico"/>
+<text id="0x0000474e" string="Ingresar límite de velocidad"/>
+<text id="0x00004763" string="Ingresar latitud"/>
+<text id="0x00004778" string="Ingresar longitud"/>
+<text id="0x0000478d" string="Menú"/>
+<text id="0x000047a2" string="ETA"/>
+<text id="0x000047b7" string="Restante"/>
+<text id="0x000047cc" string="Distancia"/>
+<text id="0x000047e1" string="Lista"/>
+<text id="0x000047f6" string="Saltear"/>
+<text id="0x0000480b" string="Formato"/>
+<text id="0x00004820" string="info"/>
+<text id="0x00004835" string="Anterior"/>
+<text id="0x0000484a" string="Próximo"/>
+<text id="0x0000485f" string="Aceptar"/>
+<text id="0x00004874" string="Rechazar"/>
+<text id="0x00004889" string="V prev"/>
+<text id="0x0000489e" string="Buscar por categoría"/>
+<text id="0x000048b3" string="Por categoría"/>
+<text id="0x000048c8" string="Crear viaje nuevo"/>
+<text id="0x000048dd" string="Definir nombre viaje"/>
+<text id="0x000048f2" string="Cambiar el nombre del viaje"/>
+<text id="0x00004907" string="Configurar mapa"/>
+<text id="0x0000491c" string="Límite de velocidad"/>
+<text id="0x00004931" string="Guía"/>
+<text id="0x00004946" string="Unidades"/>
+<text id="0x0000495b" string="Ver mapa"/>
+<text id="0x00004970" string="Orientación"/>
+<text id="0x00004985" string="Apariencia de mapa"/>
+<text id="0x0000499a" string="Calle actual"/>
+<text id="0x000049af" string="Cambiar rumbo de calle"/>
+<text id="0x000049c4" string="Mostrar íconos PDI"/>
+<text id="0x000049d9" string="List íconos PDI"/>
+<text id="0x000049ee" string="Velocidad y flujo"/>
+<text id="0x00004a03" string="Incidentes de trafico"/>
+<text id="0x00004a18" string="Modelos de ciudad en 3D"/>
+<text id="0x00004a2d" string="Puntos de referencia 3D"/>
+<text id="0x00004a42" string="Modelo de terreno digital"/>
+<text id="0x00004a57" string="Ícono de vehículo"/>
+<text id="0x00004a6c" string="Reprod Mensajes d Guía d Voz"/>
+<text id="0x00004a81" string="Recomendación de carril"/>
+<text id="0x00004a96" string="Letrero"/>
+<text id="0x00004aab" string="Ver mapa de cruces"/>
+<text id="0x00004ac0" string="Modo de ruta de trafico"/>
+<text id="0x00004ad5" string="Tipos de evasión de trafico"/>
+<text id="0x00004aea" string="Tiempo de Demora"/>
+<text id="0x00004aff" string="Mostrar cámaras de seguridad en mapa"/>
+<text id="0x00004b14" string="Anunciar aviso de límite de velocidad"/>
+<text id="0x00004b29" string="Computadora a bordo"/>
+<text id="0x00004b3e" string="Dirección de viaje"/>
+<text id="0x00004b53" string="Distancia hasta el destino final"/>
+<text id="0x00004b68" string="Velocidad del vehículo"/>
+<text id="0x00004b7d" string="Distancia recorrida"/>
+<text id="0x00004b92" string="Velocidad promedio total"/>
+<text id="0x00004ba7" string="Velocidad promedio de desplazamiento"/>
+<text id="0x00004bbc" string="Velocidad máxima alcanzada"/>
+<text id="0x00004bd1" string="Tiempo total recorrido"/>
+<text id="0x00004c10" string="Flujo de tránsito"/>
+<text id="0x00004c25" string="Accidentes"/>
+<text id="0x00004c3a" string="Cierres"/>
+<text id="0x00004c4f" string="Restricciones de carril"/>
+<text id="0x00004c64" string="Problemas de tránsito"/>
+<text id="0x00004c79" string="Detalles de tránsito"/>
+<text id="0x00004c8e" string="Comenzar grabación de camino"/>
+<text id="0x00004ca3" string="Detener grabación de camino"/>
+<text id="0x00004cb8" string="Caminos"/>
+<text id="0x00004ccd" string="Código de activación incorrecto"/>
+<text id="0x00004ce2" string="¿Volver a intentar?"/>
+<text id="0x00004cf7" string="Venció el evento"/>
+<text id="0x00004d0c" string="Vista previa de ruta de trafico"/>
+<text id="0x00004d21" string="Ning"/>
+<text id="0x00004d36" string="Actualiz de base de datos navegación"/>
+<text id="0x00004d4b" string="Latitud"/>
+<text id="0x00004d60" string="Longitud"/>
+<text id="0x00004d75" string="Altitud"/>
+<text id="0x00004d8a" string="Precisión"/>
+<text id="0x00004d9f" string="Diseño de menú"/>
+<text id="0x00004db4" string="Modo de Distribuidor"/>
+<text id="0x00004dc9" string="Información de Sistema"/>
+<text id="0x00004dde" string="Parte de info de radio"/>
+<text id="0x00004df3" string="Base de datos de mapa"/>
+<text id="0x00004e08" string="Número de pieza de hardware"/>
+<text id="0x00004e1d" string="Versión de Software"/>
+<text id="0x00004e32" string="N.º de serie:"/>
+<text id="0x00004e47" string="Versión de EQ"/>
+<text id="0x00004e5c" string="Firmware sintonizador HD"/>
+<text id="0x00004eda" string="Información de celda incorporada"/>
+<text id="0x00004eef" string="Información Teléfono"/>
+<text id="0x00004f04" string="Puertos USB"/>
+<text id="0x00004f19" string="Temp PA de tel "/>
+<text id="0x00004f2e" string="Temp PMIC de tel"/>
+<text id="0x00004f43" string="Temp OMAP "/>
+<text id="0x00004f58" string="Temperatura de canal 1 IC audio"/>
+<text id="0x00004f6d" string="Temperatura de canal 2 IC audio"/>
+<text id="0x00004f82" string="Temperatura de termistor"/>
+<text id="0x00004f97" string="Máximo"/>
+<text id="0x00004fac" string="Registro de configuración "/>
+<text id="0x00004fc1" string="Monitor de rastreo de DBus"/>
+<text id="0x00004fd6" string="Todos los rastreos: habilitar"/>
+<text id="0x00004feb" string="Todos los rastreos: deshabilitar"/>
+<text id="0x00005000" string="Instalado"/>
+<text id="0x00005015" string="Falló la instalación"/>
+<text id="0x0000502a" string="Instalando…"/>
+<text id="0x0000503f" string="Desinstalando…"/>
+<text id="0x00005054" string="Reinstalación..."/>
+<text id="0x0000507e" string="Información de GPS"/>
+<text id="0x00005093" string="Información de versión"/>
+<text id="0x000050a8" string="Dirección de IP"/>
+<text id="0x000050bd" string="Información de rendimiento"/>
+<text id="0x000050d2" string="Modo de demostración de navegación"/>
+<text id="0x000050e7" string="Venció la licencia falsa de navegación"/>
+<text id="0x00005111" string="Actualización de router inalámbr Sierra"/>
+<text id="0x00005126" string="Conectar QXDM"/>
+<text id="0x0000513b" string="Antirrobo habilitado"/>
+<text id="0x00005150" string="Información de celular incorporada"/>
+<text id="0x0000517a" string="Modo de prueba de Bluetooth "/>
+<text id="0x0000518f" string="Reproducir Manual Usuario"/>
+<text id="0x000051b9" string="Retransmisión fuera de pantalla táctil"/>
+<text id="0x000051ce" string="Rastros de navegación"/>
+<text id="0x000051e3" string="Prueba de pantalla blanca"/>
+<text id="0x000051f8" string="Datos térmicos"/>
+<text id="0x0000520d" string="Exponente"/>
+<text id="0x00005222" string="Número"/>
+<text id="0x00005237" string="Versión del sistema"/>
+<text id="0x00005261" string="Estado de temperatura ECell"/>
+<text id="0x00005276" string="A de potencia ECell (interna)"/>
+<text id="0x0000528b" string="Teléfono ECell (interno)"/>
+<text id="0x000052a0" string="ECell (termistor)"/>
+<text id="0x000052b5" string="OMAP (interno)"/>
+<text id="0x000052ca" string="OMAP (termistor)"/>
+<text id="0x000052df" string="Pantalla conductor (termistor)"/>
+<text id="0x000052f4" string="Retroiluminación de pantalla (termistor)"/>
+<text id="0x00005309" string="GYRO (interno)"/>
+<text id="0x0000531e" string="IC Amp pot (interno)"/>
+<text id="0x00005333" string="PRES PARA BORRAR HIST TÉRMICA"/>
+<text id="0x00005348" string="Temp"/>
+<text id="0x0000535d" string="AMP está en MAL estado"/>
+<text id="0x00005372" string="AMP está en BUEN estado"/>
+<text id="0x0000539c" string="Mostrar mapa"/>
+<text id="0x000053b1" string="Centrar auto mapa"/>
+<text id="0x0000541a" string="Glosario"/>
+<text id="0x00005723" string="Habilit conexión Bluetooth"/>
+<text id="0x00005777" string="La conexión Bluetooth conecta el vehículo a Internet por un dispositivo que habilita datos de Bluetooth."/>
+<text id="0x000057a1" string="¿Realmente desea detener la guía?"/>
+<text id="0x000057b6" string="¿Guardar ubicación actual como favorita?"/>
+<text id="0x000057cb" string="¿Desea intentar otra vez?"/>
+<text id="0x000057e0" string="¿Desea ingresarlo ahora?"/>
+<text id="0x0000580a" string="¿Desea eliminar este viaje?"/>
+<text id="0x0000581f" string="¿Desea eliminar todos los viajes?"/>
+<text id="0x00005834" string="¿Desea eliminar este destino?"/>
+<text id="0x00005849" string="¿Desea eliminar todos los destinos?"/>
+<text id="0x0000585e" string="¿Desea usar una ruta alternativa?"/>
+<text id="0x00005873" string="¿Desea eliminar la dirección de su hogar?"/>
+<text id="0x00005888" string="¿Copiar info del dispositivo a USB?"/>
+<text id="0x0000589d" string="Volv a calcular ruta…"/>
+<text id="0x000058b2" string="Buscar %s"/>
+<text id="0x000058c7" string="Buscar %s en %s"/>
+<text id="0x000058dc" string="Deshabilitar para conectar a %s"/>
+<text id="0x00005984" string="No se ingresó dirección de hogar todavía."/>
+<text id="0x00005999" string="En caso de emergencia, contacte a la instalación p/verificar la disponibilidad antes de proceder."/>
+<text id="0x000059ae" string="¡Conduzca con cuidado!"/>
+<text id="0x000059c3" string="Falló la copia de info. de base de datos de navegación a USB"/>
+<text id="0x000059d8" string="Se copió info. de base de datos de nav. a USB correctamente"/>
+<text id="0x000059ed" string="Está ingresando a un área con datos de mapa sin verificar"/>
+<text id="0x00005a02" string="Ocurrió un problema de tránsito en su ruta."/>
+<text id="0x00005a17" string="Para activar la navegación se necesita comprar código de activación."/>
+<text id="0x00005a2c" string="Presione OK p/ingresar cód act comprado:"/>
+<text id="0x00005a41" string="¡Activó correctamente la navegación!"/>
+<text id="0x00005a56" string="Apague el vehículo 2 minutos para proceder."/>
+<text id="0x00005a6b" string="Pres OK p/volver a ingresar cód activ"/>
+<text id="0x00005a80" string="Teclado no disponible con el vehículo en movimiento.&#xA;Presione '%s' para aceptar entrada actual."/>
+<text id="0x00005ae9" string="Conexión Bluetooth correcta:"/>
+<text id="0x00005afe" string="¿Este dispositivo es su favorito?"/>
+<text id="0x00005b13" string="Este dispositivo admite teléfono, audio y datos"/>
+<text id="0x00005b28" string="Este dispositivo admite teléfono"/>
+<text id="0x00005b3d" string="Este dispositivo admite audio"/>
+<text id="0x00005b52" string="Este dispositivo admite audio y datos"/>
+<text id="0x00005b67" string="Actualización de software"/>
+<text id="0x00005b7c" string="Error de Actualización de Software"/>
+<text id="0x00005b91" string="Actualización de Software Completa"/>
+<text id="0x00005ba6" string="Esperando dispositivo USB"/>
+<text id="0x00005bbb" string="Eliminar dispositivo USB"/>
+<text id="0x00005bd0" string="Nombre de unidad :"/>
+<text id="0x00005be5" string="Número de unidad :"/>
+<text id="0x00005bfa" string="Total de unidades :"/>
+<text id="0x00005c0f" string="Porcentaje de unidad completo :"/>
+<text id="0x00005c24" string="Porcentaje total completo :"/>
+<text id="0x00005c39" string="Llegada"/>
+<text id="0x00005c4e" string="Configurar conexión Bluetooth "/>
+<text id="0x00005ca2" string="Autopistas"/>
+<text id="0x00005cb7" string="PDI en mapa"/>
+<text id="0x00005ccc" string="Sin definir"/>
+<text id="0x00005ce1" string="Ruta dde inicio"/>
+<text id="0x00005cf6" string="Ruta desde fin"/>
+<text id="0x00005d0b" string="¿Desea eliminar este sendero?"/>
+<text id="0x00005d20" string="¿Desea eliminar todos los senderos?"/>
+<text id="0x00005d35" string="¿Realmente desea eliminar este destino?"/>
+<text id="0x00005d4a" string="¿Realmente desea eliminar todos los destinos?"/>
+<text id="0x00005d5f" string="Confirmar sendero"/>
+<text id="0x00005d74" string="espacio"/>
+<text id="0x00005d89" string="Ingresar nombre de sendero"/>
+<text id="0x00005d9e" string="Renombrar Sendero"/>
+<text id="0x00005db3" string="Copiar información de base de datos de navegación"/>
+<text id="0x00005dc8" string="Lista de estaciones"/>
+<text id="0x00005ddd" string="Buscar por estaciones"/>
+<text id="0x00005e31" string="Conf de conductor"/>
+<text id="0x00005e46" string="Guardar conf %s de cond…"/>
+<text id="0x00005e5b" string="Restabl conf %s de conductor"/>
+<text id="0x00005e70" string="Crear un mensaje nuevo con RV"/>
+<text id="0x00005e85" string="Seleccionar mensajes nuevo en lista"/>
+<text id="0x00005e9a" string="Mensaje de voz"/>
+<text id="0x00005eaf" string="Enc lista"/>
+<text id="0x00005ec4" string="Detener guía"/>
+<text id="0x000065d2" string="Diga el nombre del país."/>
+<text id="0x000072dd" string="Ajuste de volumen de nav"/>
+<text id="0x00007331" string="Gasolinera"/>
+<text id="0x00007346" string="Restaurantes"/>
+<text id="0x0000735b" string="Hoteles/Moteles"/>
+<text id="0x00007370" string="Cajeros/Bancos"/>
+<text id="0x00007385" string="Todos los PDI"/>
+<text id="0x0000739a" string="%s Categorías"/>
+<text id="0x000073d9" string="Reconfigurar a predeterminado"/>
+<text id="0x000073ee" string="No hay número favorito configurado"/>
+<text id="0x00007403" string="¿Desea cambiar este número&#xA;por el número predeterminado?"/>
+<text id="0x00007418" string="¿Intenta conectarse al teléfono?&#xA;(Se pausará el audio Bluetooth)"/>
+<text id="0x0000742d" string="No hay teléfono conectado."/>
+<text id="0x00007442" string="¿Desea sincronizar uno?"/>
+<text id="0x00007457" string="Este dispositivo admite Teléfono y Audio."/>
+<text id="0x0000746c" string="Este dispositivo admite Teléfono y Datos."/>
+<text id="0x00007481" string="Iniciando..."/>
+<text id="0x00007496" string="Cargando..."/>
+<text id="0x000074ab" string="Comenzando..."/>
+<text id="0x000074d5" string="Este dispositivo admite Datos."/>
+<text id="0x000074ea" string="Controles parentales"/>
+<text id="0x000074ff" string="Áreas de parques"/>
+<text id="0x00007514" string="Ferrocarriles"/>
+<text id="0x00007529" string="Áreas de ciudades"/>
+<text id="0x0000753e" string="Nombres de ríos"/>
+<text id="0x00007553" string="Audio Bluetooth"/>
+<text id="0x00007568" string="El audio Bluetooth no está disponible&#xA;en el dispositivo seleccionado&#xA;mientras el puerto USB está en uso."/>
+<text id="0x0000763a" string="Para poder activar la navegación, se debe comprar un código&#xA;de activación. Hacer referencia a %s."/>
+<text id="0x0000764f" string="Presione OK para ingresar el código de activación comprado."/>
+<text id="0x00007664" string="Código de activación incorrecto.&#xA;&#xA;¿Desea intentar nuevamente?"/>
+<text id="0x00007679" string="Ha activado la navegación correctamente."/>
+<text id="0x0000768e" string="Aguarde para ingresar nuevamente el código de activación."/>
+<text id="0x000076a3" string="Aguarde mientras se verifica el código de activación."/>
+<text id="0x000076b8" string="Guardar como viaje"/>
+<text id="0x000076cd" string="Rutas alternativas"/>
+<text id="0x000076e2" string="Descargando agenda de teléfonos..."/>
+<text id="0x0000770c" string="Aplic."/>
+<text id="0x00007721" string="Medios"/>
+<text id="0x00007808" string="Se está activando la navegación."/>
+<text id="0x0000781d" string="Tipo"/>
+<text id="0x0000785c" string="Cargando Sistema Manos Libres"/>
+<text id="0x000079eb" string="Reintentando..."/>
+<text id="0x00007a54" string="Actualizando agenda..."/>
+<text id="0x00007a69" string="Editar número"/>
+<text id="0x00007a7e" string="Servicio de Grúa"/>
+<text id="0x00007abd" string="Todo el tránsito"/>
+<text id="0x00007ad2" string="Tránsito en ruta"/>
+<text id="0x00007ae7" string="Verificar todo el entorno"/>
+<text id="0x00007afc" string="Insertar Disco"/>
+<text id="0x00007b11" string="Conect. Dispos."/>
+<text id="0x00007b26" string="Insertar Tarjeta SD"/>
+<text id="0x00007b3b" string="Cargando Medios"/>
+<text id="0x00007b50" string="Leyendo Medios"/>
+<text id="0x00007b65" string="Pista"/>
+<text id="0x00007b7a" string="Info HD BER"/>
+<text id="0x00007b8f" string="El bloqueo de velocidad es:"/>
+<text id="0x00007ba4" string="Herramientas de NAV"/>
+<text id="0x00007bb9" string="El tema de reemplazo es:"/>
+<text id="0x00007bce" string="El tema actual es:"/>
+<text id="0x00007be3" string="Memoria libre:"/>
+<text id="0x00007bf8" string="Carga de CPU:"/>
+<text id="0x00007c0d" string=""/>
+<text id="0x00007c22" string="Audio transferido"/>
+<text id="0x00007c37" string="Transferido a teléfono"/>
+<text id="0x00007c4c" string="Buscando en %s"/>
+<text id="0x00007c61" string="Sistema Manos Libres Disponible."/>
+<text id="0x00007c76" string="Función no disponible con el vehículo en movimiento. &#xA;Presione el botón del teléfono en el volante para enviar un mensaje."/>
+<text id="0x00007c8b" string="Activar Navegación"/>
+<text id="0x00007ca0" string="Ruta"/>
+<text id="0x00007cb5" string="(Desconocido)"/>
+<text id="0x00007cca" string="Sin nombre"/>
+<text id="0x00007cf4" string="Iniciar"/>
+<text id="0x00007d09" string="Tienda"/>
+<text id="0x00007d1e" string="Descartar"/>
+<text id="0x00007d33" string="Registrar"/>
+<text id="0x00007d48" string="Saltear"/>
+<text id="0x00007d5d" string="Ignorar"/>
+<text id="0x00007e05" string="La pista seleccionada no es reproducible."/>
+<text id="0x00007e44" string="VR no disponible"/>
+<text id="0x00007e6e" string="Configuración de Radio"/>
+<text id="0x00007e83" string="Anuncio de tránsito"/>
+<text id="0x00007ec2" string="   al encender el vehículo&#xA;"/>
+<text id="0x00007ed7" string="Asiento del Conductor Calefacción"/>
+<text id="0x00007eec" string="Asiento y Volante del Conductor Calefacción"/>
+<text id="0x00007f01" string="Asiento del Conductor Calefacción/Ventilación"/>
+<text id="0x00007f55" string="Nuevo mensaje de texto."/>
+<text id="0x00007f6a" string="Nuevo mensaje de texto de %s."/>
+<text id="0x00007f7f" string="Sin llamadas recientes"/>
+<text id="0x00007f94" string="Llam retenida"/>
+<text id="0x00007fd3" string="El disco está caliente."/>
+<text id="0x00007fe8" string="Espere a que se enfríe."/>
+<text id="0x00007ffd" string="No se puede leer el disco."/>
+<text id="0x00008012" string="Error al leer el disco"/>
+<text id="0x00008027" string="No hay archivos admitidos en el disco."/>
+<text id="0x0000803c" string="Error en el disco"/>
+<text id="0x00008051" string="Error en la región"/>
+<text id="0x00008066" string="Región del DVD incorrecta"/>
+<text id="0x0000807b" string="Iniciar Tienda"/>
+<text id="0x000081a1" string="Teléfono no disponible"/>
+<text id="0x000081e0" string="Enviado por mi %s."/>
+<text id="0x000081f5" string="Dispositivo no reproducible"/>
+<text id="0x0000820a" string="Pista no reproducible"/>
+<text id="0x0000821f" string="No hay dispositivos de audio Bluetooth conectados."/>
+<text id="0x00008234" string="No hay dispositivo de audio Bluetooth"/>
+<text id="0x00008249" string="¿Desea sincronizar un dispositivo?"/>
+<text id="0x00008273" string="Ajustes"/>
+<text id="0x000082b2" string="Normal"/>
+<text id="0x000082c7" string="Zoom Auto"/>
+<text id="0x000082dc" string="Bordes"/>
+<text id="0x000082f1" string="Por encima del límite"/>
+<text id="0x00008306" string="Introduzca Provincia para"/>
+<text id="0x0000831b" string="Introduzca Estado para"/>
+<text id="0x00008330" string="Alerta del Límite de velocidad"/>
+<text id="0x00008345" string="Alerta del Límite de velocidad"/>
+<text id="0x0000835a" string="Desplazamiento de velocidad alerta"/>
+<text id="0x00008384" string="Usted tiene %s mensajes de texto nuevos."/>
+<text id="0x00008399" string="Conectar Dispos"/>
+<text id="0x000083ae" string="Desconectar dispositivo"/>
+<text id="0x000083c3" string="Compruebe la Antena"/>
+<text id="0x000083d8" string="Compruebe Sintonizador"/>
+<text id="0x000083ed" string="Consultar el serv al distribuidor"/>
+<text id="0x00008402" string="No está disponible"/>
+<text id="0x000086f6" string="NO"/>
+<text id="0x0000870b" string="NE"/>
+<text id="0x00008720" string="SO"/>
+<text id="0x00008735" string="SE"/>
+<text id="0x00009065" string="No hay dispositivo de medios disponible"/>
+<text id="0x000096a1" string="Destellar Luces al Bajar"/>
+<text id="0x000096b6" string="Accionar Claxon con Remoto Inferior"/>
+<text id="0x000096cb" string="Mostrar Mensajes Suspensión"/>
+<text id="0x000096e0" string="Modo Aerodinámico"/>
+<text id="0x000096f5" string="Modo de Cambio de Neumático"/>
+<text id="0x0000970a" string="Modo de transporte"/>
+<text id="0x0000971f" string="Modo Alineación de las Ruedas"/>
+<text id="0x00009734" string="Suspensión"/>
+<text id="0x00009749" string="Suspensión"/>
+<text id="0x0000975e" string="Freno de Remolque"/>
+<text id="0x00009773" string="Freno de Remolque"/>
+<text id="0x00009788" string="Remolque 1"/>
+<text id="0x0000979d" string="Remolque 2"/>
+<text id="0x000097b2" string="Remolque 3"/>
+<text id="0x000097c7" string="Remolque 4"/>
+<text id="0x000097dc" string="Remolque 1"/>
+<text id="0x000097f1" string="Remolque 2"/>
+<text id="0x00009806" string="Remolque 3"/>
+<text id="0x0000981b" string="Remolque 4"/>
+<text id="0x00009830" string="Utilizar este Remolque"/>
+<text id="0x00009845" string="Frenado"/>
+<text id="0x0000985a" string="Frenado"/>
+<text id="0x0000986f" string="Eléctrico Ligero"/>
+<text id="0x00009884" string="Eléctrico Pesado"/>
+<text id="0x00009899" string="Eléctrico Ligero sobre Hidráulico"/>
+<text id="0x000098ae" string="Eléctrico Pesado sobre Hidráulico"/>
+<text id="0x000098c3" string="Eléct. Ligero/Hidráulico"/>
+<text id="0x000098d8" string="Eléct. Pesado/Hidráulico"/>
+<text id="0x000098ed" string="actual"/>
+<text id="0x000000ad" string="buscar"/>
+<text id="0x00009cdd" string="Doblar&#xA;Cabecera"/>
+<text id="0x00009d31" string="Entrada auxiliar"/>
+<text id="0x00009d46" string="Frenado Activo Advertencia de Colisión Frontal"/>
+<text id="0x00009d5b" string="Alto"/>
+<text id="0x00009d70" string="Bajo"/>
+<text id="0x00009d85" string="Medio"/>
+<text id="0x00009d9a" string="Advertencia Colisión Frontal"/>
+<text id="0x00009daf" string="Vol:ParkSense Fron."/>
+<text id="0x00009dc4" string="Vol:ParkSense Tras."/>
+<text id="0x00009dee" string="cm"/>
+<text id="0x00009eea" string="Abierto"/>
+<text id="0x00009eff" string="Cerrado"/>
+<text id="0x0000a36d" string="Dom"/>
+<text id="0x0000a382" string="Lun"/>
+<text id="0x0000a397" string="Mar"/>
+<text id="0x0000a3ac" string="Miér"/>
+<text id="0x0000a3c1" string="Jue"/>
+<text id="0x0000a3d6" string="Vie"/>
+<text id="0x0000a3eb" string="Sáb"/>
+<text id="0x0000afa6" string="Reemplazar Fav"/>
+<text id="0x0000afbb" string="Ir a Favoritos"/>
+<text id="0x0000b078" string=","/>
+<text id="0x0000b08d" string="ParkSense"/>
+<text id="0x0000b0a2" string="Retraso de Cámara de Reversa ParkView"/>
+<text id="0x0000b0b7" string="Presionar pantalla para salir"/>
+<text id="0x0000b1b3" string="No disponible"/>
+<text id="0x0000b1c8" string="Buscar"/>
+<text id="0x0000c436" string="Guías Activas de Cámara de Reversa ParkView"/>
+<text id="0x0000c460" string="Guías Fijas de Cámara de Reversa ParkView"/>
+<text id="0x0000c475" string="Suspensión automática fácil entrar\salir&#xA;"/>
+<text id="0x0000c49f" string="Alarma de Apertura de Puerta Trasera"/>
+<text id="0x0000c55c" string="Luces ambientales interiores"/>
+<text id="0x0000c571" string="Advert. LaneSense"/>
+<text id="0x0000c586" string="Fortaleza LaneSense"/>
+<text id="0x0000c59b" string="Freno de estacionamiento eléctrico"/>
+<text id="0x0000c5b0" string="Freno de estacionamiento eléctrico"/>
+<text id="0x0000c5c5" string="Presionar hasta inicio"/>
+<text id="0x0000c5da" string="Modo de servicio"/>
+<text id="0x0000c5ef" string="Freno de estacionamiento automático"/>
+<text id="0x00004be6" string="Tiemp d recorrido dedic al desplazam"/>
+<text id="0x00004bfb" string="Tiemp d recorrido dedic al detenerse"/>
+<text id="0x0000c619" string="Precoz"/>
+<text id="0x0000c62e" string="Tarde"/>
+<text id="0x0000c643" string="Deletrear nombre de PDI en"/>
+<text id="0x0000c658" string="Deletrear nombr de PDI alrededor mío"/>
+<text id="0x0000c66d" string="Deletrear nombr de PDI cerca destino"/>
+<text id="0x0000c682" string="Deletrear nombre de PDI en ruta"/>
+<text id="0x0000cb53" string="No Dispos"/>
+<text id="0x0000cb68" string="No Disco"/>
+<text id="0x0000cb7d" string="No Tarjeta SD"/>
+<text id="0x0000cb92" string="Cargando"/>
+<text id="0x0000cba7" string="Leyendo"/>
+<text id="0x0000cbbc" string="Error de Disco"/>
+<text id="0x0000cc79" string="Uconnect&#xA;Tienda"/>
+<text id="0x0000cc8e" string="seleccionar&#xA;origen"/>
+<text id="0x0000cce2" string="No hay contactos en el telefono"/>
+<text id="0x0000ccf7" string="Atenuador&#xA;de Espejo"/>
+<text id="0x0000cd0c" string="Cámara&#xA;de Carga"/>
+<text id="0x0000cdde" string="Todas las provincias"/>
+<text id="0x0000cdf3" string="Todos los estados"/>
+<text id="0x0000ce08" string="Error: Text Message 1 selected."/>
+<text id="0x0000ce1d" string="Error: Text Message 2 selected."/>
+<text id="0x0000ce32" string="Error: Text Message 3 selected."/>
+<text id="0x0000ce47" string="Error: Text Message 4 selected."/>
+<text id="0x0000ce5c" string="Error: Text Message 5 selected."/>
+<text id="0x0000ce71" string="Error: Text Message 6 selected."/>
+<text id="0x0000ce86" string="Modo de servicio no disponible con vehículo en movimiento."/>
+<text id="0x0000ce9b" string="Modo de servicio no disponible cuando presiona el freno."/>
+<text id="0x0000ceb0" string="Modo de servicio no disponible.&#xA;Suelte Park Brake."/>
+<text id="0x0000cec5" string="Modo de servicio no disponible.&#xA;No presione o tire Park Brake."/>
+<text id="0x0000ceda" string="Modo de servicio no disponible.&#xA;El vehículo debe estar en modo Park o Neutral."/>
+<text id="0x0000ceef" string="Error: Text Message 12 selected."/>
+<text id="0x0000cf04" string="To exit Service Mode, vehicle must not be in motion"/>
+<text id="0x0000cf19" string="Error: Text Message 14 selected."/>
+<text id="0x0000cf2e" string="Presione freno y active Park Brake p/salir del Modo de servicio."/>
+<text id="0x0000cf43" string="Error: Text Message 16 selected."/>
+<text id="0x0000cf58" string="Error: Text Message 17 selected."/>
+<text id="0x0000cf6d" string="Error: Text Message 18 selected."/>
+<text id="0x0000cf82" string="Error: Text Message 19 selected."/>
+<text id="0x0000cf97" string="Park Brake retraído. &#xA;Para reiniciar, presione el pedal de freno y active ParkBrake."/>
+<text id="0x0000cfac" string="Reinicio de Park Brake.&#xA;Salida de servicio de frenos completa."/>
+<text id="0x0000cfc1" string="Error: Text Message 22 selected."/>
+<text id="0x0000cfd6" string="Error: Text Message 23 selected."/>
+<text id="0x0000cfeb" string="Error: Text Message 24 selected."/>
+<text id="0x0000d000" string="Park Brake retraído. &#xA;Para reiniciar, presione el pedal de freno y active ParkBrake."/>
+<text id="0x0000d015" string="Error: Text Message 26 selected."/>
+<text id="0x0000d02a" string="Error: Text Message 27 selected."/>
+<text id="0x0000d03f" string="Error: Text Message 28 selected."/>
+<text id="0x0000d054" string="Error: Text Message 29 selected."/>
+<text id="0x0000d069" string="Error: Text Message 30 selected."/>
+<text id="0x0000d07e" string="Servicio de frenos"/>
+<text id="0x0000d093" string="Servicio de frenos"/>
+<text id="0x0000d0a8" string="¿Retraer Park Brake para habilitar servicio de sist de frenos?"/>
+<text id="0x0000d0bd" string="No se ha guardado la configuración,&#xA;intente nuevamente."/>
+<text id="0x0000d0e7" string="Iniciando Servicio de frenos&#xA;Espere..."/>
+<text id="0x0000d348" string="Juntar&#xA;llamadas"/>
+<text id="0x0000d3c6" string="Sensibilidad de faros delanteros"/>
+<text id="0x0000d3db" string="Enviar msj texto"/>
+<text id="0x0000d3f0" string="Número privado"/>
+<text id="0x0000d666" string="El teléfono actual&#xA;no admite esta función."/>
+<text id="0x0000d67b" string="Ingrese a %s para&#xA;info de compatibilidad del dispositivo.&#xA;"/>
+<text id="0x0000d690" string="Ingrese a %s para obtener una&#xA;lista de dispositivos compatibles.&#xA;"/>
+<text id="0x0000d6a5" string="Resultados búsqueda"/>
+<text id="0x0000d6ba" string="Resultados búsq. para: %s"/>
+<text id="0x0000d6cf" string="Limpiar&#xA;búsq."/>
+<text id="0x0000d6e4" string="No se encontraron resultados..."/>
+<text id="0x0000d6f9" string="Faros cuneteros"/>
+<text id="0x0000d70e" string="horas"/>
+<text id="0x0000d777" string="Duración:"/>
+<text id="0x0000d78c" string="Error:&#xA;Se han detectado múltiples dispositivos USB. Quite todos los dispositivos y vuelva a insertar el dispositivo actualizado solamente."/>
+<text id="0x0000d888" string="Asistente trasero de freno ParkSense"/>
+<text id="0x0000d89d" string="Todos los inicios"/>
+<text id="0x0000d8b2" string="Arranque remoto"/>
+<text id="0x0000d8c7" string="Luces de bienvenida"/>
+<text id="0x0000d8dc" string="Retardo de desconexión de la radio"/>
+<text id="0x0000d8f1" string="Radio con encendido automático"/>
+<text id="0x0000d906" string="Coincidencia de volumen auxiliar"/>
+<text id="0x0000d91b" string="Rellamar al último"/>
+<text id="0x0000d930" string="Navegación giro-a-giro"/>
+<text id="0x0000d945" string="Restablecer predeterminados"/>
+<text id="0x0000d95a" string="Personalizar"/>
+<text id="0x0000d96f" string="Consumo de combustible"/>
+<text id="0x0000d984" string="Estación no disponible"/>
+<text id="0x0000d9d8" string="Guías de cámara de carga"/>
+<text id="0x0000d9ed" string="Pág.&#xA;arr."/>
+<text id="0x0000da02" string="Pág.&#xA;ab."/>
+<text id="0x0000da17" string="Ajustes de&#xA;voz"/>
+<text id="0x0000da2c" string="Ayuda"/>
+<text id="0x0000da41" string="Abajo"/>
+<text id="0x0000da56" string="Arriba"/>
+<text id="0x0000da95" string="medios trasero"/>
+<text id="0x0000daaa" string="comp"/>
+<text id="0x0000a68b" string="Muestra viaje B"/>
+<text id="0x0000dcb7" string="Capítulo"/>
+<text id="0x0000dcf6" string="Confort y Arranque Remoto"/>
+<text id="0x0000dd20" string="%s ft"/>
+<text id="0x0000dd35" string="%s m"/>
+<text id="0x0000dd4a" string="Enfocado en el conductor."/>
+<text id="0x0000dd62" string="Expulsando Medio"/>
+<text id="0x0000dd77" string="Expulsando"/>
+<text id="0x0000dd8c" string="Código de solicitud"/>
+<text id="0x0000dda1" string="1.º&#xA;pres."/>
+<text id="0x0000ddb6" string="2.º&#xA;pres."/>
+<text id="0x0000dde0" string="%s yd"/>
+<text id="0x0000ddf5" string="Restablecer ajustes predeterm."/>
+<text id="0x0000de0a" string="¿Desea reconfigurar ajustes a los predeterminados?"/>
+<text id="0x0000de1f" string="Ajustes reconfig. a predeterminados."/>
+<text id="0x0000de34" string="Borrar datos personales"/>
+<text id="0x0000de49" string="Datos personales borrados."/>
+<text id="0x0000de5e" string="¿Desea borrar todos los datos personales?"/>
+<text id="0x0000de73" string="Remoto bloq. cuando está en medios tras."/>
+<text id="0x00001004" string="Configurar los Minutos"/>
+<text id="0x0000e407" string="Ajustes restablecidos a predeterminados."/>
+<text id="0x0000e485" string="Monto Superior"/>
+<text id="0x0000e49a" string="acelr. bloquear perm."/>
+<text id="0x0000e4e0" string="Día Esta."/>
+<text id="0x0000e518" string="Esta. Mes"/>
+<text id="0x0000e52d" string="Esta. Año"/>
+<text id="0x0000e542" string="Zoom Auto En"/>
+<text id="0x0000e557" string="Zoom Auto De"/>
+<text id="0x0000e6fb" string=""/>
+<text id="0x0000e710" string=""/>
+<text id="0x0000e73a" string="Detenido"/>
+<text id="0x0000e74f" string="Detenido"/>
+<text id="0x0000e764" string="Screen OFF"/>
+<text id="0x0000e88a" string="Deshabilitar"/>
+<text id="0x0000e89f" string="Restablecer config."/>
+<text id="0x0000e9b0" string="No Stations Found"/>
+<text id="0x0000e9c5" string="Enter Zip Code"/>
+<text id="0x0000e9da" string="Announce Safety Camera Warning"/>
+<text id="0x0000e9ef" string="Comandos de Voz Comunes"/>
+<text id="0x0000ea04" string="Sintonizar %c&lt;frecuencia> FM / AM%c"/>
+<text id="0x0000ea19" string="Sintonizar canal satelital %c&lt;nombre / número>%c"/>
+<text id="0x0000ea2e" string="Cambiar la fuente a %ciPod / USB / Bluetooth%c"/>
+<text id="0x0000ea43" string="Navegar a %c&lt;dirección>%c"/>
+<text id="0x0000ea58" string="Buscar Siguiente %c&lt;categoría>%c"/>
+<text id="0x0000ea6d" string="Enviar mensaje a  %c&lt;nombre / número>%c"/>
+<text id="0x0000ea82" string="Llamar %c&lt;nombre>%c"/>
+<text id="0x0000ea97" string="Marcar %c&lt;número>%c"/>
+<text id="0x0000eaac" string="Marcar nuevamente"/>
+<text id="0x0000eaeb" string="Llamar de nuevo"/>
+<text id="0x0000eb00" string="Reproducir %cCanción / Artista / Álbum &lt;nombre>%c&#xA;"/>
+<text id="0x0000eb7e" string="Controls Screen Time-Out"/>
+<text id="0x0000eb93" string="Controls Screen Time-Out"/>
+<text id="0x0000eba8" string="Do Not&#xA;Show Again"/>
+<text id="0x0000ec3d" string="Send New Message with Voice Recognition"/>
+<text id="0x0000ec52" string="Send a Predefined Message"/>
+<text id="0x0000ec67" string="Listening...Say a command or say &quot;Help&quot; or &quot;Cancel&quot;"/>
+<text id="0x0000eca6" string="Set Theme"/>
+<text id="0x0000ece5" string="Navigation System Calibration Required"/>
+<text id="0x0000ecfa" string="To calibrate the navigation system drive to a main road with clear view of the sky."/>
+<text id="0x0000ed39" string="Parpadeo de Luces al Bloquear"/>
+<text id="0x0000edcc" string="Ingresar Estado"/>
+<text id="0x0000f018" string="Function not available while Valet&#xA;Mode is active.&#xA;&#xA;Valet Mode cannot be deactivated&#xA;while vehicle is in motion."/>
+<text id="0x0000f02d" string="Valet Mode Active - Press Here to Exit"/>
+<text id="0x0000f042" string="Valet Mode"/>
+<text id="0x0000f057" string="Valet Mode will limit the performance of your vehicle, and requires a custom pin code for activation and deactivation.&#xA;&#xA;Enter Valet Mode?"/>
+<text id="0x0000f06c" string="Valet Mode Deactivation"/>
+<text id="0x0000f081" string="Valet Mode Activation"/>
+<text id="0x0000f096" string="Enter a 4 digit pin to be used for activation and deactivation of Valet Mode"/>
+<text id="0x0000f0ab" string="Enter pin used for Valet Mode activation to deactivate Valet Mode"/>
+<text id="0x0000f0c0" string="Pin must be 4 digits"/>
+<text id="0x0000f0d5" string="Valet Mode Activated&#xA;&#xA;Vehicle performance limited"/>
+<text id="0x0000f0ea" string="Valet Mode Deactivated"/>
+<text id="0x0000f0ff" string="Incorrect pin entered"/>
+<text id="0x0000f168" string="Voice"/>
+<text id="0x0000f17d" string="Show Command List"/>
+<text id="0x0000f192" string="Never"/>
+<text id="0x0000f1a7" string="With&#xA;Help"/>
+<text id="0x0000f1bc" string="Always"/>
+<text id="0x0000f1fb" string="%s Mode"/>
+<text id="0x0000f210" string="%s Mode allows to customize the vehicle's performance.&#xA;&#xA;%s Mode will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f24f" string="Song tagging not available while two iPods are connected.  Please disconnect an iPod and try again."/>
+<text id="0x0000f264" string="%s Mode is currently active with %s turned on.&#xA;&#xA;%s is controlling power delivery to maximize fuel economy.&#xA;&#xA;%s Mode and %s will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f279" string="%s Mode is currently active with %s turned on.&#xA;&#xA;%s Mode allows you to fully customize the vehicle's performance.&#xA;&#xA;%s is controlling power delivery to maximize fuel economy.&#xA;&#xA;%s Mode and %s will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f28e" string="%s Mode is currently active with %s turned on.&#xA;&#xA;%s Mode delivers increased vehicle performance capability.&#xA;&#xA;%s is controlling power delivery to maximize fuel economy.&#xA;&#xA;%s Mode and %s will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f2a3" string="%s Mode is currently active with %s turned on.&#xA;&#xA;%s Mode delivers maximum vehicle performance capability on smooth, dry surfaces.&#xA;&#xA;%s is controlling power delivery to maximize fuel economy.&#xA;&#xA;%s Mode and %s will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f2b8" string="%s Mode is currently active.&#xA;&#xA;%s Mode allows you to fully customize the vehicle's performance.&#xA;&#xA;%s Mode will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f2cd" string="%s Mode is currently active.&#xA;&#xA;%s Mode delivers increased vehicle performance capability.&#xA;&#xA;%s Mode will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f2e2" string="%s Mode is currently active.&#xA;&#xA;%s Mode delivers maximum vehicle performance capability on smooth, dry surfaces.&#xA;&#xA;%s Mode will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f2f7" string="%s Mode is currently active.&#xA;&#xA;%s Mode will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f30c" string="%s Mode&#xA;Set-Up"/>
+<text id="0x0000f34b" string="TMC Station List"/>
+<text id="0x0000f360" string="%s Modes"/>
+<text id="0x0000f375" string="%s Set-Up"/>
+<text id="0x0000f4b0" string="%s: Fastest possible shift speeds, strongest comfort trade-off&#xA;&#xA;%s: Faster shift speed, some comfortable trade-off&#xA;&#xA;%s: Balance of shift speed and shift comfort"/>
+<text id="0x0000f4ef" string="Seeking..."/>
+<text id="0x0000f504" string="Seeking TP..."/>
+<text id="0x0000f519" string="Enter Block Number"/>
+<text id="0x0000f56d" string="Manual"/>
+<text id="0x0000f63f" string="Sonido del Claxon al Bajar"/>
+<text id="0x0000f711" string="Activate&#xA;Launch Control"/>
+<text id="0x0000f726" string="Active&#xA;Launch Mode"/>
+<text id="0x0000f73b" string="The black key is currently in use,&#xA;disabling access to the maximum &#xA;engine power level.  To enable access&#xA;to the maximum engine power level,&#xA;please use the red key."/>
+<text id="0x0000f77a" string="Brillo de Pantalla Diurno"/>
+<text id="0x0000f78f" string="Brillo de Pantalla Nocturno"/>
+<text id="0x00007832" string="mph"/>
+<text id="0x00000323" string="Organice archivos de música y optimizará la navegación"/>
+<text id="0x00005ed9" string="Diga &quot;Mostrar oríg de aud sinc&quot; o &quot;Mostrar tel sincron&quot; "/>
+<text id="0x00005eee" string="Diga &quot;Mostrar&quot; o &quot;Leer&quot;, y luego el número de lista "/>
+<text id="0x000072b3" string="Switching to %s."/>
+<text id="0x00005f03" string="Mostrando álbumes."/>
+<text id="0x00005f18" string="Reproducir álbum %s."/>
+<text id="0x00005f2d" string="Mostrar el artista %s."/>
+<text id="0x00005f42" string="Mostrando artistas."/>
+<text id="0x00005f57" string="Reproducir artista %s."/>
+<text id="0x00005f6c" string="Mostrando libros de audio."/>
+<text id="0x00005f81" string="Reproducir libro de audio %s."/>
+<text id="0x00005f96" string="Cambiar fuente a %s."/>
+<text id="0x00005fab" string="Reproducir capítulo n.º %s."/>
+<text id="0x00005fc0" string="Mostrando carpetas."/>
+<text id="0x00005fd5" string="Mostrando géneros."/>
+<text id="0x00005fea" string="Reproducir género %s."/>
+<text id="0x00005fff" string="Mostrando su música."/>
+<text id="0x00006014" string="Mostrando listas de reproducción."/>
+<text id="0x00006029" string="Reproducir lista de reproducción %s."/>
+<text id="0x0000603e" string="Mostrando podcasts."/>
+<text id="0x00006053" string="Reproducir podcast %s."/>
+<text id="0x00006068" string="Reproducción aleatoria Off."/>
+<text id="0x0000607d" string="Reproducción aleatoria On."/>
+<text id="0x00006092" string="Mostrando canciones."/>
+<text id="0x000060a7" string="Reproducir canción %s."/>
+<text id="0x000060bc" string="Reproducir pista %s."/>
+<text id="0x000060d1" string="Dispositivo multimedia ilegible."/>
+<text id="0x000060e6" string="Diga algo como &quot;Reproducir Grandes éxitos&quot;."/>
+<text id="0x000060fb" string="Diga algo como &quot;Reproducir artista Supergrupo&quot;."/>
+<text id="0x00006110" string="Diga &quot;Reprod libro de aud El Dr. Jekyll y el Sr. Hyde&quot;."/>
+<text id="0x00006125" string="Diga algo como &quot;Reproducir género Rock&quot;."/>
+<text id="0x0000613a" string="Diga “Reprod lista de reprod Mis canciones para viajar&quot;."/>
+<text id="0x0000614f" string="Diga algo como &quot;Repr podcast Podcast sem automov&quot;."/>
+<text id="0x00006164" string="Diga algo como &quot;Reproducir canción Bésame mucho&quot;."/>
+<text id="0x00006179" string="¿Qué origen multimedia desea seleccionar?"/>
+<text id="0x0000618e" string="No hay libros de audio disponibles."/>
+<text id="0x000061a3" string="No hay música disponible en el dispositivo."/>
+<text id="0x000061b8" string="No hay orígenes multimedia disponibles."/>
+<text id="0x000061cd" string="No hay listas de reproducción disponibles."/>
+<text id="0x000061e2" string="No hay podcasts disponibles."/>
+<text id="0x000061f7" string="Comando no válido para el origen multimedia actual"/>
+<text id="0x0000620c" string="Actualizando el catálogo de música. Espere."/>
+<text id="0x00006221" string="No se ha seleccionado ningún origen multimedia"/>
+<text id="0x00006236" string="Comando no válido para el origen multimedia actual."/>
+<text id="0x0000624b" string="Ayuda del reproductor"/>
+<text id="0x00006260" string="Cambiando a reproductor multimedia."/>
+<text id="0x00006275" string="Diga un número de pista válido."/>
+<text id="0x0000628a" string="Mostrando las configuraciones de audio."/>
+<text id="0x0000629f" string="Temperatura de todos los asientos configurada en %s."/>
+<text id="0x000062b4" string="Temperatura de ambos asientos está configurada en %s."/>
+<text id="0x000062c9" string="Temp de asiento de conductor configurada en %s."/>
+<text id="0x000062de" string="Temp de asiento de pasajero configurada en %s."/>
+<text id="0x000062f3" string="Temperatura trasera está configurada en %s."/>
+<text id="0x00006308" string="Cambiando a sistema de control de temperatura."/>
+<text id="0x0000631d" string="Ayuda del sistema de control temperatura"/>
+<text id="0x00006332" string="¿Qué temperatura desea en %s?"/>
+<text id="0x00006347" string="Diga la temperatura deseada."/>
+<text id="0x0000635c" string="Bloqueando dispositivo multimedia trasero."/>
+<text id="0x00006371" string="Desbloqueando dispositivo multimedia trasero."/>
+<text id="0x00006386" string="Mostrando SiriusXM Travel Link."/>
+<text id="0x0000639b" string="Mostrando clima actual."/>
+<text id="0x000063b0" string="Mostrando el pronóstico extendido."/>
+<text id="0x000063c5" string="Mostrando favoritos de SiriusXM Travel Link."/>
+<text id="0x000063da" string="Mostrando pronóstico para cinco días."/>
+<text id="0x000063ef" string="Mostrando precios de combustible."/>
+<text id="0x00006404" string="Diga el deporte deseado."/>
+<text id="0x00006419" string="Ayuda de deporte"/>
+<text id="0x0000642e" string="Ayuda de SiriusXM Travel Link."/>
+<text id="0x00006443" string="Ayuda de Travel Link"/>
+<text id="0x00006458" string="Mostrando guía cinematográfica"/>
+<text id="0x0000646d" string="No hay información disponible."/>
+<text id="0x00006482" string="No hay suscripción a SiriusXM Travel Link."/>
+<text id="0x00006497" string="Mostrando información sobre pistas de esquí."/>
+<text id="0x000064ac" string="Mostrar %s."/>
+<text id="0x000064c1" string="Mostrando deportes."/>
+<text id="0x000064d6" string="Diga el deporte que desea."/>
+<text id="0x000064eb" string="Mostrar %s titulares."/>
+<text id="0x00006500" string="Diga el deporte deseado."/>
+<text id="0x00006515" string="Mostrando los %s de 25 principales AP."/>
+<text id="0x0000652a" string="Mostrando %s puntuaciones y cronogramas."/>
+<text id="0x0000653f" string="Mostrar %s equipos."/>
+<text id="0x00006554" string="Mostrando mapa meteorológico"/>
+<text id="0x00006569" string="Guía..."/>
+<text id="0x0000657e" string="Nuevo destino: %s"/>
+<text id="0x00006593" string="Varias entradas para %s. Diga el número de la lista de la ubicación que desea."/>
+<text id="0x000065a8" string="Diga el nombre de la ciudad."/>
+<text id="0x000065bd" string="Deletree el nombre de la ciudad."/>
+<text id="0x000065e7" string="Deletree el nombre del país."/>
+<text id="0x000065fc" string="guion"/>
+<text id="0x00006611" string="No hay datos de navegación."/>
+<text id="0x00006626" string="No se puede ingresar el destino de voz para este país."/>
+<text id="0x0000663b" string="El destino no es válido."/>
+<text id="0x00006650" string="Diga el nombre de un favorito."/>
+<text id="0x00006665" string="La dirección aún se está cargando."/>
+<text id="0x0000667a" string="La lista de favoritos está vacía."/>
+<text id="0x0000668f" string="Guía de ruta cancelada."/>
+<text id="0x000066a4" string="¿Desea cancelar la guía de ruta?"/>
+<text id="0x000066b9" string="No se ha iniciado la guía de ruta."/>
+<text id="0x000066ce" string="Iniciando guía de ruta."/>
+<text id="0x000066e3" string="No hay ninguna guía de ruta en curso."/>
+<text id="0x000066f8" string="Guía de ruta no cancelada."/>
+<text id="0x0000670d" string="¿Desea iniciar la guía de ruta? Diga “Sí” o “No”."/>
+<text id="0x00006722" string="¿Desea iniciar la guía de ruta?"/>
+<text id="0x00006737" string="Diga algo como &quot;Oaxaca de Juárez, Macedonio Alcala, Oaxaca&quot; o &quot;Buscar estación más cercana&quot;"/>
+<text id="0x0000674c" string="Ayuda de navegación."/>
+<text id="0x00006761" string="Volver a casa."/>
+<text id="0x00006776" string="No se ha almacenado ninguna dirección del hogar."/>
+<text id="0x0000678b" string="Diga el número de casa."/>
+<text id="0x000067a0" string="No se encontró número de casa %s en la calle seleccionada"/>
+<text id="0x000067b5" string="Repitiendo instrucciones."/>
+<text id="0x000067ca" string="Cambiando a navegación."/>
+<text id="0x000067df" string="No se han encontrado POI cerca de su ubicación."/>
+<text id="0x000067f4" string="El destino no es válido."/>
+<text id="0x00006809" string="No es posible."/>
+<text id="0x0000681e" string="Diga número de casa, calle, ciudad y provincia"/>
+<text id="0x00006833" string="Diga número de casa, calle, ciudad y estado"/>
+<text id="0x00006848" string="Diga el número de casa, la calle y la ciudad."/>
+<text id="0x0000685d" string="Diga una categoría o nombre de marca."/>
+<text id="0x00006872" string="Recientemente encontrado."/>
+<text id="0x00006887" string="Mostrando mapa."/>
+<text id="0x0000689c" string="Demasiados resultados. Especifique e intente nuevamente."/>
+<text id="0x000068b1" string="Estado: %s."/>
+<text id="0x000068c6" string="Diga el nombre de la provincia."/>
+<text id="0x000068db" string="Diga el nombre del estado."/>
+<text id="0x000068f0" string="Deletree el nombre de la provincia."/>
+<text id="0x00006905" string="Deletree el nombre del estado."/>
+<text id="0x0000691a" string="Diga el nombre de la calle."/>
+<text id="0x0000692f" string="Deletree el nombre de la calle."/>
+<text id="0x00006944" string="¿A dónde?"/>
+<text id="0x00006959" string="Diga el código postal."/>
+<text id="0x0000696e" string="Llamar %s d %s"/>
+<text id="0x00006983" string="Móvil"/>
+<text id="0x00006998" string="Categoría no disponible"/>
+<text id="0x000069ad" string="Otra"/>
+<text id="0x000069c2" string="Casa"/>
+<text id="0x000069d7" string="¿A qué teléfono desea llamar?"/>
+<text id="0x000069ec" string="Seleccione tipo tel:"/>
+<text id="0x00006a01" string="Trab"/>
+<text id="0x00006a16" string="Utilice pantalla táctil p/conectar teléfono"/>
+<text id="0x00006a2b" string="Diga nombre de su libreta de tel o número de tel"/>
+<text id="0x00006a40" string="Diga número que desea utilizar"/>
+<text id="0x00006a55" string="Discar %s"/>
+<text id="0x00006a6a" string="Existen varias ent con este nom"/>
+<text id="0x00006a7f" string="Cat inexistente/demasiadas cat"/>
+<text id="0x00006a94" string="Diga el nombre completo del cont"/>
+<text id="0x00006aa9" string="Diga &quot;Discar&quot; y n.º tel o &quot;Llamar&quot; y nom completo"/>
+<text id="0x00006abe" string="Diga el nom comp"/>
+<text id="0x00006ad3" string="Diga nombre que desea enviar"/>
+<text id="0x00006ae8" string="Diga n.º que desea utilizar"/>
+<text id="0x00006afd" string="No hay redes disponibles."/>
+<text id="0x00006b12" string="Conecte tel e intente nuev"/>
+<text id="0x00006b27" string="Se está sinc la libreta tel"/>
+<text id="0x00006b3c" string="numer"/>
+<text id="0x00006b51" string="Corrección"/>
+<text id="0x00006b66" string="Env&lt;0 - 9, *, #>"/>
+<text id="0x00006b7b" string="Diga &quot;Llam entrantes&quot;, &quot;Llam salientes&quot; o &quot;Mostrar todas&quot;"/>
+<text id="0x00006b90" string="Ayuda tel"/>
+<text id="0x00006ba5" string="Cambiando a tel"/>
+<text id="0x00006bba" string="Se ha eliminado el número."/>
+<text id="0x00006bcf" string="Diga &quot;discar&quot;,&quot;correc&quot;,&quot;elim&quot; o continúe agregando n.º"/>
+<text id="0x00006be4" string="Diga el número de tel"/>
+<text id="0x00006bf9" string="Diga el número de tel"/>
+<text id="0x00006c0e" string="%s. Diga &quot;discar&quot;,&quot;correc&quot;,&quot;elim&quot; o continúe agregando n.º."/>
+<text id="0x00006c23" string="Diga &quot;Mostrar oríg audio sinc&quot; o &quot;Mostrar tel sinc&quot;"/>
+<text id="0x00006c38" string="No hay contactos en su libreta de tel"/>
+<text id="0x00006c4d" string="No hay contactos en libreta tel de tel móvil."/>
+<text id="0x00006c62" string="Mostr lib tel de tel móv"/>
+<text id="0x00006c77" string="Tel sinc."/>
+<text id="0x00006c8c" string="No hay contactos en libreta de tel de favoritos"/>
+<text id="0x00006ca1" string="Mostrando libreta tel de fav"/>
+<text id="0x00006cb6" string="+"/>
+<text id="0x00006ccb" string="Discando n.º de última llam ent"/>
+<text id="0x00006ce0" string="Todas llam"/>
+<text id="0x00006cf5" string="Llamadas ent"/>
+<text id="0x00006d0a" string="Llamadas perd"/>
+<text id="0x00006d1f" string="Llamadas sal"/>
+<text id="0x00006d34" string="No hay números disponibles."/>
+<text id="0x00006d49" string="Disc nuev"/>
+<text id="0x00006d5e" string="Diga &quot;Discar&quot; y n.º tel o &quot;Llamar&quot; y nom comp"/>
+<text id="0x00006d73" string="Diga nom comp"/>
+<text id="0x00006d88" string="Mostrar n.º %s"/>
+<text id="0x00006d9d" string="Diga el n.º de tel o el nom comp"/>
+<text id="0x00006db2" string="Enviar el número para %s."/>
+<text id="0x00006dc7" string="Enviando el número."/>
+<text id="0x00006ddc" string="Orígenes de audio sinc"/>
+<text id="0x00006df1" string="¿Desea remitir el mensaje?"/>
+<text id="0x00006e06" string="Diga &quot;Mostrar&quot; o &quot;Leer&quot;, luego n.º lista"/>
+<text id="0x00006e1b" string="Diga un mens"/>
+<text id="0x00006e30" string="No hay número de mensaje %s."/>
+<text id="0x00006e45" string="%s. Diga &quot;enviar&quot;, &quot;correción&quot;, &quot;eliminar&quot; o continúe agregando números."/>
+<text id="0x00006e5a" string="Diga &quot;Llamar&quot;, &quot;Responder&quot;, &quot;Remitir&quot; o &quot;Escuchar&quot;"/>
+<text id="0x00006e6f" string="Llegaré x minutos tarde."/>
+<text id="0x00006e84" string="Nos vemos en x min"/>
+<text id="0x00006e99" string="Leyendo mensaje."/>
+<text id="0x00006eae" string="Leyendo el mje número %s."/>
+<text id="0x00006ec3" string="Leyendo mensajes."/>
+<text id="0x00006ed8" string="No se pudo enviar el mens"/>
+<text id="0x00006eed" string="Enviando su mensaje"/>
+<text id="0x00006f02" string="No se puede mostrar mens"/>
+<text id="0x00006f17" string="Mostrando el mens n.º %s."/>
+<text id="0x00006f2c" string="Mostrando mens"/>
+<text id="0x00006f41" string="Mostrando mens"/>
+<text id="0x00006f56" string="¿Llamar a emergencias?"/>
+<text id="0x00006f6b" string="¿Llamar a Asistencia en carretera?"/>
+<text id="0x00006f80" string="estr"/>
+<text id="0x00006f95" string="No se pudo encontrar esta entr en libreta tel"/>
+<text id="0x00006faa" string="Cancelado"/>
+<text id="0x00006fbf" string="Cancelado"/>
+<text id="0x00006fd4" string="Cancelar"/>
+<text id="0x00006fe9" string="Diga algo como &quot;Buscar artista Supergrupo&quot;."/>
+<text id="0x00006ffe" string="Ayuda"/>
+<text id="0x00007013" string="Escuchando...Diga un comando o diga &quot;Ayuda&quot;"/>
+<text id="0x00007028" string="No se ha comprendido el comando"/>
+<text id="0x0000703d" string="Procesando"/>
+<text id="0x00007052" string="Cancelado... Inicie una nueva sesión"/>
+<text id="0x00007067" string="Parece que esta entrada no existe."/>
+<text id="0x0000707c" string="Diga “Sí” o “No”."/>
+<text id="0x00007091" string="Sintonizando el canal %s anterior."/>
+<text id="0x000070a6" string="Sintonizando el siguiente canal %s."/>
+<text id="0x000070bb" string="Reproducir género %s."/>
+<text id="0x000070d0" string="Sintonizando a subcanal HD %s"/>
+<text id="0x000070e5" string="Apagando radio HD"/>
+<text id="0x000070fa" string="Encendiendo radio HD"/>
+<text id="0x0000710f" string="Diga algo como &quot;Sinton. FM 104.1&quot; o &quot;Sinton. canal sat ESPN&quot;"/>
+<text id="0x00007124" string="Ayuda de radio."/>
+<text id="0x00007139" string="Cambiando a radio"/>
+<text id="0x0000714e" string="Diga cosas como &quot;Sintonizar presintonía 1&quot;."/>
+<text id="0x00007163" string="Sintonizando a presintonía %s."/>
+<text id="0x00007178" string="Diga cosas como &quot;Sintonizar FM 104.1&quot;."/>
+<text id="0x0000718d" string="servicio de info sobre el tráfico apagado"/>
+<text id="0x000071a2" string="servicio de info sobre el tráfico encendido"/>
+<text id="0x000071b7" string="Sintonizando %s AM HD."/>
+<text id="0x000071cc" string="Sintonizando %s AM."/>
+<text id="0x000071e1" string="Sintonizando a %s."/>
+<text id="0x000071f6" string="Sintonizando a %s DAB."/>
+<text id="0x0000720b" string="Sintonizando a %s FM HD %s."/>
+<text id="0x00007220" string="Sintonizando a %s FM HD"/>
+<text id="0x00007235" string="Sintonizando a %s FM."/>
+<text id="0x0000724a" string="Sintonizando a %s satélite."/>
+<text id="0x0000725f" string="Sintonizando radio AM."/>
+<text id="0x00007274" string="Sintonizando radio AM."/>
+<text id="0x00007289" string="Sintonizando radio FM"/>
+<text id="0x0000729e" string="Sintonizando radio satelital."/>
+<text id="0x00007847" string="km/h"/>
+<text id="0x00002168" string="ABC"/>
+<text id="0x000032e1" string="A/C"/>
+<text id="0x000032f6" string="A/C"/>
+<text id="0x0000330b" string="A/C"/>
+<text id="0x000021fb" string="WXYZ"/>
+<text id="0x0000051b" string="AM"/>
+<text id="0x00000920" string="AM"/>
+<text id="0x0000217d" string="DEF"/>
+<text id="0x0000056f" string="FF"/>
+<text id="0x00000488" string="FM"/>
+<text id="0x00000935" string="FM"/>
+<text id="0x00002192" string="GHI"/>
+<text id="0x000021a7" string="JKL"/>
+<text id="0x000021bc" string="MNO"/>
+<text id="0x0000049d" string="MW"/>
+<text id="0x0000094a" string="MW"/>
+<text id="0x00001f85" string="N/A"/>
+<text id="0x000007fa" string="NFL"/>
+<text id="0x000021d1" string="PQRS"/>
+<text id="0x00000545" string="RW"/>
+<text id="0x000010c1" string="Variación de brújula"/>
+<text id="0x000010d6" string="Calibrar brújula"/>
+<text id="0x000010eb" string="Requiere que vehículo ande en círculo"/>
+<text id="0x00001058" string="Sinc con h de radio"/>
+<text id="0x00000e60" string="US"/>
+<text id="0x0000040a" string="ST"/>
+<text id="0x000021e6" string="TUV"/>
+<text id="0x00000617" string="buscar"/>
+<text id="0x00000473" string="TA"/>
+<text id="0x00003f59" string="DM"/>
+<text id="0x00003f44" string="DMS"/>
+<text id="0x000051a4" string="Satélite XM"/>
+<text id="0x00005516" string="Velocidad del viento"/>
+<text id="0x0000238a" string="Actores"/>
+<text id="0x00001d24" string="Clima"/>
+<text id="0x00001da2" string="Mapa climático"/>
+<text id="0x000027a4" string="Pronóstico climático"/>
+<text id="0x00002822" string="Clima"/>
+<text id="0x000028ca" string="Ubicación climática sin seleccionar"/>
+<text id="0x0000291e" string="Clima"/>
+<text id="0x00005387" string="Mapa climático"/>
+<text id="0x000054ad" string="Frente cálido"/>
+<text id="0x00005540" string="Cuadro de observación"/>
+<text id="0x00005555" string="Cuadro de advertencia"/>
+<text id="0x00005651" string="Área de transición entre una masa de aire cálido y el aire frío que reemplaza"/>
+<text id="0x000056cf" string="Área geográfica con condiciones favorables para la formación de actividad climática grave"/>
+<text id="0x000056e4" string="Un área geográfica en la que se observa y encuentra actividad meteorológica grave"/>
+<text id="0x0000167f" string="Agr can fav"/>
+<text id="0x00001694" string="Agreg art fav"/>
+<text id="0x000026e7" string="Agr"/>
+<text id="0x000007a6" string="Conf de alerta"/>
+<text id="0x000007bb" string="Configuración de alerta"/>
+<text id="0x0000080f" string="Configuración de alerta"/>
+<text id="0x000012a4" string="Alerta de juego al aire"/>
+<text id="0x000012b9" string="Alerta de actualización de tantos"/>
+<text id="0x00001337" string="Conf de alerta"/>
+<text id="0x0000134c" string="Conf de alerta"/>
+<text id="0x0000145d" string="Configuración de alerta"/>
+<text id="0x000013ca" string="Todo"/>
+<text id="0x00001433" string="Todos los canales"/>
+<text id="0x00002375" string="ABC"/>
+<text id="0x000018e0" string="Saltar canal"/>
+<text id="0x000027ce" string="Cambiar ubicación"/>
+<text id="0x0000280d" string="Cambiar ubicación"/>
+<text id="0x00000752" string="Cant de canales"/>
+<text id="0x000012ce" string="Canales"/>
+<text id="0x000054c2" string="Frente frío"/>
+<text id="0x00005666" string="Un área de transición entre una masa de aire frío y el aire cálido que reemplaza"/>
+<text id="0x000027e3" string="Condiciones actuales"/>
+<text id="0x00002987" string="Clima actual"/>
+<text id="0x00001ef2" string="Diésel"/>
+<text id="0x00002360" string="Distancia"/>
+<text id="0x00007871" string="El tel. del vehículo requiere servicio."/>
+<text id="0x00007886" string="Iniciar llamada al 9-1-1."/>
+<text id="0x0000789b" string="Iniciando llamada"/>
+<text id="0x000078b0" string="Cancelar 911"/>
+<text id="0x000078c5" string="Llamada en curso"/>
+<text id="0x000078da" string="Llamada al teléfono celular transferida al auricular."/>
+<text id="0x000078ef" string="Llamada Bluetooth anterior transferida al auricular."/>
+<text id="0x00007904" string="Llamando al 9-1-1..."/>
+<text id="0x00007919" string="Llamada finalizada"/>
+<text id="0x0000792e" string="%s llamada finalizada."/>
+<text id="0x00007943" string="Tiempo de llamada: %s"/>
+<text id="0x00007958" string="El operador de 9-1-1 debe finalizar la llamada."/>
+<text id="0x0000796d" string="Llamada en curso: %s"/>
+<text id="0x00007982" string="Llamada al 9-1-1 finalizada."/>
+<text id="0x00007997" string="Para volver a con., pres. botón 9-1-1 en el espejo."/>
+<text id="0x000079ac" string="Rein. llamada al servicio emergencias."/>
+<text id="0x000079c1" string="Llam. serv. emergencias: reintentando..."/>
+<text id="0x000079d6" string="No se pudo realizar la llam. serv. emergencias."/>
+<text id="0x00007a00" string="Puede cancelar en %s."/>
+<text id="0x00007a15" string="Llamada del 9-1-1 entrante."/>
+<text id="0x00007a2a" string="Llamada entrante."/>
+<text id="0x00007a3f" string="Se responderá la llamada."/>
+<text id="0x000080f9" string="Iniciando Llamada de emergencia"/>
+<text id="0x0000810e" string="Llamada de Emergencia en progreso"/>
+<text id="0x00008123" string="Llam. servicio de emergencias finalizada"/>
+<text id="0x00008138" string="Llamada de Emergencia en progreso: %"/>
+<text id="0x0000814d" string="Para llamar nuev., pres. botón 9-1-1."/>
+<text id="0x00008162" string="Llamada del serv. emergencias entrante."/>
+<text id="0x00008177" string="Teléfono del vehículo"/>
+<text id="0x0000818c" string="Asisten. de llam. activa"/>
+<text id="0x000081b6" string="Asistencia de llamada en curso: %s"/>
+<text id="0x00000a5b" string="¿Desea borrar todos los equipos favoritos?"/>
+<text id="0x00000aaf" string="Se agregó canción a favoritos"/>
+<text id="0x00000ac4" string="Se agregó artista a favoritos"/>
+<text id="0x00001f70" string="Se cambió el tipo de combustible a "/>
+<text id="0x00000b03" string="Canal salteado"/>
+<text id="0x00000b81" string="Está alcanzado el tiempo máximo&#xA;de pausa de radio."/>
+<text id="0x00000a9a" string="Lista de equipos fav llenos.&#xA;Para borrar favoritos desmarque un equipo&#xA;o vaya a Eliminar selecciones."/>
+<text id="0x00000b57" string="&#xA;No configuró el canal de tránsito y clima&#xA;al cual saltar ¿Lo configura ahora?"/>
+<text id="0x00000a46" string="Equipos favoritos"/>
+<text id="0x00000ad9" string="SiriusXM"/>
+<text id="0x00000b42" string="Salto de tránsito y clima"/>
+<text id="0x00000b6c" string="Volver a reproducir SAT"/>
+<text id="0x00007e59" string="Comando de voz no disp en la llamada al 9-1-1."/>
+<text id="0x00000506" string="fav."/>
+<text id="0x000011bd" string="Art fav al aire"/>
+<text id="0x000011d2" string="Canc fav al aire"/>
+<text id="0x000013df" string="Favoritos"/>
+<text id="0x0000299c" string="Pronóstico de 5 días"/>
+<text id="0x00002837" string="Pronóstico"/>
+<text id="0x00001d78" string="Precios gas"/>
+<text id="0x00001e4a" string="Precios gas"/>
+<text id="0x00001e9e" string="Tipo&#xA;Gas"/>
+<text id="0x00001f1c" string="Precios gas"/>
+<text id="0x00001f46" string="Tipos de combustibles"/>
+<text id="0x000028df" string="Gasolineria sin seleccionar"/>
+<text id="0x00002933" string="Gasolineria"/>
+<text id="0x000053db" string="Frentes"/>
+<text id="0x00005501" string="Cambio frontal"/>
+<text id="0x000056a5" string="Un cambio frontal define una transición entre dos tipos de frentes climáticos"/>
+<text id="0x0000084e" string="Zona jueg"/>
+<text id="0x000011e7" string="Comienzo juego"/>
+<text id="0x000011fc" string="Puntaje juego"/>
+<text id="0x000013f4" string="Zona jueg"/>
+<text id="0x0000149c" string="Zona de juego"/>
+<text id="0x00001727" string="Alerta de puntaje de juego"/>
+<text id="0x00007a93" string="Alerta de inicio de juego"/>
+<text id="0x00007aa8" string="Alerta de puntaje de juego"/>
+<text id="0x000012e3" string="Género"/>
+<text id="0x00001e20" string="Ir ya"/>
+<text id="0x000055be" string="Lluvias fuertes"/>
+<text id="0x00005612" string="Nieve densa"/>
+<text id="0x00005483" string="Centro de alta presión"/>
+<text id="0x00005627" string="Un área cuya medición de presión atmosférica fue la más alta de los alrededores"/>
+<text id="0x00005594" string="Fuertes ráfagas de huracán"/>
+<text id="0x000055e8" string="Hielo"/>
+<text id="0x00002336" string="info"/>
+<text id="0x0000552b" string="Isobares"/>
+<text id="0x000056ba" string="Una línea en un mapa meteorológico que conecta puntos de igual presión barométrica"/>
+<text id="0x000055a9" string="Llovizna"/>
+<text id="0x000055fd" string="Nieve ligera"/>
+<text id="0x00005498" string="Centro de baja presión"/>
+<text id="0x0000563c" string="Un área cuya medición de presión atmosférica fue la más baja de los alrededores"/>
+<text id="0x00001ec8" string="Rango mediano"/>
+<text id="0x00005459" string="Mez/Hielo"/>
+<text id="0x000055d3" string="Combinacion"/>
+<text id="0x00001d63" string="Guía cinematog"/>
+<text id="0x0000228e" string="Guía cinematográfica"/>
+<text id="0x000022a3" string="Películas"/>
+<text id="0x000022f7" string="Búsq pelíc"/>
+<text id="0x0000230c" string="Guía cinema"/>
+<text id="0x0000277a" string="Mayormente nublado"/>
+<text id="0x000028f4" string="Cine sin seleccionar"/>
+<text id="0x00002948" string="Cine"/>
+<text id="0x00002711" string="Estación más cercana de clima"/>
+<text id="0x00007dc6" string="Área esquí &#xA;más cerca"/>
+<text id="0x00007ddb" string="Estación más&#xA;cercana"/>
+<text id="0x00007d9c" string="Estación más&#xA;cercana"/>
+<text id="0x00007cdf" string="Ningún equipos selec en aire ahora"/>
+<text id="0x000054ec" string="Frente ocluido"/>
+<text id="0x00005690" string="Área de transición entre una masa de aire cálido y el aire frío que reemplaza"/>
+<text id="0x0000077c" string="Al aire"/>
+<text id="0x0000130d" string="Al aire"/>
+<text id="0x00001361" string="Al aire"/>
+<text id="0x00001472" string="Al aire"/>
+<text id="0x000053c6" string="Contrast superp"/>
+<text id="0x00001edd" string="Premium"/>
+<text id="0x000026fc" string="Cant precipitación"/>
+<text id="0x000013b5" string="Presint"/>
+<text id="0x00001de1" string="Prec"/>
+<text id="0x000053f0" string="Radar"/>
+<text id="0x0000542f" string="Precip. Radar"/>
+<text id="0x0000556a" string="Radar de precipitación"/>
+<text id="0x000023c9" string="Clasif"/>
+<text id="0x00005444" string="Lluv"/>
+<text id="0x00001e74" string="Actualiz datos"/>
+<text id="0x00001eb3" string="Regular"/>
+<text id="0x00001322" string="Elim. fav"/>
+<text id="0x00001376" string="Elim sel"/>
+<text id="0x00000530" string="SAT"/>
+<text id="0x000008b7" string="Sin señal"/>
+<text id="0x000008cc" string="Consul Serv SiriusXM a distrib "/>
+<text id="0x000008e1" string="Actualizando suscrip"/>
+<text id="0x000008f6" string="Espere…"/>
+<text id="0x0000090b" string="Captar señal"/>
+<text id="0x0000141e" string="SAT"/>
+<text id="0x00004e86" string="Información SDAR"/>
+<text id="0x00004e9b" string="Audio/tráns/datos SDAR"/>
+<text id="0x00004eb0" string="Versión hardware SDAR"/>
+<text id="0x00004ec5" string="Versión software SDAR"/>
+<text id="0x000013a0" string="Selec ciud p/informes de tránsito y clima:"/>
+<text id="0x00001df6" string="Selec tipo comb predet"/>
+<text id="0x00007d72" string="Selec Ubicación"/>
+<text id="0x00007d87" string="Selec Ubicación"/>
+<text id="0x000007e5" string="Sel equipos"/>
+<text id="0x0000138b" string="Sel equipos"/>
+<text id="0x000014c6" string="Selec equipos"/>
+<text id="0x00007db1" string="Selec Área esquí"/>
+<text id="0x000023f3" string="Horarios "/>
+<text id="0x00000fc5" string="Configurar SiriusXM"/>
+<text id="0x0000191f" string="Suscripciones a SiriusXM "/>
+<text id="0x00001934" string="SiriusXM"/>
+<text id="0x00001949" string="Estado de suscripción a SiriusXM"/>
+<text id="0x0000199d" string="ID SiriusXM:"/>
+<text id="0x000019b2" string="ID TV as tras SiriusXM:"/>
+<text id="0x000019c7" string="Radio satelital SiriusXM:"/>
+<text id="0x000019dc" string="Tránsito de tiempo real de SiriusXM:"/>
+<text id="0x000019f1" string="SiriusXM Travel Link:"/>
+<text id="0x00001a06" string="TV as tras SiriusXM:"/>
+<text id="0x000027b9" string="Inf esquí"/>
+<text id="0x0000284c" string="Información sobre esquí"/>
+<text id="0x0000546e" string="Niev"/>
+<text id="0x00001d4e" string="Deportes"/>
+<text id="0x00002909" string="Equipo deportivo sin seleccionar"/>
+<text id="0x0000295d" string="Equipo deportivo"/>
+<text id="0x000054d7" string="Frente estacionar"/>
+<text id="0x0000567b" string="Un área dónde la presión atmosferica ha sido calculada como la más baja relativa a sus alrededores"/>
+<text id="0x0000757d" string="SiriusXM Travel Link le brinda mucha info."/>
+<text id="0x00007592" string="SiriusXM Traffic"/>
+<text id="0x000075a7" string="Datos de tráns. con info de vel/flujo e incidentes."/>
+<text id="0x000075bc" string="Información Nacional sobre el Clima"/>
+<text id="0x000075d1" string="Clima actual y predicciones"/>
+<text id="0x000075e6" string="Consultar precios de combust. locales y ubicaciones"/>
+<text id="0x000075fb" string="Puntajes de deportes"/>
+<text id="0x00007610" string="Puntajes de juegos y programación semanal"/>
+<text id="0x00007625" string="Consultar cines locales y películas"/>
+<text id="0x00005405" string="Torment"/>
+<text id="0x000077f3" string="Alerta de tormenta"/>
+<text id="0x00001712" string="Cambiar a juego"/>
+<text id="0x000023de" string="Sinopsis"/>
+<text id="0x00007df0" string="Cargando servicio XM. Espere..."/>
+<text id="0x000022cd" string="Información de cines"/>
+<text id="0x000022e2" string="Búsq de cines"/>
+<text id="0x000076f7" string="Advertencia de tornado"/>
+<text id="0x000005ed" string="tránsito&#xA;y clima"/>
+<text id="0x00000863" string="Tránsito y Clima"/>
+<text id="0x00001409" string="Tránsito y clima"/>
+<text id="0x00001d8d" string="Travel Link"/>
+<text id="0x00001f07" string="Travel Link"/>
+<text id="0x00005a95" string="Desde:"/>
+<text id="0x00005aaa" string="Hasta:"/>
+<text id="0x00005abf" string="Emitido:"/>
+<text id="0x00005ad4" string="Advertencia de tormenta eléctrica"/>
+<text id="0x0000557f" string="Fuertes ráf de viento típ"/>
+<text id="0x00001e0b" string="Llamr"/>
+<text id="0x0000825e" string="El operador debe finalizar la llamada."/>
+<text id="0x00008288" string="Buscar Deportes"/>
+<text id="0x0000829d" string="Mapa EUA"/>
+<text id="0x0000836f" string="Servicios de Datos"/>
+<text id="0x0000842c" string="Comando de voz no disponible durante asistencia de llamada."/>
+<text id="0x00008441" string="Teléfono no disponible durante llamada de asistencia"/>
+<text id="0x00008456" string="Conflicto de dirección IP detectado con interfaz %s"/>
+<text id="0x0000846b" string="Error de aplicación, por favor intente de nuevo después.&#xA;Código de error %s"/>
+<text id="0x00002861" string="3 &amp; 6 h"/>
+<text id="0x000093ad" string="Actualizando&#xA;canales"/>
+<text id="0x000093c2" string="Suscripción&#xA;actualizada"/>
+<text id="0x00009dd9" string="Probabilidad de precip."/>
+<text id="0x00009e03" string="Vientos"/>
+<text id="0x00009e18" string="Índice de UV"/>
+<text id="0x00009e2d" string="Humedad"/>
+<text id="0x00009e42" string="Nubosidad"/>
+<text id="0x00009e57" string="Despejado"/>
+<text id="0x00009e6c" string="Pocos"/>
+<text id="0x00009e81" string="Dispersos"/>
+<text id="0x00009e96" string="Irregular"/>
+<text id="0x00009eab" string="Nublado"/>
+<text id="0x00009ec0" string="Desconocido"/>
+<text id="0x00009ed5" string="Temp. de base"/>
+<text id="0x00009f14" string="Condiciones del viento"/>
+<text id="0x00009f29" string="Calmo"/>
+<text id="0x00009f3e" string="Apacible"/>
+<text id="0x00009f53" string="Moderado"/>
+<text id="0x00009f68" string="Fuerte"/>
+<text id="0x00009f7d" string="Ráfagas"/>
+<text id="0x00009f92" string="Muy fuerte"/>
+<text id="0x00009fa7" string="No recomendado"/>
+<text id="0x00009fbc" string="Desconocido"/>
+<text id="0x00009fd1" string="Condiciones de nieve"/>
+<text id="0x00009fe6" string="Polvo"/>
+<text id="0x00009ffb" string="Compacta"/>
+<text id="0x0000a010" string="Húmeda"/>
+<text id="0x0000a025" string="Gran. suelta"/>
+<text id="0x0000a03a" string="Gran. moj."/>
+<text id="0x0000a04f" string="Gran. cong."/>
+<text id="0x0000a064" string="Helado"/>
+<text id="0x0000a079" string="Mixto"/>
+<text id="0x0000a08e" string="Desconocido"/>
+<text id="0x0000a0a3" string="Prof. base, promedio"/>
+<text id="0x0000a0b8" string="Valor prom. prof. base"/>
+<text id="0x0000a0cd" string="Nieve nueva"/>
+<text id="0x0000a114" string="Telesillas abiertas"/>
+<text id="0x0000a129" string="Caminos abiertos"/>
+<text id="0x0000a319" string="Cañón de nieve"/>
+<text id="0x0000a32e" string="Formar nieve"/>
+<text id="0x0000a343" string="Esquí de noche"/>
+<text id="0x0000a358" string="Snowboarding"/>
+<text id="0x0000a447" string="%s Hora"/>
+<text id="0x0000a45c" string="%s% probabil. de precip."/>
+<text id="0x0000a471" string="%s%&#xA;probabil.&#xA;precip."/>
+<text id="0x0000a486" string="Seleccionar estación clima"/>
+<text id="0x0000a49b" string="Seleccionar área de esquí"/>
+<text id="0x0000a4bd" string="Precipitación"/>
+<text id="0x0000a4d2" string="Tormentas aisladas"/>
+<text id="0x0000a4e7" string="Tormentas dispersas"/>
+<text id="0x0000a4fc" string="Tormentas intensas"/>
+<text id="0x0000a511" string="Tormentas"/>
+<text id="0x0000a526" string="Lluvia"/>
+<text id="0x0000a53b" string="Lluvia ligera"/>
+<text id="0x0000a550" string="Lluvia pesada"/>
+<text id="0x0000a565" string="Chaparrones dispersos"/>
+<text id="0x0000a57a" string="Chaparrones"/>
+<text id="0x0000a58f" string="Llovizna"/>
+<text id="0x0000a5a4" string="Llovizna helada"/>
+<text id="0x0000a5b9" string="Lluvia helada"/>
+<text id="0x0000a5ce" string="Mezcla invernal"/>
+<text id="0x0000a5e3" string="Lluvia y nieve mezcladas"/>
+<text id="0x0000a5f8" string="Lluvia y aguanieve mezcladas"/>
+<text id="0x0000a60d" string="Lluvia y granizo mezclados"/>
+<text id="0x0000a622" string="Granizo"/>
+<text id="0x0000a6f4" string="Aguanieve"/>
+<text id="0x0000a709" string="Perdigones de hielo"/>
+<text id="0x0000a75d" string="Nevisca"/>
+<text id="0x0000a772" string="Nieve ligera"/>
+<text id="0x0000a787" string="Nieve moderada"/>
+<text id="0x0000a79c" string="Nieve"/>
+<text id="0x0000a7b1" string="Nieve pesada"/>
+<text id="0x0000a7c6" string="Lluvias de nieve dispersas"/>
+<text id="0x0000a7db" string="Lluvias de nieve"/>
+<text id="0x0000a7f0" string="Soplar nieve"/>
+<text id="0x0000a805" string="Ventisca"/>
+<text id="0x0000a81a" string="Tormenta de arena"/>
+<text id="0x0000a82f" string="Soplar polvo"/>
+<text id="0x0000a844" string="Polvo"/>
+<text id="0x0000a859" string="Brumoso"/>
+<text id="0x0000a86e" string="Niebla ligera"/>
+<text id="0x0000a883" string="Niebla moderada"/>
+<text id="0x0000a898" string="Niebla pesada"/>
+<text id="0x0000a8ad" string="Neblina"/>
+<text id="0x0000a8c2" string="Nebuloso"/>
+<text id="0x0000a8d7" string="Ahumado"/>
+<text id="0x0000a8ec" string="Tormentoso"/>
+<text id="0x0000a901" string="Ventoso"/>
+<text id="0x0000a916" string="Frío"/>
+<text id="0x0000a92b" string="Caluroso"/>
+<text id="0x0000a940" string="Soleado"/>
+<text id="0x0000a96a" string="Mayormente soleado"/>
+<text id="0x0000a97f" string="Despejado"/>
+<text id="0x0000aefe" string="Parcialmente nublado"/>
+<text id="0x0000af13" string="Mayormente nublado"/>
+<text id="0x0000cdb4" string="Noche mayormente despejado"/>
+<text id="0x0000af28" string="Nublado"/>
+<text id="0x0000af3d" string="Tormenta tropical"/>
+<text id="0x0000af52" string="Huracán"/>
+<text id="0x0000af67" string="Nube embudo"/>
+<text id="0x0000af7c" string="Tornado"/>
+<text id="0x0000af91" string="%s% Probabilidad de Precipitacion"/>
+<text id="0x0000afd0" string="Todos los Deportes Favoritos están llenos."/>
+<text id="0x0000afe5" string="Elimine un elemento de deportes de la lista de favoritos&#xA; e intente de nuevo."/>
+<text id="0x0000affa" string="Error de Comunicación de SiriusXM"/>
+<text id="0x0000b0cc" string=">2 Días"/>
+<text id="0x0000b0e1" string="Final"/>
+<text id="0x0000b120" string="OT final"/>
+<text id="0x0000b135" string="Información del equipo"/>
+<text id="0x0000b14a" string="Liga"/>
+<text id="0x0000b15f" string="Último juego"/>
+<text id="0x0000b174" string="Oponente"/>
+<text id="0x0000b189" string="Próximo juego"/>
+<text id="0x0000b19e" string="Hora"/>
+<text id="0x0000b1dd" string="Sin&#xA;audio"/>
+<text id="0x0000b381" string="Escuch.&#xA;ahora"/>
+<text id="0x0000b5a3" string="Demora"/>
+<text id="0x0000b5b8" string="Entrada"/>
+<text id="0x0000b692" string="Categorías de deportes"/>
+<text id="0x0000b6a7" string="Información del juego"/>
+<text id="0x0000b6bc" string="Puntajes y programas"/>
+<text id="0x0000b6d1" string="Puntajes y prog. de carrera"/>
+<text id="0x0000b6e6" string="Detalles de la carrera"/>
+<text id="0x0000b6fb" string="Detalles del torneo"/>
+<text id="0x0000b710" string="Torneos"/>
+<text id="0x0000b725" string="Noticias"/>
+<text id="0x0000b74f" string="Encabezados"/>
+<text id="0x0000b796" string="Programa"/>
+<text id="0x0000b836" string="Infor. del equipo"/>
+<text id="0x0000b875" string="Prog. de evento"/>
+<text id="0x0000b88a" string="Torneo"/>
+<text id="0x0000b89f" string="Estado"/>
+<text id="0x0000b8b4" string="Jugador"/>
+<text id="0x0000b8de" string="Puntaje"/>
+<text id="0x0000b8f3" string="Pos"/>
+<text id="0x0000b908" string="Carrera"/>
+<text id="0x0000b91d" string="Pista"/>
+<text id="0x0000b932" string="Tiempo de inicio"/>
+<text id="0x0000b947" string="Vueltas"/>
+<text id="0x0000b95c" string="Estado"/>
+<text id="0x0000b971" string="Ganador"/>
+<text id="0x0000b986" string="Marca"/>
+<text id="0x0000b99b" string="Conductor"/>
+<text id="0x0000b9b0" string="Programado"/>
+<text id="0x0000b9c5" string="Suspendido"/>
+<text id="0x0000b9da" string="Abandonado"/>
+<text id="0x0000b9ef" string="Cancelado"/>
+<text id="0x0000ba04" string="En progreso"/>
+<text id="0x0000ba19" string="Empate"/>
+<text id="0x0000c604" string="tránsito&#xA;espera"/>
+<text id="0x0000cbd1" string="Comuníquese con su distribuidor."/>
+<text id="0x0000cd36" string="Noche chaparrones dispersos"/>
+<text id="0x0000cd4b" string="Noche lluvias de nieve dispersas"/>
+<text id="0x0000cd60" string="Noche tormentas dispersas"/>
+<text id="0x0000cd75" string="Noche mayormente nublado"/>
+<text id="0x0000cd8a" string="Noche parcialmente nublado"/>
+<text id="0x0000cd9f" string="Noche Despejado"/>
+<text id="0x0000cdc9" string="Mayormente despejado"/>
+<text id="0x0000d723" string="Estación HD no disponible"/>
+<text id="0x0000da6b" string="Usted está ahora conectado con el operador."/>
+<text id="0x0000da80" string="Enviando localización. Por favor espere..."/>
+<text id="0x0000045e" string="AF"/>
+<text id="0x000004b2" string="DAB"/>
+<text id="0x000072c8" string="DAB"/>
+<text id="0x00004e71" string="Firmware sintonizador DAB"/>
+<text id="0x0000524c" string="Habilitar modo TA"/>
+<text id="0x000029c6" string="On"/>
+<text id="0x000029db" string="Off"/>
+<text id="0x000029b1" string="Regional"/>
+<text id="0x000029f0" string="selec AF"/>
+<text id="0x00007e98" string=""/>
+<text id="0x00007f2b" string=""/>
+<text id="0x00007f40" string=""/>
+<text id="0x00007ead" string=""/>
+<text id="0x000072f2" string="Ejecutando anuncio de tránsito"/>
+<text id="0x00007307" string="Ejecutando alarma de emergencia"/>
+<text id="0x0000731c" string="Alarma"/>
+<text id="0x000073af" string="Ejecutando anuncio de emergencia"/>
+<text id="0x0000dafe" string=""/>
+<text id="0x0000db13" string=""/>
+<text id="0x0000db28" string=""/>
+<text id="0x0000db3d" string=""/>
+<text id="0x0000db52" string=""/>
+<text id="0x0000db67" string=""/>
+<text id="0x0000db7c" string=""/>
+<text id="0x0000db91" string=""/>
+<text id="0x0000dba6" string=""/>
+<text id="0x0000dbbb" string=""/>
+<text id="0x0000dbd0" string=""/>
+<text id="0x0000dbe5" string=""/>
+<text id="0x0000dbfa" string=""/>
+<text id="0x0000dc0f" string=""/>
+<text id="0x0000dc24" string=""/>
+<text id="0x0000dc39" string=""/>
+<text id="0x00003a6d" string="Conexión Wi-Fi"/>
+<text id="0x00003a97" string="Punto. de acceso Wi-Fi"/>
+<text id="0x00003b69" string="Punto de acceso Wi-Fi Off"/>
+<text id="0x00003b7e" string="Punto de acceso Wi-Fi On"/>
+<text id="0x00003cce" string="Red Wi-Fi"/>
+<text id="0x00003e5d" string="Conexión Wi-Fi en progreso."/>
+<text id="0x00005165" string="Modo de prueba de Wi-Fi AP "/>
+<text id="0x00005762" string="La conexión Wi-Fi conecta el vehículo a Internet por la red Wi-Fi."/>
+<text id="0x0000578c" string="Puntos de acceso Wi-Fi comparten conexiones incorporadas con dispitivos Wi-Fi. Esta función requiere suscripción. Ingrese en %s"/>
+<text id="0x000058f1" string="El punto de acción Wi-Fi requiere conexión incorporada"/>
+<text id="0x00005c8d" string="Wi-Fi"/>
+<text id="0x00005df2" string="Conexión Wi-Fi correcta:"/>
+<text id="0x00005e07" string="Conexión Wi-Fi incorrecta:"/>
+<text id="0x000073c4" string="Ingrese contraseña de 13 caracteres."/>
+<text id="0x00007e1a" string="Wi-Fi no disponible"/>
+<text id="0x00007e2f" string="El servicio de Wi-Fi se está iniciando.&#xA;Intente de nuevo más tarde.&#xA;"/>
+<text id="0x00003b54" string="Ver dispositivos conectados"/>
+<text id="0x00003c3b" string="Ver/editar contraseña"/>
+<text id="0x00003dca" string="Ver disp conectados"/>
+<text id="0x00003ec6" string="Ver/editar frase de contraseña"/>
+<text id="0x0000202d" string="Verificar clave: %s"/>
+<text id="0x00003932" string="Aplicación"/>
+<text id="0x00003947" string="Aplicaciones"/>
+<text id="0x00007736" string="Aplic.&#xA;favoritas"/>
+<text id="0x0000774b" string="Todas&#xA;las aplic."/>
+<text id="0x00007760" string="Aplic.&#xA;en ejec."/>
+<text id="0x00007775" string="Aplic.&#xA;medios"/>
+<text id="0x0000778a" string="Aplic.&#xA;de info."/>
+<text id="0x0000779f" string="Aplic.&#xA;sociales"/>
+<text id="0x000077b4" string="Herram."/>
+<text id="0x000077c9" string="Aplic.&#xA;de asist"/>
+<text id="0x000077de" string="Otras&#xA;aplic."/>
+<text id="0x000081cb" string="Deteniendo %s e iniciando %s."/>
+<text id="0x000057f5" string="¿Esta red es su favorita?"/>
+<text id="0x00003c65" string="Redes disponibles"/>
+<text id="0x00003a58" string="Conexión incorporada"/>
+<text id="0x0000574d" string="La conexión incorporada conecta el vehículo a Internet. Requiere una suscripción. Ingrese en %s para administrar su suscripción."/>
+<text id="0x00003cf8" string="No se puede agregar red"/>
+<text id="0x00003d0d" string="caracteres"/>
+<text id="0x00003ad6" string="Conectado por conexión incorporada"/>
+<text id="0x00003aeb" string="Conectado por conexión Wi-Fi"/>
+<text id="0x00003b00" string="Conectado por conexión Bluetooth "/>
+<text id="0x00003b15" string="Conectado por punto acceso Wi-Fi"/>
+<text id="0x00003b2a" string="Conectado por"/>
+<text id="0x00005906" string="Conectando a la conexión incorporada"/>
+<text id="0x00000fb0" string="Conectividad"/>
+<text id="0x00003a19" string="Conectividad"/>
+<text id="0x000050fc" string="Prioridad de conexión"/>
+<text id="0x00005e1c" string="Borrar red"/>
+<text id="0x00003ce3" string="¿Borrar red Wi-Fi?"/>
+<text id="0x0000595a" string="Borre redes. Intente nuevamente."/>
+<text id="0x00003b3f" string="%s disp conect. por pto de acceso"/>
+<text id="0x00003bd2" string="Deshabilitar conexión de datos"/>
+<text id="0x000056f9" string="Habilitar conexión incorp"/>
+<text id="0x0000570e" string="Habilitar punto de acceso Wi-Fi"/>
+<text id="0x00005738" string="Habilitar punto de acceso Wi-Fi"/>
+<text id="0x00008090" string="Falló la prueba de DRM."/>
+<text id="0x000080a5" string="Falló la prueba de DRM para %s."/>
+<text id="0x000080ba" string="Hay demasiadas aplicaciones&#xA;ejecutándose. Detenga una aplicación."/>
+<text id="0x000080cf" string="Se requiere registro. Presione el botón&#xA;ignorar para detener los recordatorios."/>
+<text id="0x000080e4" string="El registro caducó.&#xA;Presione registrar para ingresar su correo de nuevo.&#xA;Presione ignorar para detener recordatorios."/>
+<text id="0x000044ed" string="Destinos favoritos"/>
+<text id="0x00005945" string="Lista de redes favoritas llena"/>
+<text id="0x00003c7a" string="Redes favoritas"/>
+<text id="0x00003cb9" string="Nombre de punto de acceso"/>
+<text id="0x00003eb1" string="Punto de acceso"/>
+<text id="0x0000591b" string="Deshabilitar punto de acceso Wi-Fi debido al cambio de conf"/>
+<text id="0x00005930" string="Una vez realizado el cambio de configuración, debe habilitar el punto de acceso manualmente."/>
+<text id="0x00005c78" string="Frase de contraseña de punto de acceso"/>
+<text id="0x00005069" string="Administrar Xlets"/>
+<text id="0x00003ca4" string="Nombre de red"/>
+<text id="0x00005c63" string="Fr contras"/>
+<text id="0x00007fbe" string="Clave de paso: %s"/>
+<text id="0x00007f16" string="Confirme que el PIN mostrado&#xA;coincide con el de su dispositivo."/>
+<text id="0x00007fa9" string="Confirme que la clave mostrada&#xA;coincide con la de su dispositivo."/>
+<text id="0x000074c0" string="Listo!"/>
+<text id="0x000039b0" string="Ejec"/>
+<text id="0x0000596f" string="Buscar redes Wi-Fi disponibles"/>
+<text id="0x00003db5" string="Configurar punto de acceso Wi-Fi"/>
+<text id="0x00008480" string="Ninguna suscripción activa.&#xA;&#xA;Para usar esta función, renueve la suscripción&#xA;%s en la tienda Uconnect."/>
+<text id="0x00008417" string="Iniciando aplicación "/>
+<text id="0x00009cf2" string="Por favor espere.&#xA;%s está proceso.&#xA;Intente %s otra vez."/>
+<text id="0x00009d07" string="Función no disponible.&#xA;Por favor intente más tarde.&#xA;"/>
+<text id="0x00009d1c" string="Datos de la aplicación Restablecimiento de iniciado.&#xA;Después del reinicio del radio, todos los datos de la aplicación se perderán.&#xA;Por favor espere."/>
+<text id="0x0000d7a1" string="Se agregó a Aplicaciones fav."/>
+<text id="0x0000d7b6" string="Se produjo un error al ejecutar la &#xA;aplicación. Intente de nuevo más tarde."/>
+<text id="0x0000d7cb" string="Bienvenido al acceso Uconnect&#xA;&#xA;Para disfrutar de todos los beneficios,&#xA;presione Inicio para comenzar."/>
+<text id="0x0000d7e0" string="¿Eliminar %s de Aplicaciones favoritas?"/>
+<text id="0x0000d7f5" string="Se alcanzó el límite de recursos"/>
+<text id="0x0000d80a" string="Cierre la aplicación en curso e intente nuevamente."/>
+<text id="0x0000d81f" string="Muchas aplicaciones en ejecución, cierre la aplicación en curso e intente nuevamente."/>
+<text id="0x0000d834" string="Ir a Aplicaciones en curso"/>
+<text id="0x0000dccc" string="Punto de acceso deshabilitado."/>
+<text id="0x0000dce1" string="Deshabilitar punto de acceso para realizar cambios."/>
+<text id="0x0000dd0b" string="¿Desea reproducir el contenido de %s?"/>
+<text id="0x0000e431" string="¿Agregar %s a Aplicaciones favoritas?"/>
+<text id="0x0000e446" string="¿Eliminar %s de Aplicaciones favoritas?"/>
+<text id="0x0000e45b" string="Reinstalando Aplic. El sistema se reiniciará."/>
+<text id="0x0000e470" string="Cuenta de Uconnect eliminada. El sistema se reiniciará."/>
+<text id="0x0000c30d" string=""/>
+<text id="0x0000c30e" string=""/>
+<text id="0x0000c30f" string=""/>
+<text id="0x0000ba97" string=""/>
+<text id="0x0000baac" string=""/>
+<text id="0x0000bac1" string=""/>
+<text id="0x0000bad6" string=""/>
+<text id="0x0000baeb" string=""/>
+<text id="0x0000bb00" string=""/>
+<text id="0x0000bb15" string=""/>
+<text id="0x0000bb2a" string=""/>
+<text id="0x0000bb3f" string=""/>
+<text id="0x0000bb54" string=""/>
+<text id="0x0000bb69" string=""/>
+<text id="0x0000bb7e" string=""/>
+<text id="0x0000bb93" string=""/>
+<text id="0x0000bba8" string=""/>
+<text id="0x0000bbbd" string=""/>
+<text id="0x0000bbd2" string=""/>
+<text id="0x0000bbe7" string=""/>
+<text id="0x0000bbfc" string=""/>
+<text id="0x0000bc11" string=""/>
+<text id="0x0000bc26" string=""/>
+<text id="0x0000bc3b" string=""/>
+<text id="0x0000bc50" string=""/>
+<text id="0x0000bc65" string=""/>
+<text id="0x0000bc7a" string=""/>
+<text id="0x0000bc8f" string=""/>
+<text id="0x0000bca4" string=""/>
+<text id="0x0000bcb9" string=""/>
+<text id="0x0000bcce" string=""/>
+<text id="0x0000bce3" string=""/>
+<text id="0x0000bcf8" string=""/>
+<text id="0x0000bd0d" string=""/>
+<text id="0x0000bd22" string=""/>
+<text id="0x0000bd37" string=""/>
+<text id="0x0000bd4c" string=""/>
+<text id="0x0000bd61" string=""/>
+<text id="0x0000bd76" string=""/>
+<text id="0x0000bd8b" string=""/>
+<text id="0x0000bda0" string=""/>
+<text id="0x0000bdb5" string=""/>
+<text id="0x0000bdca" string=""/>
+<text id="0x0000bddf" string=""/>
+<text id="0x0000bdf4" string=""/>
+<text id="0x0000be09" string=""/>
+<text id="0x0000be1e" string=""/>
+<text id="0x0000be33" string=""/>
+<text id="0x0000be48" string=""/>
+<text id="0x0000be5d" string=""/>
+<text id="0x0000be72" string=""/>
+<text id="0x0000be87" string=""/>
+<text id="0x0000be9c" string=""/>
+<text id="0x0000c697" string=""/>
+<text id="0x0000c6ac" string=""/>
+<text id="0x0000c6c1" string=""/>
+<text id="0x0000c6d6" string=""/>
+<text id="0x0000c6eb" string=""/>
+<text id="0x0000c700" string=""/>
+<text id="0x0000c826" string=""/>
+<text id="0x0000c83b" string=""/>
+<text id="0x0000c850" string=""/>
+<text id="0x0000c865" string=""/>
+<text id="0x0000c87a" string=""/>
+<text id="0x0000c88f" string=""/>
+<text id="0x0000c8a4" string=""/>
+<text id="0x0000c8b9" string=""/>
+<text id="0x0000c8ce" string=""/>
+<text id="0x0000c8e3" string=""/>
+<text id="0x0000c8f8" string=""/>
+<text id="0x0000c90d" string=""/>
+<text id="0x0000c922" string=""/>
+<text id="0x0000c937" string=""/>
+<text id="0x0000c94c" string=""/>
+<text id="0x0000c961" string=""/>
+<text id="0x0000c976" string=""/>
+<text id="0x0000cbe6" string=""/>
+<text id="0x0000cbfb" string=""/>
+<text id="0x0000cc10" string=""/>
+<text id="0x0000cc25" string=""/>
+<text id="0x0000cc3a" string=""/>
+<text id="0x0000cc4f" string=""/>
+<text id="0x0000cc64" string=""/>
+<text id="0x0000d28b" string=""/>
+<text id="0x0000d2a0" string=""/>
+<text id="0x0000d2b5" string=""/>
+<text id="0x0000d2ca" string=""/>
+<text id="0x0000d2df" string=""/>
+<text id="0x0000d2f4" string=""/>
+<text id="0x0000d372" string=""/>
+<text id="0x0000d405" string=""/>
+<text id="0x0000d41a" string=""/>
+<text id="0x0000d42f" string=""/>
+<text id="0x0000d444" string=""/>
+<text id="0x0000d459" string=""/>
+<text id="0x0000d46e" string=""/>
+<text id="0x0000d483" string=""/>
+<text id="0x0000d498" string=""/>
+<text id="0x0000d4ad" string=""/>
+<text id="0x0000d4c2" string=""/>
+<text id="0x0000d4d7" string=""/>
+<text id="0x0000d4ec" string=""/>
+<text id="0x0000d501" string=""/>
+<text id="0x0000d516" string=""/>
+<text id="0x0000d52b" string=""/>
+<text id="0x0000d540" string=""/>
+<text id="0x0000d555" string=""/>
+<text id="0x0000d56a" string=""/>
+<text id="0x0000d57f" string=""/>
+<text id="0x0000d594" string=""/>
+<text id="0x0000d5a9" string=""/>
+<text id="0x0000d5be" string=""/>
+<text id="0x0000d5d3" string=""/>
+<text id="0x0000d5e8" string=""/>
+<text id="0x0000d5fd" string=""/>
+<text id="0x0000d612" string=""/>
+<text id="0x0000d627" string=""/>
+<text id="0x0000d63c" string=""/>
+<text id="0x0000d651" string=""/>
+<text id="0x0000d738" string=""/>
+<text id="0x0000d74d" string=""/>
+<text id="0x0000d762" string=""/>
+<text id="0x0000d849" string=""/>
+<text id="0x0000d85e" string=""/>
+<text id="0x0000d873" string=""/>
+<text id="0x0000d999" string=""/>
+<text id="0x0000d9ae" string=""/>
+<text id="0x0000d9c3" string=""/>
+<text id="0x0000dabf" string=""/>
+<text id="0x0000dad4" string=""/>
+<text id="0x0000dae9" string=""/>
+<text id="0x0000e41c" string=""/>
+<text id="0x0000e4af" string=""/>
+<text id="0x0000e4c4" string=""/>
+<text id="0x0000e6bc" string=""/>
+<text id="0x0000e779" string=""/>
+<text id="0x0000e78e" string=""/>
+<text id="0x0000e7a3" string=""/>
+<text id="0x0000e7b8" string=""/>
+<text id="0x0000e7cd" string=""/>
+<text id="0x0000e7e2" string=""/>
+<text id="0x0000e7f7" string=""/>
+<text id="0x0000e80c" string=""/>
+<text id="0x0000e821" string=""/>
+<text id="0x0000e836" string=""/>
+<text id="0x0000e84b" string=""/>
+<text id="0x0000e860" string=""/>
+<text id="0x0000e875" string=""/>
+<text id="0x0000e8b4" string=""/>
+<text id="0x0000ec13" string=""/>
+<text id="0x0000ec28" string=""/>
+<text id="0x0000f5ac" string=""/>
+<text id="0x0000f5c1" string=""/>
+<text id="0x0000f600" string=""/>
+<text id="0x0000f6d2" string=""/>
+<text id="0x0000cca3" string="Agregar Dispositivo"/>
+<text id="0x0000ccb8" string="Cambiar PIN"/>
+<text id="0x0000cccd" string="Obedezca las reglas de tránsito y preste atención mientras maneja. &#xA;Algunas aplicaciones estan limitadas mientras el vehículo se &#xA;encuentra en movimiento. Por favor lea el manual del conductor&#xA;para más detalles."/>
+<text id="0x0000de9d" string="Dispositivo no reproducible"/>
+<text id="0x0000deb2" string="Audiolibro"/>
+<text id="0x0000dec7" string="Presint."/>
+<text id="0x0000dedc" string="Info"/>
+<text id="0x0000def1" string="seleccionar&#xA;origen"/>
+<text id="0x0000df06" string="Listas repr."/>
+<text id="0x0000df1b" string="Ent. aux."/>
+<text id="0x0000df30" string="Ajustes"/>
+<text id="0x0000df45" string="Información"/>
+<text id="0x0000df5a" string="Repetir"/>
+<text id="0x0000df6f" string="¿A dónde?"/>
+<text id="0x0000df84" string="Lista"/>
+<text id="0x0000df99" string="agenda"/>
+<text id="0x0000dfae" string="llam. rec."/>
+<text id="0x0000dfc3" string="Teléf.&#xA;sinc."/>
+<text id="0x0000dfd8" string="Oríg. de&#xA;audio&#xA;sinc."/>
+<text id="0x0000dfed" string="Borrar Dispositivo"/>
+<text id="0x0000e002" string="Estación"/>
+<text id="0x0000e017" string="Información"/>
+<text id="0x0000e02c" string="Género"/>
+<text id="0x0000e041" string="Llam.&#xA;perd."/>
+<text id="0x0000e056" string="Llam.&#xA;salient."/>
+<text id="0x0000e06b" string="Llam.&#xA;entrant."/>
+<text id="0x0000e080" string="Todas&#xA;las llam."/>
+<text id="0x0000e2e1" string="Niv. de sensor de lluvia"/>
+<text id="0x0000e2f6" string="Consumo"/>
+<text id="0x0000e30b" string="MI"/>
+<text id="0x0000e320" string="KM"/>
+<text id="0x0000e335" string="MPG"/>
+<text id="0x0000e34a" string="Litros&#xA;100 km"/>
+<text id="0x0000e35f" string="Km/L"/>
+<text id="0x0000e374" string="Tarjeta SD"/>
+<text id="0x0000dc63" string="Configurar mes"/>
+<text id="0x0000dc78" string="Configurar año"/>
+<text id="0x0000dc4e" string="Configurar día"/>
+<text id="0x0000e5c0" string="Restablecer ajustes predeterminados"/>
+<text id="0x0000e5d5" string="¿Realmente desea reconfigurar los ajustes a los predeterminados?"/>
+<text id="0x0000e5ea" string="Ajustes restablecidos a los predeterminados."/>
+<text id="0x0000e6d1" string="Ajustes reconfigurados a los predeterminados."/>
+<text id="0x0000e63e" string="Borrar datos personales"/>
+<text id="0x0000e653" string="¿Realmente desea borrar los datos personales?"/>
+<text id="0x0000e668" string="Datos personales borrados."/>
+<text id="0x0000e725" string="Auto-On Radio"/>
+<text id="0x0000e932" string="Radio automatically turns on when&#xA;vehicle is in run or will recall whether&#xA;it was on or off at last ignition off."/>
+<text id="0x0000e971" string="Vol ajustado&#xA;a la vel"/>
+<text id="0x0000eb3f" string="Estaciónes no disponible"/>
+<text id="0x0000ebd2" string="FALLADO"/>
+<text id="0x0000ed78" string="Marcado&#xA;directo"/>
+<text id="0x0000edb7" string=""/>
+<text id="0x0000ee0b" string=""/>
+<text id="0x0000ee20" string=""/>
+<text id="0x0000ee35" string=""/>
+<text id="0x0000ee4a" string=""/>
+<text id="0x0000ee89" string=""/>
+<text id="0x0000ee9e" string=""/>
+<text id="0x0000eedd" string=""/>
+<text id="0x0000ef1c" string=""/>
+<text id="0x0000ef31" string=""/>
+<text id="0x0000ef70" string=""/>
+<text id="0x0000ef85" string=""/>
+<text id="0x0000ef9a" string=""/>
+<text id="0x0000efaf" string=""/>
+<text id="0x0000efc4" string=""/>
+<text id="0x0000efd9" string=""/>
+<text id="0x0000f114" string="PRES p/conf"/>
+<text id="0x0000f129" string="Ajuste de volumen de nav"/>
+<text id="0x0000f558" string=""/>
+<text id="0x0000f67e" string="Volumen"/>
+<text id="0x0000f693" string="Mejora calidad d/sonido a vol inferiores"/>
+<text id="0x0000e8c9" string="Tránsito"/>
+<text id="0x0000e8de" string="Alarma"/>
+</textresources>

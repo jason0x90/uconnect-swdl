@@ -1,0 +1,3 @@
+#!/bin/ksh
+
+connectQXDM.sh $1 &

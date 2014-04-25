@@ -1,0 +1,5 @@
+HBTracePersistence 1.1.0
+[xletDiagService]
+xletDiagService_MainThread_all 62 01
+xletDiagService_CDiagPPS_pps 62 01
+xletDiagService_IPCHandler_ipc 62 01

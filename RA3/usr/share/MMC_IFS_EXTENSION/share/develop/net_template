@@ -1,0 +1,23 @@
+# See details at http://hbfh/wiki/index.php/CmcNetworking 
+
+# the name you want your target to have on the network
+TARGET_NAME=cmc_yourinitials
+
+# set static IP to fall back to (defaults to 192.168.1.1 if this file does not exist)
+STATIC_IP=192.168.57.99
+
+# the name of the share on your PC
+SHARE_NAME=/share_name
+
+# the user credentials you will use to connect to the share
+SHARE_USER=windows_user_name
+SHARE_PASS=windows_password
+
+# the share host name and ip address
+SHARE_HOST=oafhd12mi13p8a
+SHARE_IP=10.30.155.255
+
+# Start network daemons (inetd and qconn) - comment out to prevent daemons
+START_DAEMONS=true
+
+export TARGET_NAME SHARE_NAME SHARE_USER SHARE_PASS SHARE_HOST SHARE_IP VEH_IP START_DAEMONS

@@ -1,0 +1,24 @@
+##############################################################
+##############################################################
+###### CAUTION: WHEN MAKING ANY CHANGES IN THIS FILE #########
+##############################################################
+##############################################################
+# This file represents the nand partition
+# Format for the file  is ' name, start_block, end_block ' 
+# This file will be used by all the utilities which interact 
+# with nand to get the partition table 
+##############################################################
+##############################################################
+
+# IPL PARTITION TABLE,  IPL SIZE IS CURRENTLY 1 BLOCK
+IPL0,   0,    0 
+IPL1,   1,    1 
+IPL2,   2,    2 
+IPL3,   3,    3 
+
+# IFS PARTITION TABLE,  IFS SIZE IS CURRENTLY 384 BLOCKS
+IFS0,   4,    387 
+IFS1,   388,  771 
+IFS2,   772,  1155 
+# ETFS 
+ETFS, 1156, 2047

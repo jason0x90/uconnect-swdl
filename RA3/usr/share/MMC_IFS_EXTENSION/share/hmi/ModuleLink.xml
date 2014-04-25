@@ -1,0 +1,4 @@
+<moduleLink name="HMI">
+  <span host="127.0.0.1" port="4400" />
+  <hb host="127.0.0.1" port="4400" />
+</moduleLink>

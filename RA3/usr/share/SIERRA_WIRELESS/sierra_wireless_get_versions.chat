@@ -1,0 +1,8 @@
+'' ati
+REPORT 'Manufacturer'
+REPORT 'Model'
+REPORT 'HW Version'
+REPORT 'APPL Revision'
+REPORT 'BOOT Revision'
+REPORT 'MEID'
+OK ''

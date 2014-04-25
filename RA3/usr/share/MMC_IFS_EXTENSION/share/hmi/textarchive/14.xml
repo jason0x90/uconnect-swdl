@@ -1,0 +1,2306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<textresources>
+<text id="0x00000044" string="весь экран"/>
+<text id="0x00000059" string="карта"/>
+<text id="0x0000006e" string="инфо"/>
+<text id="0x00000083" string="дор."/>
+<text id="0x00000098" string="bluetooth"/>
+<text id="0x000000c2" string="аудио"/>
+<text id="0x000000d7" string="повтор"/>
+<text id="0x000000ec" string="%s из %s"/>
+<text id="0x00000101" string="случайн. выбор"/>
+<text id="0x00000116" string="Дорожка #"/>
+<text id="0x0000012b" string="неизвестно"/>
+<text id="0x00000140" string="Исполнит."/>
+<text id="0x00000155" string="Название"/>
+<text id="0x0000016a" string="Альбом"/>
+<text id="0x0000017f" string="Композ."/>
+<text id="0x00000194" string="Жанр"/>
+<text id="0x000001a9" string="Год"/>
+<text id="0x000001be" string="Ввод"/>
+<text id="0x000001d3" string="Настр."/>
+<text id="0x000001e8" string="Готово"/>
+<text id="0x000001fd" string="Введите противоугонный код"/>
+<text id="0x00000212" string="Введен неверный код - повторите ввод"/>
+<text id="0x00000227" string="Радио заблокировано"/>
+<text id="0x0000023c" string="Радио заблокировано - подождите %s минут"/>
+<text id="0x00000251" string="Заведите транспортное средство"/>
+<text id="0x00000266" string="Баланс/Фэйд "/>
+<text id="0x0000027b" string="Эквалайзер"/>
+<text id="0x00000290" string="Громк. от скорости"/>
+<text id="0x000002a5" string="Объемный звук"/>
+<text id="0x000002ba" string="Удалить инф. о музыке"/>
+<text id="0x000002cf" string="Вкл."/>
+<text id="0x000002e4" string="OTK"/>
+<text id="0x000002f9" string="Объем не доступна во всех режимах."/>
+<text id="0x0000030e" string="привод от"/>
+<text id="0x00000338" string="Повышение уровня громкости при увеличении скорости транспортного средства."/>
+<text id="0x0000034d" string="Басы"/>
+<text id="0x00000362" string="Средн"/>
+<text id="0x00000377" string="Высок"/>
+<text id="0x0000038c" string="Перед."/>
+<text id="0x000003a1" string="Левый"/>
+<text id="0x000003b6" string="Задний"/>
+<text id="0x000003cb" string="Прав."/>
+<text id="0x000003e0" string="С"/>
+<text id="0x000003f5" string="Буфер. ..."/>
+<text id="0x0000041f" string="Буфер. ..."/>
+<text id="0x00000434" string="карта"/>
+<text id="0x00000449" string="инфо"/>
+<text id="0x000004c7" string="Станция"/>
+<text id="0x000004dc" string="инфо"/>
+<text id="0x000004f1" string="ТЕГ"/>
+<text id="0x0000055a" string="остан."/>
+<text id="0x00000584" string="Живой"/>
+<text id="0x00000599" string="УДЕРЖИВАТЬ д/уст."/>
+<text id="0x000005ae" string="просм."/>
+<text id="0x000005c3" string="воспр."/>
+<text id="0x000005d8" string="наст"/>
+<text id="0x00000602" string="аудио"/>
+<text id="0x0000062c" string="аудио"/>
+<text id="0x00000641" string="настр."/>
+<text id="0x00000656" string="просмотреть"/>
+<text id="0x0000066b" string="аудио"/>
+<text id="0x00000680" string="УДЕРЖИВАТЬ д/уст."/>
+<text id="0x00000695" string="Назв. станции"/>
+<text id="0x000006aa" string="Предуст"/>
+<text id="0x000006bf" string="Все"/>
+<text id="0x000006d4" string="Обнов. список"/>
+<text id="0x000006e9" string="Все станции"/>
+<text id="0x000006fe" string="Жанр"/>
+<text id="0x00000713" string="Предустановки"/>
+<text id="0x00000728" string="Все станции"/>
+<text id="0x0000073d" string="Предустановки"/>
+<text id="0x00000767" string="УДЕРЖИВАТЬ д/уст."/>
+<text id="0x00000791" string="Удалить избранн."/>
+<text id="0x000007d0" string="Отменить выбор"/>
+<text id="0x00000824" string=" Город для прогноза погоды и дорожн. сводки:"/>
+<text id="0x00000839" string="Избранное"/>
+<text id="0x00000878" string="ДЛЯ ТОГО ЧТОБЫ ВКЛЮЧИТЬ, КОСНИТЕСЬ ЭКРАНА"/>
+<text id="0x0000088d" string="ЖИВОЙ"/>
+<text id="0x000008a2" string="живой"/>
+<text id="0x0000095f" string="Введен неверный код - повторите ввод"/>
+<text id="0x00000974" string="ОК"/>
+<text id="0x00000989" string="Редакт.избр."/>
+<text id="0x0000099e" string="Отмена"/>
+<text id="0x000009b3" string="Да"/>
+<text id="0x000009c8" string="Нет"/>
+<text id="0x000009dd" string="Время"/>
+<text id="0x000009f2" string="&#xA;Настроить параметры часов?"/>
+<text id="0x00000a07" string="Избранное"/>
+<text id="0x00000a1c" string="Список избранного полон.&#xA;Удалить из него записи, чтобы добавить новые?"/>
+<text id="0x00000a31" string="Удалить все избранное?"/>
+<text id="0x00000a70" string="Подождите…"/>
+<text id="0x00000a85" string="Получение данных…."/>
+<text id="0x00000aee" string="Нет сигнала&#xA;&#xA; См. дилеру для обслуживания"/>
+<text id="0x00000b18" string="Нет подписки"/>
+<text id="0x00000b2d" string="Выполняется обновление подписки, подождите…"/>
+<text id="0x00000b96" string="Добавить"/>
+<text id="0x00000bab" string="Добавить в избранное?"/>
+<text id="0x00000bc0" string="Блокировка скорости"/>
+<text id="0x00000bd5" string="Во время движения транспортного средства функция недоступна."/>
+<text id="0x00000bea" string="На текущем телефоне&#xA;функция не поддерживается.&#xA;&#xA;Сведения о совместимости устройства&#xA;см. на%s."/>
+<text id="0x00000bff" string="Музыка отключена"/>
+<text id="0x00000c14" string="Композиция помечена"/>
+<text id="0x00000c29" string="Для покупок через iTunes подключите iPod"/>
+<text id="0x00000c3e" string="Список помеченных композиций полон. Для переноса списка подключите iPod."/>
+<text id="0x00000c53" string="Список помеченных композиций полон.&#xA;Для переноса сведений о помеченной композиции подключите совместимый iPod."/>
+<text id="0x00000c68" string="Перенос на iPod сведений о помеченной композиции"/>
+<text id="0x00000c7d" string="Ошибка при переносе на iPod сведений о помеченной композиции"/>
+<text id="0x00000c92" string="Не удается перенести данные помеченной композиции.&#xA;Память iPod переполнена."/>
+<text id="0x00000ca7" string="Память iPod с помеченными композициями переполнена, данные композиции не будут перенесены."/>
+<text id="0x00000cbc" string="Композиция помечена. Для переноса &#xA;сведений о помеченной композиции &#xA;подключите совместимый iPod."/>
+<text id="0x00000cd1" string="Подключенный iPod не поддерживает &#xA;пометку композиций. Сведения о помеченной&#xA;композиции не будут перенесены."/>
+<text id="0x00000ce6" string="Предуп-&#xA;реждение"/>
+<text id="0x00000cfb" string="Дисплей перегрелся Отключается"/>
+<text id="0x00000d10" string="Установ. язык"/>
+<text id="0x00000d25" string="Параметры"/>
+<text id="0x00000d3a" string="элементов в списке"/>
+<text id="0x00000d4f" string="элемент в списке"/>
+<text id="0x00000d64" string="Режим дисплей"/>
+<text id="0x00000d79" string="Display Brightness with Headlights On"/>
+<text id="0x00000d8e" string="Display Brightness with Headlights Off"/>
+<text id="0x00000da3" string="Установить язык"/>
+<text id="0x00000db8" string="Компоненты"/>
+<text id="0x00000dcd" string="Длина голосового ответа"/>
+<text id="0x00000de2" string="Звуковой сигнал сенсорного экрана"/>
+<text id="0x00000df7" string="Пошаг. навигация на кластр."/>
+<text id="0x00000e0c" string="Дисплей экономии топлива в инструментарии"/>
+<text id="0x00000e21" string="авто"/>
+<text id="0x00000e36" string="ночь"/>
+<text id="0x00000e4b" string="день"/>
+<text id="0x00000e75" string="Метрич."/>
+<text id="0x00000e8a" string="Кратко"/>
+<text id="0x00000e9f" string="Подр-&#xA;обно"/>
+<text id="0x00000eb4" string="Нет доступных медиа"/>
+<text id="0x00000ec9" string="Номер дорожки: %s"/>
+<text id="0x00000ede" string="Дисплей"/>
+<text id="0x00000ef3" string="Часы"/>
+<text id="0x00000f08" string="Компас"/>
+<text id="0x00000f1d" string="Безоп. и помощь в управлении"/>
+<text id="0x00000f32" string="Фары"/>
+<text id="0x00000f47" string="Двери и замки"/>
+<text id="0x00000f5c" string="Авт.включ.удобств"/>
+<text id="0x00000f71" string="Варианты выключения двигателя"/>
+<text id="0x00000f86" string="Аудио"/>
+<text id="0x00000f9b" string="Телефон/Bluetooth"/>
+<text id="0x00000fda" string="Синхронизация времени с GPS"/>
+<text id="0x00000fef" string="Установить часы"/>
+<text id="0x00001019" string="Формат времени"/>
+<text id="0x0000102e" string="Показать время в строке состояния"/>
+<text id="0x00001043" string="Летнее время"/>
+<text id="0x0000106d" string="ч."/>
+<text id="0x00001082" string="Гудок при удаленном старте"/>
+<text id="0x00001097" string="Автом. подогрева/вентиляции сиденья водителя "/>
+<text id="0x000010ac" string="    и рулевого колеса при запуске двигателя"/>
+<text id="0x00001100" string="Радио  "/>
+<text id="0x00001115" string="Медиапл."/>
+<text id="0x0000112a" string="Эл. упр."/>
+<text id="0x0000113f" string="Нав."/>
+<text id="0x00001154" string="Телефон"/>
+<text id="0x00001169" string="Больше"/>
+<text id="0x0000117e" string="вн."/>
+<text id="0x00001193" string="Музыка откл."/>
+<text id="0x000011a8" string="Потоковое аудио"/>
+<text id="0x00001211" string="Климат"/>
+<text id="0x00001226" string="LO"/>
+<text id="0x0000123b" string="HI"/>
+<text id="0x00001250" string="LO"/>
+<text id="0x00001265" string="HI"/>
+<text id="0x0000127a" string="Визуальный сигнал тревоги"/>
+<text id="0x0000128f" string="Звуковой и визуальный сигнал трев."/>
+<text id="0x000012f8" string="УДЕРЖИВАТЬ д/уст."/>
+<text id="0x00001448" string="Избранное"/>
+<text id="0x00001487" string="Удалить избранное"/>
+<text id="0x000014b1" string="Отменить выбор"/>
+<text id="0x000014db" string="Перейти к прогн. погоды и дорож. сводке"/>
+<text id="0x000014f0" string="Двер.&#xA;водит."/>
+<text id="0x00001505" string="Все&#xA;двери"/>
+<text id="0x0000151a" string="Автоматические дверные замки"/>
+<text id="0x0000152f" string="Автоматическое открывание"/>
+<text id="0x00001544" string="Мигающие фары с блокировкой"/>
+<text id="0x00001559" string="Звук рога с замком"/>
+<text id="0x0000156e" string="Сигнальный гудок с удаленным включением"/>
+<text id="0x00001583" string="1-е нажатие брелка открывает&#xA;"/>
+<text id="0x00001598" string="Пассивный доступ"/>
+<text id="0x000015ad" string="Персон. настройки привязаны к для ключей"/>
+<text id="0x000015c2" string="Сигнал тревоги для сдвижной двери"/>
+<text id="0x000015d7" string="мин."/>
+<text id="0x000015ec" string="сек."/>
+<text id="0x00001601" string="Сиденье с возможн-ю облегченного выхода"/>
+<text id="0x00001616" string="Задержка выключения двигателя"/>
+<text id="0x0000162b" string="Задержка выключения фар"/>
+<text id="0x00001640" string="ОК"/>
+<text id="0x00001655" string="Отключить"/>
+<text id="0x0000166a" string="Обновить программное обеспечение?"/>
+<text id="0x000016a9" string="Избранное"/>
+<text id="0x000016d3" string="В эфире нет ни одного из выбранных элементов избранного"/>
+<text id="0x000016e8" string="Нет элементов"/>
+<text id="0x000016fd" string=" - Удалить все -"/>
+<text id="0x0000173c" string="Свет фар при приближении"/>
+<text id="0x00001751" string="Фары со стеклоочистителями"/>
+<text id="0x00001766" string="Автом. приглушение дальнего света"/>
+<text id="0x0000177b" string="Дневные ходовые огни"/>
+<text id="0x00001790" string="Фары, направляемые рулевым колесом"/>
+<text id="0x000017a5" string="Фары ближнего света (при смене движения)"/>
+<text id="0x000017ba" string="краш Будильник"/>
+<text id="0x000017cf" string="Парковка помощь"/>
+<text id="0x000017e4" string="Наклонить боковые зеркала когда в обратном"/>
+<text id="0x000017f9" string="Слепое пятно тревог."/>
+<text id="0x0000180e" string="Видеокамера заднего вида ParkView"/>
+<text id="0x00001823" string="Дождь зондирования дворники авто"/>
+<text id="0x00001838" string="Помощь, когда движение начинает. на подъеме"/>
+<text id="0x0000184d" string="OTK"/>
+<text id="0x00001862" string="Даль"/>
+<text id="0x00001877" string="Ближ"/>
+<text id="0x0000188c" string="Звук"/>
+<text id="0x000018a1" string="Звук +&#xA;Отображ."/>
+<text id="0x000018b6" string="Фары"/>
+<text id="0x000018cb" string="Фары +&#xA;зв. сигн."/>
+<text id="0x000018f5" string="Информация о подписке"/>
+<text id="0x0000190a" string="Звонок"/>
+<text id="0x0000195e" string="Подп-ка есть"/>
+<text id="0x00001973" string="Нет подписки"/>
+<text id="0x00001988" string="%s "/>
+<text id="0x00001a1b" string="Подождите "/>
+<text id="0x00001a30" string="Подключено"/>
+<text id="0x00001a45" string="Спар.&#xA;телефоны"/>
+<text id="0x00001a5a" string="Спар.&#xA;источники&#xA;аудио"/>
+<text id="0x00001a6f" string="Спар.&#xA;устр-ва&#xA;данных"/>
+<text id="0x00001a84" string="Добавить&#xA;устр-о"/>
+<text id="0x00001a99" string="Измен.&#xA;PIN"/>
+<text id="0x00001aae" string="Bluetooth"/>
+<text id="0x00001ac3" string="Недавний"/>
+<text id="0x00001ad8" string="набор"/>
+<text id="0x00001aed" string="Сообщ."/>
+<text id="0x00001b02" string="парам-ры"/>
+<text id="0x00001b17" string="тел. книга"/>
+<text id="0x00001b2c" string="ПереB."/>
+<text id="0x00001b41" string="Конф."/>
+<text id="0x00001b56" string="Откл"/>
+<text id="0x00001b6b" string="Конец"/>
+<text id="0x00001b80" string="Пер. меж. зв."/>
+<text id="0x00001b95" string="Повтор"/>
+<text id="0x00001baa" string="Удерживать"/>
+<text id="0x00001bbf" string="Ответить"/>
+<text id="0x00001bd4" string="Игнорир."/>
+<text id="0x00001be9" string="Перед.&#xA;обратно"/>
+<text id="0x00001bfe" string="УДЕРЖИВАТЬ д/уст."/>
+<text id="0x00001c13" string="Входящий звонок:"/>
+<text id="0x00001c28" string="Вызов"/>
+<text id="0x00001c3d" string="Перейти к парам-м д/спар. телеф."/>
+<text id="0x00001c52" string="Телефон готов"/>
+<text id="0x00001c67" string="конференц-связь"/>
+<text id="0x00001c7c" string="Нет подключ. телеф."/>
+<text id="0x00001c91" string="Звонок закончен: %s"/>
+<text id="0x00001ca6" string="Удержание вызова: %s"/>
+<text id="0x00001cbb" string="Время звонка: %s"/>
+<text id="0x00001cd0" string="Роуминг"/>
+<text id="0x00001ce5" string="Пусто"/>
+<text id="0x00001cfa" string="Отмен. выбор"/>
+<text id="0x00001d0f" string="Выбр. все"/>
+<text id="0x00001d39" string="Мое избранное"/>
+<text id="0x00001db7" string="Бренд"/>
+<text id="0x00001dcc" string="Расстояние"/>
+<text id="0x00001e35" string="Доб."/>
+<text id="0x00001e5f" string="Последнее обновление: %s"/>
+<text id="0x00001e89" string="Найти"/>
+<text id="0x00001f31" string="Найти"/>
+<text id="0x00001f5b" string="Информация"/>
+<text id="0x00001f9a" string="миля"/>
+<text id="0x00001faf" string="км"/>
+<text id="0x00001fc4" string="Нет спаренных телефонов."/>
+<text id="0x00001fd9" string="Перевести звонок в режим громкой связи?"/>
+<text id="0x00001fee" string="Принять"/>
+<text id="0x00002003" string="Не удается добавить устройство. Список спаренных устройств полон."/>
+<text id="0x00002018" string="Начать процедуру спаривания на телефоне или устройстве Bluetooth."/>
+<text id="0x00002042" string="Название устр. трансп. сред.: %s"/>
+<text id="0x00002057" string="Удалите неиспольз.устройство и повтор. попытку."/>
+<text id="0x0000206c" string="PIN: %s"/>
+<text id="0x00002081" string="Выполняется спаривание Bluetooth. Подождите."/>
+<text id="0x00002096" string="Список совместимых устройств см. на сайте транспортного средства."/>
+<text id="0x000020ab" string="Повторить"/>
+<text id="0x000020c0" string="Спаривание Bluetooth не выполнено. Начните снова."/>
+<text id="0x000020d5" string="Спаривание Bluetooth успешно."/>
+<text id="0x000020ea" string="Удалить устройство"/>
+<text id="0x000020ff" string=" Устройство недоступно.&#xA;&#xA;Убедитесь, что оно в диапазоне."/>
+<text id="0x00002114" string="Спаривание Bluetooth"/>
+<text id="0x00002129" string="Избранное"/>
+<text id="0x0000213e" string="Для задания избранного номера:&#xA;нажмите и удерживайте во время звонка или&#xA;перейдите к тел. книге и выберите Избранное."/>
+<text id="0x00002153" string="перейдите к тел. книге и выберите Избранное."/>
+<text id="0x00002210" string="Звонок"/>
+<text id="0x00002225" string="Готово"/>
+<text id="0x0000223a" string="Прям. Набор"/>
+<text id="0x0000224f" string="Тонал. набор ном."/>
+<text id="0x00002264" string="Ввести PIN"/>
+<text id="0x00002279" string="ОК"/>
+<text id="0x000022b8" string="Поиск"/>
+<text id="0x00002321" string="Нет доступных данных"/>
+<text id="0x0000234b" string="Название"/>
+<text id="0x0000239f" string="Продолжительность"/>
+<text id="0x000023b4" string="мин."/>
+<text id="0x00002408" string="Ни один из указанных"/>
+<text id="0x0000241d" string="B"/>
+<text id="0x00002432" string="H"/>
+<text id="0x00002447" string="Сиден.&#xA;подогp."/>
+<text id="0x0000245c" string="Парамет."/>
+<text id="0x00002471" string="Задняя &#xA;щторка"/>
+<text id="0x00002486" string="Вентили&#xA;сиденье"/>
+<text id="0x0000249b" string="Подогр.&#xA;рул. кол"/>
+<text id="0x000024b0" string="Элементы управления"/>
+<text id="0x000024c5" string="Водитель"/>
+<text id="0x000024da" string="Пассажир"/>
+<text id="0x000024ef" string="Экон"/>
+<text id="0x00002504" string="Спорт"/>
+<text id="0x00002519" string="Защ. шт."/>
+<text id="0x0000252e" string="Эл.роз"/>
+<text id="0x00002543" string="AWD"/>
+<text id="0x00002558" string="Ауто"/>
+<text id="0x0000256d" string="ВКЛ."/>
+<text id="0x00002582" string="OTK"/>
+<text id="0x00002597" string="Просмотр."/>
+<text id="0x000025ac" string="Просуш."/>
+<text id="0x000025c1" string="Игнорир."/>
+<text id="0x000025d6" string="Текстовое сообщение"/>
+<text id="0x000025eb" string="Все звонки"/>
+<text id="0x00002600" string="Входящие звонки"/>
+<text id="0x00002615" string="Исходящи&#xA;звонки"/>
+<text id="0x0000262a" string="Пропущен&#xA;звонки"/>
+<text id="0x0000263f" string="Все звонки"/>
+<text id="0x00002654" string="Входящие звонки"/>
+<text id="0x00002669" string="Исходящи звонки"/>
+<text id="0x0000267e" string="Пропущенные звонки"/>
+<text id="0x00002693" string="Недавние звонки"/>
+<text id="0x000026a8" string="Ввести подробности"/>
+<text id="0x000026bd" string="Звон."/>
+<text id="0x000026d2" string="Подробности"/>
+<text id="0x00002726" string="Выбр. из списка городов"/>
+<text id="0x0000273b" string="Выбрать город"/>
+<text id="0x00002750" string="Рабочее состояние"/>
+<text id="0x00002765" string="Откр"/>
+<text id="0x0000278f" string="Во время движения транспортного средства функция недоступна."/>
+<text id="0x000027f8" string="Текущий"/>
+<text id="0x00002876" string="5 дней"/>
+<text id="0x0000288b" string="Добавить в избранное"/>
+<text id="0x000028a0" string="Замен. избранное"/>
+<text id="0x000028b5" string="Мое избранное"/>
+<text id="0x00002972" string="Подождите"/>
+<text id="0x00002a05" string="режим  "/>
+<text id="0x00002a1a" string="Входящ."/>
+<text id="0x00002a2f" string="Новое сообщен."/>
+<text id="0x00002a44" string="Просм."/>
+<text id="0x00002a59" string="Прослу."/>
+<text id="0x00002a6e" string="Нет сообщений"/>
+<text id="0x00002a83" string="Да "/>
+<text id="0x00002a98" string="Нет"/>
+<text id="0x00002aad" string="ОК"/>
+<text id="0x00002ac2" string="Я не могу сейчас говорить."/>
+<text id="0x00002ad7" string="Позвоните мне."/>
+<text id="0x00002aec" string="Я позвоню вам позднее."/>
+<text id="0x00002b01" string="Я в пути."/>
+<text id="0x00002b16" string="Спасибо"/>
+<text id="0x00002b2b" string="Я опоздаю."/>
+<text id="0x00002b40" string="Я опоздаю на %s минут."/>
+<text id="0x00002b55" string="Увидимся через %s минут."/>
+<text id="0x00002b6a" string="Стою в пробке."/>
+<text id="0x00002b7f" string="Начинайте без меня."/>
+<text id="0x00002b94" string="Где вы?"/>
+<text id="0x00002ba9" string="Вы уже там?"/>
+<text id="0x00002bbe" string="Мне нужны указания."/>
+<text id="0x00002bd3" string="Я заблудился."/>
+<text id="0x00002be8" string="Увидимся позже."/>
+<text id="0x00002bfd" string="Я приеду через %s минут."/>
+<text id="0x00002c12" string="Я опоздаю на %s минут."/>
+<text id="0x00002c27" string="Обмен сообщениями"/>
+<text id="0x00002c3c" string="Входящие"/>
+<text id="0x00002c51" string="Новое сообщение"/>
+<text id="0x00002c66" string="Отмена"/>
+<text id="0x00002c7b" string="Выбрать"/>
+<text id="0x00002c90" string="Мобил."/>
+<text id="0x00002ca5" string="Избранное"/>
+<text id="0x00002cba" string="Ном. наб."/>
+<text id="0x00002ccf" string="Отправить:"/>
+<text id="0x00002ce4" string="Позв."/>
+<text id="0x00002cf9" string="Пересл."/>
+<text id="0x00002d0e" string="Входящие"/>
+<text id="0x00002d23" string="Просл."/>
+<text id="0x00002d38" string="Ответ."/>
+<text id="0x00002d4d" string="Отмена"/>
+<text id="0x00002d62" string="Отправ."/>
+<text id="0x00002d77" string="Сообщение на: %s"/>
+<text id="0x00002d8c" string="Текстовое сообщение"/>
+<text id="0x00002da1" string="Отправка сообщения…"/>
+<text id="0x00002db6" string="Отправка прошла успешно."/>
+<text id="0x00002dcb" string="Ошибка при отправке сообщения."/>
+<text id="0x00002de0" string="Отключить телеф."/>
+<text id="0x00002df5" string="Сделать избран."/>
+<text id="0x00002e0a" string="Удалить телефон"/>
+<text id="0x00002e1f" string="Вариан."/>
+<text id="0x00002e34" string="Подключить тел."/>
+<text id="0x00002e49" string="Скопировано в избранное"/>
+<text id="0x00002e5e" string="Копировать в избранное"/>
+<text id="0x00002e73" string=" телефонная книга"/>
+<text id="0x00002e88" string="Выбер. абонен. д/изменения"/>
+<text id="0x00002e9d" string="Выбер. абонента д/избранного"/>
+<text id="0x00002eb2" string="Мобильный"/>
+<text id="0x00002ec7" string="Выбер. контактн. ном. для избран."/>
+<text id="0x00002edc" string="Сведения об абоненте"/>
+<text id="0x00002ef1" string="Вариан."/>
+<text id="0x00002f06" string="Мобил."/>
+<text id="0x00002f1b" string="Отмена"/>
+<text id="0x00002f30" string="Поиск"/>
+<text id="0x00002f45" string="Добавить с моб."/>
+<text id="0x00002f5a" string="Добавить в избран."/>
+<text id="0x00002f6f" string="Добавить в избран. навигации"/>
+<text id="0x00002f84" string="Удал. из избран."/>
+<text id="0x00002f99" string="Позв."/>
+<text id="0x00002fae" string="Выбр."/>
+<text id="0x00002fc3" string="Ð ÑƒÑÑÐºÐ¸Ð¹ ÑÐ·Ñ‹Ðº"/>
+<text id="0x00002fd8" string="Английский"/>
+<text id="0x00002fed" string="К ABC"/>
+<text id="0x00003002" string="Жанры"/>
+<text id="0x00003017" string="Подкасты"/>
+<text id="0x0000302c" string="Эл. книга"/>
+<text id="0x00003041" string="Исполнители"/>
+<text id="0x00003056" string="Сп. воспр."/>
+<text id="0x0000306b" string="Комп-и"/>
+<text id="0x00003080" string="Альбом"/>
+<text id="0x00003095" string="ABC"/>
+<text id="0x000030aa" string="Поиск"/>
+<text id="0x000030bf" string="Исполнит."/>
+<text id="0x000030d4" string="Сп. воспр."/>
+<text id="0x000030e9" string="Композиции"/>
+<text id="0x000030fe" string="Альбомы"/>
+<text id="0x00003113" string="Жанры"/>
+<text id="0x00003128" string="Подкасты"/>
+<text id="0x0000313d" string="Аудиокниги"/>
+<text id="0x00003152" string="Карта SD"/>
+<text id="0x00003167" string="Другое"/>
+<text id="0x0000317c" string="Папки"/>
+<text id="0x00003191" string="Все альбомы"/>
+<text id="0x000031a6" string="Все композиции"/>
+<text id="0x000031bb" string="Все исполнители"/>
+<text id="0x000031d0" string="Важно:"/>
+<text id="0x000031e5" string="Всегда соблюдайте правила движения и следите за дорогой. Во&#xA;время движения транспортного средства некоторые функции &#xA;ограничены. Подробнее см. в руководстве владельца."/>
+<text id="0x000031fa" string="LO"/>
+<text id="0x0000320f" string="HI"/>
+<text id="0x00003224" string="Принять"/>
+<text id="0x00003239" string="загрузка…"/>
+<text id="0x0000324e" string="Водитель"/>
+<text id="0x00003263" string="Пассажир"/>
+<text id="0x00003278" string="Задний климат Off"/>
+<text id="0x0000328d" string="Задний ВКЛ."/>
+<text id="0x000032a2" string="ПЕРЕД. КОНД."/>
+<text id="0x000032b7" string="БЛОК. ЗАДН."/>
+<text id="0x000032cc" string="ЗАДН. АВТ"/>
+<text id="0x00003320" string="ПЕРЕД. КОНД."/>
+<text id="0x00003335" string="БЛОК. ЗАД."/>
+<text id="0x0000334a" string="ЗАДН. АВТ"/>
+<text id="0x0000335f" string="Вкл."/>
+<text id="0x00003374" string="Задняя"/>
+<text id="0x00003389" string="Выкл. кондиц."/>
+<text id="0x0000339e" string="Задняя контроля воздуха"/>
+<text id="0x000033b3" string="СИНХ."/>
+<text id="0x000033c8" string="Задний OTK"/>
+<text id="0x000033dd" string="ВЫКЛ."/>
+<text id="0x000033f2" string="АВТО"/>
+<text id="0x00003407" string="ПЕРЕДН"/>
+<text id="0x0000341c" string="Задняя контроля"/>
+<text id="0x00003431" string="B."/>
+<text id="0x00003446" string="H."/>
+<text id="0x0000345b" string="АВТО"/>
+<text id="0x00003470" string="OTK"/>
+<text id="0x00003485" string="Выполняется обновление ПО. Подождите…"/>
+<text id="0x0000349a" string="USB содержит обновление ПО.&#xA;Выполняется аутентификация…"/>
+<text id="0x000034af" string="Изображение правильно и готов к установке.&#xA;Обновление %s %s от %s до %s?"/>
+<text id="0x000034c4" string="Система перезагружается... &#xA;При сохранении данных перезагрузка может занять до 35 секунд."/>
+<text id="0x000034d9" string="Ошибка"/>
+<text id="0x000034ee" string="C"/>
+<text id="0x00003503" string="ю"/>
+<text id="0x00003518" string="В"/>
+<text id="0x0000352d" string="З"/>
+<text id="0x00003542" string="Добавить в избр."/>
+<text id="0x00003557" string="Удалить из избр."/>
+<text id="0x0000356c" string="Места назн."/>
+<text id="0x00003581" string="Редакт. название"/>
+<text id="0x00003596" string="Показ. карту"/>
+<text id="0x000035ab" string="Избег. улицы"/>
+<text id="0x000035c0" string="Номер телеф."/>
+<text id="0x000035d5" string="Вверх"/>
+<text id="0x000035ea" string="Вниз"/>
+<text id="0x000035ff" string="Тел. книга"/>
+<text id="0x00003614" string="Куда?"/>
+<text id="0x00003629" string="Текущ. местопол."/>
+<text id="0x0000363e" string="Самый быстрый"/>
+<text id="0x00003653" string="Самый короткий"/>
+<text id="0x00003668" string="Экономичный"/>
+<text id="0x0000367d" string="Туда и обр"/>
+<text id="0x00003692" string="Удал. дом."/>
+<text id="0x000036a7" string="Изм. назв."/>
+<text id="0x000036bc" string="Время прибытия"/>
+<text id="0x000036d1" string="время до пункта"/>
+<text id="0x000036e6" string="Расст."/>
+<text id="0x000036fb" string="Отключено"/>
+<text id="0x00003710" string="2Д"/>
+<text id="0x00003725" string="3Д"/>
+<text id="0x0000373a" string="На север"/>
+<text id="0x0000374f" string="По направ."/>
+<text id="0x00003764" string="Воткнуть булавку"/>
+<text id="0x00003779" string="Убр. булав."/>
+<text id="0x0000378e" string="OTK"/>
+<text id="0x000037a3" string="Автомат."/>
+<text id="0x000037b8" string="Ручной"/>
+<text id="0x000037cd" string="По врем. задерж."/>
+<text id="0x000037e2" string="Варианты"/>
+<text id="0x000037f7" string="Избегать"/>
+<text id="0x0000380c" string="Сохранить"/>
+<text id="0x00003821" string="Карта"/>
+<text id="0x00003836" string="GPS"/>
+<text id="0x0000384b" string="Задержка"/>
+<text id="0x00003860" string="Избранное"/>
+<text id="0x00003875" string="Все"/>
+<text id="0x0000388a" string="Помощь"/>
+<text id="0x0000389f" string="информация"/>
+<text id="0x000038b4" string="Другое"/>
+<text id="0x000038c9" string="Общест."/>
+<text id="0x000038de" string="Инстр-ы"/>
+<text id="0x000038f3" string="Музыка"/>
+<text id="0x00003908" string="Сортиров. по имени"/>
+<text id="0x0000391d" string="Сорт. по недав. использ."/>
+<text id="0x0000395c" string="инициализация..."/>
+<text id="0x00003971" string="остан."/>
+<text id="0x00003986" string="остановка…"/>
+<text id="0x0000399b" string="остановлен"/>
+<text id="0x000039c5" string="Выбрать новое Избр."/>
+<text id="0x000039da" string="Добавить нов. Избран."/>
+<text id="0x000039ef" string="Выбрать"/>
+<text id="0x00003a04" string="%s элементов в списке"/>
+<text id="0x00003a2e" string="Соединение"/>
+<text id="0x00003a43" string="Активное соединение"/>
+<text id="0x00003a82" string="Соединение Bluetooth"/>
+<text id="0x00003aac" string="Соединение установлено"/>
+<text id="0x00003ac1" string="Нет соединен."/>
+<text id="0x00003b93" string="Сделать избран."/>
+<text id="0x00003ba8" string="Удал. устройство"/>
+<text id="0x00003bbd" string="Разрешить информ. соед."/>
+<text id="0x00003be7" string="Установить информационное соединение"/>
+<text id="0x00003bfc" string="Разрешить на этом устройстве инфо. соед."/>
+<text id="0x00003c11" string="Проверить соединение"/>
+<text id="0x00003c26" string="Имя пользователя:"/>
+<text id="0x00003c50" string="Команды инициализации:"/>
+<text id="0x00003c8f" string="Добавить избранную сеть"/>
+<text id="0x00003d22" string="Пусто"/>
+<text id="0x00003d37" string="ОК"/>
+<text id="0x00003d4c" string="Да "/>
+<text id="0x00003d61" string="Нет  "/>
+<text id="0x00003d76" string="Загрузка "/>
+<text id="0x00003d8b" string="Вариан."/>
+<text id="0x00003da0" string="Парам-ры"/>
+<text id="0x00003ddf" string="Пароль"/>
+<text id="0x00003df4" string="Подождите."/>
+<text id="0x00003e09" string="Выполняется проверка соединения Bluetooth."/>
+<text id="0x00003e1e" string="Успешная проверка соединения Bluetooth:"/>
+<text id="0x00003e33" string="Проверка соединения Bluetooth не выполнена:"/>
+<text id="0x00003e48" string="Отмена"/>
+<text id="0x00003e72" string="Устройства "/>
+<text id="0x00003e87" string="Безоп-ть"/>
+<text id="0x00003e9c" string="Добавить"/>
+<text id="0x00003edb" string="Удалить"/>
+<text id="0x00003ef0" string="Метрич. (метр)"/>
+<text id="0x00003f05" string="США (миля/фут)"/>
+<text id="0x00003f1a" string="Британск. (миля/ярд)"/>
+<text id="0x00003f2f" string="Десятичная"/>
+<text id="0x00003f6e" string="Главное меню"/>
+<text id="0x00003f83" string="Куда?"/>
+<text id="0x00003f98" string="Посм. карту"/>
+<text id="0x00003fad" string="Информация"/>
+<text id="0x00003fc2" string="Экстр. пом."/>
+<text id="0x00003fd7" string="Повт."/>
+<text id="0x00003fec" string="Остановить"/>
+<text id="0x00004001" string="Объехать"/>
+<text id="0x00004016" string="настройки"/>
+<text id="0x0000402b" string="Адрес"/>
+<text id="0x00004040" string="Недавний"/>
+<text id="0x00004055" string="Точка интереса"/>
+<text id="0x0000406a" string="Перекресток"/>
+<text id="0x0000407f" string="Домой"/>
+<text id="0x00004094" string="Поездки"/>
+<text id="0x000040a9" string="Гео.Kоорд-ты"/>
+<text id="0x000040be" string="Тчк на карте"/>
+<text id="0x000040d3" string="Центр города"/>
+<text id="0x000040e8" string="Ближ. город"/>
+<text id="0x000040fd" string="Траект. движ."/>
+<text id="0x00004112" string="Номер телеф."/>
+<text id="0x00004127" string="Избранное"/>
+<text id="0x0000413c" string="Дор.движение"/>
+<text id="0x00004151" string="Где я?"/>
+<text id="0x00004166" string="Кам. конт. скорости"/>
+<text id="0x0000417b" string="Бортов. комп."/>
+<text id="0x00004190" string="Задать дом. адрес"/>
+<text id="0x000041a5" string="Больница"/>
+<text id="0x000041ba" string="Полиц."/>
+<text id="0x000041cf" string="Пожарная сл."/>
+<text id="0x000041e4" string="Местоположение"/>
+<text id="0x000041f9" string="Произ. по бук"/>
+<text id="0x0000420e" string="Изменить область поиска"/>
+<text id="0x00004223" string="Навигация  "/>
+<text id="0x00004238" string="Вокруг меня"/>
+<text id="0x0000424d" string="В городе"/>
+<text id="0x00004262" string="Рядом пунктом назнач."/>
+<text id="0x00004277" string="По маршруту"/>
+<text id="0x0000428c" string="Точки интереса в %s"/>
+<text id="0x000042a1" string="Точки интереса вокруг меня"/>
+<text id="0x000042b6" string="Точки интереса рядом с пунктом назначения"/>
+<text id="0x000042cb" string="Точки интереса по маршруту"/>
+<text id="0x000042e0" string="Введите адрес"/>
+<text id="0x000042f5" string="Город по буквам"/>
+<text id="0x0000430a" string="заклинание улице"/>
+<text id="0x0000431f" string="Измените регион, страну"/>
+<text id="0x00004334" string="Измените штат, страну"/>
+<text id="0x00004349" string="Введите перекресток"/>
+<text id="0x0000435e" string="заклинание пересечения"/>
+<text id="0x00004373" string="Выберите страну"/>
+<text id="0x00004388" string="Выберите для %s регион"/>
+<text id="0x0000439d" string="Выбер. для %s штат"/>
+<text id="0x000043b2" string="Выбер.город"/>
+<text id="0x000043c7" string="Выберите улицу"/>
+<text id="0x000043dc" string="Выбер. перекресток"/>
+<text id="0x000043f1" string="Выберите страну."/>
+<text id="0x00004406" string="Избегать"/>
+<text id="0x0000441b" string="Платные дороги"/>
+<text id="0x00004430" string="Туннели"/>
+<text id="0x00004445" string="Переезды"/>
+<text id="0x0000445a" string="Немощеная"/>
+<text id="0x0000446f" string="Поезда"/>
+<text id="0x00004484" string="Впереди пробка"/>
+<text id="0x00004499" string="Маневры"/>
+<text id="0x000044ae" string="Остановить прокладыван. маршрута к:"/>
+<text id="0x000044c3" string="ОСТАНОВИТЬ ВСЕ"/>
+<text id="0x000044d8" string="Недав. пункты назн. "/>
+<text id="0x00004502" string="Добавить избранное"/>
+<text id="0x00004517" string="Выбрать полож. пункта назн."/>
+<text id="0x0000452c" string="Добавить пункт назначения"/>
+<text id="0x00004541" string="Отменить предыдущий маршрут"/>
+<text id="0x00004556" string="Добавить первый пункт назначения"/>
+<text id="0x0000456b" string="Добавить остановку в пути"/>
+<text id="0x00004580" string="Добавить последний пункт назначения"/>
+<text id="0x00004595" string="Добавить здесь"/>
+<text id="0x000045aa" string="Заменить пункт назн."/>
+<text id="0x000045bf" string="Подтвердить пункт назначения"/>
+<text id="0x000045d4" string="Пункт назначения"/>
+<text id="0x000045e9" string="Достигнут пункт назначения"/>
+<text id="0x000045fe" string="Ввод"/>
+<text id="0x00004613" string="НЕУДАЧА"/>
+<text id="0x00004628" string="Сохр. пункт назн. как"/>
+<text id="0x0000463d" string="Пункт назначения, распознанный в речи"/>
+<text id="0x00004652" string="Сохр. как избран."/>
+<text id="0x00004667" string="Введите улицу"/>
+<text id="0x0000467c" string="Введите номер дома"/>
+<text id="0x00004691" string="Введите город"/>
+<text id="0x000046a6" string="Введите регион"/>
+<text id="0x000046bb" string="Введите штат"/>
+<text id="0x000046d0" string="Введите страну"/>
+<text id="0x000046e5" string="Введите имя"/>
+<text id="0x000046fa" string="Введи название перекрестка"/>
+<text id="0x0000470f" string="Введите имя для избранного"/>
+<text id="0x00004724" string="Введите номер телефона"/>
+<text id="0x00004739" string="Введите время задержки TMC"/>
+<text id="0x0000474e" string="Введите ограничение скорости"/>
+<text id="0x00004763" string="Введите широту"/>
+<text id="0x00004778" string="Введите долготу"/>
+<text id="0x0000478d" string="Меню"/>
+<text id="0x000047a2" string="ETA"/>
+<text id="0x000047b7" string="Оставш."/>
+<text id="0x000047cc" string="Расстояние"/>
+<text id="0x000047e1" string="Список"/>
+<text id="0x000047f6" string="Пропуст."/>
+<text id="0x0000480b" string="Формат"/>
+<text id="0x00004820" string="инфо"/>
+<text id="0x00004835" string="Предыдущ"/>
+<text id="0x0000484a" string="Следующий"/>
+<text id="0x0000485f" string="Принять"/>
+<text id="0x00004874" string="Отклонить"/>
+<text id="0x00004889" string="Предв."/>
+<text id="0x0000489e" string="Поиск категории"/>
+<text id="0x000048b3" string="По категории"/>
+<text id="0x000048c8" string="Создать новую поездку"/>
+<text id="0x000048dd" string="Задать имя поезд"/>
+<text id="0x000048f2" string="Изменить имя поездки"/>
+<text id="0x00004907" string="Установка карты"/>
+<text id="0x0000491c" string="Ограничение скорости"/>
+<text id="0x00004931" string="Руководство"/>
+<text id="0x00004946" string="Компоненты"/>
+<text id="0x0000495b" string="Просмотр карты"/>
+<text id="0x00004970" string="Ориентация"/>
+<text id="0x00004985" string="Вид карты"/>
+<text id="0x0000499a" string="Текущая улица"/>
+<text id="0x000049af" string="Улица для маневра"/>
+<text id="0x000049c4" string="Показать значки точек интереса"/>
+<text id="0x000049d9" string="Список значков точек интереса&#xA;"/>
+<text id="0x000049ee" string="Скорость и поток"/>
+<text id="0x00004a03" string="Случаи TMC"/>
+<text id="0x00004a18" string="Трехмерные модели городов"/>
+<text id="0x00004a2d" string="Трехмерные достопримечательности"/>
+<text id="0x00004a42" string="Цифровая модель местности"/>
+<text id="0x00004a57" string="Значок транспортного средства"/>
+<text id="0x00004a6c" string="Воспр. голосовые подсказки"/>
+<text id="0x00004a81" string="Рекомендации по полосе движения"/>
+<text id="0x00004a96" string="Указательный столб"/>
+<text id="0x00004aab" string="Отображение пересечения дорог"/>
+<text id="0x00004ac0" string="Режим маршрута TMC"/>
+<text id="0x00004ad5" string="Типы уклонения TMC"/>
+<text id="0x00004aea" string="Время задержки"/>
+<text id="0x00004aff" string="Показ камер на карте."/>
+<text id="0x00004b14" string="Сообщ. об огранич. скорости"/>
+<text id="0x00004b29" string="Бортовой компьютер"/>
+<text id="0x00004b3e" string="Направление движения"/>
+<text id="0x00004b53" string="Расстояние до конец пункта назначения"/>
+<text id="0x00004b68" string="Скорость транспортного средства"/>
+<text id="0x00004b7d" string="Пройденное расстояние"/>
+<text id="0x00004b92" string="Общая средн. скорость"/>
+<text id="0x00004ba7" string="Скользящая средняя скорость"/>
+<text id="0x00004bbc" string="Максимальная достигнутая скорость"/>
+<text id="0x00004bd1" string="Общее время в пути"/>
+<text id="0x00004c10" string="Интенсивность дорожного движения"/>
+<text id="0x00004c25" string="Аварии"/>
+<text id="0x00004c3a" string="Закрытые дороги"/>
+<text id="0x00004c4f" string="Ограничения по полосе движения"/>
+<text id="0x00004c64" string="ДТП"/>
+<text id="0x00004c79" string="Подробнее о ситуации на дороге"/>
+<text id="0x00004c8e" string="Начать запись траектории движения"/>
+<text id="0x00004ca3" string="Закончить запись траектории движения"/>
+<text id="0x00004cb8" string="Траектории движения"/>
+<text id="0x00004ccd" string="Неверный код активации"/>
+<text id="0x00004ce2" string="Повторить попытку?"/>
+<text id="0x00004cf7" string="Срок события истек"/>
+<text id="0x00004d0c" string="Предварит. просмотр маршрута TMC"/>
+<text id="0x00004d21" string="Нет"/>
+<text id="0x00004d36" string="Обновление навигационной базы данных"/>
+<text id="0x00004d4b" string="Широта"/>
+<text id="0x00004d60" string="Долгота"/>
+<text id="0x00004d75" string="Высота"/>
+<text id="0x00004d8a" string="Точность"/>
+<text id="0x00004d9f" string="Техническое меню"/>
+<text id="0x00004db4" string="Режим дилера"/>
+<text id="0x00004dc9" string="Системная информация"/>
+<text id="0x00004dde" string="Информация о радио"/>
+<text id="0x00004df3" string="База данных по картам"/>
+<text id="0x00004e08" string="Номер компонента оборудования"/>
+<text id="0x00004e1d" string="Версия программного обеспечения"/>
+<text id="0x00004e32" string="Серийный номер"/>
+<text id="0x00004e47" string="Версия EQ"/>
+<text id="0x00004e5c" string="Встроенное ПО тюнера HD"/>
+<text id="0x00004eda" string="Информация о встроенном сотовом телефоне"/>
+<text id="0x00004eef" string="Информация о телефоне"/>
+<text id="0x00004f04" string="Порты USB"/>
+<text id="0x00004f19" string="Темпер. PA телефона"/>
+<text id="0x00004f2e" string="Темпер. PMIC телефона"/>
+<text id="0x00004f43" string="Температура OMAP"/>
+<text id="0x00004f58" string="Температура канала 1 аудио IC"/>
+<text id="0x00004f6d" string="Температура канала 2 аудио IC"/>
+<text id="0x00004f82" string="Температура термистора"/>
+<text id="0x00004f97" string="Макс"/>
+<text id="0x00004fac" string="Параметры регистрации"/>
+<text id="0x00004fc1" string="Монитор трассировки Dbus"/>
+<text id="0x00004fd6" string="Все трассировки - включить"/>
+<text id="0x00004feb" string="Все трассировки - выключить"/>
+<text id="0x00005000" string="Установлен"/>
+<text id="0x00005015" string="Установка не состоялась"/>
+<text id="0x0000502a" string="Установка…"/>
+<text id="0x0000503f" string="Деинсталляция…"/>
+<text id="0x00005054" string="Повторная установка..."/>
+<text id="0x0000507e" string="Информация GPS"/>
+<text id="0x00005093" string="Сведения о версии"/>
+<text id="0x000050a8" string="Адрес IP"/>
+<text id="0x000050bd" string="Информация о рабочих характ-х"/>
+<text id="0x000050d2" string="Навигация в демонстрационном режиме"/>
+<text id="0x000050e7" string="Истек срок лицензии на навигационную БД"/>
+<text id="0x00005111" string="Обновление Sierra Wireless"/>
+<text id="0x00005126" string="Подключить QXDM"/>
+<text id="0x0000513b" string="Включить AntiTheft"/>
+<text id="0x00005150" string="Информация о встроенном сотовом телефоне"/>
+<text id="0x0000517a" string="Режим проверки Bluetooth"/>
+<text id="0x0000518f" string="Воспр. рук. польз."/>
+<text id="0x000051b9" string="Эхо сенсорного экрана"/>
+<text id="0x000051ce" string="Трассировки навигации"/>
+<text id="0x000051e3" string="Тест белого экрана"/>
+<text id="0x000051f8" string="Температурные данные"/>
+<text id="0x0000520d" string="Экспонента"/>
+<text id="0x00005222" string="Номер"/>
+<text id="0x00005237" string="Версия системы"/>
+<text id="0x00005261" string="Температурный статус Ecell"/>
+<text id="0x00005276" string="Усилитель мощности ECell (внутренний)"/>
+<text id="0x0000528b" string="Телефон ECell (внутренний)"/>
+<text id="0x000052a0" string="ECell (термистор)"/>
+<text id="0x000052b5" string="OMAP (внутрен.)"/>
+<text id="0x000052ca" string="OMAP (термистор)"/>
+<text id="0x000052df" string="Драйвер дисплея (термистор)"/>
+<text id="0x000052f4" string="Задняя подсветка дисплея (термистор)"/>
+<text id="0x00005309" string="GYRO (внутренний)"/>
+<text id="0x0000531e" string="IC усилит. мощн. (внутр.)"/>
+<text id="0x00005333" string="НАЖМ. ДЛЯ ОЧИСТКИ ЖУРНАЛА ТЕМ-Р"/>
+<text id="0x00005348" string="Темп"/>
+<text id="0x0000535d" string="AMP в ПЛОХОМ состоянии"/>
+<text id="0x00005372" string="AMP в ХОРОШЕМ состоянии"/>
+<text id="0x0000539c" string="Показ. карту"/>
+<text id="0x000053b1" string="Авт.в центр карты"/>
+<text id="0x0000541a" string="Глоссар."/>
+<text id="0x00005723" string="Разрешить соедин. BT"/>
+<text id="0x00005777" string="Соединение Bluetooth соединяет транспортное средство с интернетом с помощью устройства Bluetooth, позволяющего вводить данные."/>
+<text id="0x000057a1" string="Остановить руководство?"/>
+<text id="0x000057b6" string="Сохранить текущее местоположение как избранное?"/>
+<text id="0x000057cb" string="Повторить попытку?"/>
+<text id="0x000057e0" string="Войти сейчас?"/>
+<text id="0x0000580a" string="Удалить эту поездку?"/>
+<text id="0x0000581f" string="Удалить все поездки?"/>
+<text id="0x00005834" string="Удалить этот пункт назначения?"/>
+<text id="0x00005849" string="Удалить все пункты назначения?"/>
+<text id="0x0000585e" string="Хотите использовать альтернативный маршрут?"/>
+<text id="0x00005873" string="Хотите удалить свой домашний адрес?"/>
+<text id="0x00005888" string="Копировать информацию устройства на USB?"/>
+<text id="0x0000589d" string="Повторный расчет маршрута..."/>
+<text id="0x000058b2" string="Поиск %s"/>
+<text id="0x000058c7" string="Поиск %s в %s"/>
+<text id="0x000058dc" string="Не удается соединиться с %s"/>
+<text id="0x00005984" string="Еще не введено ни одного домашнего адреса."/>
+<text id="0x00005999" string="В экстренной ситуации прежде всего свяжитесь с медицинским учреждением, чтобы уточнить его доступность."/>
+<text id="0x000059ae" string="Будьте внимательны за рулем!"/>
+<text id="0x000059c3" string="Не удалось скопировать на USB инфо. по нав. базе данных!"/>
+<text id="0x000059d8" string="Инфо. по навигац. базе данных успешно скопирована на USB!"/>
+<text id="0x000059ed" string="Вы входите в область непроверенных картог. данных."/>
+<text id="0x00005a02" string="На вашем маршруте произошло ДТП."/>
+<text id="0x00005a17" string="Для активации навигации необходимо приобрести код активации."/>
+<text id="0x00005a2c" string="Нажмите ОК, чтобы ввести приобретенный код активации:"/>
+<text id="0x00005a41" string="Вы успешно активировали навигацию!"/>
+<text id="0x00005a56" string="Для продолжения заглушите мотор на 2 минуты."/>
+<text id="0x00005a6b" string="Подождите, чтобы ввести код активации повторно."/>
+<text id="0x00005a80" string="Во время движен. трансп. ср. клав. недоступна.&#xA;Нажмите '%s', чтобы принять текущ.ввод."/>
+<text id="0x00005ae9" string="Спаривание Bluetooth прошло успешно:"/>
+<text id="0x00005afe" string="Сделать это устройство избранным?"/>
+<text id="0x00005b13" string="Это устройство поддерживает телефон, аудио и данные"/>
+<text id="0x00005b28" string="Это устройство поддерживает телефон"/>
+<text id="0x00005b3d" string="Это устройство поддерживает аудио"/>
+<text id="0x00005b52" string="Это устройство поддерживает аудио и данные"/>
+<text id="0x00005b67" string="Обновление ПО"/>
+<text id="0x00005b7c" string="Ошибка обновления ПО!"/>
+<text id="0x00005b91" string="Обновление ПО выполнено"/>
+<text id="0x00005ba6" string="Ожидание устройства USB"/>
+<text id="0x00005bbb" string="Извлеките устройство USB"/>
+<text id="0x00005bd0" string="Имя компонента :"/>
+<text id="0x00005be5" string="Номер компонента :"/>
+<text id="0x00005bfa" string="Общее количество компонентов :"/>
+<text id="0x00005c0f" string="Процент готовности компонента :"/>
+<text id="0x00005c24" string="Процент общей готовности :"/>
+<text id="0x00005c39" string="Приб."/>
+<text id="0x00005c4e" string="Установить соединение Bluetooth"/>
+<text id="0x00005ca2" string="Автомагистрали"/>
+<text id="0x00005cb7" string="Точки интереса на карте"/>
+<text id="0x00005ccc" string="Неопределенный"/>
+<text id="0x00005ce1" string="Маршр. с начала"/>
+<text id="0x00005cf6" string="Маршр. с конца"/>
+<text id="0x00005d0b" string="Удалить эту траекторию движения?"/>
+<text id="0x00005d20" string="Удалить все траектории движения?"/>
+<text id="0x00005d35" string="Удалить этот пункт назначения?"/>
+<text id="0x00005d4a" string="Удалить все пункты назначения?"/>
+<text id="0x00005d5f" string="Подтвердите траекторию движения"/>
+<text id="0x00005d74" string="пробел"/>
+<text id="0x00005d89" string="Введите название траект. движ."/>
+<text id="0x00005d9e" string="Переим. траекторию движения"/>
+<text id="0x00005db3" string="Копирование информации навигационной базы данных."/>
+<text id="0x00005dc8" string="Список станций"/>
+<text id="0x00005ddd" string="Поиск станции"/>
+<text id="0x00005e31" string="Парам. водителя"/>
+<text id="0x00005e46" string="Сохранение параметров водителя %s..."/>
+<text id="0x00005e5b" string="Восстановление параметров водителя %s..."/>
+<text id="0x00005e70" string="Создать сообщ. с пом. функции речи"/>
+<text id="0x00005e85" string="Выбрать новое сообщение из списка"/>
+<text id="0x00005e9a" string="Голос. подсказ."/>
+<text id="0x00005eaf" string="Список повор."/>
+<text id="0x00005ec4" string="Останов. рук-во"/>
+<text id="0x000065d2" string="Произнесите название страны."/>
+<text id="0x000072dd" string="Регулир. громкости навиг"/>
+<text id="0x00007331" string="Автозаправ. станции"/>
+<text id="0x00007346" string="Рестораны"/>
+<text id="0x0000735b" string="Отели/мотели"/>
+<text id="0x00007370" string="ATM/банки"/>
+<text id="0x00007385" string="Все ТИ"/>
+<text id="0x0000739a" string="%s категорий"/>
+<text id="0x000073d9" string="Возврат к значен.&#xA;по умолчанию"/>
+<text id="0x000073ee" string="Не задано никакого избранного значения."/>
+<text id="0x00007403" string="Изменить это&#xA;значение на значение по умолчанию?"/>
+<text id="0x00007418" string="Пытаетесь соединиться с телефоном?&#xA;(Аудио Bluetooth будет приостановлено)"/>
+<text id="0x0000742d" string="Нет подключ. телефонов."/>
+<text id="0x00007442" string="Спарить телефон?"/>
+<text id="0x00007457" string="Это устройство поддерживает телефон и аудио"/>
+<text id="0x0000746c" string="Это устройство поддерживает телефон и данные"/>
+<text id="0x00007481" string="Инициал. ..."/>
+<text id="0x00007496" string="Загрузка..."/>
+<text id="0x000074ab" string="Запуск…"/>
+<text id="0x000074d5" string="Это устройство поддерживает данные."/>
+<text id="0x000074ea" string="Родительск. контроль"/>
+<text id="0x000074ff" string="Парк. зоны"/>
+<text id="0x00007514" string="Железные дороги"/>
+<text id="0x00007529" string="Город. тер."/>
+<text id="0x0000753e" string="Названия рек"/>
+<text id="0x00007553" string="Аудио Bluetooth"/>
+<text id="0x00007568" string="Аудио Bluetooth недоступно на&#xA;выбранном устройстве, а порт&#xA;USB используется."/>
+<text id="0x0000763a" string="Для активации навигации необходимо приобрести код&#xA;активации. Обратитесь к %s."/>
+<text id="0x0000764f" string="Нажмите ОК, чтобы ввести приобретенный код активации:"/>
+<text id="0x00007664" string="Неверный код активации.&#xA;&#xA;Повторить попытку?"/>
+<text id="0x00007679" string="Вы успешно активировали навигацию!"/>
+<text id="0x0000768e" string="Подождите, чтобы повторно ввести код активации."/>
+<text id="0x000076a3" string="Подождите, пока идет проверка кода активации."/>
+<text id="0x000076b8" string="Сохранить как поездку"/>
+<text id="0x000076cd" string="Альтернативные маршруты"/>
+<text id="0x000076e2" string="Загрузка телефонной книги"/>
+<text id="0x0000770c" string="Прил"/>
+<text id="0x00007721" string="Медиа"/>
+<text id="0x00007808" string="Навигация активируется."/>
+<text id="0x0000781d" string="Тип"/>
+<text id="0x0000785c" string="Загрузка системы громкой связи."/>
+<text id="0x000079eb" string="Повторная попытка…"/>
+<text id="0x00007a54" string="Обновление телефонной книги…"/>
+<text id="0x00007a69" string="Изменить номер"/>
+<text id="0x00007a7e" string="Помощь в буксир."/>
+<text id="0x00007abd" string="Все дорожн. движ."/>
+<text id="0x00007ad2" string="Движ. на маршруте"/>
+<text id="0x00007ae7" string="Проверить все окрестности"/>
+<text id="0x00007afc" string="Вставить диск"/>
+<text id="0x00007b11" string="Подключать"/>
+<text id="0x00007b26" string="Вставить карту SD"/>
+<text id="0x00007b3b" string="Загрузка медиа"/>
+<text id="0x00007b50" string="Чтение медиа"/>
+<text id="0x00007b65" string="Дорожка"/>
+<text id="0x00007b7a" string="О HD BER"/>
+<text id="0x00007b8f" string="Блокировка скорости:"/>
+<text id="0x00007ba4" string="Инструм. НАВ."/>
+<text id="0x00007bb9" string="Заменить тему: "/>
+<text id="0x00007bce" string="Текущая тема:"/>
+<text id="0x00007be3" string="Свободная память:"/>
+<text id="0x00007bf8" string="Загрузка ЦП:"/>
+<text id="0x00007c0d" string=""/>
+<text id="0x00007c22" string="Аудио перенесено"/>
+<text id="0x00007c37" string="Перенесено на телефон"/>
+<text id="0x00007c4c" string="Поиск в %s"/>
+<text id="0x00007c61" string="Доступна система громкой связи"/>
+<text id="0x00007c76" string="Во время движения транспортного средства&#xA;функция недоступна. Чтобы отправить сообщение, &#xA;нажмите на рулевом колесе кнопку телефона."/>
+<text id="0x00007c8b" string="Активировать навигацию"/>
+<text id="0x00007ca0" string="Маршрут  "/>
+<text id="0x00007cb5" string="(неизвестно)"/>
+<text id="0x00007cca" string="Без имени"/>
+<text id="0x00007cf4" string="Запуст."/>
+<text id="0x00007d09" string="Магазин"/>
+<text id="0x00007d1e" string="Освобод."/>
+<text id="0x00007d33" string="Зарегист."/>
+<text id="0x00007d48" string="Пропуст."/>
+<text id="0x00007d5d" string="Игнорир."/>
+<text id="0x00007e05" string="Выбранную дорожку нельзя воспроизв."/>
+<text id="0x00007e44" string="Распознавание голоса недоступно"/>
+<text id="0x00007e6e" string="Установить радио"/>
+<text id="0x00007e83" string="Объявление о состоянии на дороге"/>
+<text id="0x00007ec2" string="   сидений при запуске двигателя"/>
+<text id="0x00007ed7" string="Автоматическое Драйвер с подогревом"/>
+<text id="0x00007eec" string="Автом. Pулевого колеса и Драйвер с подогревом "/>
+<text id="0x00007f01" string="Автом. подогрева/вентиляции водительского"/>
+<text id="0x00007f55" string="Новое текстовое сообщение."/>
+<text id="0x00007f6a" string="Новое текстовое сообщение от %s."/>
+<text id="0x00007f7f" string="Нет недав. звонков"/>
+<text id="0x00007f94" string="Удержание вызова"/>
+<text id="0x00007fd3" string="Диск нагрелся."/>
+<text id="0x00007fe8" string="Подождите, пока он остынет."/>
+<text id="0x00007ffd" string="Не удается прочитать диск."/>
+<text id="0x00008012" string="Ошибка чтения диска"/>
+<text id="0x00008027" string="На диске нет поддерживаемых файлов."/>
+<text id="0x0000803c" string="Ошибка диска"/>
+<text id="0x00008051" string="Ошибка области"/>
+<text id="0x00008066" string="Неверная область DVD"/>
+<text id="0x0000807b" string="Запуск магазина"/>
+<text id="0x000081a1" string="Телефон недоступен."/>
+<text id="0x000081e0" string="Отправлено моим %s."/>
+<text id="0x000081f5" string="Устройство испорчена"/>
+<text id="0x0000820a" string="Дорожка испорчена"/>
+<text id="0x0000821f" string="Нет подключенного аудиоустройства Bluetooth."/>
+<text id="0x00008234" string="Нет аудиоустройства Bluetooth"/>
+<text id="0x00008249" string="Спарить устройство?"/>
+<text id="0x00008273" string="Устан."/>
+<text id="0x000082b2" string="нормал."/>
+<text id="0x000082c7" string="АвтоMасшт."/>
+<text id="0x000082dc" string="Границы"/>
+<text id="0x000082f1" string="За пределом"/>
+<text id="0x00008306" string="Введите регион для"/>
+<text id="0x0000831b" string="Введите штат для"/>
+<text id="0x00008330" string="Ограничение скорости предупреждение"/>
+<text id="0x00008345" string="Ограничение скорости предупреждение"/>
+<text id="0x0000835a" string="Скорость оповещения смещение"/>
+<text id="0x00008384" string="У вас %s новых текстовых сообщений."/>
+<text id="0x00008399" string="Подкл. устройство"/>
+<text id="0x000083ae" string="Отключить устройство"/>
+<text id="0x000083c3" string="Проверка антенны"/>
+<text id="0x000083d8" string="Проверьте тюнер"/>
+<text id="0x000083ed" string="См. дилеру для обслуживания"/>
+<text id="0x00008402" string="Не Доступный"/>
+<text id="0x000086f6" string="CЗ"/>
+<text id="0x0000870b" string="CВ"/>
+<text id="0x00008720" string="юЗ"/>
+<text id="0x00008735" string="юВ"/>
+<text id="0x00009065" string="Нет доступных медиа устройств"/>
+<text id="0x000096a1" string="Свет. сигнал при спуске трансп. средства"/>
+<text id="0x000096b6" string="Звуков. сигнал при спуске трансп. средства"/>
+<text id="0x000096cb" string="Сообщения о подвеске"/>
+<text id="0x000096e0" string="Аэродинамический Режим"/>
+<text id="0x000096f5" string="Режим домкрата"/>
+<text id="0x0000970a" string="Режим транспортировки"/>
+<text id="0x0000971f" string="Режим регулировки углов установки колес"/>
+<text id="0x00009734" string="Подвеска"/>
+<text id="0x00009749" string="Подвеска"/>
+<text id="0x0000975e" string="Тормоз прицепа"/>
+<text id="0x00009773" string="Тормоз прицепа"/>
+<text id="0x00009788" string="Прицеп 1"/>
+<text id="0x0000979d" string="Прицеп 2"/>
+<text id="0x000097b2" string="Прицеп 3"/>
+<text id="0x000097c7" string="Прицеп 4"/>
+<text id="0x000097dc" string="Прицеп 1"/>
+<text id="0x000097f1" string="Прицеп 2"/>
+<text id="0x00009806" string="Прицеп 3"/>
+<text id="0x0000981b" string="Прицеп 4"/>
+<text id="0x00009830" string="Использовать этот прицеп"/>
+<text id="0x00009845" string="Торможение"/>
+<text id="0x0000985a" string="Торможение"/>
+<text id="0x0000986f" string="Плавное Электр."/>
+<text id="0x00009884" string="Резкое Электр."/>
+<text id="0x00009899" string="Плавное электрическое плюс гидравлическ."/>
+<text id="0x000098ae" string="Резкое электрическое плюс гидравлическое"/>
+<text id="0x000098c3" string="с Электр./Гидро"/>
+<text id="0x000098d8" string="т Электр./Гидро"/>
+<text id="0x000098ed" string="текущий"/>
+<text id="0x000000ad" string="просм."/>
+<text id="0x00009cdd" string="Сложить&#xA;подгол."/>
+<text id="0x00009d31" string="Вспомог. вход"/>
+<text id="0x00009d46" string="Перед. cтолк-ие акт-ия торм-oв"/>
+<text id="0x00009d5b" string="Высоко"/>
+<text id="0x00009d70" string="Низко"/>
+<text id="0x00009d85" string="Сред."/>
+<text id="0x00009d9a" string="Предупр. перед. столкновения"/>
+<text id="0x00009daf" string="Гр. Парктр. Пер."/>
+<text id="0x00009dc4" string="Гр. Парктр. Зад."/>
+<text id="0x00009dee" string="см"/>
+<text id="0x00009eea" string="Открыто"/>
+<text id="0x00009eff" string="Закрыто"/>
+<text id="0x0000a36d" string="Вс."/>
+<text id="0x0000a382" string="Пн."/>
+<text id="0x0000a397" string="Вт."/>
+<text id="0x0000a3ac" string="Ср."/>
+<text id="0x0000a3c1" string="Чт."/>
+<text id="0x0000a3d6" string="Пт."/>
+<text id="0x0000a3eb" string="Сб."/>
+<text id="0x0000afa6" string="Замен. Любимые"/>
+<text id="0x0000afbb" string="Перейт. к избр."/>
+<text id="0x0000b078" string=","/>
+<text id="0x0000b08d" string="ParkSense"/>
+<text id="0x0000b0a2" string="Задержка камера задний ParkView"/>
+<text id="0x0000b0b7" string="Для выхода нажмите на экран"/>
+<text id="0x0000b1b3" string="Недоступен"/>
+<text id="0x0000b1c8" string="просмотреть"/>
+<text id="0x0000c436" string="Активная сетка задний камера ParkView&#xA;"/>
+<text id="0x0000c460" string="Исправлено сетка задний камера ParkView&#xA;"/>
+<text id="0x0000c475" string="Автом. вход/выход подвески"/>
+<text id="0x0000c49f" string="Звук. сигнал включ. автом.подъемника"/>
+<text id="0x0000c55c" string="Внутреннее освещение"/>
+<text id="0x0000c571" string="Предуп. LaneSense"/>
+<text id="0x0000c586" string="Поле LaneSense"/>
+<text id="0x0000c59b" string="Электрический стояночный тормоз"/>
+<text id="0x0000c5b0" string="Электрический стояночный тормоз"/>
+<text id="0x0000c5c5" string="Удержание тормоза до начала движения"/>
+<text id="0x0000c5da" string="Сервисный режим"/>
+<text id="0x0000c5ef" string="Автоматический стояночный тормоз"/>
+<text id="0x00004be6" string="Время в пути провел движущихся"/>
+<text id="0x00004bfb" string="Время в пути провел остановился"/>
+<text id="0x0000c619" string="рано"/>
+<text id="0x0000c62e" string="поздно"/>
+<text id="0x0000c643" string="Орфограф. ТИ название"/>
+<text id="0x0000c658" string="Орфограф. ТИ название"/>
+<text id="0x0000c66d" string="Орфограф. ТИ рядом"/>
+<text id="0x0000c682" string="Орфограф. ТИ название"/>
+<text id="0x0000cb53" string="нет устрой."/>
+<text id="0x0000cb68" string="нет диска"/>
+<text id="0x0000cb7d" string="Нет карту SD"/>
+<text id="0x0000cb92" string="Загрузка медиа"/>
+<text id="0x0000cba7" string="Чтение"/>
+<text id="0x0000cbbc" string="Ошибка диска"/>
+<text id="0x0000cc79" string="Uconnect&#xA;Магазин"/>
+<text id="0x0000cc8e" string="Выбр.&#xA;источ."/>
+<text id="0x0000cce2" string="Нет контактов в телефонной книге"/>
+<text id="0x0000ccf7" string="Зеркало&#xA;диммер"/>
+<text id="0x0000cd0c" string="Грузовой&#xA;камеры"/>
+<text id="0x0000cdde" string="Все провинции"/>
+<text id="0x0000cdf3" string="Все штаты"/>
+<text id="0x0000ce08" string="Error: Text Message 1 selected."/>
+<text id="0x0000ce1d" string="Error: Text Message 2 selected."/>
+<text id="0x0000ce32" string="Error: Text Message 3 selected."/>
+<text id="0x0000ce47" string="Error: Text Message 4 selected."/>
+<text id="0x0000ce5c" string="Error: Text Message 5 selected."/>
+<text id="0x0000ce71" string="Error: Text Message 6 selected."/>
+<text id="0x0000ce86" string="Сервисный режим недоступен при движении автомобиля."/>
+<text id="0x0000ce9b" string="Сервисный режим недоступен при нажатии педали тормоза."/>
+<text id="0x0000ceb0" string="Сервисный режим недоступен.&#xA;Активация стояночного тормоза."/>
+<text id="0x0000cec5" string="Сервисный режим недоступен. Не&#xA;передвинут или не нажат переключатель стояночного тормоза."/>
+<text id="0x0000ceda" string="Сервисный режим недоступен. Автомобиль&#xA;должен быть в режиме парковки или нейтральном."/>
+<text id="0x0000ceef" string="Error: Text Message 12 selected."/>
+<text id="0x0000cf04" string="To exit Service Mode, vehicle must not be in motion"/>
+<text id="0x0000cf19" string="Error: Text Message 14 selected."/>
+<text id="0x0000cf2e" string="Нажать педаль тормоза и активировать стояночный тормоз для выхода из сервисного режима."/>
+<text id="0x0000cf43" string="Error: Text Message 16 selected."/>
+<text id="0x0000cf58" string="Error: Text Message 17 selected."/>
+<text id="0x0000cf6d" string="Error: Text Message 18 selected."/>
+<text id="0x0000cf82" string="Error: Text Message 19 selected."/>
+<text id="0x0000cf97" string="Снят стояночный тормоз. &#xA;Для перезагрузки нажмите педаль тормоза и активируйте переключатель парковочного тормоза."/>
+<text id="0x0000cfac" string="Перезагрузка стояночного тормоза.&#xA;Процесс установки тормоза успешно завершен."/>
+<text id="0x0000cfc1" string="Error: Text Message 22 selected."/>
+<text id="0x0000cfd6" string="Error: Text Message 23 selected."/>
+<text id="0x0000cfeb" string="Error: Text Message 24 selected."/>
+<text id="0x0000d000" string="Снят стояночный тормоз. &#xA;Для перезагрузки нажмите педаль тормоза и активируйте переключатель парковочного тормоза."/>
+<text id="0x0000d015" string="Error: Text Message 26 selected."/>
+<text id="0x0000d02a" string="Error: Text Message 27 selected."/>
+<text id="0x0000d03f" string="Error: Text Message 28 selected."/>
+<text id="0x0000d054" string="Error: Text Message 29 selected."/>
+<text id="0x0000d069" string="Error: Text Message 30 selected."/>
+<text id="0x0000d07e" string="Основной тормоз"/>
+<text id="0x0000d093" string="Основной тормоз"/>
+<text id="0x0000d0a8" string="Снять парковочный тормоз, чтобы обеспечить работу тормозной системы?"/>
+<text id="0x0000d0bd" string="Параметры не сохранены,&#xA;повторите попытку."/>
+<text id="0x0000d0e7" string="Начало работы тормозной системы&#xA;подождите..."/>
+<text id="0x0000d348" string="сочетать&#xA;звонки"/>
+<text id="0x0000d3c6" string="Чувствительность фар"/>
+<text id="0x0000d3db" string="Отпр. текстовое"/>
+<text id="0x0000d3f0" string="Частный номер"/>
+<text id="0x0000d666" string="На текущем телефоне&#xA;функция не поддерживается."/>
+<text id="0x0000d67b" string="Сведения о совместимости устройства&#xA;см. на%s."/>
+<text id="0x0000d690" string="Список совместимых устройств&#xA;см. на сайте %s."/>
+<text id="0x0000d6a5" string="Результат Поиска"/>
+<text id="0x0000d6ba" string="Результат Поиска Для: %s"/>
+<text id="0x0000d6cf" string="Сброс&#xA;результа"/>
+<text id="0x0000d6e4" string="Результаты не найдены..."/>
+<text id="0x0000d6f9" string="Виражные фары"/>
+<text id="0x0000d70e" string="часов"/>
+<text id="0x0000d777" string="Время звонка:"/>
+<text id="0x0000d78c" string="Ошибка:&#xA;Обнаружено несколько USB-устройств. Удалите устройства и установите только обновленное устройство."/>
+<text id="0x0000d888" string="Ассистент парковки с предуп. о препятствиях"/>
+<text id="0x0000d89d" string="Все запуски"/>
+<text id="0x0000d8b2" string="Удаленный запуск"/>
+<text id="0x0000d8c7" string="Приветств. освещение"/>
+<text id="0x0000d8dc" string="Задержка выключения радио"/>
+<text id="0x0000d8f1" string="Автоматическое включение радио"/>
+<text id="0x0000d906" string="Соот. громкости AUX"/>
+<text id="0x0000d91b" string="Последний повторный вызов"/>
+<text id="0x0000d930" string="Навигация с указанием поворотов"/>
+<text id="0x0000d945" string="Восстановить значения по умолчанию"/>
+<text id="0x0000d95a" string="Пользователь"/>
+<text id="0x0000d96f" string="Расход топлива"/>
+<text id="0x0000d984" string="Станция недоступна"/>
+<text id="0x0000d9d8" string="Cargo Camera Guidelines"/>
+<text id="0x0000d9ed" string="Стр.&#xA;Врх"/>
+<text id="0x0000da02" string="Стр.&#xA;Внз"/>
+<text id="0x0000da17" string="Парам.&#xA;голоса"/>
+<text id="0x0000da2c" string="П-щь"/>
+<text id="0x0000da41" string="Вниз"/>
+<text id="0x0000da56" string="Вврх"/>
+<text id="0x0000da95" string="задняя медиа"/>
+<text id="0x0000daaa" string="весь"/>
+<text id="0x0000a68b" string="Отобразить рейс В"/>
+<text id="0x0000dcb7" string="Глава"/>
+<text id="0x0000dcf6" string="Авт.включ.удобств и удал.старт"/>
+<text id="0x0000dd20" string="%s фут"/>
+<text id="0x0000dd35" string="%s м"/>
+<text id="0x0000dd4a" string="Водитель сосредоточен."/>
+<text id="0x0000dd62" string="Извлеч. носит."/>
+<text id="0x0000dd77" string="Извлеч. носит."/>
+<text id="0x0000dd8c" string="Код запроса"/>
+<text id="0x0000dda1" string="I наж."/>
+<text id="0x0000ddb6" string="II&#xA;наж."/>
+<text id="0x0000dde0" string="%s yd"/>
+<text id="0x0000ddf5" string="Восст. станд. парам."/>
+<text id="0x0000de0a" string="Возвратить стандартные значения параметров?"/>
+<text id="0x0000de1f" string="Установлены стандартные параметры."/>
+<text id="0x0000de34" string="Очистить личные данные"/>
+<text id="0x0000de49" string="Личные данные очищены."/>
+<text id="0x0000de5e" string="Удалить все личные данные будут удалены? "/>
+<text id="0x0000de73" string="Пульт ДК за пределами досягаемости."/>
+<text id="0x00001004" string="Установить минуты"/>
+<text id="0x0000e407" string="Установлены стандартные параметры."/>
+<text id="0x0000e485" string="Сумму свыше предела"/>
+<text id="0x0000e49a" string="ускорить блок. включить"/>
+<text id="0x0000e4e0" string="Уста день"/>
+<text id="0x0000e518" string="Уста месяц"/>
+<text id="0x0000e52d" string="Уста год"/>
+<text id="0x0000e542" string="АвтоMасшт. Ha"/>
+<text id="0x0000e557" string="АвтоMасшт. Ha"/>
+<text id="0x0000e6fb" string=""/>
+<text id="0x0000e710" string=""/>
+<text id="0x0000e73a" string="Остановлен"/>
+<text id="0x0000e74f" string="Остановлен"/>
+<text id="0x0000e764" string="Screen OTK"/>
+<text id="0x0000e88a" string="Отключить"/>
+<text id="0x0000e89f" string="Восст. параметры"/>
+<text id="0x0000e9b0" string="No Stations Found"/>
+<text id="0x0000e9c5" string="Enter Zip Code"/>
+<text id="0x0000e9da" string="Announce Safety Camera Warning"/>
+<text id="0x0000e9ef" string="Общие голосовые команды"/>
+<text id="0x0000ea04" string="настроить на %c&lt;частота> FM / AM%c"/>
+<text id="0x0000ea19" string="Настроить на спутниковый %c&lt;имя / номер>%c"/>
+<text id="0x0000ea2e" string="Изменить медиа-источник на %ciPod / Bluetooth%c"/>
+<text id="0x0000ea43" string="Найти адрес %c&lt;адрес>%c"/>
+<text id="0x0000ea58" string="Найти следующую %c&lt;категория>%c"/>
+<text id="0x0000ea6d" string="Отправить сообщение на  %c&lt;имя / номер>%c"/>
+<text id="0x0000ea82" string="Позвонить %c&lt;имя>%c"/>
+<text id="0x0000ea97" string="Набрать %c&lt;номер>%c"/>
+<text id="0x0000eaac" string="повторить набор"/>
+<text id="0x0000eaeb" string="перезвонить"/>
+<text id="0x0000eb00" string="Воспроизвести %cКомпозицию / Альбом &lt;имя>%c"/>
+<text id="0x0000eb7e" string="Controls Screen Time-Out"/>
+<text id="0x0000eb93" string="Not Now"/>
+<text id="0x0000eba8" string="Do Not&#xA;Show Again"/>
+<text id="0x0000ec3d" string="Send New Message with Voice Recognition"/>
+<text id="0x0000ec52" string="Send a Predefined Message"/>
+<text id="0x0000ec67" string="Listening...Say a command or say &quot;Help&quot; or &quot;Cancel&quot;"/>
+<text id="0x0000eca6" string="Set Theme"/>
+<text id="0x0000ece5" string="Navigation System Calibration Required"/>
+<text id="0x0000ecfa" string="To calibrate the navigation system drive to a main road with clear view of the sky."/>
+<text id="0x0000ed39" string="Мигающие фары с блокировкой"/>
+<text id="0x0000edcc" string="ввести регион"/>
+<text id="0x0000f018" string="Function not available while Valet&#xA;Mode is active.&#xA;&#xA;Valet Mode cannot be deactivated&#xA;while vehicle is in motion."/>
+<text id="0x0000f02d" string="Valet Mode Active - Press Here to Exit"/>
+<text id="0x0000f042" string="Valet Mode"/>
+<text id="0x0000f057" string="Valet Mode will limit the performance of your vehicle, and requires a custom pin code for activation and deactivation.&#xA;&#xA;Enter Valet Mode?"/>
+<text id="0x0000f06c" string="Valet Mode Deactivation"/>
+<text id="0x0000f081" string="Valet Mode Activation"/>
+<text id="0x0000f096" string="Enter a 4 digit pin to be used for activation and deactivation of Valet Mode"/>
+<text id="0x0000f0ab" string="Enter pin used for Valet Mode activation to deactivate Valet Mode"/>
+<text id="0x0000f0c0" string="Pin must be 4 digits"/>
+<text id="0x0000f0d5" string="Valet Mode Activated&#xA;&#xA;Vehicle performance limited"/>
+<text id="0x0000f0ea" string="Valet Mode Deactivated"/>
+<text id="0x0000f0ff" string="Incorrect pin entered"/>
+<text id="0x0000f168" string="Voice"/>
+<text id="0x0000f17d" string="Show Command List"/>
+<text id="0x0000f192" string="Never"/>
+<text id="0x0000f1a7" string="With&#xA;Help"/>
+<text id="0x0000f1bc" string="Always"/>
+<text id="0x0000f1fb" string="%s Mode"/>
+<text id="0x0000f210" string="%s Mode allows to customize the vehicle's performance.&#xA;&#xA;%s Mode will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f24f" string="Song tagging not available while two iPods are connected.  Please disconnect an iPod and try again."/>
+<text id="0x0000f264" string="%s Mode is currently active with %s turned on.&#xA;&#xA;%s is controlling power delivery to maximize fuel economy.&#xA;&#xA;%s Mode and %s will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f279" string="%s Mode is currently active with %s turned on.&#xA;&#xA;%s Mode allows you to fully customize the vehicle's performance.&#xA;&#xA;%s is controlling power delivery to maximize fuel economy.&#xA;&#xA;%s Mode and %s will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f28e" string="%s Mode is currently active with %s turned on.&#xA;&#xA;%s Mode delivers increased vehicle performance capability.&#xA;&#xA;%s is controlling power delivery to maximize fuel economy.&#xA;&#xA;%s Mode and %s will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f2a3" string="%s Mode is currently active with %s turned on.&#xA;&#xA;%s Mode delivers maximum vehicle performance capability on smooth, dry surfaces.&#xA;&#xA;%s is controlling power delivery to maximize fuel economy.&#xA;&#xA;%s Mode and %s will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f2b8" string="%s Mode is currently active.&#xA;&#xA;%s Mode allows you to fully customize the vehicle's performance.&#xA;&#xA;%s Mode will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f2cd" string="%s Mode is currently active.&#xA;&#xA;%s Mode delivers increased vehicle performance capability.&#xA;&#xA;%s Mode will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f2e2" string="%s Mode is currently active.&#xA;&#xA;%s Mode delivers maximum vehicle performance capability on smooth, dry surfaces.&#xA;&#xA;%s Mode will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f2f7" string="%s Mode is currently active.&#xA;&#xA;%s Mode will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f30c" string="%s Mode&#xA;Set-Up"/>
+<text id="0x0000f34b" string="TMC Station List"/>
+<text id="0x0000f360" string="%s Modes"/>
+<text id="0x0000f375" string="%s Set-Up"/>
+<text id="0x0000f4b0" string="%s: Fastest possible shift speeds, strongest comfort trade-off&#xA;&#xA;%s: Faster shift speed, some comfortable trade-off&#xA;&#xA;%s: Balance of shift speed and shift comfort"/>
+<text id="0x0000f4ef" string="Seeking..."/>
+<text id="0x0000f504" string="Seeking TP..."/>
+<text id="0x0000f519" string="Enter Block Number"/>
+<text id="0x0000f56d" string="Ручной"/>
+<text id="0x0000f63f" string="Звуков. сигнал при спуске трансп. средства"/>
+<text id="0x0000f711" string="Activate&#xA;Launch Control"/>
+<text id="0x0000f726" string="Active&#xA;Launch Mode"/>
+<text id="0x0000f73b" string="The black key is currently in use,&#xA;disabling access to the maximum &#xA;engine power level.  To enable access&#xA;to the maximum engine power level,&#xA;please use the red key."/>
+<text id="0x0000f77a" string="Дневная яркость дисплея"/>
+<text id="0x0000f78f" string="Ночная яркость дисплея"/>
+<text id="0x00007832" string="мил/ч"/>
+<text id="0x00000323" string=""/>
+<text id="0x00005ed9" string=""/>
+<text id="0x00005eee" string=""/>
+<text id="0x000072b3" string="Switching to %s."/>
+<text id="0x00005f03" string=""/>
+<text id="0x00005f18" string=""/>
+<text id="0x00005f2d" string=""/>
+<text id="0x00005f42" string=""/>
+<text id="0x00005f57" string=""/>
+<text id="0x00005f6c" string=""/>
+<text id="0x00005f81" string=""/>
+<text id="0x00005f96" string=""/>
+<text id="0x00005fab" string=""/>
+<text id="0x00005fc0" string=""/>
+<text id="0x00005fd5" string=""/>
+<text id="0x00005fea" string=""/>
+<text id="0x00005fff" string=""/>
+<text id="0x00006014" string=""/>
+<text id="0x00006029" string=""/>
+<text id="0x0000603e" string=""/>
+<text id="0x00006053" string=""/>
+<text id="0x00006068" string=""/>
+<text id="0x0000607d" string=""/>
+<text id="0x00006092" string=""/>
+<text id="0x000060a7" string=""/>
+<text id="0x000060bc" string=""/>
+<text id="0x000060d1" string=""/>
+<text id="0x000060e6" string=""/>
+<text id="0x000060fb" string=""/>
+<text id="0x00006110" string=""/>
+<text id="0x00006125" string=""/>
+<text id="0x0000613a" string=""/>
+<text id="0x0000614f" string=""/>
+<text id="0x00006164" string=""/>
+<text id="0x00006179" string=""/>
+<text id="0x0000618e" string=""/>
+<text id="0x000061a3" string=""/>
+<text id="0x000061b8" string=""/>
+<text id="0x000061cd" string=""/>
+<text id="0x000061e2" string=""/>
+<text id="0x000061f7" string=""/>
+<text id="0x0000620c" string=""/>
+<text id="0x00006221" string=""/>
+<text id="0x00006236" string=""/>
+<text id="0x0000624b" string=""/>
+<text id="0x00006260" string=""/>
+<text id="0x00006275" string=""/>
+<text id="0x0000628a" string=""/>
+<text id="0x0000629f" string=""/>
+<text id="0x000062b4" string=""/>
+<text id="0x000062c9" string=""/>
+<text id="0x000062de" string=""/>
+<text id="0x000062f3" string=""/>
+<text id="0x00006308" string=""/>
+<text id="0x0000631d" string=""/>
+<text id="0x00006332" string=""/>
+<text id="0x00006347" string=""/>
+<text id="0x0000635c" string=""/>
+<text id="0x00006371" string=""/>
+<text id="0x00006386" string=""/>
+<text id="0x0000639b" string=""/>
+<text id="0x000063b0" string=""/>
+<text id="0x000063c5" string=""/>
+<text id="0x000063da" string=""/>
+<text id="0x000063ef" string=""/>
+<text id="0x00006404" string=""/>
+<text id="0x00006419" string=""/>
+<text id="0x0000642e" string=""/>
+<text id="0x00006443" string=""/>
+<text id="0x00006458" string=""/>
+<text id="0x0000646d" string=""/>
+<text id="0x00006482" string=""/>
+<text id="0x00006497" string=""/>
+<text id="0x000064ac" string=""/>
+<text id="0x000064c1" string=""/>
+<text id="0x000064d6" string=""/>
+<text id="0x000064eb" string=""/>
+<text id="0x00006500" string=""/>
+<text id="0x00006515" string=""/>
+<text id="0x0000652a" string=""/>
+<text id="0x0000653f" string=""/>
+<text id="0x00006554" string=""/>
+<text id="0x00006569" string=""/>
+<text id="0x0000657e" string=""/>
+<text id="0x00006593" string=""/>
+<text id="0x000065a8" string=""/>
+<text id="0x000065bd" string=""/>
+<text id="0x000065e7" string=""/>
+<text id="0x000065fc" string=""/>
+<text id="0x00006611" string=""/>
+<text id="0x00006626" string=""/>
+<text id="0x0000663b" string=""/>
+<text id="0x00006650" string=""/>
+<text id="0x00006665" string=""/>
+<text id="0x0000667a" string=""/>
+<text id="0x0000668f" string=""/>
+<text id="0x000066a4" string=""/>
+<text id="0x000066b9" string=""/>
+<text id="0x000066ce" string=""/>
+<text id="0x000066e3" string=""/>
+<text id="0x000066f8" string=""/>
+<text id="0x0000670d" string=""/>
+<text id="0x00006722" string=""/>
+<text id="0x00006737" string=""/>
+<text id="0x0000674c" string=""/>
+<text id="0x00006761" string=""/>
+<text id="0x00006776" string=""/>
+<text id="0x0000678b" string=""/>
+<text id="0x000067a0" string=""/>
+<text id="0x000067b5" string=""/>
+<text id="0x000067ca" string=""/>
+<text id="0x000067df" string=""/>
+<text id="0x000067f4" string=""/>
+<text id="0x00006809" string=""/>
+<text id="0x0000681e" string=""/>
+<text id="0x00006833" string=""/>
+<text id="0x00006848" string=""/>
+<text id="0x0000685d" string=""/>
+<text id="0x00006872" string=""/>
+<text id="0x00006887" string=""/>
+<text id="0x0000689c" string=""/>
+<text id="0x000068b1" string=""/>
+<text id="0x000068c6" string=""/>
+<text id="0x000068db" string=""/>
+<text id="0x000068f0" string=""/>
+<text id="0x00006905" string=""/>
+<text id="0x0000691a" string=""/>
+<text id="0x0000692f" string=""/>
+<text id="0x00006944" string=""/>
+<text id="0x00006959" string=""/>
+<text id="0x0000696e" string=""/>
+<text id="0x00006983" string=""/>
+<text id="0x00006998" string=""/>
+<text id="0x000069ad" string=""/>
+<text id="0x000069c2" string=""/>
+<text id="0x000069d7" string=""/>
+<text id="0x000069ec" string=""/>
+<text id="0x00006a01" string=""/>
+<text id="0x00006a16" string=""/>
+<text id="0x00006a2b" string=""/>
+<text id="0x00006a40" string=""/>
+<text id="0x00006a55" string=""/>
+<text id="0x00006a6a" string=""/>
+<text id="0x00006a7f" string=""/>
+<text id="0x00006a94" string=""/>
+<text id="0x00006aa9" string=""/>
+<text id="0x00006abe" string=""/>
+<text id="0x00006ad3" string=""/>
+<text id="0x00006ae8" string=""/>
+<text id="0x00006afd" string=""/>
+<text id="0x00006b12" string=""/>
+<text id="0x00006b27" string=""/>
+<text id="0x00006b3c" string=""/>
+<text id="0x00006b51" string=""/>
+<text id="0x00006b66" string=""/>
+<text id="0x00006b7b" string=""/>
+<text id="0x00006b90" string=""/>
+<text id="0x00006ba5" string=""/>
+<text id="0x00006bba" string=""/>
+<text id="0x00006bcf" string=""/>
+<text id="0x00006be4" string=""/>
+<text id="0x00006bf9" string=""/>
+<text id="0x00006c0e" string=""/>
+<text id="0x00006c23" string=""/>
+<text id="0x00006c38" string=""/>
+<text id="0x00006c4d" string=""/>
+<text id="0x00006c62" string=""/>
+<text id="0x00006c77" string=""/>
+<text id="0x00006c8c" string=""/>
+<text id="0x00006ca1" string=""/>
+<text id="0x00006cb6" string=""/>
+<text id="0x00006ccb" string=""/>
+<text id="0x00006ce0" string=""/>
+<text id="0x00006cf5" string=""/>
+<text id="0x00006d0a" string=""/>
+<text id="0x00006d1f" string=""/>
+<text id="0x00006d34" string=""/>
+<text id="0x00006d49" string=""/>
+<text id="0x00006d5e" string=""/>
+<text id="0x00006d73" string=""/>
+<text id="0x00006d88" string=""/>
+<text id="0x00006d9d" string=""/>
+<text id="0x00006db2" string=""/>
+<text id="0x00006dc7" string=""/>
+<text id="0x00006ddc" string=""/>
+<text id="0x00006df1" string=""/>
+<text id="0x00006e06" string=""/>
+<text id="0x00006e1b" string=""/>
+<text id="0x00006e30" string=""/>
+<text id="0x00006e45" string=""/>
+<text id="0x00006e5a" string=""/>
+<text id="0x00006e6f" string=""/>
+<text id="0x00006e84" string=""/>
+<text id="0x00006e99" string=""/>
+<text id="0x00006eae" string=""/>
+<text id="0x00006ec3" string=""/>
+<text id="0x00006ed8" string=""/>
+<text id="0x00006eed" string=""/>
+<text id="0x00006f02" string=""/>
+<text id="0x00006f17" string=""/>
+<text id="0x00006f2c" string=""/>
+<text id="0x00006f41" string=""/>
+<text id="0x00006f56" string=""/>
+<text id="0x00006f6b" string=""/>
+<text id="0x00006f80" string=""/>
+<text id="0x00006f95" string=""/>
+<text id="0x00006faa" string=""/>
+<text id="0x00006fbf" string=""/>
+<text id="0x00006fd4" string=""/>
+<text id="0x00006fe9" string=""/>
+<text id="0x00006ffe" string=""/>
+<text id="0x00007013" string=""/>
+<text id="0x00007028" string=""/>
+<text id="0x0000703d" string=""/>
+<text id="0x00007052" string=""/>
+<text id="0x00007067" string=""/>
+<text id="0x0000707c" string=""/>
+<text id="0x00007091" string=""/>
+<text id="0x000070a6" string=""/>
+<text id="0x000070bb" string=""/>
+<text id="0x000070d0" string=""/>
+<text id="0x000070e5" string=""/>
+<text id="0x000070fa" string=""/>
+<text id="0x0000710f" string=""/>
+<text id="0x00007124" string=""/>
+<text id="0x00007139" string=""/>
+<text id="0x0000714e" string=""/>
+<text id="0x00007163" string=""/>
+<text id="0x00007178" string=""/>
+<text id="0x0000718d" string=""/>
+<text id="0x000071a2" string=""/>
+<text id="0x000071b7" string=""/>
+<text id="0x000071cc" string=""/>
+<text id="0x000071e1" string=""/>
+<text id="0x000071f6" string=""/>
+<text id="0x0000720b" string=""/>
+<text id="0x00007220" string=""/>
+<text id="0x00007235" string=""/>
+<text id="0x0000724a" string=""/>
+<text id="0x0000725f" string=""/>
+<text id="0x00007274" string=""/>
+<text id="0x00007289" string=""/>
+<text id="0x0000729e" string=""/>
+<text id="0x00007847" string="км/ч"/>
+<text id="0x00002168" string="АБВГ"/>
+<text id="0x000032e1" string="A/C"/>
+<text id="0x000032f6" string="A/C"/>
+<text id="0x0000330b" string="A/C"/>
+<text id="0x000021fb" string="ЬЭЮЯ"/>
+<text id="0x0000051b" string="AM"/>
+<text id="0x00000920" string="AM"/>
+<text id="0x0000217d" string="ДЕЖЗ"/>
+<text id="0x0000056f" string="FF"/>
+<text id="0x00000488" string="FM"/>
+<text id="0x00000935" string="FM"/>
+<text id="0x00002192" string="ИЙКЛ"/>
+<text id="0x000021a7" string="МНОП"/>
+<text id="0x000021bc" string="РСТУ"/>
+<text id="0x0000049d" string="MW"/>
+<text id="0x0000094a" string="MW"/>
+<text id="0x00001f85" string="N/A"/>
+<text id="0x000007fa" string="NFL"/>
+<text id="0x000021d1" string="ФХЦЧ"/>
+<text id="0x00000545" string="RW"/>
+<text id="0x000010c1" string=""/>
+<text id="0x000010d6" string=""/>
+<text id="0x000010eb" string=""/>
+<text id="0x00001058" string=""/>
+<text id="0x00000e60" string="US"/>
+<text id="0x0000040a" string="ST"/>
+<text id="0x000021e6" string="ШЩЪЫ"/>
+<text id="0x00000617" string="просмотр."/>
+<text id="0x00000473" string="TA"/>
+<text id="0x00003f59" string="DM"/>
+<text id="0x00003f44" string="DMS"/>
+<text id="0x000051a4" string=""/>
+<text id="0x00005516" string=""/>
+<text id="0x0000238a" string=""/>
+<text id="0x00001d24" string=""/>
+<text id="0x00001da2" string=""/>
+<text id="0x000027a4" string=""/>
+<text id="0x00002822" string=""/>
+<text id="0x000028ca" string=""/>
+<text id="0x0000291e" string=""/>
+<text id="0x00005387" string=""/>
+<text id="0x000054ad" string=""/>
+<text id="0x00005540" string=""/>
+<text id="0x00005555" string=""/>
+<text id="0x00005651" string=""/>
+<text id="0x000056cf" string=""/>
+<text id="0x000056e4" string=""/>
+<text id="0x0000167f" string=""/>
+<text id="0x00001694" string=""/>
+<text id="0x000026e7" string=""/>
+<text id="0x000007a6" string=""/>
+<text id="0x000007bb" string=""/>
+<text id="0x0000080f" string=""/>
+<text id="0x000012a4" string=""/>
+<text id="0x000012b9" string=""/>
+<text id="0x00001337" string=""/>
+<text id="0x0000134c" string=""/>
+<text id="0x0000145d" string=""/>
+<text id="0x000013ca" string=""/>
+<text id="0x00001433" string=""/>
+<text id="0x00002375" string=""/>
+<text id="0x000018e0" string=""/>
+<text id="0x000027ce" string=""/>
+<text id="0x0000280d" string=""/>
+<text id="0x00000752" string=""/>
+<text id="0x000012ce" string=""/>
+<text id="0x000054c2" string=""/>
+<text id="0x00005666" string=""/>
+<text id="0x000027e3" string=""/>
+<text id="0x00002987" string=""/>
+<text id="0x00001ef2" string=""/>
+<text id="0x00002360" string=""/>
+<text id="0x00007871" string=""/>
+<text id="0x00007886" string=""/>
+<text id="0x0000789b" string=""/>
+<text id="0x000078b0" string=""/>
+<text id="0x000078c5" string=""/>
+<text id="0x000078da" string=""/>
+<text id="0x000078ef" string=""/>
+<text id="0x00007904" string=""/>
+<text id="0x00007919" string=""/>
+<text id="0x0000792e" string=""/>
+<text id="0x00007943" string=""/>
+<text id="0x00007958" string=""/>
+<text id="0x0000796d" string=""/>
+<text id="0x00007982" string=""/>
+<text id="0x00007997" string=""/>
+<text id="0x000079ac" string=""/>
+<text id="0x000079c1" string=""/>
+<text id="0x000079d6" string=""/>
+<text id="0x00007a00" string=""/>
+<text id="0x00007a15" string=""/>
+<text id="0x00007a2a" string=""/>
+<text id="0x00007a3f" string=""/>
+<text id="0x000080f9" string=""/>
+<text id="0x0000810e" string=""/>
+<text id="0x00008123" string=""/>
+<text id="0x00008138" string=""/>
+<text id="0x0000814d" string=""/>
+<text id="0x00008162" string=""/>
+<text id="0x00008177" string=""/>
+<text id="0x0000818c" string=""/>
+<text id="0x000081b6" string=""/>
+<text id="0x00000a5b" string=""/>
+<text id="0x00000aaf" string=""/>
+<text id="0x00000ac4" string=""/>
+<text id="0x00001f70" string=""/>
+<text id="0x00000b03" string=""/>
+<text id="0x00000b81" string=""/>
+<text id="0x00000a9a" string=""/>
+<text id="0x00000b57" string=""/>
+<text id="0x00000a46" string=""/>
+<text id="0x00000ad9" string=""/>
+<text id="0x00000b42" string=""/>
+<text id="0x00000b6c" string=""/>
+<text id="0x00007e59" string=""/>
+<text id="0x00000506" string=""/>
+<text id="0x000011bd" string=""/>
+<text id="0x000011d2" string=""/>
+<text id="0x000013df" string=""/>
+<text id="0x0000299c" string=""/>
+<text id="0x00002837" string=""/>
+<text id="0x00001d78" string=""/>
+<text id="0x00001e4a" string=""/>
+<text id="0x00001e9e" string=""/>
+<text id="0x00001f1c" string=""/>
+<text id="0x00001f46" string=""/>
+<text id="0x000028df" string=""/>
+<text id="0x00002933" string=""/>
+<text id="0x000053db" string=""/>
+<text id="0x00005501" string=""/>
+<text id="0x000056a5" string=""/>
+<text id="0x0000084e" string=""/>
+<text id="0x000011e7" string=""/>
+<text id="0x000011fc" string=""/>
+<text id="0x000013f4" string=""/>
+<text id="0x0000149c" string=""/>
+<text id="0x00001727" string=""/>
+<text id="0x00007a93" string=""/>
+<text id="0x00007aa8" string=""/>
+<text id="0x000012e3" string=""/>
+<text id="0x00001e20" string=""/>
+<text id="0x000055be" string=""/>
+<text id="0x00005612" string=""/>
+<text id="0x00005483" string=""/>
+<text id="0x00005627" string=""/>
+<text id="0x00005594" string=""/>
+<text id="0x000055e8" string=""/>
+<text id="0x00002336" string=""/>
+<text id="0x0000552b" string=""/>
+<text id="0x000056ba" string=""/>
+<text id="0x000055a9" string=""/>
+<text id="0x000055fd" string=""/>
+<text id="0x00005498" string=""/>
+<text id="0x0000563c" string=""/>
+<text id="0x00001ec8" string=""/>
+<text id="0x00005459" string=""/>
+<text id="0x000055d3" string=""/>
+<text id="0x00001d63" string=""/>
+<text id="0x0000228e" string=""/>
+<text id="0x000022a3" string=""/>
+<text id="0x000022f7" string=""/>
+<text id="0x0000230c" string=""/>
+<text id="0x0000277a" string=""/>
+<text id="0x000028f4" string=""/>
+<text id="0x00002948" string=""/>
+<text id="0x00002711" string=""/>
+<text id="0x00007dc6" string=""/>
+<text id="0x00007ddb" string=""/>
+<text id="0x00007d9c" string=""/>
+<text id="0x00007cdf" string=""/>
+<text id="0x000054ec" string=""/>
+<text id="0x00005690" string=""/>
+<text id="0x0000077c" string=""/>
+<text id="0x0000130d" string=""/>
+<text id="0x00001361" string=""/>
+<text id="0x00001472" string=""/>
+<text id="0x000053c6" string=""/>
+<text id="0x00001edd" string=""/>
+<text id="0x000026fc" string=""/>
+<text id="0x000013b5" string=""/>
+<text id="0x00001de1" string=""/>
+<text id="0x000053f0" string=""/>
+<text id="0x0000542f" string=""/>
+<text id="0x0000556a" string=""/>
+<text id="0x000023c9" string=""/>
+<text id="0x00005444" string=""/>
+<text id="0x00001e74" string=""/>
+<text id="0x00001eb3" string=""/>
+<text id="0x00001322" string="Удалить избранн."/>
+<text id="0x00001376" string=""/>
+<text id="0x00000530" string=""/>
+<text id="0x000008b7" string=""/>
+<text id="0x000008cc" string=""/>
+<text id="0x000008e1" string=""/>
+<text id="0x000008f6" string=""/>
+<text id="0x0000090b" string=""/>
+<text id="0x0000141e" string=""/>
+<text id="0x00004e86" string=""/>
+<text id="0x00004e9b" string=""/>
+<text id="0x00004eb0" string=""/>
+<text id="0x00004ec5" string=""/>
+<text id="0x000013a0" string=""/>
+<text id="0x00001df6" string=""/>
+<text id="0x00007d72" string=""/>
+<text id="0x00007d87" string=""/>
+<text id="0x000007e5" string=""/>
+<text id="0x0000138b" string=""/>
+<text id="0x000014c6" string=""/>
+<text id="0x00007db1" string=""/>
+<text id="0x000023f3" string=""/>
+<text id="0x00000fc5" string=""/>
+<text id="0x0000191f" string=""/>
+<text id="0x00001934" string=""/>
+<text id="0x00001949" string=""/>
+<text id="0x0000199d" string=""/>
+<text id="0x000019b2" string=""/>
+<text id="0x000019c7" string=""/>
+<text id="0x000019dc" string=""/>
+<text id="0x000019f1" string=""/>
+<text id="0x00001a06" string=""/>
+<text id="0x000027b9" string=""/>
+<text id="0x0000284c" string=""/>
+<text id="0x0000546e" string=""/>
+<text id="0x00001d4e" string=""/>
+<text id="0x00002909" string=""/>
+<text id="0x0000295d" string=""/>
+<text id="0x000054d7" string=""/>
+<text id="0x0000567b" string=""/>
+<text id="0x0000757d" string=""/>
+<text id="0x00007592" string=""/>
+<text id="0x000075a7" string=""/>
+<text id="0x000075bc" string=""/>
+<text id="0x000075d1" string=""/>
+<text id="0x000075e6" string=""/>
+<text id="0x000075fb" string=""/>
+<text id="0x00007610" string=""/>
+<text id="0x00007625" string=""/>
+<text id="0x00005405" string=""/>
+<text id="0x000077f3" string=""/>
+<text id="0x00001712" string=""/>
+<text id="0x000023de" string=""/>
+<text id="0x00007df0" string=""/>
+<text id="0x000022cd" string=""/>
+<text id="0x000022e2" string=""/>
+<text id="0x000076f7" string=""/>
+<text id="0x000005ed" string=""/>
+<text id="0x00000863" string=""/>
+<text id="0x00001409" string=""/>
+<text id="0x00001d8d" string=""/>
+<text id="0x00001f07" string=""/>
+<text id="0x00005a95" string=""/>
+<text id="0x00005aaa" string=""/>
+<text id="0x00005abf" string=""/>
+<text id="0x00005ad4" string=""/>
+<text id="0x0000557f" string=""/>
+<text id="0x00001e0b" string=""/>
+<text id="0x0000825e" string=""/>
+<text id="0x00008288" string=""/>
+<text id="0x0000829d" string=""/>
+<text id="0x0000836f" string=""/>
+<text id="0x0000842c" string=""/>
+<text id="0x00008441" string=""/>
+<text id="0x00008456" string=""/>
+<text id="0x0000846b" string=""/>
+<text id="0x00002861" string=""/>
+<text id="0x000093ad" string=""/>
+<text id="0x000093c2" string=""/>
+<text id="0x00009dd9" string=""/>
+<text id="0x00009e03" string=""/>
+<text id="0x00009e18" string=""/>
+<text id="0x00009e2d" string=""/>
+<text id="0x00009e42" string=""/>
+<text id="0x00009e57" string=""/>
+<text id="0x00009e6c" string=""/>
+<text id="0x00009e81" string=""/>
+<text id="0x00009e96" string=""/>
+<text id="0x00009eab" string=""/>
+<text id="0x00009ec0" string=""/>
+<text id="0x00009ed5" string=""/>
+<text id="0x00009f14" string=""/>
+<text id="0x00009f29" string=""/>
+<text id="0x00009f3e" string=""/>
+<text id="0x00009f53" string=""/>
+<text id="0x00009f68" string=""/>
+<text id="0x00009f7d" string=""/>
+<text id="0x00009f92" string=""/>
+<text id="0x00009fa7" string=""/>
+<text id="0x00009fbc" string=""/>
+<text id="0x00009fd1" string=""/>
+<text id="0x00009fe6" string=""/>
+<text id="0x00009ffb" string=""/>
+<text id="0x0000a010" string=""/>
+<text id="0x0000a025" string=""/>
+<text id="0x0000a03a" string=""/>
+<text id="0x0000a04f" string=""/>
+<text id="0x0000a064" string=""/>
+<text id="0x0000a079" string=""/>
+<text id="0x0000a08e" string=""/>
+<text id="0x0000a0a3" string=""/>
+<text id="0x0000a0b8" string=""/>
+<text id="0x0000a0cd" string=""/>
+<text id="0x0000a114" string=""/>
+<text id="0x0000a129" string=""/>
+<text id="0x0000a319" string=""/>
+<text id="0x0000a32e" string=""/>
+<text id="0x0000a343" string=""/>
+<text id="0x0000a358" string=""/>
+<text id="0x0000a447" string=""/>
+<text id="0x0000a45c" string=""/>
+<text id="0x0000a471" string=""/>
+<text id="0x0000a486" string=""/>
+<text id="0x0000a49b" string=""/>
+<text id="0x0000a4bd" string=""/>
+<text id="0x0000a4d2" string=""/>
+<text id="0x0000a4e7" string=""/>
+<text id="0x0000a4fc" string=""/>
+<text id="0x0000a511" string=""/>
+<text id="0x0000a526" string=""/>
+<text id="0x0000a53b" string=""/>
+<text id="0x0000a550" string=""/>
+<text id="0x0000a565" string=""/>
+<text id="0x0000a57a" string=""/>
+<text id="0x0000a58f" string=""/>
+<text id="0x0000a5a4" string=""/>
+<text id="0x0000a5b9" string=""/>
+<text id="0x0000a5ce" string=""/>
+<text id="0x0000a5e3" string=""/>
+<text id="0x0000a5f8" string=""/>
+<text id="0x0000a60d" string=""/>
+<text id="0x0000a622" string=""/>
+<text id="0x0000a6f4" string=""/>
+<text id="0x0000a709" string=""/>
+<text id="0x0000a75d" string=""/>
+<text id="0x0000a772" string=""/>
+<text id="0x0000a787" string=""/>
+<text id="0x0000a79c" string=""/>
+<text id="0x0000a7b1" string=""/>
+<text id="0x0000a7c6" string=""/>
+<text id="0x0000a7db" string=""/>
+<text id="0x0000a7f0" string=""/>
+<text id="0x0000a805" string=""/>
+<text id="0x0000a81a" string=""/>
+<text id="0x0000a82f" string=""/>
+<text id="0x0000a844" string=""/>
+<text id="0x0000a859" string=""/>
+<text id="0x0000a86e" string=""/>
+<text id="0x0000a883" string=""/>
+<text id="0x0000a898" string=""/>
+<text id="0x0000a8ad" string=""/>
+<text id="0x0000a8c2" string=""/>
+<text id="0x0000a8d7" string=""/>
+<text id="0x0000a8ec" string=""/>
+<text id="0x0000a901" string=""/>
+<text id="0x0000a916" string=""/>
+<text id="0x0000a92b" string=""/>
+<text id="0x0000a940" string=""/>
+<text id="0x0000a96a" string=""/>
+<text id="0x0000a97f" string=""/>
+<text id="0x0000aefe" string=""/>
+<text id="0x0000af13" string=""/>
+<text id="0x0000cdb4" string=""/>
+<text id="0x0000af28" string=""/>
+<text id="0x0000af3d" string=""/>
+<text id="0x0000af52" string=""/>
+<text id="0x0000af67" string=""/>
+<text id="0x0000af7c" string=""/>
+<text id="0x0000af91" string=""/>
+<text id="0x0000afd0" string=""/>
+<text id="0x0000afe5" string=""/>
+<text id="0x0000affa" string=""/>
+<text id="0x0000b0cc" string=""/>
+<text id="0x0000b0e1" string=""/>
+<text id="0x0000b120" string=""/>
+<text id="0x0000b135" string=""/>
+<text id="0x0000b14a" string=""/>
+<text id="0x0000b15f" string=""/>
+<text id="0x0000b174" string=""/>
+<text id="0x0000b189" string=""/>
+<text id="0x0000b19e" string=""/>
+<text id="0x0000b1dd" string=""/>
+<text id="0x0000b381" string=""/>
+<text id="0x0000b5a3" string=""/>
+<text id="0x0000b5b8" string=""/>
+<text id="0x0000b692" string=""/>
+<text id="0x0000b6a7" string=""/>
+<text id="0x0000b6bc" string=""/>
+<text id="0x0000b6d1" string=""/>
+<text id="0x0000b6e6" string=""/>
+<text id="0x0000b6fb" string=""/>
+<text id="0x0000b710" string=""/>
+<text id="0x0000b725" string=""/>
+<text id="0x0000b74f" string=""/>
+<text id="0x0000b796" string=""/>
+<text id="0x0000b836" string=""/>
+<text id="0x0000b875" string=""/>
+<text id="0x0000b88a" string=""/>
+<text id="0x0000b89f" string=""/>
+<text id="0x0000b8b4" string=""/>
+<text id="0x0000b8de" string=""/>
+<text id="0x0000b8f3" string=""/>
+<text id="0x0000b908" string=""/>
+<text id="0x0000b91d" string=""/>
+<text id="0x0000b932" string=""/>
+<text id="0x0000b947" string=""/>
+<text id="0x0000b95c" string=""/>
+<text id="0x0000b971" string=""/>
+<text id="0x0000b986" string=""/>
+<text id="0x0000b99b" string=""/>
+<text id="0x0000b9b0" string=""/>
+<text id="0x0000b9c5" string=""/>
+<text id="0x0000b9da" string=""/>
+<text id="0x0000b9ef" string=""/>
+<text id="0x0000ba04" string=""/>
+<text id="0x0000ba19" string=""/>
+<text id="0x0000c604" string=""/>
+<text id="0x0000cbd1" string=""/>
+<text id="0x0000cd36" string=""/>
+<text id="0x0000cd4b" string=""/>
+<text id="0x0000cd60" string=""/>
+<text id="0x0000cd75" string=""/>
+<text id="0x0000cd8a" string=""/>
+<text id="0x0000cd9f" string=""/>
+<text id="0x0000cdc9" string=""/>
+<text id="0x0000d723" string=""/>
+<text id="0x0000da6b" string=""/>
+<text id="0x0000da80" string=""/>
+<text id="0x0000045e" string="AF"/>
+<text id="0x000004b2" string="DAB"/>
+<text id="0x000072c8" string="DAB"/>
+<text id="0x00004e71" string="Встроенное ПО тюнера DAB"/>
+<text id="0x0000524c" string="Включить режим TA"/>
+<text id="0x000029c6" string="Вкл."/>
+<text id="0x000029db" string="OTK"/>
+<text id="0x000029b1" string="Региональный"/>
+<text id="0x000029f0" string="выбр. AF"/>
+<text id="0x00007e98" string="Альтернативная частота"/>
+<text id="0x00007f2b" string="Связь DAB с DAB"/>
+<text id="0x00007f40" string="Связь DAB с FM"/>
+<text id="0x00007ead" string="Региональный"/>
+<text id="0x000072f2" string="Воспроизведение дорожных сообщений"/>
+<text id="0x00007307" string="Воспроизведение аварийного сигнала"/>
+<text id="0x0000731c" string="Аварийный сигнал"/>
+<text id="0x000073af" string="Воспроизвести аварийное сообщение"/>
+<text id="0x0000dafe" string="ESC:"/>
+<text id="0x0000db13" string="AWD:"/>
+<text id="0x0000db28" string="Рулевое управ.:"/>
+<text id="0x0000db3d" string="Тормоза:"/>
+<text id="0x0000db52" string="СПОРТ"/>
+<text id="0x0000db67" string="МОЩНОСТЬ"/>
+<text id="0x0000db7c" string="НАПОЛНЕНИЕ"/>
+<text id="0x0000db91" string="НОРМАЛЬНЫЙ"/>
+<text id="0x0000dba6" string="АВТОМАТИЧЕСКИ"/>
+<text id="0x0000dbbb" string="КОМФОРТ"/>
+<text id="0x0000dbd0" string="ЭКО"/>
+<text id="0x0000dbe5" string="Подвеска:"/>
+<text id="0x0000dbfa" string="Настр. двигат.:"/>
+<text id="0x0000dc0f" string="Кор. передач:"/>
+<text id="0x0000dc24" string="СЦЕПЛЕН. С ДОРОГОЙ"/>
+<text id="0x0000dc39" string="УПРАВЛЕНИЕ"/>
+<text id="0x00003a6d" string="Соединение Wi-Fi"/>
+<text id="0x00003a97" string="Точка доступа Wi-Fi"/>
+<text id="0x00003b69" string="Точка доступа Wi-Fi отключена"/>
+<text id="0x00003b7e" string="Точка доступа Wi-Fi включена"/>
+<text id="0x00003cce" string="Сеть Wi-Fi"/>
+<text id="0x00003e5d" string="Устанавливается соединение Wi-Fi."/>
+<text id="0x00005165" string="Режим проверки Wi-Fi AP"/>
+<text id="0x00005762" string="Соединение Wi-Fi соединяет трансп. средстство с Интернетом по сети Wi-Fi."/>
+<text id="0x0000578c" string="Точка доступа Wi-Fi совместно  с устройствами Wi-Fi использует встроенное подключение. Для пользования этой возможностью требуется подписка. Посетите %s"/>
+<text id="0x000058f1" string="Точка доступа Wi-Fi требует встроенного подключения."/>
+<text id="0x00005c8d" string="Wi-Fi"/>
+<text id="0x00005df2" string="Успешное соединение Wi-Fi:"/>
+<text id="0x00005e07" string="Не удалось установить соединение Wi-Fi:"/>
+<text id="0x000073c4" string="Введите идентификационную фразу из 13 символов."/>
+<text id="0x00007e1a" string="Wi-Fi недоступен"/>
+<text id="0x00007e2f" string="Запущено обслуживание Wi-Fi.&#xA;Повторите попытку позже."/>
+<text id="0x00003b54" string="Посм. подключ. устр-ва"/>
+<text id="0x00003c3b" string="Посмотреть/изменить пароль"/>
+<text id="0x00003dca" string="Посм. подключ. устр-ва"/>
+<text id="0x00003ec6" string="Посмотреть/изменить идентиф. фразу"/>
+<text id="0x0000202d" string="Проверьте ключ: %s"/>
+<text id="0x00003932" string="Приложение"/>
+<text id="0x00003947" string="Приложения"/>
+<text id="0x00007736" string="Избран.&#xA;прил."/>
+<text id="0x0000774b" string="Все&#xA;прил."/>
+<text id="0x00007760" string="Запущ.&#xA;прилож."/>
+<text id="0x00007775" string="Медиа&#xA;прилож."/>
+<text id="0x0000778a" string="Информ.&#xA;прил."/>
+<text id="0x0000779f" string="Обществ.&#xA;прил."/>
+<text id="0x000077b4" string="Инстр-ы"/>
+<text id="0x000077c9" string="Вспомог.&#xA;прил."/>
+<text id="0x000077de" string="Другие&#xA;прилож."/>
+<text id="0x000081cb" string="Остановка %s и запуск %s."/>
+<text id="0x000057f5" string="Сделать эту сеть вашей избранной?"/>
+<text id="0x00003c65" string="Доступные сети"/>
+<text id="0x00003a58" string="Встроен. подключение"/>
+<text id="0x0000574d" string="Встроенное подключение соединяет транспортное средство с интернетом. Такое подключение требует подписки. Для управления своей подпиской посетите %s."/>
+<text id="0x00003cf8" string="Не удается добавить сеть."/>
+<text id="0x00003d0d" string="символы"/>
+<text id="0x00003ad6" string="Соеди. по встроенному подключению"/>
+<text id="0x00003aeb" string="Соединено по Wi-Fi"/>
+<text id="0x00003b00" string="Соединено по Bluetooth"/>
+<text id="0x00003b15" string="Соединено по точке доступа Wi-Fi"/>
+<text id="0x00003b2a" string="Соединено по"/>
+<text id="0x00005906" string="Соединено со встроенным подключением"/>
+<text id="0x00000fb0" string="Подключаемость"/>
+<text id="0x00003a19" string="Подключаемость"/>
+<text id="0x000050fc" string="Приоритет подключений"/>
+<text id="0x00005e1c" string="Удалить сеть"/>
+<text id="0x00003ce3" string="Удалить сеть Wi-Fi?"/>
+<text id="0x0000595a" string="Удалите неиспользуемые сети и повторите попытку."/>
+<text id="0x00003b3f" string="%s устройств соединено с точк.дост."/>
+<text id="0x00003bd2" string="Отключить информ. соед."/>
+<text id="0x000056f9" string="Разрешить встроен. подключ."/>
+<text id="0x0000570e" string="Разрешить соед. Wi-Fi"/>
+<text id="0x00005738" string="Разрешить точ. дост. Wi-Fi"/>
+<text id="0x00008090" string="Не удалось выполнить проверку DRM."/>
+<text id="0x000080a5" string="Не удалось выпол.проверку DRM для %s."/>
+<text id="0x000080ba" string="Запущено слишком много приложений.&#xA;Закройте приложение."/>
+<text id="0x000080cf" string="Необходима регистрация. Чтобы прекратить&#xA;напоминания, нажм.кнопку игнорировать."/>
+<text id="0x000080e4" string="Срок регистр. истек. Нажм. зарегистр-ся,&#xA;чтобы снова ввести свое эл.сообщ. Чтобы&#xA;прекратить напом-я, нажм.кноп.игнор-ть."/>
+<text id="0x000044ed" string="Избранные пункты назначения"/>
+<text id="0x00005945" string="Список избранных сетей полон."/>
+<text id="0x00003c7a" string="Избранные сети"/>
+<text id="0x00003cb9" string="Имя точки доступа"/>
+<text id="0x00003eb1" string="Точка доступа"/>
+<text id="0x0000591b" string="Отключение точки доступа Wi-Fi из-за изменения конфигурации."/>
+<text id="0x00005930" string="После завершения изменения конфигурации необходимо включить точку доступа вручную."/>
+<text id="0x00005c78" string="Идентификационная фраза точки доступа"/>
+<text id="0x00005069" string="Управлять Xlets"/>
+<text id="0x00003ca4" string="Имя сети"/>
+<text id="0x00005c63" string="Идент. фраз"/>
+<text id="0x00007fbe" string="Ключ: %s"/>
+<text id="0x00007f16" string="Подтвердите, что отображенный PIN&#xA;соответствует вашему устройству."/>
+<text id="0x00007fa9" string="Подтвердите, что отображенный ключ&#xA;соответствует вашему устройству."/>
+<text id="0x000074c0" string="Готово!"/>
+<text id="0x000039b0" string="Запуск"/>
+<text id="0x0000596f" string="Поиск доступных сетей Wi-Fi."/>
+<text id="0x00003db5" string="Установить точ. дост. Wi-Fi"/>
+<text id="0x00008480" string="Подписка не активна&#xA;&#xA;Чтобы пользов. этой функц., перейдите в магаз.&#xA;Uconnect и возобновите подписку %s."/>
+<text id="0x00008417" string="Приложение инициализации"/>
+<text id="0x00009cf2" string="Подождите.&#xA;Работает %s.&#xA;Повторите %s снова."/>
+<text id="0x00009d07" string="Функция недоступна.&#xA;Повторите попытку позже."/>
+<text id="0x00009d1c" string="Начат сброс данных прилож-я.&#xA;После сброса радио все данные прилож. будут&#xA;потеряны. Подождите."/>
+<text id="0x0000d7a1" string="Добавлен в избр. прилож."/>
+<text id="0x0000d7b6" string="Ошибка при запуске приложения.&#xA;Повторите попытку позже."/>
+<text id="0x0000d7cb" string="Добро пожаловать в доступ к Uconnect&#xA;&#xA;Чтобы использовать все премущества,&#xA;нажмите кнопку пуска."/>
+<text id="0x0000d7e0" string="Удалить %s любимых приложений?"/>
+<text id="0x0000d7f5" string="Достигнут предел ресурса"/>
+<text id="0x0000d80a" string="Закройте приложение и затем запустите его снова."/>
+<text id="0x0000d81f" string="Слишком много работающих приложений. Закройте приложение и затем запустите его еще раз."/>
+<text id="0x0000d834" string="Идти к запущенным приложениям"/>
+<text id="0x0000dccc" string="Точка доступа выключена."/>
+<text id="0x0000dce1" string="Выкл. точку доступа, чтобы сделать изменения."/>
+<text id="0x0000dd0b" string="Воспроизвести содержимое с %s?"/>
+<text id="0x0000e431" string="Добавить %s к любимым приложениям?"/>
+<text id="0x0000e446" string="Желаете убрать %s из любимых приложений?"/>
+<text id="0x0000e45b" string="После установки прилож. будет перезагр. сист."/>
+<text id="0x0000e470" string="Учетная запись Uconnect удалена. Перезагрузка системы."/>
+<text id="0x0000c30d" string=""/>
+<text id="0x0000c30e" string=""/>
+<text id="0x0000c30f" string=""/>
+<text id="0x0000ba97" string=""/>
+<text id="0x0000baac" string=""/>
+<text id="0x0000bac1" string=""/>
+<text id="0x0000bad6" string=""/>
+<text id="0x0000baeb" string=""/>
+<text id="0x0000bb00" string=""/>
+<text id="0x0000bb15" string=""/>
+<text id="0x0000bb2a" string=""/>
+<text id="0x0000bb3f" string=""/>
+<text id="0x0000bb54" string=""/>
+<text id="0x0000bb69" string=""/>
+<text id="0x0000bb7e" string=""/>
+<text id="0x0000bb93" string=""/>
+<text id="0x0000bba8" string=""/>
+<text id="0x0000bbbd" string=""/>
+<text id="0x0000bbd2" string=""/>
+<text id="0x0000bbe7" string=""/>
+<text id="0x0000bbfc" string=""/>
+<text id="0x0000bc11" string=""/>
+<text id="0x0000bc26" string=""/>
+<text id="0x0000bc3b" string=""/>
+<text id="0x0000bc50" string=""/>
+<text id="0x0000bc65" string=""/>
+<text id="0x0000bc7a" string=""/>
+<text id="0x0000bc8f" string=""/>
+<text id="0x0000bca4" string=""/>
+<text id="0x0000bcb9" string=""/>
+<text id="0x0000bcce" string=""/>
+<text id="0x0000bce3" string=""/>
+<text id="0x0000bcf8" string=""/>
+<text id="0x0000bd0d" string=""/>
+<text id="0x0000bd22" string=""/>
+<text id="0x0000bd37" string=""/>
+<text id="0x0000bd4c" string=""/>
+<text id="0x0000bd61" string=""/>
+<text id="0x0000bd76" string=""/>
+<text id="0x0000bd8b" string=""/>
+<text id="0x0000bda0" string=""/>
+<text id="0x0000bdb5" string=""/>
+<text id="0x0000bdca" string=""/>
+<text id="0x0000bddf" string=""/>
+<text id="0x0000bdf4" string=""/>
+<text id="0x0000be09" string=""/>
+<text id="0x0000be1e" string=""/>
+<text id="0x0000be33" string=""/>
+<text id="0x0000be48" string=""/>
+<text id="0x0000be5d" string=""/>
+<text id="0x0000be72" string=""/>
+<text id="0x0000be87" string=""/>
+<text id="0x0000be9c" string=""/>
+<text id="0x0000c697" string=""/>
+<text id="0x0000c6ac" string=""/>
+<text id="0x0000c6c1" string=""/>
+<text id="0x0000c6d6" string=""/>
+<text id="0x0000c6eb" string=""/>
+<text id="0x0000c700" string=""/>
+<text id="0x0000c826" string=""/>
+<text id="0x0000c83b" string=""/>
+<text id="0x0000c850" string=""/>
+<text id="0x0000c865" string=""/>
+<text id="0x0000c87a" string=""/>
+<text id="0x0000c88f" string=""/>
+<text id="0x0000c8a4" string=""/>
+<text id="0x0000c8b9" string=""/>
+<text id="0x0000c8ce" string=""/>
+<text id="0x0000c8e3" string=""/>
+<text id="0x0000c8f8" string=""/>
+<text id="0x0000c90d" string=""/>
+<text id="0x0000c922" string=""/>
+<text id="0x0000c937" string=""/>
+<text id="0x0000c94c" string=""/>
+<text id="0x0000c961" string=""/>
+<text id="0x0000c976" string=""/>
+<text id="0x0000cbe6" string=""/>
+<text id="0x0000cbfb" string=""/>
+<text id="0x0000cc10" string=""/>
+<text id="0x0000cc25" string=""/>
+<text id="0x0000cc3a" string=""/>
+<text id="0x0000cc4f" string=""/>
+<text id="0x0000cc64" string=""/>
+<text id="0x0000d28b" string=""/>
+<text id="0x0000d2a0" string=""/>
+<text id="0x0000d2b5" string=""/>
+<text id="0x0000d2ca" string=""/>
+<text id="0x0000d2df" string=""/>
+<text id="0x0000d2f4" string=""/>
+<text id="0x0000d372" string=""/>
+<text id="0x0000d405" string=""/>
+<text id="0x0000d41a" string=""/>
+<text id="0x0000d42f" string=""/>
+<text id="0x0000d444" string=""/>
+<text id="0x0000d459" string=""/>
+<text id="0x0000d46e" string=""/>
+<text id="0x0000d483" string=""/>
+<text id="0x0000d498" string=""/>
+<text id="0x0000d4ad" string=""/>
+<text id="0x0000d4c2" string=""/>
+<text id="0x0000d4d7" string=""/>
+<text id="0x0000d4ec" string=""/>
+<text id="0x0000d501" string=""/>
+<text id="0x0000d516" string=""/>
+<text id="0x0000d52b" string=""/>
+<text id="0x0000d540" string=""/>
+<text id="0x0000d555" string=""/>
+<text id="0x0000d56a" string=""/>
+<text id="0x0000d57f" string=""/>
+<text id="0x0000d594" string=""/>
+<text id="0x0000d5a9" string=""/>
+<text id="0x0000d5be" string=""/>
+<text id="0x0000d5d3" string=""/>
+<text id="0x0000d5e8" string=""/>
+<text id="0x0000d5fd" string=""/>
+<text id="0x0000d612" string=""/>
+<text id="0x0000d627" string=""/>
+<text id="0x0000d63c" string=""/>
+<text id="0x0000d651" string=""/>
+<text id="0x0000d738" string=""/>
+<text id="0x0000d74d" string=""/>
+<text id="0x0000d762" string=""/>
+<text id="0x0000d849" string=""/>
+<text id="0x0000d85e" string=""/>
+<text id="0x0000d873" string=""/>
+<text id="0x0000d999" string=""/>
+<text id="0x0000d9ae" string=""/>
+<text id="0x0000d9c3" string=""/>
+<text id="0x0000dabf" string=""/>
+<text id="0x0000dad4" string=""/>
+<text id="0x0000dae9" string=""/>
+<text id="0x0000e41c" string=""/>
+<text id="0x0000e4af" string=""/>
+<text id="0x0000e4c4" string=""/>
+<text id="0x0000e6bc" string=""/>
+<text id="0x0000e779" string=""/>
+<text id="0x0000e78e" string=""/>
+<text id="0x0000e7a3" string=""/>
+<text id="0x0000e7b8" string=""/>
+<text id="0x0000e7cd" string=""/>
+<text id="0x0000e7e2" string=""/>
+<text id="0x0000e7f7" string=""/>
+<text id="0x0000e80c" string=""/>
+<text id="0x0000e821" string=""/>
+<text id="0x0000e836" string=""/>
+<text id="0x0000e84b" string=""/>
+<text id="0x0000e860" string=""/>
+<text id="0x0000e875" string=""/>
+<text id="0x0000e8b4" string=""/>
+<text id="0x0000ec13" string=""/>
+<text id="0x0000ec28" string=""/>
+<text id="0x0000f5ac" string=""/>
+<text id="0x0000f5c1" string=""/>
+<text id="0x0000f600" string=""/>
+<text id="0x0000f6d2" string=""/>
+<text id="0x0000cca3" string="Добавить устр-о"/>
+<text id="0x0000ccb8" string="Изменить PIN"/>
+<text id="0x0000cccd" string="Всегда соблюдайте правила движения и следите за дорогой. Во&#xA;время движения транспортного средства некоторые функции &#xA;ограничены. Подробнее см. в руководстве владельца."/>
+<text id="0x0000de9d" string="Устройство не работает"/>
+<text id="0x0000deb2" string="Эл. книга"/>
+<text id="0x0000dec7" string="Память"/>
+<text id="0x0000dedc" string="Инфо"/>
+<text id="0x0000def1" string="Выбрать&#xA;источник"/>
+<text id="0x0000df06" string="Список"/>
+<text id="0x0000df1b" string="Вход Aux"/>
+<text id="0x0000df30" string="Параметры"/>
+<text id="0x0000df45" string="Информация"/>
+<text id="0x0000df5a" string="Повтор"/>
+<text id="0x0000df6f" string="Куда?"/>
+<text id="0x0000df84" string="Список"/>
+<text id="0x0000df99" string="тел. книга"/>
+<text id="0x0000dfae" string="недавние"/>
+<text id="0x0000dfc3" string="Спар.&#xA;тел-ны"/>
+<text id="0x0000dfd8" string="Спар.&#xA;источники&#xA;аудио"/>
+<text id="0x0000dfed" string="Удалить устройство"/>
+<text id="0x0000e002" string="Станция"/>
+<text id="0x0000e017" string="Инф."/>
+<text id="0x0000e02c" string="Жанр"/>
+<text id="0x0000e041" string="Проп.&#xA;звонки"/>
+<text id="0x0000e056" string="Исходящи&#xA;звонки"/>
+<text id="0x0000e06b" string="Входящи&#xA;звонки"/>
+<text id="0x0000e080" string="Все&#xA;звонки"/>
+<text id="0x0000e2e1" string="Уровень датч. дождя"/>
+<text id="0x0000e2f6" string="Расход"/>
+<text id="0x0000e30b" string="МИЛИ"/>
+<text id="0x0000e320" string="КМ"/>
+<text id="0x0000e335" string="МИЛ/ГАЛ"/>
+<text id="0x0000e34a" string="Литры/&#xA;100км"/>
+<text id="0x0000e35f" string="км/л"/>
+<text id="0x0000e374" string="SD-карта"/>
+<text id="0x0000dc63" string="Уст. месяц"/>
+<text id="0x0000dc78" string="Уст. год"/>
+<text id="0x0000dc4e" string="Уст. день"/>
+<text id="0x0000e5c0" string="Восст. станд. парам."/>
+<text id="0x0000e5d5" string="Возвратить стандартные значения параметров?"/>
+<text id="0x0000e5ea" string="Установлены стандартные значения параметров."/>
+<text id="0x0000e6d1" string="Установлены стандартные значения параметров."/>
+<text id="0x0000e63e" string="Очистить личные данные"/>
+<text id="0x0000e653" string="Все личные данные будут удалены. Продолжить? "/>
+<text id="0x0000e668" string="Личные данные очищены."/>
+<text id="0x0000e725" string="Auto-On Radio"/>
+<text id="0x0000e932" string="Radio automatically turns on when&#xA;vehicle is in run or will recall whether&#xA;it was on or off at last ignition off."/>
+<text id="0x0000e971" string="Громк. от&#xA;скорости"/>
+<text id="0x0000eb3f" string="Станции Недоступные"/>
+<text id="0x0000ebd2" string="НЕУДАЧА"/>
+<text id="0x0000ed78" string="Прям.&#xA;Набор"/>
+<text id="0x0000edb7" string=""/>
+<text id="0x0000ee0b" string=""/>
+<text id="0x0000ee20" string=""/>
+<text id="0x0000ee35" string=""/>
+<text id="0x0000ee4a" string=""/>
+<text id="0x0000ee89" string=""/>
+<text id="0x0000ee9e" string=""/>
+<text id="0x0000eedd" string=""/>
+<text id="0x0000ef1c" string=""/>
+<text id="0x0000ef31" string=""/>
+<text id="0x0000ef70" string=""/>
+<text id="0x0000ef85" string=""/>
+<text id="0x0000ef9a" string=""/>
+<text id="0x0000efaf" string=""/>
+<text id="0x0000efc4" string=""/>
+<text id="0x0000efd9" string=""/>
+<text id="0x0000f114" string="УДЕРЖИВАТЬ д/уст."/>
+<text id="0x0000f129" string="Регулир. громкости навиг"/>
+<text id="0x0000f558" string=""/>
+<text id="0x0000f67e" string="Громкость"/>
+<text id="0x0000f693" string="Улучшает звук при низ. уров. громк."/>
+<text id="0x0000e8c9" string="Дор.движение"/>
+<text id="0x0000e8de" string="Аварийный сигнал"/>
+</textresources>

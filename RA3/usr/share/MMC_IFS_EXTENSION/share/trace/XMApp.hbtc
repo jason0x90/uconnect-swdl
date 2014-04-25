@@ -1,0 +1,52 @@
+HBTracePersistence 1.1.0
+[CMCConnMgr]
+* 00 00
+[ChryslerOpenNavController]
+* 00 00
+[DBusTraceMonitor]
+* 00 00
+[DbService]
+* 00 00
+[HistoLogger]
+* 00 00
+[MediaService]
+* 00 00
+[UISpeechService]
+* 00 00
+[WifiSvc]
+* 62 01
+[XMApp]
+* 00 01
+XMAPP 22 01
+XMAPP_XMAntennaListener 6e 01
+XMAPP_XMApp_baseInitializeDataServices 6e 01
+XMAPP_XMApp_driverABIndication 6e 01
+XMAPP_XMApp_driverABResponse 6e 01
+XMAPP_XMApp_initComplete 6e 01
+XMAPP_XMApp_initializeDataServices 6e 01
+XMAPP_XMApp_processChannelSelect 6e 01
+XMAPP_XMApp_processPresetRecall 6e 01
+XMAPP_XMApp_processPresetSeek 6e 01
+XMAPP_XMApp_processSeek 6e 01
+XMAPP_XMApp_processSetPowerMode 6e 01
+XMAPP_XMApp_updateAntennaState 6e 01
+XMAPP_XMApp_updateDecoderState 6e 01
+XMAPP_XMApp_updateModuleState 6e 01
+XMAPP_XMApp_updateSRMState 6e 01
+XMAPP_XMApp_updateTuneState 6e 01
+XMAPP_XMModeFSM 6e 01
+XMAPP_XMServiceBase 6e 01
+[appManager]
+* 00 00
+[audioCtrlSvc]
+* 00 00
+[btservice]
+* 00 00
+[cmcManager]
+* 00 00
+[ecallService]
+* 00 00
+[embeddedPhone]
+* 00 00
+[xletDiagService]
+* 00 00

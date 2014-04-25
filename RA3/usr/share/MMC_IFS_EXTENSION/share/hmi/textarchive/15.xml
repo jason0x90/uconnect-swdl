@@ -1,0 +1,2306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<textresources>
+<text id="0x00000044" string="전체 화면"/>
+<text id="0x00000059" string="지도"/>
+<text id="0x0000006e" string="정보"/>
+<text id="0x00000083" string="트랙"/>
+<text id="0x00000098" string="Bluetooth"/>
+<text id="0x000000c2" string="오디오"/>
+<text id="0x000000d7" string="반복"/>
+<text id="0x000000ec" string="%s / %s"/>
+<text id="0x00000101" string="랜덤"/>
+<text id="0x00000116" string="트랙 #"/>
+<text id="0x0000012b" string="알려지지 않음"/>
+<text id="0x00000140" string="아티스트"/>
+<text id="0x00000155" string="제목"/>
+<text id="0x0000016a" string="앨범"/>
+<text id="0x0000017f" string="작곡가"/>
+<text id="0x00000194" string="장르"/>
+<text id="0x000001a9" string="년도"/>
+<text id="0x000001be" string="확인"/>
+<text id="0x000001d3" string="직접 선택"/>
+<text id="0x000001e8" string="완료"/>
+<text id="0x000001fd" string="도난 방지 코드를 입력하세요"/>
+<text id="0x00000212" string="잘못된 코드 - 다시 시도하세요"/>
+<text id="0x00000227" string="라디오 잠김"/>
+<text id="0x0000023c" string="라디오 잠금 - %s분만 기다리세요"/>
+<text id="0x00000251" string="차량을 출발하세요"/>
+<text id="0x00000266" string="전후/좌우 밸런스"/>
+<text id="0x0000027b" string="고음/중음/저음"/>
+<text id="0x00000290" string="차속 연동 볼륨조절"/>
+<text id="0x000002a5" string="서라운드"/>
+<text id="0x000002ba" string="음악 정보"/>
+<text id="0x000002cf" string="켜기"/>
+<text id="0x000002e4" string="끄기"/>
+<text id="0x000002f9" string="서라운드 지원 모드에서 가능합니다"/>
+<text id="0x0000030e" string="제작자"/>
+<text id="0x00000338" string="차량 속도에 따라 볼륨이 증가합니다"/>
+<text id="0x0000034d" string="저음"/>
+<text id="0x00000362" string="중음"/>
+<text id="0x00000377" string="고음"/>
+<text id="0x0000038c" string="전"/>
+<text id="0x000003a1" string="좌"/>
+<text id="0x000003b6" string="후"/>
+<text id="0x000003cb" string="우"/>
+<text id="0x000003e0" string="C"/>
+<text id="0x000003f5" string="버퍼링..."/>
+<text id="0x0000041f" string="버퍼링..."/>
+<text id="0x00000434" string="지도"/>
+<text id="0x00000449" string="정보"/>
+<text id="0x000004c7" string="채널"/>
+<text id="0x000004dc" string="정보"/>
+<text id="0x000004f1" string="태그"/>
+<text id="0x0000055a" string="일시정지됨"/>
+<text id="0x00000584" string="라이브"/>
+<text id="0x00000599" string="길게누르세요"/>
+<text id="0x000005ae" string="찾아보기"/>
+<text id="0x000005c3" string="다시 재생"/>
+<text id="0x000005d8" string="선택"/>
+<text id="0x00000602" string="오디오"/>
+<text id="0x0000062c" string="오디오"/>
+<text id="0x00000641" string="선택"/>
+<text id="0x00000656" string="찾아보기"/>
+<text id="0x0000066b" string="오디오"/>
+<text id="0x00000680" string="길게누르세요"/>
+<text id="0x00000695" string="채널 이름"/>
+<text id="0x000006aa" string="프리셋"/>
+<text id="0x000006bf" string="모든 채널"/>
+<text id="0x000006d4" string="목록갱신"/>
+<text id="0x000006e9" string="모든채널"/>
+<text id="0x000006fe" string="장르"/>
+<text id="0x00000713" string="프리셋"/>
+<text id="0x00000728" string="모든채널"/>
+<text id="0x0000073d" string="프리셋"/>
+<text id="0x00000767" string="설정하려면 길게 누르세요"/>
+<text id="0x00000791" string="즐겨찾기 삭제"/>
+<text id="0x000007d0" string="선택 삭제"/>
+<text id="0x00000824" string="교통 &amp; 날씨 소식을 위한 도시 선택:"/>
+<text id="0x00000839" string="즐겨찾기"/>
+<text id="0x00000878" string="화면을 켜려면 터치하세요"/>
+<text id="0x0000088d" string="라이브"/>
+<text id="0x000008a2" string="라이브"/>
+<text id="0x0000095f" string="잘못된 코드 - 다시 시도하세요"/>
+<text id="0x00000974" string="네"/>
+<text id="0x00000989" string="즐겨찾기 편집"/>
+<text id="0x0000099e" string="아니오"/>
+<text id="0x000009b3" string="확인"/>
+<text id="0x000009c8" string="아니오"/>
+<text id="0x000009dd" string="시간"/>
+<text id="0x000009f2" string="시계 설정을 하시겠습니까?"/>
+<text id="0x00000a07" string="즐겨찾기"/>
+<text id="0x00000a1c" string="즐겨찾기 목록이 가득찼습니다. &#xA;목록 추가를 위해 기존 즐겨찾기를 삭제하시겠습니까?"/>
+<text id="0x00000a31" string="모든 즐겨찾기를 삭제하시겠습니까?"/>
+<text id="0x00000a70" string="기다려 주십시요…"/>
+<text id="0x00000a85" string="자료 입수 중..."/>
+<text id="0x00000aee" string="신호 없음. &#xA;&#xA;서비스 요청은 딜러에게 연락하세요."/>
+<text id="0x00000b18" string="구독하지 않음"/>
+<text id="0x00000b2d" string="구독 업데이트 중. 기다려 주십시요…"/>
+<text id="0x00000b96" string="추가"/>
+<text id="0x00000bab" string="즐겨찾기에 추가하시겠습니까?"/>
+<text id="0x00000bc0" string="속도 잠금"/>
+<text id="0x00000bd5" string="주행중에는 기능을 사용할 수 없습니다"/>
+<text id="0x00000bea" string="현재의 전화에서는 지원하지 않는 기능입니다&#xA;&#xA;장치 호환성 정보는 %s 에서 확인하세요"/>
+<text id="0x00000bff" string="음악 음소거됨"/>
+<text id="0x00000c14" string="노래 태그됨"/>
+<text id="0x00000c29" string="iTune을 통해 구매하려면 iPod를 연결하세요"/>
+<text id="0x00000c3e" string="태그된 노래 목록이 가득찼습니다. 목록을 전송하려면 iPod를 연결하세요."/>
+<text id="0x00000c53" string="태그된 노래 목록이 가득찼습니다.&#xA;태그된 노래 정보를 전송하려면 호환성있는 iPod를 연결하세요."/>
+<text id="0x00000c68" string="태그된 노래 정보를 iPod로 전송 중"/>
+<text id="0x00000c7d" string="태그된 노래 정보를 iPod로 전송 중 오류"/>
+<text id="0x00000c92" string="태그된 노래 데이터를 전송할 수 없습니다.&#xA;iPod 메모리가 가득찼습니다."/>
+<text id="0x00000ca7" string="  태그된 노래의 iPod 메모리가 가득차서, 노래 데이터가 전송되지 않습니다"/>
+<text id="0x00000cbc" string="태그된 노래. 태그된 노래 정보를 전송하려면 호환성있는 iPod를 연결하세요."/>
+<text id="0x00000cd1" string="연결된 iPod는 노래 태깅을 지원하지 않습니다. 태그된 노래 정보는 전송되지 않을 것입니다."/>
+<text id="0x00000ce6" string="경고"/>
+<text id="0x00000cfb" string="디스플레이가 과열되어 종료중입니다"/>
+<text id="0x00000d10" string="언어 설정"/>
+<text id="0x00000d25" string="설정"/>
+<text id="0x00000d3a" string="목록에 있는 아이템"/>
+<text id="0x00000d4f" string="목록에 있는 아이템"/>
+<text id="0x00000d64" string="디스플레이 모드"/>
+<text id="0x00000d79" string="Display Brightness with Headlights On"/>
+<text id="0x00000d8e" string="Display Brightness with Headlights Off"/>
+<text id="0x00000da3" string="언어 설정"/>
+<text id="0x00000db8" string="장치"/>
+<text id="0x00000dcd" string="음성 응답 길이"/>
+<text id="0x00000de2" string="터치스크린 터치음"/>
+<text id="0x00000df7" string="계기판 네비게이션 턴-바이-턴 기능 표시"/>
+<text id="0x00000e0c" string="계기판 ECO 표시"/>
+<text id="0x00000e21" string="자동"/>
+<text id="0x00000e36" string="밤"/>
+<text id="0x00000e4b" string="낮"/>
+<text id="0x00000e75" string="미터"/>
+<text id="0x00000e8a" string="간단히"/>
+<text id="0x00000e9f" string="자세히"/>
+<text id="0x00000eb4" string="미디어 사용 불가"/>
+<text id="0x00000ec9" string="트랙 번호: %s"/>
+<text id="0x00000ede" string="디스플레이"/>
+<text id="0x00000ef3" string="시계"/>
+<text id="0x00000f08" string="나침반"/>
+<text id="0x00000f1d" string="안전 보조 기능"/>
+<text id="0x00000f32" string="조명"/>
+<text id="0x00000f47" string="도어 &amp; 잠금"/>
+<text id="0x00000f5c" string="자동편의"/>
+<text id="0x00000f71" string="엔진 끄기 옵션"/>
+<text id="0x00000f86" string="오디오"/>
+<text id="0x00000f9b" string="전화/Bluetooth"/>
+<text id="0x00000fda" string="시간 동기화"/>
+<text id="0x00000fef" string="시 설정"/>
+<text id="0x00001019" string="시간 형식"/>
+<text id="0x0000102e" string="상태 표시줄 시간표시"/>
+<text id="0x00001043" string="일광 절약 시간"/>
+<text id="0x0000106d" string="시"/>
+<text id="0x00001082" string="원격 시동시 소리 경적"/>
+<text id="0x00001097" string="냉난방 시트 및 스티어링 휠 히팅"/>
+<text id="0x000010ac" string="차량 출발시"/>
+<text id="0x00001100" string="Radio"/>
+<text id="0x00001115" string="Player"/>
+<text id="0x0000112a" string="Controls"/>
+<text id="0x0000113f" string="Nav"/>
+<text id="0x00001154" string="Phone"/>
+<text id="0x00001169" string="More"/>
+<text id="0x0000117e" string="out."/>
+<text id="0x00001193" string="음악 음소거됨"/>
+<text id="0x000011a8" string="오디오 스트리밍"/>
+<text id="0x00001211" string="Climate"/>
+<text id="0x00001226" string="약"/>
+<text id="0x0000123b" string="강"/>
+<text id="0x00001250" string="최저"/>
+<text id="0x00001265" string="최고"/>
+<text id="0x0000127a" string="시각 경고"/>
+<text id="0x0000128f" string="시청각 경고"/>
+<text id="0x000012f8" string="설정하려면 길게 누르세요"/>
+<text id="0x00001448" string="즐겨찾기"/>
+<text id="0x00001487" string="즐겨찾기 삭제"/>
+<text id="0x000014b1" string="선택 삭제"/>
+<text id="0x000014db" string="교통 &amp; 날씨로 점프"/>
+<text id="0x000014f0" string="운전석"/>
+<text id="0x00001505" string="전좌석"/>
+<text id="0x0000151a" string="자동 도어 잠금"/>
+<text id="0x0000152f" string="하차시 자동 잠금해제"/>
+<text id="0x00001544" string="잠금시 전조등 점멸"/>
+<text id="0x00001559" string="잠금시 경적 울리기"/>
+<text id="0x0000156e" string="원격 시동시 소리 경적"/>
+<text id="0x00001583" string="리모컨 한번 눌러 잠금해제"/>
+<text id="0x00001598" string="수동 입력"/>
+<text id="0x000015ad" string="리모컨 개인설정 저장"/>
+<text id="0x000015c2" string="슬라이딩 도어 경고"/>
+<text id="0x000015d7" string="분"/>
+<text id="0x000015ec" string="초"/>
+<text id="0x00001601" string="이지 액세스 시트"/>
+<text id="0x00001616" string="엔진 끄기 파워 지연"/>
+<text id="0x0000162b" string="에스코트 라이트"/>
+<text id="0x00001640" string="네"/>
+<text id="0x00001655" string="사용불가"/>
+<text id="0x0000166a" string="소프트웨어를 업데이트 하시겠습니까?"/>
+<text id="0x000016a9" string="즐겨찾기"/>
+<text id="0x000016d3" string="선택된 즐겨찾기 중 어떤 것도 현재 방송되지 않습니다."/>
+<text id="0x000016e8" string="항목 없음"/>
+<text id="0x000016fd" string="- 모두 삭제 -"/>
+<text id="0x0000173c" string="웰컴 나이트"/>
+<text id="0x00001751" string="와이퍼 연동 전조등 점등"/>
+<text id="0x00001766" string="상향등 자동 전환"/>
+<text id="0x0000177b" string="데이라이트"/>
+<text id="0x00001790" string="어댑티드 헤드라이트"/>
+<text id="0x000017a5" string="통행 방향 전환"/>
+<text id="0x000017ba" string="전방 충돌 경고"/>
+<text id="0x000017cf" string="주차 센서"/>
+<text id="0x000017e4" string="후진 연동 사이드미러"/>
+<text id="0x000017f9" string="사각지대 경고"/>
+<text id="0x0000180e" string="후진 연동 카메라"/>
+<text id="0x00001823" string="우적 감지 와이퍼"/>
+<text id="0x00001838" string="언덕 밀림 방지"/>
+<text id="0x0000184d" string="끄기"/>
+<text id="0x00001862" string="멀리"/>
+<text id="0x00001877" string="접근"/>
+<text id="0x0000188c" string="소리"/>
+<text id="0x000018a1" string="소리 + &#xA;표시"/>
+<text id="0x000018b6" string="조명"/>
+<text id="0x000018cb" string="조명 + &#xA;경적"/>
+<text id="0x000018f5" string="구독 정보"/>
+<text id="0x0000190a" string="통화"/>
+<text id="0x0000195e" string="구독됨"/>
+<text id="0x00001973" string="구독되지 않음"/>
+<text id="0x00001988" string="서비스를 이용하려면 %s 에 전화하세요"/>
+<text id="0x00001a1b" string="기다려 주십시요…"/>
+<text id="0x00001a30" string="연결됨"/>
+<text id="0x00001a45" string="연결된&#xA;전화"/>
+<text id="0x00001a5a" string="연결된&#xA;오디오&#xA;장치"/>
+<text id="0x00001a6f" string="연결된 데이타 장치"/>
+<text id="0x00001a84" string="장치&#xA;추가"/>
+<text id="0x00001a99" string="PIN&#xA;변경"/>
+<text id="0x00001aae" string="Bluetooth"/>
+<text id="0x00001ac3" string="최근 통화"/>
+<text id="0x00001ad8" string="다이얼"/>
+<text id="0x00001aed" string="메시지"/>
+<text id="0x00001b02" string="설정"/>
+<text id="0x00001b17" string="전화번호부"/>
+<text id="0x00001b2c" string="전화로&#xA;전송"/>
+<text id="0x00001b41" string="그룹 통화"/>
+<text id="0x00001b56" string="음소거"/>
+<text id="0x00001b6b" string="종료"/>
+<text id="0x00001b80" string="통화 전환"/>
+<text id="0x00001b95" string="재다이얼"/>
+<text id="0x00001baa" string="대기"/>
+<text id="0x00001bbf" string="응답"/>
+<text id="0x00001bd4" string="무시"/>
+<text id="0x00001be9" string="핸즈&#xA;프리"/>
+<text id="0x00001bfe" string="설정하려면 길게 누르세요"/>
+<text id="0x00001c13" string="수신 전화"/>
+<text id="0x00001c28" string="전화 연결 중"/>
+<text id="0x00001c3d" string="설정메뉴를 이용하세요"/>
+<text id="0x00001c52" string="전화 준비"/>
+<text id="0x00001c67" string="그룹 통화"/>
+<text id="0x00001c7c" string="전화 연결되지 않음"/>
+<text id="0x00001c91" string="통화종료: %s"/>
+<text id="0x00001ca6" string="전화 보류: %s"/>
+<text id="0x00001cbb" string="통화 시간: %s"/>
+<text id="0x00001cd0" string="로밍"/>
+<text id="0x00001ce5" string="비어있음"/>
+<text id="0x00001cfa" string="모두 선택해제"/>
+<text id="0x00001d0f" string="모두 선택"/>
+<text id="0x00001d39" string="내 즐겨찾기"/>
+<text id="0x00001db7" string="브랜드"/>
+<text id="0x00001dcc" string="거리"/>
+<text id="0x00001e35" string="추가"/>
+<text id="0x00001e5f" string="마지막 업데이트: %s"/>
+<text id="0x00001e89" string="찾기"/>
+<text id="0x00001f31" string="찾기"/>
+<text id="0x00001f5b" string="교통 정보"/>
+<text id="0x00001f9a" string="mi"/>
+<text id="0x00001faf" string="km"/>
+<text id="0x00001fc4" string="연결된 전화가 없음."/>
+<text id="0x00001fd9" string="전화를 핸즈프리 모드로 전환하시겠습니까?"/>
+<text id="0x00001fee" string="승인"/>
+<text id="0x00002003" string="장치를 추가할 수 없습니다. 연결된 장치 목록이 가득찼습니다."/>
+<text id="0x00002018" string="전화 또는 Bluetooth 장치의 페어링을 시작하세요"/>
+<text id="0x00002042" string="차량 장치 이름: %s"/>
+<text id="0x00002057" string="사용하지 않은 장치를 삭제하고 다시 시도하세요."/>
+<text id="0x0000206c" string="PIN: %s"/>
+<text id="0x00002081" string="Bluetooth 연결 진행 중. &#xA;기다리세요"/>
+<text id="0x00002096" string="호환 장치목록 확인은 차량 웹사이트를 방문하십시요"/>
+<text id="0x000020ab" string="재시도"/>
+<text id="0x000020c0" string="Bluetooth 연결이 성공하지 못했습니다.&#xA;다시 시작하세요"/>
+<text id="0x000020d5" string="Bluetooth 연결 성공"/>
+<text id="0x000020ea" string="장치 삭제"/>
+<text id="0x000020ff" string="장치 사용이 불가능합니다. &#xA;&#xA;사용범위 내에 있는지 확인해 주세요."/>
+<text id="0x00002114" string="Bluetooth 연결 중"/>
+<text id="0x00002129" string="즐겨찾기"/>
+<text id="0x0000213e" string="즐겨찾기 번호를 설정하려면: &#xA;전화 통화 중 길게 누르거나&#xA;전화번호부로 가서 즐겨찾기를 선택하세요."/>
+<text id="0x00002153" string="전화번호부로 가서 즐겨찾기를 선택하세요."/>
+<text id="0x00002210" string="통화"/>
+<text id="0x00002225" string="종료"/>
+<text id="0x0000223a" string="직접 다이얼"/>
+<text id="0x0000224f" string="터치 톤 항목"/>
+<text id="0x00002264" string="PIN 입력"/>
+<text id="0x00002279" string="네"/>
+<text id="0x000022b8" string="검색"/>
+<text id="0x00002321" string="데이터 이용 불가능"/>
+<text id="0x0000234b" string="이름"/>
+<text id="0x0000239f" string="지속기간"/>
+<text id="0x000023b4" string="분"/>
+<text id="0x00002408" string="위의 해당사항 없음"/>
+<text id="0x0000241d" string="HI"/>
+<text id="0x00002432" string="LO"/>
+<text id="0x00002447" string="난방&#xA;시트"/>
+<text id="0x0000245c" string="설정"/>
+<text id="0x00002471" string="리어&#xA;커튼"/>
+<text id="0x00002486" string="냉방&#xA;시트"/>
+<text id="0x0000249b" string="히팅&#xA;스티어링"/>
+<text id="0x000024b0" string="Controls"/>
+<text id="0x000024c5" string="운전석"/>
+<text id="0x000024da" string="승객석"/>
+<text id="0x000024ef" string="경제"/>
+<text id="0x00002504" string="스포츠"/>
+<text id="0x00002519" string="커튼"/>
+<text id="0x0000252e" string="승객석"/>
+<text id="0x00002543" string="AWD"/>
+<text id="0x00002558" string="Auto"/>
+<text id="0x0000256d" string="ON"/>
+<text id="0x00002582" string="OFF"/>
+<text id="0x00002597" string="보기"/>
+<text id="0x000025ac" string="듣기"/>
+<text id="0x000025c1" string="무시"/>
+<text id="0x000025d6" string="문자 메시지"/>
+<text id="0x000025eb" string="모든 통화"/>
+<text id="0x00002600" string="수신 통화"/>
+<text id="0x00002615" string="발신 통화"/>
+<text id="0x0000262a" string="부재중&#xA;통화"/>
+<text id="0x0000263f" string="모든 통화"/>
+<text id="0x00002654" string="수신 통화"/>
+<text id="0x00002669" string="발신 통화"/>
+<text id="0x0000267e" string="부재중 통화"/>
+<text id="0x00002693" string="최근 통화"/>
+<text id="0x000026a8" string="입력 세부정보"/>
+<text id="0x000026bd" string="통화"/>
+<text id="0x000026d2" string="세부정보"/>
+<text id="0x00002726" string="상태 목록에서 선택"/>
+<text id="0x0000273b" string="상태 선택"/>
+<text id="0x00002750" string="작동 상태"/>
+<text id="0x00002765" string="열기"/>
+<text id="0x0000278f" string="주행중에는 기능을 사용할 수 없습니다"/>
+<text id="0x000027f8" string="현재"/>
+<text id="0x00002876" string="5일"/>
+<text id="0x0000288b" string="즐겨찾기에 추가"/>
+<text id="0x000028a0" string="즐겨찾기 바꾸기"/>
+<text id="0x000028b5" string="내 즐겨찾기"/>
+<text id="0x00002972" string="기다려 주십시요"/>
+<text id="0x00002a05" string="모드"/>
+<text id="0x00002a1a" string="메시지함"/>
+<text id="0x00002a2f" string="신규&#xA;메시지"/>
+<text id="0x00002a44" string="보기"/>
+<text id="0x00002a59" string="듣기"/>
+<text id="0x00002a6e" string="메시지 없음"/>
+<text id="0x00002a83" string="확인"/>
+<text id="0x00002a98" string="아니오"/>
+<text id="0x00002aad" string="확인"/>
+<text id="0x00002ac2" string="지금 이야기할 수 없습니다."/>
+<text id="0x00002ad7" string="전화해 주세요."/>
+<text id="0x00002aec" string="나중에 전화할게요."/>
+<text id="0x00002b01" string="가는 길이예요."/>
+<text id="0x00002b16" string="감사합니다"/>
+<text id="0x00002b2b" string="늦을거예요."/>
+<text id="0x00002b40" string="%s분 늦을거예요."/>
+<text id="0x00002b55" string="%s분 후에 만나요."/>
+<text id="0x00002b6a" string="교통 체증에 걸렸어요."/>
+<text id="0x00002b7f" string="저 없이 시작하세요."/>
+<text id="0x00002b94" string="어디 계세요?"/>
+<text id="0x00002ba9" string="아직 거기 계세요?"/>
+<text id="0x00002bbe" string="어떻게 가는지 알려주세요"/>
+<text id="0x00002bd3" string="길을 잃었어요."/>
+<text id="0x00002be8" string="나중에 봐요."/>
+<text id="0x00002bfd" string="%s분 후에 만나요."/>
+<text id="0x00002c12" string="%s분 늦을 거예요."/>
+<text id="0x00002c27" string="메시지"/>
+<text id="0x00002c3c" string="메시지함"/>
+<text id="0x00002c51" string="신규&#xA;메시지"/>
+<text id="0x00002c66" string="아니오"/>
+<text id="0x00002c7b" string="선택"/>
+<text id="0x00002c90" string="휴대폰"/>
+<text id="0x00002ca5" string="즐겨찾기"/>
+<text id="0x00002cba" string="다이얼"/>
+<text id="0x00002ccf" string="수신인:"/>
+<text id="0x00002ce4" string="통화"/>
+<text id="0x00002cf9" string="전달"/>
+<text id="0x00002d0e" string="메시지함"/>
+<text id="0x00002d23" string="듣기"/>
+<text id="0x00002d38" string="답변"/>
+<text id="0x00002d4d" string="아니오"/>
+<text id="0x00002d62" string="전송"/>
+<text id="0x00002d77" string="메시지 수신지: %s"/>
+<text id="0x00002d8c" string="문자 메시지"/>
+<text id="0x00002da1" string="메시지 전송 중..."/>
+<text id="0x00002db6" string="성공적으로 전송하였습니다."/>
+<text id="0x00002dcb" string="오류 전송 메시지."/>
+<text id="0x00002de0" string="전화 연결해제"/>
+<text id="0x00002df5" string="즐겨찾기 만들기"/>
+<text id="0x00002e0a" string="전화 삭제"/>
+<text id="0x00002e1f" string="옵션"/>
+<text id="0x00002e34" string="전화 연결"/>
+<text id="0x00002e49" string="즐겨찾기에 복사됨."/>
+<text id="0x00002e5e" string="즐겨찾기에 복사하기"/>
+<text id="0x00002e73" string="전화번호부"/>
+<text id="0x00002e88" string="업데이트할 연락처 선택"/>
+<text id="0x00002e9d" string="즐겨찾기할 연락처 선택"/>
+<text id="0x00002eb2" string="휴대폰"/>
+<text id="0x00002ec7" string="즐겨찾기할 연락처 번호 선택"/>
+<text id="0x00002edc" string="연락처 세부정보"/>
+<text id="0x00002ef1" string="옵션"/>
+<text id="0x00002f06" string="휴대폰"/>
+<text id="0x00002f1b" string="아니오"/>
+<text id="0x00002f30" string="검색"/>
+<text id="0x00002f45" string="휴대폰에서 추가"/>
+<text id="0x00002f5a" string="즐겨찾기에 추가"/>
+<text id="0x00002f6f" string="네비게이션 즐겨찾기에 추가"/>
+<text id="0x00002f84" string="즐겨찾기에서 삭제"/>
+<text id="0x00002f99" string="통화"/>
+<text id="0x00002fae" string="선택"/>
+<text id="0x00002fc3" string="Ð ÑƒÑÑÐºÐ¸Ð¹ ÑÐ·Ñ‹Ðº"/>
+<text id="0x00002fd8" string="영어"/>
+<text id="0x00002fed" string="ABC 점프"/>
+<text id="0x00003002" string="장르"/>
+<text id="0x00003017" string="팟캐스트"/>
+<text id="0x0000302c" string="오디오북"/>
+<text id="0x00003041" string="아티스트"/>
+<text id="0x00003056" string="재생목록"/>
+<text id="0x0000306b" string="노래"/>
+<text id="0x00003080" string="앨범"/>
+<text id="0x00003095" string="ABC"/>
+<text id="0x000030aa" string="검색"/>
+<text id="0x000030bf" string="아티스트"/>
+<text id="0x000030d4" string="재생목록"/>
+<text id="0x000030e9" string="노래"/>
+<text id="0x000030fe" string="앨범"/>
+<text id="0x00003113" string="장르"/>
+<text id="0x00003128" string="팟캐스트"/>
+<text id="0x0000313d" string="오디오북"/>
+<text id="0x00003152" string="SD 카드"/>
+<text id="0x00003167" string="기타"/>
+<text id="0x0000317c" string="폴더"/>
+<text id="0x00003191" string="모든 앨범"/>
+<text id="0x000031a6" string="모든 노래"/>
+<text id="0x000031bb" string="모든 아티스트"/>
+<text id="0x000031d0" string="중요사항:"/>
+<text id="0x000031e5" string="주행중에는 교통 법규를 준수하시고&#xA;실제 도로상황에 주의 하십시요.&#xA;자세한 내용은 메뉴얼을 참조 하십시요."/>
+<text id="0x000031fa" string="최저"/>
+<text id="0x0000320f" string="최고"/>
+<text id="0x00003224" string="승인"/>
+<text id="0x00003239" string="로딩 중..."/>
+<text id="0x0000324e" string="운적석"/>
+<text id="0x00003263" string="승객석"/>
+<text id="0x00003278" string="후석 Climate off"/>
+<text id="0x0000328d" string="후석 ON"/>
+<text id="0x000032a2" string="전석 Climate"/>
+<text id="0x000032b7" string="후석 잠금"/>
+<text id="0x000032cc" string="후석 AUTO"/>
+<text id="0x00003320" string="전석 CLIMATE"/>
+<text id="0x00003335" string="후석 잠금"/>
+<text id="0x0000334a" string="후석 AUTO"/>
+<text id="0x0000335f" string="ON"/>
+<text id="0x00003374" string="후석"/>
+<text id="0x00003389" string="Climate off"/>
+<text id="0x0000339e" string="후석 Climate"/>
+<text id="0x000033b3" string="SYNC"/>
+<text id="0x000033c8" string="후석 OFF"/>
+<text id="0x000033dd" string="OFF"/>
+<text id="0x000033f2" string="AUTO"/>
+<text id="0x00003407" string="전석"/>
+<text id="0x0000341c" string="후석 CLIMATE"/>
+<text id="0x00003431" string="최고"/>
+<text id="0x00003446" string="최저"/>
+<text id="0x0000345b" string="AUTO"/>
+<text id="0x00003470" string="OFF"/>
+<text id="0x00003485" string="소프트웨어 업데이트 진행 중. 기다리세요..."/>
+<text id="0x0000349a" string="USB에 소프트웨어 업데이트가 있습니다.&#xA;승인 진행 중..."/>
+<text id="0x000034af" string="업데이트 이미지가 유효하고 설치 준비가 되었습니다.&#xA;%s에서 %s로&#xA;%s %s 업데이트 하시겠습니까?"/>
+<text id="0x000034c4" string="시스템 리셋 중…&#xA;정상적인 리셋은 자료 저장시 35초 정도 소요됨."/>
+<text id="0x000034d9" string="오류"/>
+<text id="0x000034ee" string="N"/>
+<text id="0x00003503" string="S"/>
+<text id="0x00003518" string="E"/>
+<text id="0x0000352d" string="W"/>
+<text id="0x00003542" string="즐겨찾기에 추가"/>
+<text id="0x00003557" string="즐겨찾기에서 삭제"/>
+<text id="0x0000356c" string="목적지"/>
+<text id="0x00003581" string="이름 편집"/>
+<text id="0x00003596" string="지도에 보이기"/>
+<text id="0x000035ab" string="도로 회피"/>
+<text id="0x000035c0" string="전화번호"/>
+<text id="0x000035d5" string="위로 이동"/>
+<text id="0x000035ea" string="아래로 이동"/>
+<text id="0x000035ff" string="전화번호부"/>
+<text id="0x00003614" string="목적지"/>
+<text id="0x00003629" string="현재 위치"/>
+<text id="0x0000363e" string="가장 빠른"/>
+<text id="0x00003653" string="가장 짧은"/>
+<text id="0x00003668" string="경제적인"/>
+<text id="0x0000367d" string="왕복 여행"/>
+<text id="0x00003692" string="집 삭제"/>
+<text id="0x000036a7" string="이름 변경"/>
+<text id="0x000036bc" string="도착 시간"/>
+<text id="0x000036d1" string="목적지까지 시간"/>
+<text id="0x000036e6" string="거리"/>
+<text id="0x000036fb" string="사용 불가능"/>
+<text id="0x00003710" string="2D"/>
+<text id="0x00003725" string="3D"/>
+<text id="0x0000373a" string="북고정 표시"/>
+<text id="0x0000374f" string="차량방향 표시"/>
+<text id="0x00003764" string="Pin 꽂기"/>
+<text id="0x00003779" string="Pin 제거"/>
+<text id="0x0000378e" string="끄기"/>
+<text id="0x000037a3" string="자동"/>
+<text id="0x000037b8" string="수동"/>
+<text id="0x000037cd" string="지연 시간별"/>
+<text id="0x000037e2" string="옵션"/>
+<text id="0x000037f7" string="피하기"/>
+<text id="0x0000380c" string="저장"/>
+<text id="0x00003821" string="지도"/>
+<text id="0x00003836" string="GPS"/>
+<text id="0x0000384b" string="지연"/>
+<text id="0x00003860" string="즐겨찾기"/>
+<text id="0x00003875" string="모든 채널"/>
+<text id="0x0000388a" string="지원"/>
+<text id="0x0000389f" string="교통 정보"/>
+<text id="0x000038b4" string="기타"/>
+<text id="0x000038c9" string="소셜"/>
+<text id="0x000038de" string="도구"/>
+<text id="0x000038f3" string="음악"/>
+<text id="0x00003908" string="이름순으로 정령"/>
+<text id="0x0000391d" string="최근 사용순으로 정령"/>
+<text id="0x0000395c" string="초기화 중..."/>
+<text id="0x00003971" string="일시정지됨"/>
+<text id="0x00003986" string="중지 중..."/>
+<text id="0x0000399b" string="중지됨"/>
+<text id="0x000039c5" string="신규 즐겨찾기 선택"/>
+<text id="0x000039da" string="신규 즐겨찾기 추가"/>
+<text id="0x000039ef" string="선택"/>
+<text id="0x00003a04" string="목록에 있는 %s 아이템"/>
+<text id="0x00003a2e" string="연결"/>
+<text id="0x00003a43" string="연결 활성화"/>
+<text id="0x00003a82" string="Bluetooth 연결"/>
+<text id="0x00003aac" string="연결됨"/>
+<text id="0x00003ac1" string="연결되지 않음"/>
+<text id="0x00003b93" string="즐겨찾기 만들기"/>
+<text id="0x00003ba8" string="장치 삭제"/>
+<text id="0x00003bbd" string="데이터 연결 사용가능"/>
+<text id="0x00003be7" string="데이터 연결 설정"/>
+<text id="0x00003bfc" string="이 장치에 데이터 연결 사용가능"/>
+<text id="0x00003c11" string="테스트 연결"/>
+<text id="0x00003c26" string="사용자 이름:"/>
+<text id="0x00003c50" string="초기화 명령:"/>
+<text id="0x00003c8f" string="즐겨찾기 네트웍 추가"/>
+<text id="0x00003d22" string="비어있음"/>
+<text id="0x00003d37" string="네"/>
+<text id="0x00003d4c" string="확인"/>
+<text id="0x00003d61" string="아니오"/>
+<text id="0x00003d76" string="로딩 중"/>
+<text id="0x00003d8b" string="옵션"/>
+<text id="0x00003da0" string="설정"/>
+<text id="0x00003ddf" string="패스워드"/>
+<text id="0x00003df4" string="기다려 주십시요"/>
+<text id="0x00003e09" string="Bluetooth 연결 테스트 진행 중"/>
+<text id="0x00003e1e" string="Bluetooth 연결 테스트 성공"/>
+<text id="0x00003e33" string="Bluetooth 연결 테스트 실패"/>
+<text id="0x00003e48" string="아니오"/>
+<text id="0x00003e72" string="장치"/>
+<text id="0x00003e87" string="보안"/>
+<text id="0x00003e9c" string="추가"/>
+<text id="0x00003edb" string="삭제"/>
+<text id="0x00003ef0" string="미터(m)"/>
+<text id="0x00003f05" string="미국(마일/피트)"/>
+<text id="0x00003f1a" string="파운드법(마일/야드)"/>
+<text id="0x00003f2f" string="십진법"/>
+<text id="0x00003f6e" string="주 메뉴"/>
+<text id="0x00003f83" string="목적지"/>
+<text id="0x00003f98" string="지도 뷰"/>
+<text id="0x00003fad" string="교통 정보"/>
+<text id="0x00003fc2" string="긴급"/>
+<text id="0x00003fd7" string="반복"/>
+<text id="0x00003fec" string="중지"/>
+<text id="0x00004001" string="우회"/>
+<text id="0x00004016" string="설정"/>
+<text id="0x0000402b" string="주소"/>
+<text id="0x00004040" string="최근"/>
+<text id="0x00004055" string="관심 지점"/>
+<text id="0x0000406a" string="교차로"/>
+<text id="0x0000407f" string="집으로 가기"/>
+<text id="0x00004094" string="여행"/>
+<text id="0x000040a9" string="GEO 관리"/>
+<text id="0x000040be" string="지도 위 지점"/>
+<text id="0x000040d3" string="시내"/>
+<text id="0x000040e8" string="가장 가까운 도시"/>
+<text id="0x000040fd" string="코스"/>
+<text id="0x00004112" string="전화번호"/>
+<text id="0x00004127" string="즐겨찾기"/>
+<text id="0x0000413c" string="교통"/>
+<text id="0x00004151" string="현재 위치는?"/>
+<text id="0x00004166" string="과속 카메라"/>
+<text id="0x0000417b" string="트립 컴퓨터"/>
+<text id="0x00004190" string="집주소 설정"/>
+<text id="0x000041a5" string="병원"/>
+<text id="0x000041ba" string="경찰서"/>
+<text id="0x000041cf" string="소방서"/>
+<text id="0x000041e4" string="위치"/>
+<text id="0x000041f9" string="이름 철자"/>
+<text id="0x0000420e" string="검색 지역 변경"/>
+<text id="0x00004223" string="네비게이션"/>
+<text id="0x00004238" string="내 주변"/>
+<text id="0x0000424d" string="도시 내"/>
+<text id="0x00004262" string="목적지 주변"/>
+<text id="0x00004277" string="경로 주변"/>
+<text id="0x0000428c" string="%s 내 POI"/>
+<text id="0x000042a1" string="내 주변의 POI"/>
+<text id="0x000042b6" string="목적지 근처의 POI"/>
+<text id="0x000042cb" string="경로 주변 POI"/>
+<text id="0x000042e0" string="주소 입력"/>
+<text id="0x000042f5" string="도시 입력"/>
+<text id="0x0000430a" string="도로 입력"/>
+<text id="0x0000431f" string="도, 국가 변경"/>
+<text id="0x00004334" string="주, 국가 변경"/>
+<text id="0x00004349" string="교차로 입력"/>
+<text id="0x0000435e" string="교차로 입력"/>
+<text id="0x00004373" string="국가 선택"/>
+<text id="0x00004388" string="%s를 위한 도 선택"/>
+<text id="0x0000439d" string="%s를 위한 주 선택"/>
+<text id="0x000043b2" string="도시 선택"/>
+<text id="0x000043c7" string="도로 선택"/>
+<text id="0x000043dc" string="교차로 선택"/>
+<text id="0x000043f1" string="국가를 선택하세요."/>
+<text id="0x00004406" string="피하기"/>
+<text id="0x0000441b" string="유료 도로"/>
+<text id="0x00004430" string="터널"/>
+<text id="0x00004445" string="페리"/>
+<text id="0x0000445a" string="비포장"/>
+<text id="0x0000446f" string="기차"/>
+<text id="0x00004484" string="전방 경로 차단"/>
+<text id="0x00004499" string="훈련"/>
+<text id="0x000044ae" string="중지된 경로:"/>
+<text id="0x000044c3" string="모두 중지"/>
+<text id="0x000044d8" string="최근 목적지"/>
+<text id="0x00004502" string="즐겨찾기 추가"/>
+<text id="0x00004517" string="목적지 위치 선택"/>
+<text id="0x0000452c" string="목적지 추가"/>
+<text id="0x00004541" string="새로운 목적지로 설정"/>
+<text id="0x00004556" string="첫번째 경유지로 추가"/>
+<text id="0x0000456b" string="경유지로 추가"/>
+<text id="0x00004580" string="최종 목적지로 설정"/>
+<text id="0x00004595" string="여기에 추가"/>
+<text id="0x000045aa" string="목적지 바꾸기"/>
+<text id="0x000045bf" string="목적지 확인"/>
+<text id="0x000045d4" string="목적지 정보"/>
+<text id="0x000045e9" string="도착한 목적지"/>
+<text id="0x000045fe" string="가기"/>
+<text id="0x00004613" string="실패"/>
+<text id="0x00004628" string="목적지를 다른 이름으로 저장"/>
+<text id="0x0000463d" string="음성 인식된 목적지"/>
+<text id="0x00004652" string="즐겨찾기로 저장"/>
+<text id="0x00004667" string="거리 입력"/>
+<text id="0x0000467c" string="집주소 입력"/>
+<text id="0x00004691" string="도시 입력"/>
+<text id="0x000046a6" string="도 입력"/>
+<text id="0x000046bb" string="주 입력"/>
+<text id="0x000046d0" string="국가 입력"/>
+<text id="0x000046e5" string="이름 입력"/>
+<text id="0x000046fa" string="교차로 입력"/>
+<text id="0x0000470f" string="즐겨찾기 이름 입력"/>
+<text id="0x00004724" string="전화번호 입력"/>
+<text id="0x00004739" string="TMC 지연시간 입력"/>
+<text id="0x0000474e" string="속도 제한 입력"/>
+<text id="0x00004763" string="위도 입력"/>
+<text id="0x00004778" string="경도 입력"/>
+<text id="0x0000478d" string="메뉴"/>
+<text id="0x000047a2" string="ETA"/>
+<text id="0x000047b7" string="잔여시간"/>
+<text id="0x000047cc" string="거리"/>
+<text id="0x000047e1" string="목록"/>
+<text id="0x000047f6" string="건너뛰기"/>
+<text id="0x0000480b" string="형식"/>
+<text id="0x00004820" string="정보"/>
+<text id="0x00004835" string="이전"/>
+<text id="0x0000484a" string="다음"/>
+<text id="0x0000485f" string="승인"/>
+<text id="0x00004874" string="거절"/>
+<text id="0x00004889" string="미리보기"/>
+<text id="0x0000489e" string="카테고리 검색 중"/>
+<text id="0x000048b3" string="카테고리별"/>
+<text id="0x000048c8" string="신규 여행 생성"/>
+<text id="0x000048dd" string="여행 이름 설정"/>
+<text id="0x000048f2" string="여행 이름 변경"/>
+<text id="0x00004907" string="지도 설정"/>
+<text id="0x0000491c" string="속도 제한"/>
+<text id="0x00004931" string="안내"/>
+<text id="0x00004946" string="장치"/>
+<text id="0x0000495b" string="지도 보기"/>
+<text id="0x00004970" string="방향"/>
+<text id="0x00004985" string="지도 모습"/>
+<text id="0x0000499a" string="현재 도로위치"/>
+<text id="0x000049af" string="궤도수정 거리"/>
+<text id="0x000049c4" string="POI 아이콘 보이기"/>
+<text id="0x000049d9" string="POI 아이콘 목록"/>
+<text id="0x000049ee" string="속도 및 흐름"/>
+<text id="0x00004a03" string="TMC 사고"/>
+<text id="0x00004a18" string="3D 시티모델"/>
+<text id="0x00004a2d" string="3D 랜드마크"/>
+<text id="0x00004a42" string="디지털 지형 모델"/>
+<text id="0x00004a57" string="차량 아이콘"/>
+<text id="0x00004a6c" string="음성안내 재생"/>
+<text id="0x00004a81" string="차선 추천"/>
+<text id="0x00004a96" string="안내판"/>
+<text id="0x00004aab" string="교차로 뷰"/>
+<text id="0x00004ac0" string="TMC 경로 모드"/>
+<text id="0x00004ad5" string="TMC 회피 유형"/>
+<text id="0x00004aea" string="지연 시간"/>
+<text id="0x00004aff" string="지도 위 안전 카메라 보이기"/>
+<text id="0x00004b14" string="속도 제한 경고안내"/>
+<text id="0x00004b29" string="트립 컴퓨터"/>
+<text id="0x00004b3e" string="이동 방향"/>
+<text id="0x00004b53" string="최종 목적지까지의 거리"/>
+<text id="0x00004b68" string="차량 속도"/>
+<text id="0x00004b7d" string="이동한 거리"/>
+<text id="0x00004b92" string="전체 평균 속도"/>
+<text id="0x00004ba7" string="주행 중 평균 속도"/>
+<text id="0x00004bbc" string="최고 속도"/>
+<text id="0x00004bd1" string="이동한 총 시간"/>
+<text id="0x00004c10" string="교통 흐름"/>
+<text id="0x00004c25" string="사고"/>
+<text id="0x00004c3a" string="폐쇄"/>
+<text id="0x00004c4f" string="차선 제한"/>
+<text id="0x00004c64" string="교통 이벤트"/>
+<text id="0x00004c79" string="교통 세부사항"/>
+<text id="0x00004c8e" string="코스 레코딩 시작"/>
+<text id="0x00004ca3" string="코스 레코딩 중지"/>
+<text id="0x00004cb8" string="코스"/>
+<text id="0x00004ccd" string="올바르지 않은 활성화 코드"/>
+<text id="0x00004ce2" string="재 시도하시겠습니까?"/>
+<text id="0x00004cf7" string="만료된 이벤트"/>
+<text id="0x00004d0c" string="TMC 경로 미리보기"/>
+<text id="0x00004d21" string="없음"/>
+<text id="0x00004d36" string="네비게이션 업데이트"/>
+<text id="0x00004d4b" string="위도"/>
+<text id="0x00004d60" string="경도"/>
+<text id="0x00004d75" string="고도"/>
+<text id="0x00004d8a" string="정확성"/>
+<text id="0x00004d9f" string="엔지니어링 메뉴"/>
+<text id="0x00004db4" string="딜러 모드"/>
+<text id="0x00004dc9" string="시스템 정보"/>
+<text id="0x00004dde" string="라디오 부분 정보"/>
+<text id="0x00004df3" string="지도 데이터베이스"/>
+<text id="0x00004e08" string="하드웨어 부품 번호"/>
+<text id="0x00004e1d" string="소프트웨어 버전"/>
+<text id="0x00004e32" string="시리얼 번호"/>
+<text id="0x00004e47" string="EQ 버전"/>
+<text id="0x00004e5c" string="HD 튜너 펌웨어"/>
+<text id="0x00004eda" string="내장된 휴대폰 정보"/>
+<text id="0x00004eef" string="전화 정보"/>
+<text id="0x00004f04" string="USB 포트"/>
+<text id="0x00004f19" string="전화 PA 온도"/>
+<text id="0x00004f2e" string="전화 PMIC 온도"/>
+<text id="0x00004f43" string="OMAP 온도"/>
+<text id="0x00004f58" string="오디오 IC 채널 1번 온도"/>
+<text id="0x00004f6d" string="오디오 IC 채널 2번 온도"/>
+<text id="0x00004f82" string="서미스터 온도"/>
+<text id="0x00004f97" string="최대"/>
+<text id="0x00004fac" string="로깅 설정"/>
+<text id="0x00004fc1" string="DBus 추적 모니터"/>
+<text id="0x00004fd6" string="모든 추적 - 가능"/>
+<text id="0x00004feb" string="모든 추적 - 불가능"/>
+<text id="0x00005000" string="설치됨"/>
+<text id="0x00005015" string="설치 실패"/>
+<text id="0x0000502a" string="설치 중..."/>
+<text id="0x0000503f" string="설치해제 중..."/>
+<text id="0x00005054" string="재설치 중..."/>
+<text id="0x0000507e" string="GPS 정보"/>
+<text id="0x00005093" string="버전 정보"/>
+<text id="0x000050a8" string="IP 주소"/>
+<text id="0x000050bd" string="실행 정보"/>
+<text id="0x000050d2" string="네비게이션 데모 모드"/>
+<text id="0x000050e7" string="위조 네비게이션 라이센스 만료됨"/>
+<text id="0x00005111" string="시에라 무선 업데이트"/>
+<text id="0x00005126" string="QXDM 연결"/>
+<text id="0x0000513b" string="사용가능한 도난방지"/>
+<text id="0x00005150" string="내장된 휴대폰 정보"/>
+<text id="0x0000517a" string="Bluetooth 테스트 모드"/>
+<text id="0x0000518f" string="사용자 매뉴얼 재생"/>
+<text id="0x000051b9" string="터치 스크린 에코우"/>
+<text id="0x000051ce" string="네비게이션 추적"/>
+<text id="0x000051e3" string="화이트 스크린 테스트"/>
+<text id="0x000051f8" string="열에너지 데이터"/>
+<text id="0x0000520d" string="지수"/>
+<text id="0x00005222" string="번호"/>
+<text id="0x00005237" string="시스템 버전"/>
+<text id="0x00005261" string="ECell 온도 상태"/>
+<text id="0x00005276" string="ECell 파워 앰프(내부)"/>
+<text id="0x0000528b" string="ECell 전화(내부)"/>
+<text id="0x000052a0" string="ECell(서미스터)"/>
+<text id="0x000052b5" string="OMAP(내부)"/>
+<text id="0x000052ca" string="OMAP(서미스터)"/>
+<text id="0x000052df" string="운전석 디스플레이(서미스터)"/>
+<text id="0x000052f4" string="백라이트 디스플레이(서미스터)"/>
+<text id="0x00005309" string="GYRO(내부)"/>
+<text id="0x0000531e" string="파워 앰프 IC(내부)"/>
+<text id="0x00005333" string="열에너지 내역을 지우려면 누르세요"/>
+<text id="0x00005348" string="온도"/>
+<text id="0x0000535d" string="앰프 상태가 좋지 않습니다"/>
+<text id="0x00005372" string="앰프 상태가 좋습니다"/>
+<text id="0x0000539c" string="지도 보기"/>
+<text id="0x000053b1" string="지도 위 차량 중앙"/>
+<text id="0x0000541a" string="용어집"/>
+<text id="0x00005723" string="Bluetooth 연결 사용가능"/>
+<text id="0x00005777" string="Bluetooth 장치는 인터넷 사용을 위해 차량에 연결됩니다"/>
+<text id="0x000057a1" string="정말 안내를 중지하시겠습니까?"/>
+<text id="0x000057b6" string="현재 위치를 즐겨찾기로 저장하시겠습니까?"/>
+<text id="0x000057cb" string="재 시도하시겠습니까?"/>
+<text id="0x000057e0" string="지금 입력하시겠습니까?"/>
+<text id="0x0000580a" string="정말 이 여행을 삭제하시겠습니까?"/>
+<text id="0x0000581f" string="정말 모든 여행을 삭제하시겠습니까?"/>
+<text id="0x00005834" string="정말 이 목적지를 삭제하시겠습니까?"/>
+<text id="0x00005849" string="정말 모든 목적지를 삭제하시겠습니까?"/>
+<text id="0x0000585e" string="대체 경로를 사용하시겠습니까?"/>
+<text id="0x00005873" string="정말 집주소를 지우시겠습니까?"/>
+<text id="0x00005888" string="USB로 장치 정보를 복사하시겠습니까?"/>
+<text id="0x0000589d" string="경로 재탐색 중입니다"/>
+<text id="0x000058b2" string="%s 검색"/>
+<text id="0x000058c7" string="%s에서 %s 검색"/>
+<text id="0x000058dc" string="%s에 연결할 수 없습니다"/>
+<text id="0x00005984" string="집주소가 입력 되지 않았습니다"/>
+<text id="0x00005999" string="긴급 상황인 경우, 해당 기관에서 조치를 받을 수 있는지 사전에 확인하십시요"/>
+<text id="0x000059ae" string="안전 운전하십시요"/>
+<text id="0x000059c3" string="네비게이션 데이터베이스 정보를 USB로 복사 실패했습니다!"/>
+<text id="0x000059d8" string="네비게이션 데이터베이스 정보를 USB로 성공적으로 복사했습니다!"/>
+<text id="0x000059ed" string="확인할 수 없는 지도 데이터로 지역을 입력하고 있습니다."/>
+<text id="0x00005a02" string="경로 위에 교통 사고가 발생했습니다."/>
+<text id="0x00005a17" string="네비게이션을 활성화하려면 활성화 코드를 구매해야 합니다."/>
+<text id="0x00005a2c" string="OK를 눌러 구매한 활성화 코드 입력:"/>
+<text id="0x00005a41" string="네비게이션을 성공적으로 활성화했습니다!"/>
+<text id="0x00005a56" string="2분간 차량 시동을 끄세요."/>
+<text id="0x00005a6b" string="활성화 코드를 재입력하려면 기다리세요."/>
+<text id="0x00005a80" string="주행중에는 입력할 수 없습니다.&#xA;현재 입력을 승인하려면 '%s'를 누르십시요."/>
+<text id="0x00005ae9" string="Bluetooth 연결 성공"/>
+<text id="0x00005afe" string="이 장치를 즐겨찾기에 등록하시겠습니까?"/>
+<text id="0x00005b13" string="이 장치는 전화, 오디오 및 데이터를 지원합니다"/>
+<text id="0x00005b28" string="이 장치는 전화를 지원합니다"/>
+<text id="0x00005b3d" string="이 장치는 오디오를 지원합니다"/>
+<text id="0x00005b52" string="이 장치는 오디오와 데이터를 지원합니다"/>
+<text id="0x00005b67" string="소프트웨어 업데이트"/>
+<text id="0x00005b7c" string="소프트웨어 업데이트 오류!"/>
+<text id="0x00005b91" string="소프트웨어 업데이트 완료"/>
+<text id="0x00005ba6" string="USB 장치 대기 중"/>
+<text id="0x00005bbb" string="USB 장치를 제거하세요"/>
+<text id="0x00005bd0" string="장치 이름 :"/>
+<text id="0x00005be5" string="장치 번호 :"/>
+<text id="0x00005bfa" string="총 장치수 :"/>
+<text id="0x00005c0f" string="장치 퍼센트 완료 :"/>
+<text id="0x00005c24" string="총 퍼센트 완료 :"/>
+<text id="0x00005c39" string="도착"/>
+<text id="0x00005c4e" string="Bluetooth 연결 설정"/>
+<text id="0x00005ca2" string="고속도로"/>
+<text id="0x00005cb7" string="지도 위 POI"/>
+<text id="0x00005ccc" string="정의되지 않음"/>
+<text id="0x00005ce1" string="출발 경로"/>
+<text id="0x00005cf6" string="도착 경로"/>
+<text id="0x00005d0b" string="정말 이 코스를 삭제하시겠습니까?"/>
+<text id="0x00005d20" string="정말 모든 코스를 삭제하시겠습니까?"/>
+<text id="0x00005d35" string="정말 이 목적지를 삭제하시겠습니까?"/>
+<text id="0x00005d4a" string="정말 모든 목적지를 삭제하시겠습니까?"/>
+<text id="0x00005d5f" string="코스 확인"/>
+<text id="0x00005d74" string="스페이스바"/>
+<text id="0x00005d89" string="코스 이름 입력"/>
+<text id="0x00005d9e" string="코스 이름 바꾸기"/>
+<text id="0x00005db3" string="네비게이션 데이터베이스 정보 복사 중."/>
+<text id="0x00005dc8" string="채널 목록"/>
+<text id="0x00005ddd" string="채널 검색 중"/>
+<text id="0x00005e31" string="운전석 설정"/>
+<text id="0x00005e46" string="운전석 %s 설정 저장 중…"/>
+<text id="0x00005e5b" string="운전석 %s 설정 복구 중…"/>
+<text id="0x00005e70" string="음성 인식으로 신규 메시지 생성"/>
+<text id="0x00005e85" string="목록에서 신규 메시지 선택"/>
+<text id="0x00005e9a" string="음성 프롬프트"/>
+<text id="0x00005eaf" string="턴 목록"/>
+<text id="0x00005ec4" string="안내 중지"/>
+<text id="0x000065d2" string="국가 이름을 말하세요."/>
+<text id="0x000072dd" string="네비게이션 볼륨 조정"/>
+<text id="0x00007331" string="주유소"/>
+<text id="0x00007346" string="레스토랑"/>
+<text id="0x0000735b" string="호텔/모텔"/>
+<text id="0x00007370" string="ATM/은행"/>
+<text id="0x00007385" string="모든 POI"/>
+<text id="0x0000739a" string="%s 카테고리"/>
+<text id="0x000073d9" string="초기화로 재설정"/>
+<text id="0x000073ee" string="설정한 즐겨찾기 번호 없음."/>
+<text id="0x00007403" string="이 번호를 초기화 시키겠습니까?"/>
+<text id="0x00007418" string="전화 연결을 시도하시겠습니까?&#xA;(Bluetooth 오디오는 일시정지됨)"/>
+<text id="0x0000742d" string="연결된 전화가 없습니다."/>
+<text id="0x00007442" string="전화를 페어링 하시겠습니까?"/>
+<text id="0x00007457" string="이 장치는 전화와 오디오를 지원합니다."/>
+<text id="0x0000746c" string="이 장치는 전화와 데이터를 지원합니다."/>
+<text id="0x00007481" string="초기화 중..."/>
+<text id="0x00007496" string="로딩 중..."/>
+<text id="0x000074ab" string="출발 중..."/>
+<text id="0x000074d5" string="이 장치는 데이터를 지원합니다."/>
+<text id="0x000074ea" string="보호자 관리"/>
+<text id="0x000074ff" string="주차 지역"/>
+<text id="0x00007514" string="철도"/>
+<text id="0x00007529" string="도시 지역"/>
+<text id="0x0000753e" string="강 이름"/>
+<text id="0x00007553" string="Bluetooth 오디오"/>
+<text id="0x00007568" string="Bluetooth 오디오는 USB 포트가&#xA;사용 중인 경우 선택된 장치&#xA;에서 사용할 수 없습니다."/>
+<text id="0x0000763a" string="네비게이션을 활성화하려면 활성화 코드를 구매해야 합니다.&#xA;다음 요청 코드를 %s 에 입력하세요."/>
+<text id="0x0000764f" string="OK를 눌러 구매한 활성화 코드 입력:"/>
+<text id="0x00007664" string="잘못된 활성화 코드입니다.&#xA;&#xA;재시도하시겠습니까?"/>
+<text id="0x00007679" string="성공적으로 네비게이션을 활성화했습니다!"/>
+<text id="0x0000768e" string="활성화 코드를 재입력하려면 기다리세요."/>
+<text id="0x000076a3" string="활성화 코드를 확인하는 동안 기다리세요."/>
+<text id="0x000076b8" string="여행으로 저장"/>
+<text id="0x000076cd" string="대체 경로"/>
+<text id="0x000076e2" string="전화번호부 다운로드 중..."/>
+<text id="0x0000770c" string="앱"/>
+<text id="0x00007721" string="Media"/>
+<text id="0x00007808" string="네비게이션이 활성화되고 있습니다."/>
+<text id="0x0000781d" string="유형"/>
+<text id="0x0000785c" string="핸즈 프리 시스템 로딩 중."/>
+<text id="0x000079eb" string="재시도 중..."/>
+<text id="0x00007a54" string="전화번호부 업데이트 중..."/>
+<text id="0x00007a69" string="번호 편집"/>
+<text id="0x00007a7e" string="견인 요청"/>
+<text id="0x00007abd" string="모든 교통"/>
+<text id="0x00007ad2" string="경로 교통"/>
+<text id="0x00007ae7" string="후방 및 좌우를 확인하세요"/>
+<text id="0x00007afc" string="디스크를 삽입하십시요"/>
+<text id="0x00007b11" string="장치를 연결하십시요"/>
+<text id="0x00007b26" string="장치를 연결하십시요"/>
+<text id="0x00007b3b" string="미디어 로딩 중"/>
+<text id="0x00007b50" string="미디어 읽는 중"/>
+<text id="0x00007b65" string="트랙"/>
+<text id="0x00007b7a" string="HD BER 정보"/>
+<text id="0x00007b8f" string="속도 잠금:"/>
+<text id="0x00007ba4" string="NAV 도구"/>
+<text id="0x00007bb9" string="테마 무시:"/>
+<text id="0x00007bce" string="현재 테마:"/>
+<text id="0x00007be3" string="여유 메모리:"/>
+<text id="0x00007bf8" string="CPU 부하:"/>
+<text id="0x00007c0d" string="이 데이터베이스 항목은 모든 음성인식 관련 텍스트 문자열의 길이 확인을 위해 사용될 것입니다."/>
+<text id="0x00007c22" string="음성 전송됨"/>
+<text id="0x00007c37" string="전화로 전송됨"/>
+<text id="0x00007c4c" string="%s에서 검색 중"/>
+<text id="0x00007c61" string="핸즈 프리 시스템 사용가능."/>
+<text id="0x00007c76" string="주행중에는 기능을 사용할 수 없습니다.&#xA;메시지를 보내려면 핸들 위 전화 버튼을 누르세요."/>
+<text id="0x00007c8b" string="네비게이션 활성화"/>
+<text id="0x00007ca0" string="경로"/>
+<text id="0x00007cb5" string="(알려지지 않음)"/>
+<text id="0x00007cca" string="이름 없음"/>
+<text id="0x00007cf4" string="시작"/>
+<text id="0x00007d09" string="스토어"/>
+<text id="0x00007d1e" string="기각"/>
+<text id="0x00007d33" string="등록"/>
+<text id="0x00007d48" string="건너뛰기"/>
+<text id="0x00007d5d" string="무시"/>
+<text id="0x00007e05" string="선택된 트랙은 재생할 수 없습니다."/>
+<text id="0x00007e44" string="음성 인식 사용 불가"/>
+<text id="0x00007e6e" string="라디오 설정"/>
+<text id="0x00007e83" string="교통 방송"/>
+<text id="0x00007ec2" string="차량 출발시"/>
+<text id="0x00007ed7" string="운전석 자동 난방 시트"/>
+<text id="0x00007eec" string="난방 시트 및 스티어링 휠"/>
+<text id="0x00007f01" string="냉난방 통풍 시트"/>
+<text id="0x00007f55" string="신규 문자 메시지."/>
+<text id="0x00007f6a" string="%s로 온 신규 문자 메시지."/>
+<text id="0x00007f7f" string="최근 통화 없음"/>
+<text id="0x00007f94" string="전화 보류"/>
+<text id="0x00007fd3" string="디스크 온도가 높습니다"/>
+<text id="0x00007fe8" string="온도가 낮아질때까지 기다리세요"/>
+<text id="0x00007ffd" string="디스크를 읽을 수 없습니다."/>
+<text id="0x00008012" string="디스크 읽기 오류"/>
+<text id="0x00008027" string="지원하지 않는 디스크"/>
+<text id="0x0000803c" string="디스크 오류"/>
+<text id="0x00008051" string="지역코드 오류"/>
+<text id="0x00008066" string="DVD 지역코드 오류"/>
+<text id="0x0000807b" string="스토어 시작"/>
+<text id="0x000081a1" string="사용할 수 없는 전화"/>
+<text id="0x000081e0" string="내 %s에서 전송됨."/>
+<text id="0x000081f5" string="장치 재생 불가"/>
+<text id="0x0000820a" string="트랙 재생 불가"/>
+<text id="0x0000821f" string="Bluetooth 오디오 장치가 연결되지 않았습니다."/>
+<text id="0x00008234" string="Bluetooth 오디오 장치 없음"/>
+<text id="0x00008249" string="장치를 페어링 하시겠습니까?"/>
+<text id="0x00008273" string="Settings"/>
+<text id="0x000082b2" string="보통"/>
+<text id="0x000082c7" string="자동 줌"/>
+<text id="0x000082dc" string="국경"/>
+<text id="0x000082f1" string="한계 초과"/>
+<text id="0x00008306" string="도 입력"/>
+<text id="0x0000831b" string="주 입력"/>
+<text id="0x00008330" string="제한속도 경고"/>
+<text id="0x00008345" string="과속 경고"/>
+<text id="0x0000835a" string="속도 경고 오프셋"/>
+<text id="0x00008384" string="%s개의 새 텍스트 메시지가 있습니다."/>
+<text id="0x00008399" string="장치 연결"/>
+<text id="0x000083ae" string="장치 분리"/>
+<text id="0x000083c3" string="안테나 점검"/>
+<text id="0x000083d8" string="튜너 점검"/>
+<text id="0x000083ed" string="서비스 요청은 딜러에게 연락하세요."/>
+<text id="0x00008402" string="사용할 수 없음"/>
+<text id="0x000086f6" string="NW"/>
+<text id="0x0000870b" string="NE"/>
+<text id="0x00008720" string="SW"/>
+<text id="0x00008735" string="SE"/>
+<text id="0x00009065" string="사용할 수 있는 미디어 장치가 없음"/>
+<text id="0x000096a1" string="하향시 플래시 라이트"/>
+<text id="0x000096b6" string="원격 하향시 소리 경적"/>
+<text id="0x000096cb" string="서스펜션 메시지 표시"/>
+<text id="0x000096e0" string="공기 역학적 모드"/>
+<text id="0x000096f5" string="타이어 잭 모드"/>
+<text id="0x0000970a" string="운송 모드"/>
+<text id="0x0000971f" string="휠 얼라인먼트 모드"/>
+<text id="0x00009734" string="서스펜션"/>
+<text id="0x00009749" string="서스펜션"/>
+<text id="0x0000975e" string="트레일러 브레이크"/>
+<text id="0x00009773" string="트레일러 브레이크"/>
+<text id="0x00009788" string="트레일러 1"/>
+<text id="0x0000979d" string="트레일러 2"/>
+<text id="0x000097b2" string="트레일러 3"/>
+<text id="0x000097c7" string="트레일러 4"/>
+<text id="0x000097dc" string="트레일러 1"/>
+<text id="0x000097f1" string="트레일러 2"/>
+<text id="0x00009806" string="트레일러 3"/>
+<text id="0x0000981b" string="트레일러 4"/>
+<text id="0x00009830" string="이 트레일러 사용"/>
+<text id="0x00009845" string="제동"/>
+<text id="0x0000985a" string="제동"/>
+<text id="0x0000986f" string="경량 전기"/>
+<text id="0x00009884" string="중량 전기"/>
+<text id="0x00009899" string="경량 전기 과유압"/>
+<text id="0x000098ae" string="중량 전기 과유압"/>
+<text id="0x000098c3" string="경량 전기/유압"/>
+<text id="0x000098d8" string="중량 전기/유압"/>
+<text id="0x000098ed" string="현재"/>
+<text id="0x000000ad" string="검색"/>
+<text id="0x00009cdd" string="머리받침대&#xA;접기"/>
+<text id="0x00009d31" string="외부 입력"/>
+<text id="0x00009d46" string="전방 충돌 경고액티브 브레이킹"/>
+<text id="0x00009d5b" string="높게"/>
+<text id="0x00009d70" string="낮게"/>
+<text id="0x00009d85" string="중간"/>
+<text id="0x00009d9a" string="전방 충돌 경고"/>
+<text id="0x00009daf" string="전면 주차 감지 볼륨"/>
+<text id="0x00009dc4" string="후면 주차 감지 볼륨"/>
+<text id="0x00009dee" string="cm"/>
+<text id="0x00009eea" string="열림"/>
+<text id="0x00009eff" string="닫힙"/>
+<text id="0x0000a36d" string="일"/>
+<text id="0x0000a382" string="월"/>
+<text id="0x0000a397" string="화"/>
+<text id="0x0000a3ac" string="수"/>
+<text id="0x0000a3c1" string="목"/>
+<text id="0x0000a3d6" string="금"/>
+<text id="0x0000a3eb" string="토"/>
+<text id="0x0000afa6" string="즐겨찾기 바꾸기"/>
+<text id="0x0000afbb" string="즐겨찾기로 이동"/>
+<text id="0x0000b078" string=","/>
+<text id="0x0000b08d" string="ParkSense(주차센서)"/>
+<text id="0x0000b0a2" string="후진 연동 카메라 지연"/>
+<text id="0x0000b0b7" string="화면을 눌러 종료"/>
+<text id="0x0000b1b3" string="사용할 수 없음"/>
+<text id="0x0000b1c8" string="찾아보기"/>
+<text id="0x0000c436" string="후진 연동 카메라 활성화 방법"/>
+<text id="0x0000c460" string="후진 연동 카메라 고정 방법"/>
+<text id="0x0000c475" string="자동 입구/출구 서스펜션"/>
+<text id="0x0000c49f" string="파워 리프트 게이트 차임"/>
+<text id="0x0000c55c" string="Interior Ambient Lighting"/>
+<text id="0x0000c571" string="차선감지 경고"/>
+<text id="0x0000c586" string="차선감지 강도"/>
+<text id="0x0000c59b" string="전자식 주차 브레이크"/>
+<text id="0x0000c5b0" string="전자식 주차 브레이크"/>
+<text id="0x0000c5c5" string="홀드 앤 고"/>
+<text id="0x0000c5da" string="서비스 모드"/>
+<text id="0x0000c5ef" string="자동 주차 브레이크"/>
+<text id="0x00004be6" string="소요된 이동 시간 진행 중"/>
+<text id="0x00004bfb" string="소용된 이동 시간 정지됨"/>
+<text id="0x0000c619" string="일찍"/>
+<text id="0x0000c62e" string="늦게"/>
+<text id="0x0000c643" string="POI 이름 입력"/>
+<text id="0x0000c658" string="주변 POI 이름 입력"/>
+<text id="0x0000c66d" string="목적지 주변 POI 이름 입력"/>
+<text id="0x0000c682" string="경로 주변 POI 이름 입력"/>
+<text id="0x0000cb53" string="아니장치"/>
+<text id="0x0000cb68" string="아니디스크"/>
+<text id="0x0000cb7d" string="아니오 SD 카드"/>
+<text id="0x0000cb92" string="미디어 로딩 중"/>
+<text id="0x0000cba7" string="미디어 읽는 중"/>
+<text id="0x0000cbbc" string="디스크 오류"/>
+<text id="0x0000cc79" string="스토어&#xA;Uconnect"/>
+<text id="0x0000cc8e" string="소스&#xA;선택"/>
+<text id="0x0000cce2" string="전화번호부에 연락처 없음"/>
+<text id="0x0000ccf7" string="미러&#xA;디머"/>
+<text id="0x0000cd0c" string="화물&#xA;카메라"/>
+<text id="0x0000cdde" string="모든 도"/>
+<text id="0x0000cdf3" string="모든 주"/>
+<text id="0x0000ce08" string="Error: Text Message 1 selected."/>
+<text id="0x0000ce1d" string="Error: Text Message 2 selected."/>
+<text id="0x0000ce32" string="Error: Text Message 3 selected."/>
+<text id="0x0000ce47" string="Error: Text Message 4 selected."/>
+<text id="0x0000ce5c" string="Error: Text Message 5 selected."/>
+<text id="0x0000ce71" string="Error: Text Message 6 selected."/>
+<text id="0x0000ce86" string="차량이 정지 상태에 있어야 서비스 모드를 사용할 수 있습니다."/>
+<text id="0x0000ce9b" string="브레이크 페달을 밟고 있으면 서비스 모드를 사용할 수 없습니다."/>
+<text id="0x0000ceb0" string="서비스 모드를 사용할 수 없습니다.&#xA;주차 브레이크를 푸십시오."/>
+<text id="0x0000cec5" string="서비스 모드를 사용할 수 없습니다.&#xA;주차 브레이크 스위치를 누르거나 당기지 마십시오."/>
+<text id="0x0000ceda" string="서비스 모드를 사용할 수 없습니다.&#xA;차량이 주차 또는 중립 위치에 있어야 합니다."/>
+<text id="0x0000ceef" string="Error: Text Message 12 selected."/>
+<text id="0x0000cf04" string="To exit Service Mode, vehicle must not be in motion"/>
+<text id="0x0000cf19" string="Error: Text Message 14 selected."/>
+<text id="0x0000cf2e" string="서비스 모드를 종료하려면 브레이크 페달을 밟고 주차 브레이크 스위치를 작동시키십시오."/>
+<text id="0x0000cf43" string="Error: Text Message 16 selected."/>
+<text id="0x0000cf58" string="Error: Text Message 17 selected."/>
+<text id="0x0000cf6d" string="Error: Text Message 18 selected."/>
+<text id="0x0000cf82" string="Error: Text Message 19 selected."/>
+<text id="0x0000cf97" string="주차 브레이크가 풀렸습니다. &#xA;주차 브레이크를 누르고 주차 브레이크 스위치를 작동하십시오."/>
+<text id="0x0000cfac" string="주차 브레이크 리셋.&#xA;브레이크 서비스 종료가 완료되었습니다."/>
+<text id="0x0000cfc1" string="Error: Text Message 22 selected."/>
+<text id="0x0000cfd6" string="Error: Text Message 23 selected."/>
+<text id="0x0000cfeb" string="Error: Text Message 24 selected."/>
+<text id="0x0000d000" string="주차 브레이크가 풀렸습니다.&#xA;주차 브레이크를 누르고 주차 브레이크 스위치를 작동하십시오."/>
+<text id="0x0000d015" string="Error: Text Message 26 selected."/>
+<text id="0x0000d02a" string="Error: Text Message 27 selected."/>
+<text id="0x0000d03f" string="Error: Text Message 28 selected."/>
+<text id="0x0000d054" string="Error: Text Message 29 selected."/>
+<text id="0x0000d069" string="Error: Text Message 30 selected."/>
+<text id="0x0000d07e" string="브레이크 서비스"/>
+<text id="0x0000d093" string="브레이크 서비스"/>
+<text id="0x0000d0a8" string="주차 브레이크를 풀어 브레이크 시스템 서비스를 허용하시겠습니까?"/>
+<text id="0x0000d0bd" string="설정이 저장되지 않았습니다.&#xA;다시 시도하십시오."/>
+<text id="0x0000d0e7" string="브레이크 서비스 초기화 중&#xA;기다리십시오."/>
+<text id="0x0000d348" string="그룹&#xA;통화"/>
+<text id="0x0000d3c6" string="헤드라이트 감도"/>
+<text id="0x0000d3db" string="메시지 보내기"/>
+<text id="0x0000d3f0" string="개인 번호"/>
+<text id="0x0000d666" string="현재의 전화에서는&#xA;지원하지 않는 기능입니다."/>
+<text id="0x0000d67b" string="장치 호환성 정보는&#xA;%s 에서 확인하십시오."/>
+<text id="0x0000d690" string="호환 장치 목록은&#xA;%s에서 확인하십시오."/>
+<text id="0x0000d6a5" string="검색 결과"/>
+<text id="0x0000d6ba" string="검색 결과: %s"/>
+<text id="0x0000d6cf" string="결과&#xA;지우기&#xA;"/>
+<text id="0x0000d6e4" string="결과를 찾을 수 없습니다..."/>
+<text id="0x0000d6f9" string="코너링 라이트"/>
+<text id="0x0000d70e" string="시간"/>
+<text id="0x0000d777" string="통화 시간:"/>
+<text id="0x0000d78c" string="오류: 여러 대의 USB 장치가 감지되었습니다.&#xA;모든 장치를 제거하고 업데이트 장치만 삽입하십시오."/>
+<text id="0x0000d888" string="후방 주차감지 제동 어시스텬트"/>
+<text id="0x0000d89d" string="모두"/>
+<text id="0x0000d8b2" string="원격 시작"/>
+<text id="0x0000d8c7" string=""/>
+<text id="0x0000d8dc" string=""/>
+<text id="0x0000d8f1" string=""/>
+<text id="0x0000d906" string=""/>
+<text id="0x0000d91b" string=""/>
+<text id="0x0000d930" string=""/>
+<text id="0x0000d945" string=""/>
+<text id="0x0000d95a" string=""/>
+<text id="0x0000d96f" string=""/>
+<text id="0x0000d984" string="Station Unavailable"/>
+<text id="0x0000d9d8" string="Cargo Camera Guidelines"/>
+<text id="0x0000d9ed" string="Page&#xA;Up"/>
+<text id="0x0000da02" string="Page&#xA;Down"/>
+<text id="0x0000da17" string="Voice&#xA;Settings"/>
+<text id="0x0000da2c" string="Help"/>
+<text id="0x0000da41" string="Down"/>
+<text id="0x0000da56" string="Up"/>
+<text id="0x0000da95" string="후석 media"/>
+<text id="0x0000daaa" string="전체"/>
+<text id="0x0000a68b" string=""/>
+<text id="0x0000dcb7" string="Chapter"/>
+<text id="0x0000dcf6" string="자동편의기능 및 원격시동"/>
+<text id="0x0000dd20" string="%s ft"/>
+<text id="0x0000dd35" string="%s m"/>
+<text id="0x0000dd4a" string=""/>
+<text id="0x0000dd62" string="Ejecting Media"/>
+<text id="0x0000dd77" string="Ejecting Media"/>
+<text id="0x0000dd8c" string="Request Code"/>
+<text id="0x0000dda1" string="1st Press"/>
+<text id="0x0000ddb6" string="2nd&#xA;Press"/>
+<text id="0x0000dde0" string="%s ft"/>
+<text id="0x0000ddf5" string="Restore Settings Defaults"/>
+<text id="0x0000de0a" string="Are you sure you want to reset your settings to default?"/>
+<text id="0x0000de1f" string="Settings reset to default."/>
+<text id="0x0000de34" string="Clear Personal Data"/>
+<text id="0x0000de49" string="Personal data cleared."/>
+<text id="0x0000de5e" string="Are you sure you want to clear all personal data?"/>
+<text id="0x0000de73" string="Remote is locked out while in rear media."/>
+<text id="0x00001004" string="분 설정"/>
+<text id="0x0000e407" string="Settings restored to default."/>
+<text id="0x0000e485" string=""/>
+<text id="0x0000e49a" string=""/>
+<text id="0x0000e4e0" string=""/>
+<text id="0x0000e518" string=""/>
+<text id="0x0000e52d" string=""/>
+<text id="0x0000e542" string="자동 줌"/>
+<text id="0x0000e557" string="자동 줌"/>
+<text id="0x0000e6fb" string=""/>
+<text id="0x0000e710" string=""/>
+<text id="0x0000e73a" string="중지됨"/>
+<text id="0x0000e74f" string="중지됨"/>
+<text id="0x0000e764" string="Screen OFF"/>
+<text id="0x0000e88a" string="사용불가"/>
+<text id="0x0000e89f" string=""/>
+<text id="0x0000e9b0" string=""/>
+<text id="0x0000e9c5" string=""/>
+<text id="0x0000e9da" string=""/>
+<text id="0x0000e9ef" string="일반적인 음성 명령"/>
+<text id="0x0000ea04" string="FM / AM &lt;주파수> %c 채널 맞추기%c"/>
+<text id="0x0000ea19" string="위성 %c&lt;이름 / 숫자>%c 채널 맞추기"/>
+<text id="0x0000ea2e" string="소스 변경을(를) %ciPod / USB%c블루투스"/>
+<text id="0x0000ea43" string="목적지 %c&lt;주소>%c"/>
+<text id="0x0000ea58" string="이어서 찾기' %c&lt;범주>%c"/>
+<text id="0x0000ea6d" string="메시지 전송 을(를)  %c&lt;이름 / 숫자>%c (으)로"/>
+<text id="0x0000ea82" string="&lt;이름> %c전화%c"/>
+<text id="0x0000ea97" string=" &lt;숫자> %c전화걸기%c"/>
+<text id="0x0000eaac" string="재다이얼"/>
+<text id="0x0000eaeb" string="다시 전화"/>
+<text id="0x0000eb00" string="노래 / 아티스트 / 앨범 재생 %c&lt;이름>%c "/>
+<text id="0x0000eb7e" string="Controls Screen Time-Out"/>
+<text id="0x0000eb93" string="Not Now"/>
+<text id="0x0000eba8" string="Do Not&#xA;Show Again"/>
+<text id="0x0000ec3d" string="Send New Message with Voice Recognition"/>
+<text id="0x0000ec52" string="Send a Predefined Message"/>
+<text id="0x0000ec67" string="Listening...Say a command or say &quot;Help&quot; or &quot;Cancel&quot;"/>
+<text id="0x0000eca6" string="Set Theme"/>
+<text id="0x0000ece5" string="Navigation System Calibration Required"/>
+<text id="0x0000ecfa" string="To calibrate the navigation system drive to a main road with clear view of the sky."/>
+<text id="0x0000ed39" string="잠금시 조명 점멸"/>
+<text id="0x0000edcc" string="지방 입력"/>
+<text id="0x0000f018" string="Function not available while Valet&#xA;Mode is active.&#xA;&#xA;Valet Mode cannot be deactivated&#xA;while vehicle is in motion."/>
+<text id="0x0000f02d" string="Valet Mode Active - Press Here to Exit"/>
+<text id="0x0000f042" string="Valet Mode"/>
+<text id="0x0000f057" string="Valet Mode will limit the performance of your vehicle, and requires a custom pin code for activation and deactivation.&#xA;&#xA;Enter Valet Mode?"/>
+<text id="0x0000f06c" string="Valet Mode Deactivation"/>
+<text id="0x0000f081" string="Valet Mode Activation"/>
+<text id="0x0000f096" string="Enter a 4 digit pin to be used for activation and deactivation of Valet Mode"/>
+<text id="0x0000f0ab" string="Enter pin used for Valet Mode activation to deactivate Valet Mode"/>
+<text id="0x0000f0c0" string="Pin must be 4 digits"/>
+<text id="0x0000f0d5" string="Valet Mode Activated&#xA;&#xA;Vehicle performance limited"/>
+<text id="0x0000f0ea" string="Valet Mode Deactivated"/>
+<text id="0x0000f0ff" string="Incorrect pin entered"/>
+<text id="0x0000f168" string="Voice"/>
+<text id="0x0000f17d" string="Show Command List"/>
+<text id="0x0000f192" string="Never"/>
+<text id="0x0000f1a7" string="With&#xA;Help"/>
+<text id="0x0000f1bc" string="Always"/>
+<text id="0x0000f1fb" string="%s Mode"/>
+<text id="0x0000f210" string="%s Mode allows to customize the vehicle's performance.&#xA;&#xA;%s Mode will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f24f" string="Song tagging not available while two iPods are connected.  Please disconnect an iPod and try again."/>
+<text id="0x0000f264" string="%s Mode is currently active with %s turned on.&#xA;&#xA;%s is controlling power delivery to maximize fuel economy.&#xA;&#xA;%s Mode and %s will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f279" string="%s Mode is currently active with %s turned on.&#xA;&#xA;%s Mode allows you to fully customize the vehicle's performance.&#xA;&#xA;%s is controlling power delivery to maximize fuel economy.&#xA;&#xA;%s Mode and %s will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f28e" string="%s Mode is currently active with %s turned on.&#xA;&#xA;%s Mode delivers increased vehicle performance capability.&#xA;&#xA;%s is controlling power delivery to maximize fuel economy.&#xA;&#xA;%s Mode and %s will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f2a3" string="%s Mode is currently active with %s turned on.&#xA;&#xA;%s Mode delivers maximum vehicle performance capability on smooth, dry surfaces.&#xA;&#xA;%s is controlling power delivery to maximize fuel economy.&#xA;&#xA;%s Mode and %s will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f2b8" string="%s Mode is currently active.&#xA;&#xA;%s Mode allows you to fully customize the vehicle's performance.&#xA;&#xA;%s Mode will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f2cd" string="%s Mode is currently active.&#xA;&#xA;%s Mode delivers increased vehicle performance capability.&#xA;&#xA;%s Mode will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f2e2" string="%s Mode is currently active.&#xA;&#xA;%s Mode delivers maximum vehicle performance capability on smooth, dry surfaces.&#xA;&#xA;%s Mode will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f2f7" string="%s Mode is currently active.&#xA;&#xA;%s Mode will be activated automatically when restarting the vehicle."/>
+<text id="0x0000f30c" string="%s Mode&#xA;Set-Up"/>
+<text id="0x0000f34b" string="TMC Station List"/>
+<text id="0x0000f360" string="%s Modes"/>
+<text id="0x0000f375" string="%s Set-Up"/>
+<text id="0x0000f4b0" string="%s: Fastest possible shift speeds, strongest comfort trade-off&#xA;&#xA;%s: Faster shift speed, some comfortable trade-off&#xA;&#xA;%s: Balance of shift speed and shift comfort"/>
+<text id="0x0000f4ef" string="Seeking..."/>
+<text id="0x0000f504" string="Seeking TP..."/>
+<text id="0x0000f519" string="Enter Block Number"/>
+<text id="0x0000f56d" string="수동"/>
+<text id="0x0000f63f" string="원격 하향시 소리 경적"/>
+<text id="0x0000f711" string="Activate&#xA;Launch Control"/>
+<text id="0x0000f726" string="Active&#xA;Launch Mode"/>
+<text id="0x0000f73b" string="The black key is currently in use,&#xA;disabling access to the maximum &#xA;engine power level.  To enable access&#xA;to the maximum engine power level,&#xA;please use the red key."/>
+<text id="0x0000f77a" string="디스플레이 밝기 - 낮"/>
+<text id="0x0000f78f" string="디스플레이 밝기 - 밤"/>
+<text id="0x00007832" string="mph"/>
+<text id="0x00000323" string=""/>
+<text id="0x00005ed9" string=""/>
+<text id="0x00005eee" string=""/>
+<text id="0x000072b3" string="Switching to %s."/>
+<text id="0x00005f03" string=""/>
+<text id="0x00005f18" string=""/>
+<text id="0x00005f2d" string=""/>
+<text id="0x00005f42" string=""/>
+<text id="0x00005f57" string=""/>
+<text id="0x00005f6c" string=""/>
+<text id="0x00005f81" string=""/>
+<text id="0x00005f96" string=""/>
+<text id="0x00005fab" string=""/>
+<text id="0x00005fc0" string=""/>
+<text id="0x00005fd5" string=""/>
+<text id="0x00005fea" string=""/>
+<text id="0x00005fff" string=""/>
+<text id="0x00006014" string=""/>
+<text id="0x00006029" string=""/>
+<text id="0x0000603e" string=""/>
+<text id="0x00006053" string=""/>
+<text id="0x00006068" string=""/>
+<text id="0x0000607d" string=""/>
+<text id="0x00006092" string=""/>
+<text id="0x000060a7" string=""/>
+<text id="0x000060bc" string=""/>
+<text id="0x000060d1" string=""/>
+<text id="0x000060e6" string=""/>
+<text id="0x000060fb" string=""/>
+<text id="0x00006110" string=""/>
+<text id="0x00006125" string=""/>
+<text id="0x0000613a" string=""/>
+<text id="0x0000614f" string=""/>
+<text id="0x00006164" string=""/>
+<text id="0x00006179" string=""/>
+<text id="0x0000618e" string=""/>
+<text id="0x000061a3" string=""/>
+<text id="0x000061b8" string=""/>
+<text id="0x000061cd" string=""/>
+<text id="0x000061e2" string=""/>
+<text id="0x000061f7" string=""/>
+<text id="0x0000620c" string=""/>
+<text id="0x00006221" string=""/>
+<text id="0x00006236" string=""/>
+<text id="0x0000624b" string=""/>
+<text id="0x00006260" string=""/>
+<text id="0x00006275" string=""/>
+<text id="0x0000628a" string=""/>
+<text id="0x0000629f" string=""/>
+<text id="0x000062b4" string=""/>
+<text id="0x000062c9" string=""/>
+<text id="0x000062de" string=""/>
+<text id="0x000062f3" string=""/>
+<text id="0x00006308" string=""/>
+<text id="0x0000631d" string=""/>
+<text id="0x00006332" string=""/>
+<text id="0x00006347" string=""/>
+<text id="0x0000635c" string=""/>
+<text id="0x00006371" string=""/>
+<text id="0x00006386" string=""/>
+<text id="0x0000639b" string=""/>
+<text id="0x000063b0" string=""/>
+<text id="0x000063c5" string=""/>
+<text id="0x000063da" string=""/>
+<text id="0x000063ef" string=""/>
+<text id="0x00006404" string=""/>
+<text id="0x00006419" string=""/>
+<text id="0x0000642e" string=""/>
+<text id="0x00006443" string=""/>
+<text id="0x00006458" string=""/>
+<text id="0x0000646d" string=""/>
+<text id="0x00006482" string=""/>
+<text id="0x00006497" string=""/>
+<text id="0x000064ac" string=""/>
+<text id="0x000064c1" string=""/>
+<text id="0x000064d6" string=""/>
+<text id="0x000064eb" string=""/>
+<text id="0x00006500" string=""/>
+<text id="0x00006515" string=""/>
+<text id="0x0000652a" string=""/>
+<text id="0x0000653f" string=""/>
+<text id="0x00006554" string=""/>
+<text id="0x00006569" string=""/>
+<text id="0x0000657e" string=""/>
+<text id="0x00006593" string=""/>
+<text id="0x000065a8" string=""/>
+<text id="0x000065bd" string=""/>
+<text id="0x000065e7" string=""/>
+<text id="0x000065fc" string=""/>
+<text id="0x00006611" string=""/>
+<text id="0x00006626" string=""/>
+<text id="0x0000663b" string=""/>
+<text id="0x00006650" string=""/>
+<text id="0x00006665" string=""/>
+<text id="0x0000667a" string=""/>
+<text id="0x0000668f" string=""/>
+<text id="0x000066a4" string=""/>
+<text id="0x000066b9" string=""/>
+<text id="0x000066ce" string=""/>
+<text id="0x000066e3" string=""/>
+<text id="0x000066f8" string=""/>
+<text id="0x0000670d" string=""/>
+<text id="0x00006722" string=""/>
+<text id="0x00006737" string=""/>
+<text id="0x0000674c" string=""/>
+<text id="0x00006761" string=""/>
+<text id="0x00006776" string=""/>
+<text id="0x0000678b" string=""/>
+<text id="0x000067a0" string=""/>
+<text id="0x000067b5" string=""/>
+<text id="0x000067ca" string=""/>
+<text id="0x000067df" string=""/>
+<text id="0x000067f4" string=""/>
+<text id="0x00006809" string=""/>
+<text id="0x0000681e" string=""/>
+<text id="0x00006833" string=""/>
+<text id="0x00006848" string=""/>
+<text id="0x0000685d" string=""/>
+<text id="0x00006872" string=""/>
+<text id="0x00006887" string=""/>
+<text id="0x0000689c" string=""/>
+<text id="0x000068b1" string=""/>
+<text id="0x000068c6" string=""/>
+<text id="0x000068db" string=""/>
+<text id="0x000068f0" string=""/>
+<text id="0x00006905" string=""/>
+<text id="0x0000691a" string=""/>
+<text id="0x0000692f" string=""/>
+<text id="0x00006944" string=""/>
+<text id="0x00006959" string=""/>
+<text id="0x0000696e" string=""/>
+<text id="0x00006983" string=""/>
+<text id="0x00006998" string=""/>
+<text id="0x000069ad" string=""/>
+<text id="0x000069c2" string=""/>
+<text id="0x000069d7" string=""/>
+<text id="0x000069ec" string=""/>
+<text id="0x00006a01" string=""/>
+<text id="0x00006a16" string=""/>
+<text id="0x00006a2b" string=""/>
+<text id="0x00006a40" string=""/>
+<text id="0x00006a55" string=""/>
+<text id="0x00006a6a" string=""/>
+<text id="0x00006a7f" string=""/>
+<text id="0x00006a94" string=""/>
+<text id="0x00006aa9" string=""/>
+<text id="0x00006abe" string=""/>
+<text id="0x00006ad3" string=""/>
+<text id="0x00006ae8" string=""/>
+<text id="0x00006afd" string=""/>
+<text id="0x00006b12" string=""/>
+<text id="0x00006b27" string=""/>
+<text id="0x00006b3c" string=""/>
+<text id="0x00006b51" string=""/>
+<text id="0x00006b66" string=""/>
+<text id="0x00006b7b" string=""/>
+<text id="0x00006b90" string=""/>
+<text id="0x00006ba5" string=""/>
+<text id="0x00006bba" string=""/>
+<text id="0x00006bcf" string=""/>
+<text id="0x00006be4" string=""/>
+<text id="0x00006bf9" string=""/>
+<text id="0x00006c0e" string=""/>
+<text id="0x00006c23" string=""/>
+<text id="0x00006c38" string=""/>
+<text id="0x00006c4d" string=""/>
+<text id="0x00006c62" string=""/>
+<text id="0x00006c77" string=""/>
+<text id="0x00006c8c" string=""/>
+<text id="0x00006ca1" string=""/>
+<text id="0x00006cb6" string=""/>
+<text id="0x00006ccb" string=""/>
+<text id="0x00006ce0" string=""/>
+<text id="0x00006cf5" string=""/>
+<text id="0x00006d0a" string=""/>
+<text id="0x00006d1f" string=""/>
+<text id="0x00006d34" string=""/>
+<text id="0x00006d49" string=""/>
+<text id="0x00006d5e" string=""/>
+<text id="0x00006d73" string=""/>
+<text id="0x00006d88" string=""/>
+<text id="0x00006d9d" string=""/>
+<text id="0x00006db2" string=""/>
+<text id="0x00006dc7" string=""/>
+<text id="0x00006ddc" string=""/>
+<text id="0x00006df1" string=""/>
+<text id="0x00006e06" string=""/>
+<text id="0x00006e1b" string=""/>
+<text id="0x00006e30" string=""/>
+<text id="0x00006e45" string=""/>
+<text id="0x00006e5a" string=""/>
+<text id="0x00006e6f" string=""/>
+<text id="0x00006e84" string=""/>
+<text id="0x00006e99" string=""/>
+<text id="0x00006eae" string=""/>
+<text id="0x00006ec3" string=""/>
+<text id="0x00006ed8" string=""/>
+<text id="0x00006eed" string=""/>
+<text id="0x00006f02" string=""/>
+<text id="0x00006f17" string=""/>
+<text id="0x00006f2c" string=""/>
+<text id="0x00006f41" string=""/>
+<text id="0x00006f56" string=""/>
+<text id="0x00006f6b" string=""/>
+<text id="0x00006f80" string=""/>
+<text id="0x00006f95" string=""/>
+<text id="0x00006faa" string=""/>
+<text id="0x00006fbf" string=""/>
+<text id="0x00006fd4" string=""/>
+<text id="0x00006fe9" string=""/>
+<text id="0x00006ffe" string=""/>
+<text id="0x00007013" string=""/>
+<text id="0x00007028" string=""/>
+<text id="0x0000703d" string=""/>
+<text id="0x00007052" string=""/>
+<text id="0x00007067" string=""/>
+<text id="0x0000707c" string=""/>
+<text id="0x00007091" string=""/>
+<text id="0x000070a6" string=""/>
+<text id="0x000070bb" string=""/>
+<text id="0x000070d0" string=""/>
+<text id="0x000070e5" string=""/>
+<text id="0x000070fa" string=""/>
+<text id="0x0000710f" string=""/>
+<text id="0x00007124" string=""/>
+<text id="0x00007139" string=""/>
+<text id="0x0000714e" string=""/>
+<text id="0x00007163" string=""/>
+<text id="0x00007178" string=""/>
+<text id="0x0000718d" string=""/>
+<text id="0x000071a2" string=""/>
+<text id="0x000071b7" string=""/>
+<text id="0x000071cc" string=""/>
+<text id="0x000071e1" string=""/>
+<text id="0x000071f6" string=""/>
+<text id="0x0000720b" string=""/>
+<text id="0x00007220" string=""/>
+<text id="0x00007235" string=""/>
+<text id="0x0000724a" string=""/>
+<text id="0x0000725f" string=""/>
+<text id="0x00007274" string=""/>
+<text id="0x00007289" string=""/>
+<text id="0x0000729e" string=""/>
+<text id="0x00007847" string="km/h"/>
+<text id="0x00002168" string="ABC"/>
+<text id="0x000032e1" string="A/C"/>
+<text id="0x000032f6" string="A/C"/>
+<text id="0x0000330b" string="A/C"/>
+<text id="0x000021fb" string="WXYZ"/>
+<text id="0x0000051b" string="AM"/>
+<text id="0x00000920" string="AM"/>
+<text id="0x0000217d" string="DEF"/>
+<text id="0x0000056f" string="FF"/>
+<text id="0x00000488" string="FM"/>
+<text id="0x00000935" string="FM"/>
+<text id="0x00002192" string="GHI"/>
+<text id="0x000021a7" string="JKL"/>
+<text id="0x000021bc" string="MNO"/>
+<text id="0x0000049d" string="MW"/>
+<text id="0x0000094a" string="MW"/>
+<text id="0x00001f85" string="N/A"/>
+<text id="0x000007fa" string="NFL"/>
+<text id="0x000021d1" string="PQRS"/>
+<text id="0x00000545" string="RW"/>
+<text id="0x000010c1" string=""/>
+<text id="0x000010d6" string=""/>
+<text id="0x000010eb" string=""/>
+<text id="0x00001058" string=""/>
+<text id="0x00000e60" string="US"/>
+<text id="0x0000040a" string="ST"/>
+<text id="0x000021e6" string="TUV"/>
+<text id="0x00000617" string="찾아보기"/>
+<text id="0x00000473" string=""/>
+<text id="0x00003f59" string="DM"/>
+<text id="0x00003f44" string="DMS"/>
+<text id="0x000051a4" string=""/>
+<text id="0x00005516" string=""/>
+<text id="0x0000238a" string=""/>
+<text id="0x00001d24" string=""/>
+<text id="0x00001da2" string=""/>
+<text id="0x000027a4" string=""/>
+<text id="0x00002822" string=""/>
+<text id="0x000028ca" string=""/>
+<text id="0x0000291e" string=""/>
+<text id="0x00005387" string=""/>
+<text id="0x000054ad" string=""/>
+<text id="0x00005540" string=""/>
+<text id="0x00005555" string=""/>
+<text id="0x00005651" string=""/>
+<text id="0x000056cf" string=""/>
+<text id="0x000056e4" string=""/>
+<text id="0x0000167f" string=""/>
+<text id="0x00001694" string=""/>
+<text id="0x000026e7" string=""/>
+<text id="0x000007a6" string=""/>
+<text id="0x000007bb" string=""/>
+<text id="0x0000080f" string=""/>
+<text id="0x000012a4" string=""/>
+<text id="0x000012b9" string=""/>
+<text id="0x00001337" string=""/>
+<text id="0x0000134c" string=""/>
+<text id="0x0000145d" string=""/>
+<text id="0x000013ca" string=""/>
+<text id="0x00001433" string=""/>
+<text id="0x00002375" string=""/>
+<text id="0x000018e0" string=""/>
+<text id="0x000027ce" string=""/>
+<text id="0x0000280d" string=""/>
+<text id="0x00000752" string=""/>
+<text id="0x000012ce" string=""/>
+<text id="0x000054c2" string=""/>
+<text id="0x00005666" string=""/>
+<text id="0x000027e3" string=""/>
+<text id="0x00002987" string=""/>
+<text id="0x00001ef2" string=""/>
+<text id="0x00002360" string=""/>
+<text id="0x00007871" string=""/>
+<text id="0x00007886" string=""/>
+<text id="0x0000789b" string=""/>
+<text id="0x000078b0" string=""/>
+<text id="0x000078c5" string=""/>
+<text id="0x000078da" string=""/>
+<text id="0x000078ef" string=""/>
+<text id="0x00007904" string=""/>
+<text id="0x00007919" string=""/>
+<text id="0x0000792e" string=""/>
+<text id="0x00007943" string=""/>
+<text id="0x00007958" string=""/>
+<text id="0x0000796d" string=""/>
+<text id="0x00007982" string=""/>
+<text id="0x00007997" string=""/>
+<text id="0x000079ac" string=""/>
+<text id="0x000079c1" string=""/>
+<text id="0x000079d6" string=""/>
+<text id="0x00007a00" string=""/>
+<text id="0x00007a15" string=""/>
+<text id="0x00007a2a" string=""/>
+<text id="0x00007a3f" string=""/>
+<text id="0x000080f9" string=""/>
+<text id="0x0000810e" string=""/>
+<text id="0x00008123" string=""/>
+<text id="0x00008138" string=""/>
+<text id="0x0000814d" string=""/>
+<text id="0x00008162" string=""/>
+<text id="0x00008177" string=""/>
+<text id="0x0000818c" string=""/>
+<text id="0x000081b6" string=""/>
+<text id="0x00000a5b" string=""/>
+<text id="0x00000aaf" string=""/>
+<text id="0x00000ac4" string=""/>
+<text id="0x00001f70" string=""/>
+<text id="0x00000b03" string=""/>
+<text id="0x00000b81" string=""/>
+<text id="0x00000a9a" string=""/>
+<text id="0x00000b57" string=""/>
+<text id="0x00000a46" string=""/>
+<text id="0x00000ad9" string=""/>
+<text id="0x00000b42" string=""/>
+<text id="0x00000b6c" string=""/>
+<text id="0x00007e59" string=""/>
+<text id="0x00000506" string=""/>
+<text id="0x000011bd" string=""/>
+<text id="0x000011d2" string=""/>
+<text id="0x000013df" string=""/>
+<text id="0x0000299c" string=""/>
+<text id="0x00002837" string=""/>
+<text id="0x00001d78" string=""/>
+<text id="0x00001e4a" string=""/>
+<text id="0x00001e9e" string=""/>
+<text id="0x00001f1c" string=""/>
+<text id="0x00001f46" string=""/>
+<text id="0x000028df" string=""/>
+<text id="0x00002933" string=""/>
+<text id="0x000053db" string=""/>
+<text id="0x00005501" string=""/>
+<text id="0x000056a5" string=""/>
+<text id="0x0000084e" string=""/>
+<text id="0x000011e7" string=""/>
+<text id="0x000011fc" string=""/>
+<text id="0x000013f4" string=""/>
+<text id="0x0000149c" string=""/>
+<text id="0x00001727" string=""/>
+<text id="0x00007a93" string=""/>
+<text id="0x00007aa8" string=""/>
+<text id="0x000012e3" string=""/>
+<text id="0x00001e20" string=""/>
+<text id="0x000055be" string=""/>
+<text id="0x00005612" string=""/>
+<text id="0x00005483" string=""/>
+<text id="0x00005627" string=""/>
+<text id="0x00005594" string=""/>
+<text id="0x000055e8" string=""/>
+<text id="0x00002336" string=""/>
+<text id="0x0000552b" string=""/>
+<text id="0x000056ba" string=""/>
+<text id="0x000055a9" string=""/>
+<text id="0x000055fd" string=""/>
+<text id="0x00005498" string=""/>
+<text id="0x0000563c" string=""/>
+<text id="0x00001ec8" string=""/>
+<text id="0x00005459" string=""/>
+<text id="0x000055d3" string=""/>
+<text id="0x00001d63" string=""/>
+<text id="0x0000228e" string=""/>
+<text id="0x000022a3" string=""/>
+<text id="0x000022f7" string=""/>
+<text id="0x0000230c" string=""/>
+<text id="0x0000277a" string=""/>
+<text id="0x000028f4" string=""/>
+<text id="0x00002948" string=""/>
+<text id="0x00002711" string=""/>
+<text id="0x00007dc6" string=""/>
+<text id="0x00007ddb" string=""/>
+<text id="0x00007d9c" string=""/>
+<text id="0x00007cdf" string=""/>
+<text id="0x000054ec" string=""/>
+<text id="0x00005690" string=""/>
+<text id="0x0000077c" string=""/>
+<text id="0x0000130d" string=""/>
+<text id="0x00001361" string=""/>
+<text id="0x00001472" string=""/>
+<text id="0x000053c6" string=""/>
+<text id="0x00001edd" string=""/>
+<text id="0x000026fc" string=""/>
+<text id="0x000013b5" string=""/>
+<text id="0x00001de1" string=""/>
+<text id="0x000053f0" string=""/>
+<text id="0x0000542f" string=""/>
+<text id="0x0000556a" string=""/>
+<text id="0x000023c9" string=""/>
+<text id="0x00005444" string=""/>
+<text id="0x00001e74" string=""/>
+<text id="0x00001eb3" string=""/>
+<text id="0x00001322" string="즐겨찾기 삭제"/>
+<text id="0x00001376" string=""/>
+<text id="0x00000530" string=""/>
+<text id="0x000008b7" string=""/>
+<text id="0x000008cc" string=""/>
+<text id="0x000008e1" string=""/>
+<text id="0x000008f6" string=""/>
+<text id="0x0000090b" string=""/>
+<text id="0x0000141e" string=""/>
+<text id="0x00004e86" string=""/>
+<text id="0x00004e9b" string=""/>
+<text id="0x00004eb0" string=""/>
+<text id="0x00004ec5" string=""/>
+<text id="0x000013a0" string=""/>
+<text id="0x00001df6" string=""/>
+<text id="0x00007d72" string=""/>
+<text id="0x00007d87" string=""/>
+<text id="0x000007e5" string=""/>
+<text id="0x0000138b" string=""/>
+<text id="0x000014c6" string=""/>
+<text id="0x00007db1" string=""/>
+<text id="0x000023f3" string=""/>
+<text id="0x00000fc5" string=""/>
+<text id="0x0000191f" string=""/>
+<text id="0x00001934" string=""/>
+<text id="0x00001949" string=""/>
+<text id="0x0000199d" string=""/>
+<text id="0x000019b2" string=""/>
+<text id="0x000019c7" string=""/>
+<text id="0x000019dc" string=""/>
+<text id="0x000019f1" string=""/>
+<text id="0x00001a06" string=""/>
+<text id="0x000027b9" string=""/>
+<text id="0x0000284c" string=""/>
+<text id="0x0000546e" string=""/>
+<text id="0x00001d4e" string=""/>
+<text id="0x00002909" string=""/>
+<text id="0x0000295d" string=""/>
+<text id="0x000054d7" string=""/>
+<text id="0x0000567b" string=""/>
+<text id="0x0000757d" string=""/>
+<text id="0x00007592" string=""/>
+<text id="0x000075a7" string=""/>
+<text id="0x000075bc" string=""/>
+<text id="0x000075d1" string=""/>
+<text id="0x000075e6" string=""/>
+<text id="0x000075fb" string=""/>
+<text id="0x00007610" string=""/>
+<text id="0x00007625" string=""/>
+<text id="0x00005405" string=""/>
+<text id="0x000077f3" string=""/>
+<text id="0x00001712" string=""/>
+<text id="0x000023de" string=""/>
+<text id="0x00007df0" string=""/>
+<text id="0x000022cd" string=""/>
+<text id="0x000022e2" string=""/>
+<text id="0x000076f7" string=""/>
+<text id="0x000005ed" string=""/>
+<text id="0x00000863" string=""/>
+<text id="0x00001409" string=""/>
+<text id="0x00001d8d" string=""/>
+<text id="0x00001f07" string=""/>
+<text id="0x00005a95" string=""/>
+<text id="0x00005aaa" string=""/>
+<text id="0x00005abf" string=""/>
+<text id="0x00005ad4" string=""/>
+<text id="0x0000557f" string=""/>
+<text id="0x00001e0b" string=""/>
+<text id="0x0000825e" string=""/>
+<text id="0x00008288" string=""/>
+<text id="0x0000829d" string=""/>
+<text id="0x0000836f" string=""/>
+<text id="0x0000842c" string=""/>
+<text id="0x00008441" string=""/>
+<text id="0x00008456" string=""/>
+<text id="0x0000846b" string=""/>
+<text id="0x00002861" string=""/>
+<text id="0x000093ad" string=""/>
+<text id="0x000093c2" string=""/>
+<text id="0x00009dd9" string=""/>
+<text id="0x00009e03" string=""/>
+<text id="0x00009e18" string=""/>
+<text id="0x00009e2d" string=""/>
+<text id="0x00009e42" string=""/>
+<text id="0x00009e57" string=""/>
+<text id="0x00009e6c" string=""/>
+<text id="0x00009e81" string=""/>
+<text id="0x00009e96" string=""/>
+<text id="0x00009eab" string=""/>
+<text id="0x00009ec0" string=""/>
+<text id="0x00009ed5" string=""/>
+<text id="0x00009f14" string=""/>
+<text id="0x00009f29" string=""/>
+<text id="0x00009f3e" string=""/>
+<text id="0x00009f53" string=""/>
+<text id="0x00009f68" string=""/>
+<text id="0x00009f7d" string=""/>
+<text id="0x00009f92" string=""/>
+<text id="0x00009fa7" string=""/>
+<text id="0x00009fbc" string=""/>
+<text id="0x00009fd1" string=""/>
+<text id="0x00009fe6" string=""/>
+<text id="0x00009ffb" string=""/>
+<text id="0x0000a010" string=""/>
+<text id="0x0000a025" string=""/>
+<text id="0x0000a03a" string=""/>
+<text id="0x0000a04f" string=""/>
+<text id="0x0000a064" string=""/>
+<text id="0x0000a079" string=""/>
+<text id="0x0000a08e" string=""/>
+<text id="0x0000a0a3" string=""/>
+<text id="0x0000a0b8" string=""/>
+<text id="0x0000a0cd" string=""/>
+<text id="0x0000a114" string=""/>
+<text id="0x0000a129" string=""/>
+<text id="0x0000a319" string=""/>
+<text id="0x0000a32e" string=""/>
+<text id="0x0000a343" string=""/>
+<text id="0x0000a358" string=""/>
+<text id="0x0000a447" string=""/>
+<text id="0x0000a45c" string=""/>
+<text id="0x0000a471" string=""/>
+<text id="0x0000a486" string=""/>
+<text id="0x0000a49b" string=""/>
+<text id="0x0000a4bd" string=""/>
+<text id="0x0000a4d2" string=""/>
+<text id="0x0000a4e7" string=""/>
+<text id="0x0000a4fc" string=""/>
+<text id="0x0000a511" string=""/>
+<text id="0x0000a526" string=""/>
+<text id="0x0000a53b" string=""/>
+<text id="0x0000a550" string=""/>
+<text id="0x0000a565" string=""/>
+<text id="0x0000a57a" string=""/>
+<text id="0x0000a58f" string=""/>
+<text id="0x0000a5a4" string=""/>
+<text id="0x0000a5b9" string=""/>
+<text id="0x0000a5ce" string=""/>
+<text id="0x0000a5e3" string=""/>
+<text id="0x0000a5f8" string=""/>
+<text id="0x0000a60d" string=""/>
+<text id="0x0000a622" string=""/>
+<text id="0x0000a6f4" string=""/>
+<text id="0x0000a709" string=""/>
+<text id="0x0000a75d" string=""/>
+<text id="0x0000a772" string=""/>
+<text id="0x0000a787" string=""/>
+<text id="0x0000a79c" string=""/>
+<text id="0x0000a7b1" string=""/>
+<text id="0x0000a7c6" string=""/>
+<text id="0x0000a7db" string=""/>
+<text id="0x0000a7f0" string=""/>
+<text id="0x0000a805" string=""/>
+<text id="0x0000a81a" string=""/>
+<text id="0x0000a82f" string=""/>
+<text id="0x0000a844" string=""/>
+<text id="0x0000a859" string=""/>
+<text id="0x0000a86e" string=""/>
+<text id="0x0000a883" string=""/>
+<text id="0x0000a898" string=""/>
+<text id="0x0000a8ad" string=""/>
+<text id="0x0000a8c2" string=""/>
+<text id="0x0000a8d7" string=""/>
+<text id="0x0000a8ec" string=""/>
+<text id="0x0000a901" string=""/>
+<text id="0x0000a916" string=""/>
+<text id="0x0000a92b" string=""/>
+<text id="0x0000a940" string=""/>
+<text id="0x0000a96a" string=""/>
+<text id="0x0000a97f" string=""/>
+<text id="0x0000aefe" string=""/>
+<text id="0x0000af13" string=""/>
+<text id="0x0000cdb4" string=""/>
+<text id="0x0000af28" string=""/>
+<text id="0x0000af3d" string=""/>
+<text id="0x0000af52" string=""/>
+<text id="0x0000af67" string=""/>
+<text id="0x0000af7c" string=""/>
+<text id="0x0000af91" string=""/>
+<text id="0x0000afd0" string=""/>
+<text id="0x0000afe5" string=""/>
+<text id="0x0000affa" string=""/>
+<text id="0x0000b0cc" string=""/>
+<text id="0x0000b0e1" string=""/>
+<text id="0x0000b120" string=""/>
+<text id="0x0000b135" string=""/>
+<text id="0x0000b14a" string=""/>
+<text id="0x0000b15f" string=""/>
+<text id="0x0000b174" string=""/>
+<text id="0x0000b189" string=""/>
+<text id="0x0000b19e" string=""/>
+<text id="0x0000b1dd" string=""/>
+<text id="0x0000b381" string=""/>
+<text id="0x0000b5a3" string=""/>
+<text id="0x0000b5b8" string=""/>
+<text id="0x0000b692" string=""/>
+<text id="0x0000b6a7" string=""/>
+<text id="0x0000b6bc" string=""/>
+<text id="0x0000b6d1" string=""/>
+<text id="0x0000b6e6" string=""/>
+<text id="0x0000b6fb" string=""/>
+<text id="0x0000b710" string=""/>
+<text id="0x0000b725" string=""/>
+<text id="0x0000b74f" string=""/>
+<text id="0x0000b796" string=""/>
+<text id="0x0000b836" string=""/>
+<text id="0x0000b875" string=""/>
+<text id="0x0000b88a" string=""/>
+<text id="0x0000b89f" string=""/>
+<text id="0x0000b8b4" string=""/>
+<text id="0x0000b8de" string=""/>
+<text id="0x0000b8f3" string=""/>
+<text id="0x0000b908" string=""/>
+<text id="0x0000b91d" string=""/>
+<text id="0x0000b932" string=""/>
+<text id="0x0000b947" string=""/>
+<text id="0x0000b95c" string=""/>
+<text id="0x0000b971" string=""/>
+<text id="0x0000b986" string=""/>
+<text id="0x0000b99b" string=""/>
+<text id="0x0000b9b0" string=""/>
+<text id="0x0000b9c5" string=""/>
+<text id="0x0000b9da" string=""/>
+<text id="0x0000b9ef" string=""/>
+<text id="0x0000ba04" string=""/>
+<text id="0x0000ba19" string=""/>
+<text id="0x0000c604" string=""/>
+<text id="0x0000cbd1" string=""/>
+<text id="0x0000cd36" string=""/>
+<text id="0x0000cd4b" string=""/>
+<text id="0x0000cd60" string=""/>
+<text id="0x0000cd75" string=""/>
+<text id="0x0000cd8a" string=""/>
+<text id="0x0000cd9f" string=""/>
+<text id="0x0000cdc9" string=""/>
+<text id="0x0000d723" string=""/>
+<text id="0x0000da6b" string=""/>
+<text id="0x0000da80" string=""/>
+<text id="0x0000045e" string=""/>
+<text id="0x000004b2" string=""/>
+<text id="0x000072c8" string="DAB"/>
+<text id="0x00004e71" string=""/>
+<text id="0x0000524c" string=""/>
+<text id="0x000029c6" string=""/>
+<text id="0x000029db" string=""/>
+<text id="0x000029b1" string=""/>
+<text id="0x000029f0" string=""/>
+<text id="0x00007e98" string=""/>
+<text id="0x00007f2b" string=""/>
+<text id="0x00007f40" string=""/>
+<text id="0x00007ead" string=""/>
+<text id="0x000072f2" string=""/>
+<text id="0x00007307" string=""/>
+<text id="0x0000731c" string=""/>
+<text id="0x000073af" string=""/>
+<text id="0x0000dafe" string=""/>
+<text id="0x0000db13" string=""/>
+<text id="0x0000db28" string=""/>
+<text id="0x0000db3d" string=""/>
+<text id="0x0000db52" string=""/>
+<text id="0x0000db67" string=""/>
+<text id="0x0000db7c" string=""/>
+<text id="0x0000db91" string=""/>
+<text id="0x0000dba6" string=""/>
+<text id="0x0000dbbb" string=""/>
+<text id="0x0000dbd0" string=""/>
+<text id="0x0000dbe5" string=""/>
+<text id="0x0000dbfa" string=""/>
+<text id="0x0000dc0f" string=""/>
+<text id="0x0000dc24" string=""/>
+<text id="0x0000dc39" string=""/>
+<text id="0x00003a6d" string=""/>
+<text id="0x00003a97" string=""/>
+<text id="0x00003b69" string=""/>
+<text id="0x00003b7e" string=""/>
+<text id="0x00003cce" string=""/>
+<text id="0x00003e5d" string=""/>
+<text id="0x00005165" string=""/>
+<text id="0x00005762" string=""/>
+<text id="0x0000578c" string=""/>
+<text id="0x000058f1" string=""/>
+<text id="0x00005c8d" string=""/>
+<text id="0x00005df2" string=""/>
+<text id="0x00005e07" string=""/>
+<text id="0x000073c4" string=""/>
+<text id="0x00007e1a" string=""/>
+<text id="0x00007e2f" string=""/>
+<text id="0x00003b54" string=""/>
+<text id="0x00003c3b" string=""/>
+<text id="0x00003dca" string=""/>
+<text id="0x00003ec6" string=""/>
+<text id="0x0000202d" string=""/>
+<text id="0x00003932" string=""/>
+<text id="0x00003947" string=""/>
+<text id="0x00007736" string=""/>
+<text id="0x0000774b" string=""/>
+<text id="0x00007760" string=""/>
+<text id="0x00007775" string=""/>
+<text id="0x0000778a" string=""/>
+<text id="0x0000779f" string=""/>
+<text id="0x000077b4" string=""/>
+<text id="0x000077c9" string=""/>
+<text id="0x000077de" string=""/>
+<text id="0x000081cb" string=""/>
+<text id="0x000057f5" string=""/>
+<text id="0x00003c65" string=""/>
+<text id="0x00003a58" string=""/>
+<text id="0x0000574d" string=""/>
+<text id="0x00003cf8" string=""/>
+<text id="0x00003d0d" string=""/>
+<text id="0x00003ad6" string=""/>
+<text id="0x00003aeb" string=""/>
+<text id="0x00003b00" string=""/>
+<text id="0x00003b15" string=""/>
+<text id="0x00003b2a" string=""/>
+<text id="0x00005906" string=""/>
+<text id="0x00000fb0" string=""/>
+<text id="0x00003a19" string=""/>
+<text id="0x000050fc" string=""/>
+<text id="0x00005e1c" string=""/>
+<text id="0x00003ce3" string=""/>
+<text id="0x0000595a" string=""/>
+<text id="0x00003b3f" string=""/>
+<text id="0x00003bd2" string=""/>
+<text id="0x000056f9" string=""/>
+<text id="0x0000570e" string=""/>
+<text id="0x00005738" string=""/>
+<text id="0x00008090" string=""/>
+<text id="0x000080a5" string=""/>
+<text id="0x000080ba" string=""/>
+<text id="0x000080cf" string=""/>
+<text id="0x000080e4" string=""/>
+<text id="0x000044ed" string=""/>
+<text id="0x00005945" string=""/>
+<text id="0x00003c7a" string=""/>
+<text id="0x00003cb9" string=""/>
+<text id="0x00003eb1" string=""/>
+<text id="0x0000591b" string=""/>
+<text id="0x00005930" string=""/>
+<text id="0x00005c78" string=""/>
+<text id="0x00005069" string=""/>
+<text id="0x00003ca4" string=""/>
+<text id="0x00005c63" string=""/>
+<text id="0x00007fbe" string=""/>
+<text id="0x00007f16" string=""/>
+<text id="0x00007fa9" string="출력된 Passkey를 장치에 입력하여 주십시요."/>
+<text id="0x000074c0" string=""/>
+<text id="0x000039b0" string=""/>
+<text id="0x0000596f" string=""/>
+<text id="0x00003db5" string=""/>
+<text id="0x00008480" string=""/>
+<text id="0x00008417" string=""/>
+<text id="0x00009cf2" string=""/>
+<text id="0x00009d07" string=""/>
+<text id="0x00009d1c" string=""/>
+<text id="0x0000d7a1" string="Added to Favorite Apps"/>
+<text id="0x0000d7b6" string="There was an error in running the app.&#xA;Please try again later."/>
+<text id="0x0000d7cb" string="Welcome to Uconnect Access&#xA;&#xA;To enjoy full benefits,&#xA;please press start to begin."/>
+<text id="0x0000d7e0" string="Remove %s from Favorite Apps?"/>
+<text id="0x0000d7f5" string="Resource Limit Reached"/>
+<text id="0x0000d80a" string="Please close a running app and try again."/>
+<text id="0x0000d81f" string="There are too many apps currently running, please close a running app and try again."/>
+<text id="0x0000d834" string="Go to Running Apps"/>
+<text id="0x0000dccc" string=""/>
+<text id="0x0000dce1" string=""/>
+<text id="0x0000dd0b" string=""/>
+<text id="0x0000e431" string=""/>
+<text id="0x0000e446" string=""/>
+<text id="0x0000e45b" string=""/>
+<text id="0x0000e470" string=""/>
+<text id="0x0000c30d" string="구역 입력"/>
+<text id="0x0000c30e" string="구역 입력"/>
+<text id="0x0000c30f" string="도시 또는 구역 입력"/>
+<text id="0x0000ba97" string="DMB"/>
+<text id="0x0000baac" string="DMB 채널 목록"/>
+<text id="0x0000bac1" string="ALL"/>
+<text id="0x0000bad6" string="모든채널"/>
+<text id="0x0000baeb" string="설정&#xA;새로고침"/>
+<text id="0x0000bb00" string="목록&#xA;고침"/>
+<text id="0x0000bb15" string="모든채널 검색"/>
+<text id="0x0000bb2a" string="서울 및 경기도 채널 검색"/>
+<text id="0x0000bb3f" string="충청도 채널 검색"/>
+<text id="0x0000bb54" string="전라도 채널 검색"/>
+<text id="0x0000bb69" string="경상북도 채널 검색"/>
+<text id="0x0000bb7e" string="경상남도 채널 검색"/>
+<text id="0x0000bb93" string="강원도 채널 검색"/>
+<text id="0x0000bba8" string="제주도 채널 검색"/>
+<text id="0x0000bbbd" string="현재 채널 목록이 지워집니다.&#xA;계속 하시겠습니까?"/>
+<text id="0x0000bbd2" string="주소"/>
+<text id="0x0000bbe7" string="주소 입력"/>
+<text id="0x0000bbfc" string="새 주소 검색"/>
+<text id="0x0000bc11" string="구 주소 검색"/>
+<text id="0x0000bc26" string="아파트 이름"/>
+<text id="0x0000bc3b" string="지번"/>
+<text id="0x0000bc50" string="지번 입력"/>
+<text id="0x0000bc65" string="시/군/구 입력"/>
+<text id="0x0000bc7a" string="도/주요 도시"/>
+<text id="0x0000bc8f" string="도/주요 도시 입력"/>
+<text id="0x0000bca4" string="도/주요 도시 선택"/>
+<text id="0x0000bcb9" string="시/군/구 입력"/>
+<text id="0x0000bcce" string="시/군/구 선택"/>
+<text id="0x0000bce3" string="번지수 입력"/>
+<text id="0x0000bcf8" string="번지수 선택"/>
+<text id="0x0000bd0d" string="유고정보 표시"/>
+<text id="0x0000bd22" string="교통정보 표시"/>
+<text id="0x0000bd37" string="과속 주의 카메라 표시"/>
+<text id="0x0000bd4c" string="유고정보"/>
+<text id="0x0000bd61" string="이전"/>
+<text id="0x0000bd76" string="정보"/>
+<text id="0x0000bd8b" string="요약 맵"/>
+<text id="0x0000bda0" string="즐겨찾기 추가"/>
+<text id="0x0000bdb5" string="요약 맵 즐겨찾기"/>
+<text id="0x0000bdca" string="위로 이동"/>
+<text id="0x0000bddf" string="아래로 이동"/>
+<text id="0x0000bdf4" string="이 즐겨찾기를 정말 삭제하시겠습니까?"/>
+<text id="0x0000be09" string="TPEG POI"/>
+<text id="0x0000be1e" string="모든 카테고리"/>
+<text id="0x0000be33" string="범주"/>
+<text id="0x0000be48" string="전화"/>
+<text id="0x0000be5d" string="주소"/>
+<text id="0x0000be72" string="설명"/>
+<text id="0x0000be87" string="지도에 표시"/>
+<text id="0x0000be9c" string="이전"/>
+<text id="0x0000c697" string="공공 도로 텍스트"/>
+<text id="0x0000c6ac" string="공공 도로 다이어그램"/>
+<text id="0x0000c6c1" string="고속도로 텍스트"/>
+<text id="0x0000c6d6" string="고속도로 다이어그램"/>
+<text id="0x0000c6eb" string="FM 텍스트"/>
+<text id="0x0000c700" string="FM 다이어그램"/>
+<text id="0x0000c826" string=""/>
+<text id="0x0000c83b" string="일반 도로 텍스트"/>
+<text id="0x0000c850" string="일반 도로 다이어그램"/>
+<text id="0x0000c865" string="고속도로 텍스트"/>
+<text id="0x0000c87a" string="고속도로 다이어그램"/>
+<text id="0x0000c88f" string="FM 다이어그램"/>
+<text id="0x0000c8a4" string="FM 텍스트"/>
+<text id="0x0000c8b9" string=""/>
+<text id="0x0000c8ce" string=""/>
+<text id="0x0000c8e3" string=""/>
+<text id="0x0000c8f8" string="FM 튜너"/>
+<text id="0x0000c90d" string="주파수"/>
+<text id="0x0000c922" string="목록"/>
+<text id="0x0000c937" string=""/>
+<text id="0x0000c94c" string="시간을 표시"/>
+<text id="0x0000c961" string=""/>
+<text id="0x0000c976" string=""/>
+<text id="0x0000cbe6" string="도로명 입력"/>
+<text id="0x0000cbfb" string="건물번호 입력"/>
+<text id="0x0000cc10" string="도로명 선택"/>
+<text id="0x0000cc25" string="건물번호 선택"/>
+<text id="0x0000cc3a" string="&#xA;채널 변경중입니다.&#xA;&#xA;잠시만 기다려 주세요."/>
+<text id="0x0000cc4f" string="&#xA;채널 검색중입니다.&#xA;잠시만 기다려 주세요."/>
+<text id="0x0000cc64" string="산 지번 입력"/>
+<text id="0x0000d28b" string="지도 정보"/>
+<text id="0x0000d2a0" string="지도 공급업체"/>
+<text id="0x0000d2b5" string="출판사"/>
+<text id="0x0000d2ca" string="ISBN 번호"/>
+<text id="0x0000d2df" string="검열 번호"/>
+<text id="0x0000d2f4" string="출판일"/>
+<text id="0x0000d372" string="최대 A/C"/>
+<text id="0x0000d405" string=""/>
+<text id="0x0000d41a" string=""/>
+<text id="0x0000d42f" string=""/>
+<text id="0x0000d444" string=""/>
+<text id="0x0000d459" string=""/>
+<text id="0x0000d46e" string=""/>
+<text id="0x0000d483" string=""/>
+<text id="0x0000d498" string=""/>
+<text id="0x0000d4ad" string=""/>
+<text id="0x0000d4c2" string=""/>
+<text id="0x0000d4d7" string=""/>
+<text id="0x0000d4ec" string=""/>
+<text id="0x0000d501" string=""/>
+<text id="0x0000d516" string=""/>
+<text id="0x0000d52b" string=""/>
+<text id="0x0000d540" string=""/>
+<text id="0x0000d555" string=""/>
+<text id="0x0000d56a" string=""/>
+<text id="0x0000d57f" string=""/>
+<text id="0x0000d594" string=""/>
+<text id="0x0000d5a9" string=""/>
+<text id="0x0000d5be" string=""/>
+<text id="0x0000d5d3" string=""/>
+<text id="0x0000d5e8" string=""/>
+<text id="0x0000d5fd" string=""/>
+<text id="0x0000d612" string=""/>
+<text id="0x0000d627" string=""/>
+<text id="0x0000d63c" string=""/>
+<text id="0x0000d651" string=""/>
+<text id="0x0000d738" string=""/>
+<text id="0x0000d74d" string=""/>
+<text id="0x0000d762" string=""/>
+<text id="0x0000d849" string=""/>
+<text id="0x0000d85e" string=""/>
+<text id="0x0000d873" string=""/>
+<text id="0x0000d999" string="주행중에는 영상 및 기능을 사용할 수 없습니다."/>
+<text id="0x0000d9ae" string="DMB신호를 찾을 수 없습니다."/>
+<text id="0x0000d9c3" string="DMB 준비중 입니다.\n잠시 기다려 주십시요."/>
+<text id="0x0000dabf" string=""/>
+<text id="0x0000dad4" string="즐겨찾기 추가"/>
+<text id="0x0000dae9" string="주행중에는 조작을 할 수 없습니다."/>
+<text id="0x0000e41c" string="채널 검색중입니다.&#xA;잠시만 기다려 주십시요."/>
+<text id="0x0000e4af" string=""/>
+<text id="0x0000e4c4" string=""/>
+<text id="0x0000e6bc" string=""/>
+<text id="0x0000e779" string=""/>
+<text id="0x0000e78e" string=""/>
+<text id="0x0000e7a3" string=""/>
+<text id="0x0000e7b8" string=""/>
+<text id="0x0000e7cd" string=""/>
+<text id="0x0000e7e2" string=""/>
+<text id="0x0000e7f7" string=""/>
+<text id="0x0000e80c" string=""/>
+<text id="0x0000e821" string=""/>
+<text id="0x0000e836" string=""/>
+<text id="0x0000e84b" string=""/>
+<text id="0x0000e860" string=""/>
+<text id="0x0000e875" string=""/>
+<text id="0x0000e8b4" string=""/>
+<text id="0x0000ec13" string=""/>
+<text id="0x0000ec28" string=""/>
+<text id="0x0000f5ac" string=""/>
+<text id="0x0000f5c1" string=""/>
+<text id="0x0000f600" string=""/>
+<text id="0x0000f6d2" string=""/>
+<text id="0x0000cca3" string="장치 추가"/>
+<text id="0x0000ccb8" string="PIN 변경"/>
+<text id="0x0000cccd" string="주행중에는 교통 법규를 준수하시고&#xA;실제 도로상황에 주의 하십시요.&#xA;자세한 내용은 메뉴얼을 참조 하십시요."/>
+<text id="0x0000de9d" string=""/>
+<text id="0x0000deb2" string="오디오북"/>
+<text id="0x0000dec7" string=""/>
+<text id="0x0000dedc" string="정보"/>
+<text id="0x0000def1" string=""/>
+<text id="0x0000df06" string=""/>
+<text id="0x0000df1b" string=""/>
+<text id="0x0000df30" string=""/>
+<text id="0x0000df45" string=""/>
+<text id="0x0000df5a" string=""/>
+<text id="0x0000df6f" string=""/>
+<text id="0x0000df84" string=""/>
+<text id="0x0000df99" string=""/>
+<text id="0x0000dfae" string=""/>
+<text id="0x0000dfc3" string=""/>
+<text id="0x0000dfd8" string=""/>
+<text id="0x0000dfed" string=""/>
+<text id="0x0000e002" string=""/>
+<text id="0x0000e017" string=""/>
+<text id="0x0000e02c" string=""/>
+<text id="0x0000e041" string=""/>
+<text id="0x0000e056" string=""/>
+<text id="0x0000e06b" string=""/>
+<text id="0x0000e080" string=""/>
+<text id="0x0000e2e1" string=""/>
+<text id="0x0000e2f6" string=""/>
+<text id="0x0000e30b" string=""/>
+<text id="0x0000e320" string=""/>
+<text id="0x0000e335" string=""/>
+<text id="0x0000e34a" string=""/>
+<text id="0x0000e35f" string=""/>
+<text id="0x0000e374" string=""/>
+<text id="0x0000dc63" string=""/>
+<text id="0x0000dc78" string=""/>
+<text id="0x0000dc4e" string=""/>
+<text id="0x0000e5c0" string="Restore Settings Defaults"/>
+<text id="0x0000e5d5" string="Are you sure you want to reset your settings to default?"/>
+<text id="0x0000e5ea" string="Settings restored to default."/>
+<text id="0x0000e6d1" string="Settings reset to default."/>
+<text id="0x0000e63e" string="Clear Personal Data"/>
+<text id="0x0000e653" string="Are you sure you want to clear all personal data?"/>
+<text id="0x0000e668" string="Personal data cleared."/>
+<text id="0x0000e725" string=""/>
+<text id="0x0000e932" string=""/>
+<text id="0x0000e971" string=""/>
+<text id="0x0000eb3f" string=""/>
+<text id="0x0000ebd2" string=""/>
+<text id="0x0000ed78" string=""/>
+<text id="0x0000edb7" string=""/>
+<text id="0x0000ee0b" string=""/>
+<text id="0x0000ee20" string=""/>
+<text id="0x0000ee35" string=""/>
+<text id="0x0000ee4a" string=""/>
+<text id="0x0000ee89" string=""/>
+<text id="0x0000ee9e" string=""/>
+<text id="0x0000eedd" string=""/>
+<text id="0x0000ef1c" string=""/>
+<text id="0x0000ef31" string=""/>
+<text id="0x0000ef70" string=""/>
+<text id="0x0000ef85" string=""/>
+<text id="0x0000ef9a" string=""/>
+<text id="0x0000efaf" string=""/>
+<text id="0x0000efc4" string=""/>
+<text id="0x0000efd9" string=""/>
+<text id="0x0000f114" string="길게누르세요"/>
+<text id="0x0000f129" string="네비게이션 볼륨 조정"/>
+<text id="0x0000f558" string=""/>
+<text id="0x0000f67e" string=""/>
+<text id="0x0000f693" string=""/>
+<text id="0x0000e8c9" string="교통"/>
+<text id="0x0000e8de" string=""/>
+</textresources>
