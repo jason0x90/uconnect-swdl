@@ -1,0 +1,69 @@
+-- update manifest
+
+local version = ""
+local moduleName = "application"
+local moduleType = "sw"
+
+-- add swdl path to lua module path
+package.path = update.isoDir .. "/installer/?.lua;" .. package.path
+print("path", package.path)
+
+local units =
+{
+   ifs =
+   {
+      name        = "ifs installer.",
+      installer   = "ifs",
+      data        = "ifs-cmc.bin",
+   },
+   ipl =
+   {
+      name        = "ipl installer.",
+      installer   = "ipl",
+      data        = "nand-ipl-omap3730cmc.bin",
+   },
+   etfs =
+   {
+      name        = "etfs installer.",
+      installer   = "etfs",
+      data        = "etfs",
+   },
+   mmc0 =
+   {
+      name        = "mmc0 installer.",
+      installer   = "mmc0",
+      data        = "mmc0",
+   },
+   mmc1 =
+   {
+      name        = "mmc1 installer.",
+      installer   = "mmc1",
+      data        = "mmc1",
+   },
+   ioc =
+   {
+      name        = "ioc installer.",
+      installer   = "ioc",
+      data        = "cmcioc.bin",
+   }
+}
+
+local parts =
+{
+   -- key is a lua pattern which matches part numbers (e.g. "3607.*")
+   -- note that '-' has special meaning in a pattern so it must be escaped with % (e.g. "1234%-5678")
+   -- value is an array of units
+      [".+"] = { units.ipl, units.ifs, units.etfs, units.mmc0, units.mmc1, units.ioc },
+}
+
+local manifest =
+{
+   version = version,         -- version of this update
+   moduleName = moduleName,   -- name of the module
+   moduleType = moduleType,   -- type of the module (data or sw etc)
+   parts = parts,             -- table of supported part numbers and units
+   reset = "bolo",            -- what type of reset is required
+   autoupdate = false,         -- automatically invoke the update (no HMI needed)
+}
+
+return manifest

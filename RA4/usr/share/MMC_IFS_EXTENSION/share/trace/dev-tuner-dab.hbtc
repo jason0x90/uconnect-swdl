@@ -1,0 +1,18 @@
+HBTracePersistence 1.1.0
+# Default DAB Tuner Trace Config
+dev_tuner_dab 22 01
+dab_dsi 22 01
+dab_pool 22 01
+dab_pool_modDab2_api 62 01
+dab_pool_modDab2_audioSelection ff 01
+dab_pool_modDab2_automaticScan ff 01
+dab_pool_modDab2_dataRequest 62 01
+dab_pool_modDab2_dmb ff 01
+dab_pool_modDab2_linker ff 01
+dab_pool_modDab2_mute ff 01
+dab_pool_modDab2_persistency ff 01
+dab_pool_modDab2_startup ff 01
+dab_pool_modDab2_tune ff 01
+dab_pool_modDab2_figParser 62 01
+dab_pool_modDab2_subfieldconcatenator 62 01
+tracetool 62 01

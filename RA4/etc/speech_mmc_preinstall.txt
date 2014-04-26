@@ -1,0 +1,19 @@
+###############################################################################
+# This is on for cleaning up APPS file. 
+# This file contains the list of files or directories which needs to be removed, 
+# created or establish a 
+# link during software update.
+# example:-
+# [remove] 
+# /fs/mmc0/db*
+#
+# [create] 
+# /fs/mmc0/sdars/
+# /fs/mmc0/VERBOSE_STARTUP
+# 
+# [link]
+# /fs/mmc0/sdars/, /fs/mmc0/sdars_tmp
+###############################################################################
+
+[remove] 
+/fs/mmc0/speech

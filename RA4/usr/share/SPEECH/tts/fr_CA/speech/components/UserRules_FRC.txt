@@ -1,0 +1,5 @@
+[header]
+language = FRC
+[data]
+/nouveau itinéraire/ --> "nouvel itinéraire"
+/roulez pendant 1 miles/ --> "roulez pendant 1 mile"

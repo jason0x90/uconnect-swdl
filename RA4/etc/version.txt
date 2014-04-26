@@ -1,0 +1,92 @@
+[ifs]
+version=13.38.52
+release=C0.1
+branch=KU_Oct1_Service_Release_NAFTA
+host=OAFHD12M61R4N
+user=RChen
+date=Thu 09/26/2013
+time=14:48:14.03
+
+[packages]
+Accellion_AAA:1.0.0:Mid_Common.packages.mainproc.thirdparty.accellion_AAA.trunk
+adjustImageState:0.0.1:Toyota.extension_box.omap.adjustImageState.trunk
+ams_initializer:0.0.26:Chrysler_Fiat.CMC.KVM.Libraries.ams_initializer.trunk.config
+AntennaMonitor:1.0.2:Chrysler_Fiat.CMC.packages.mainproc.harman.AntennaMonitor.trunk
+antiReadDisturb:0.0.2:Mid_Common.packages.mainproc.harman.antiReadDisturber.trunk
+authenticationService:0.0.2:Mid_Common.sandbox.users.bsetter.packages.authenticationService.trunk
+BaseEQPackage:2.0.2:Chrysler_Fiat.CMC.packages.mainproc.harman.CMCBaseEQPackage.trunk
+bluetooth:2013.W35.R03:Mid_Common.packages.mainproc.harman.bluetooth.trunk
+BTWIFI:1.0.0:Chrysler_Fiat.CMC.BTWIFI.trunk
+buildtools:12.4.1:Mid_Common.packages.mainproc.harman.buildtools.trunk
+Clock_Generator:1.0.1:Chrysler_Fiat.CMC.clock.trunk
+CMC Security:3.0.8:Chrysler_Fiat.CMC.KVM.Libraries.Security.trunk.config
+cmc-ams:1.0.39:Chrysler_Fiat.CMC.KVM.AMS.trunk
+CMC_FrontController:app 01.01.05 - bolo 01.00.02:CMC.fc.trunk
+cmcManager:13.35.3:Chrysler_Fiat.CMC_VP3L.packages.mainproc.harman.cmcManager.trunk
+connmgr:1.0.39:Mid_Common.packages.mainproc.harman.conn_mgr.trunk
+CurlExtDll:1.0.2:Mid_Common.packages.mainproc.harman.CurlExtDll.trunk
+dabService:1.3.7:Mid_Common.packages.mainproc.harman.dabService.trunk
+dabupdater:1.1.9:Mid_Common.packages.mainproc.harman.dabupdate.trunk
+dbus:1.2.7:Mid_Common.packages.mainproc.thirdparty.dbus.trunk
+DbusTraceMonitor:2.0.2:Mid_Common.packages.mainproc.thirdparty.DbusTraceMonitor.trunk
+dbuswin:1.2.4.1:Mid_Common.packages.mainproc.thirdparty.dbuswin.trunk
+dev-gpio:1.3.0:Mid_Common.packages.mainproc.harman.dev-gpio.trunk
+dev-ipc:2.3.0:Mid_Common.packages.mainproc.harman.dev-ipc.trunk
+dev-memory:0.6.0:Mid_Common.packages.mainproc.harman.dev-memory.trunk
+dev-mmap:1.4.0:Mid_Common.packages.mainproc.harman.dev-mmap.trunk
+devc-ditto:0.0.1:Mid_Common.packages.mainproc.harman.devc-ditto.trunk
+devc-ser8250:6.5.0:Mid_Common.packages.mainproc.qnx.devc-ser8250.trunk
+expat:2.0.1:Mid_Common.packages.mainproc.thirdparty.expat.trunk
+fram-i2c:1.0.0:Chrysler_Fiat.CMC.packages.mainproc.harman.fram-i2c.trunk
+fwcommon:2.1.0:Mid_Common.packages.mainproc.harman.fwcommon.trunk
+hashFile:1.0.0:Mid_Common.packages.mainproc.harman.hashFile
+hbcifs:1.0.2:Mid_Common.packages.mainproc.harman.hbcifs.trunk
+hdupdate:1.0.2:Chrysler_Fiat.CMC.packages.mainproc.harman.hdupdate.trunk
+http_streamer:1.0.4:Mid_Common.packages.mainproc.harman.http_streamer.trunk
+hutilcpp:1.0.0:Mid_Common.packages.mainproc.harman.hutilcpp.trunk
+image-rot-fixer:0.4.0:Mid_Common.packages.mainproc.harman.image_rot_fixer.trunk
+imageChecksumUtility:1.1.1:Mid_Common.packages.mainproc.harman.imageChecksumUtility.trunk
+itun:1.0.25:Mid_Common.packages.mainproc.harman.itun
+jsoncpp:1.5.2:Mid_Common.packages.mainproc.thirdparty.jsoncpp.trunk
+Kona:1.1.102:Chrysler_Fiat.CMC.KVM.Libraries.Kona.trunk.config
+libasound-neon:1.7.0:Mid_Common.packages.mainproc.harman.libasound-neon.trunk
+libicu46:1.0.0:Mid_Common.packages.mainproc.harman.libicu46.trunk
+localization_as3:1.0.0:Mid_Common.packages.mainproc.harman.localization.trunk
+lua:1.22.1:Mid_Common.packages.mainproc.harman.lua.trunk
+mediaservice_mme:2013.W28.R01:Mid_Common.packages.mainproc.harman.mediaservice_mme.trunk
+memifs2:1.2.6:Mid_Common.packages.mainproc.harman.memifs2.trunk
+mirador:0.0.2:Mid_Common.sandbox.users.sthompso.packages.mirador.trunk
+multicore:1.0.2:Mid_Common.packages.mainproc.harman.multicore.trunk
+nav:9.10.2.329421 09/12/13:Mid_Common.packages.mainproc.harman.nav.trunk
+nav_db:04/22/2013:Mid_Common.packages.mainproc.harman.nav_databases.trunk
+ndr:09/19/2013:Mid_Common.packages.mainproc.harman.ndr.trunk
+omapTempService:1.0.0:Mid_Common.packages.mainproc.harman.omapTempService.trunk
+perlmods:0.0.3:Mid_Common.packages.mainproc.thirdparty.perlmods.trunk
+persistency_mgr:3.0.1:Mid_Common.packages.mainproc.harman.persistency_mgr.trunk
+poco:1.3.6:Mid_Common.packages.mainproc.thirdparty.poco.trunk
+Preinstalled_Xlets:KIM1: KB13_KIM_06072013_WKUS_v1.0; KIM2: KB13_KIM_06142013_CA_MX_v1.0:Chrysler_Fiat.CMC.KVM.Xlet.Preinstalled.trunk.config
+QNX Input DDK:0.2.1:Mid_Common.packages.mainproc.qnx.input_ddk.trunk
+QNX MME:20.26.25.2:Mid_Common.packages.mainproc.qnx.mme.trunk
+QNX650 Fiat:1.1.0:Mid_Common.packages.mainproc.qnx.qnx650.trunk
+service-monitor:1.1.0:Mid_Common.packages.mainproc.harman.service-monitor.trunk
+sideStreamer:1.0.15-special:Mid_Common.packages.mainproc.harman.sideStreamer.trunk
+SierraWirelessUpdate:1.1.3; ARX550_FP.01.08.27.69; BootLoader ARX550_FP.01.08.27.69:Chrysler_Fiat.CMC.sandbox.users.pnigam.sierraUpdate.trunk
+SimpleHandsfree:MY13.5_MS6.1:Chrysler_Fiat.CMC.packages.mainproc.thirdparty.simple_handsfree.trunk
+Speech_service:MY13.5_MS7.3:Chrysler_Fiat.CMC.packages.mainproc.thirdparty.speech_service.trunk
+splash:1.0.1:Mid_Common.packages.mainproc.harman.splash.trunk
+Spot Tools:1.2.0:Mid_Common.packages.mainproc.harman.spottools.trunk
+spptun:1.0.8:Mid_Common.packages.mainproc.harman.spptun.trunk
+svcipc:1.0.11:Mid_Common.packages.mainproc.harman.svcipc.trunk
+svcIpcCPP:1.2.1:Mid_Common.packages.mainproc.harman.svcIpcCPP.trunk
+swdl-utils:0.0.3:Mid_Common.sandbox.users.kfurge.packages.swdl-utils.trunk
+tlv-parser:6.1.8:Mid_Common.packages.mainproc.harman.tlv-parser.trunk
+tonetest:1.0.5:Mid_Common.packages.mainproc.harman.tonetest.trunk
+traceclient:1.0.5:Mid_Common.packages.mainproc.harman.traceclient.trunk
+tuner:11.3:Mid_Common.packages.mainproc.harman.tuner.trunk
+uispeech_service:2013.W36.R02:Chrysler_Fiat.CMC.packages.mainproc.harman.UISpeechService.trunk
+usb_hub_oc:1.0.0:Mid_Common.packages.mainproc.harman.usb_hub_oc.trunk
+USB_Logging:2012.W24.R01:Mid_Common.packages.mainproc.harman.usblogging.trunk
+V850:13.38.1 for app and 13.1.0 for bolo:CMC.v850.trunk
+wavePrompter:0.0.7:Mid_Common.packages.mainproc.harman.waveprompter.trunk
+xmApp:13.6.14T2:Mid_Common.packages.mainproc.harman.XMApp.trunk
+XMUpdate:1.1.0:Mid_Common.packages.mainproc.harman.XMUpdate.trunk

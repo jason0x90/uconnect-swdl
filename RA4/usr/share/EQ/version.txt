@@ -1,0 +1,6 @@
+[eq]
+version=13.38.52
+host=OAFHD12M61R4N
+user=RChen
+date=Thu 09/26/2013
+time=14:48:06.99

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest>
+  <Package name="V850"
+           description="CMC V850 Application + Bootloader"
+		   version="13.38.1 for app and 13.1.0 for bolo"
+           lintable="yes"
+           subsystem="system"
+           comment="//Chrysler_Fiat/CMC/iocontroller/trunk/">
+    <license type="Harman" />
+    <processor type="V850ES/FJ3" />
+    <os name="uC/OS-II" />
+	<PNET_DDT Name="80-00-016" />
+	<PNET_CANI VMM="v1247" />
+	<PNET_CANC VMM="v1247" />
+	<CUSW_DDT Name="60-00-005" />
+	<CUSW_CANI VMM="v1246m" />
+	<CUSW_CANC VMM="v1231a" />
+  </Package>
+</PackageManifest>

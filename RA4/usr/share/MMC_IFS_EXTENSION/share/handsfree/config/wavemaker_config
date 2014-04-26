@@ -1,0 +1,1285 @@
+{
+    "Handsfree_SNA_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"
+    },
+	
+    "Handsfree_NONE_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+	},
+	
+    "Handsfree_NONE_NONE": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_WK_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_WK_LHD_ExtAmp.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_WK_LHD_ExtAmp.qcf"    
+    },
+	
+    "Handsfree_LX_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_JC_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_DS_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DS_LHD.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DS_LHD_ExtAmp.qcf"    
+    },
+	
+    "Handsfree_D2_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_DD_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_DP_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_DJ_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_WD_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_WD_LHD_ExtAmp.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_WD_LHD_ExtAmp.qcf"    
+    },
+	
+    "Handsfree_DX_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_LD_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_M156_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_ZD_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_ZD_LHD_ExtAmp.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_ZD_LHD_ExtAmp.qcf"    
+    },
+	
+    "Handsfree_LA_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_RU_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_WM_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_WS_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_M157_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_PF_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_KL_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_KL_LHD.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_KL_LHD_ExtAmp.qcf"    
+    },
+	
+    "Handsfree_UF_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_UT_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_F137_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_F141_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_F142_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_M139_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_F149_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_F151_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_F152_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_F150_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Handsfree_Fiat520_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_Fiat330_LHD.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_Fiat330_LHD.qcf"    
+    },
+	
+    "Handsfree_Fiat940_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_Fiat330_LHD.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_Fiat330_LHD.qcf"    
+    },
+	
+    "Handsfree_Fiat330_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 1,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_Fiat330_LHD.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_Fiat330_LHD.qcf"    
+    },
+
+    "Embedded_SNA_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"
+    },
+	
+    "Embedded_NONE_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+	},
+	
+    "Embedded_NONE_NONE": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_WK_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_WK_LHD_ExtAmp.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_WK_LHD_ExtAmp.qcf"    
+    },
+	
+    "Embedded_LX_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_JC_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_DS_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DS_LHD.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DS_LHD_ExtAmp.qcf"    
+    },
+	
+    "Embedded_D2_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_DD_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_DP_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_DJ_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_WD_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_WD_LHD_ExtAmp.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_WD_LHD_ExtAmp.qcf"    
+    },
+	
+    "Embedded_DX_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_LD_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_M156_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_ZD_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_ZD_LHD_ExtAmp.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_ZD_LHD_ExtAmp.qcf"    
+    },
+	
+    "Embedded_LA_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_RU_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_WM_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_WS_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_M157_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_PF_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_KL_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_KL_LHD.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_KL_LHD_ExtAmp.qcf"    
+    },
+	
+    "Embedded_UF_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_UT_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_F137_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_F141_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_F142_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_M139_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_F149_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_F151_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_F152_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_F150_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 3,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "MIC2":		{"SoundCardIndex": 0,	"Channel": 1},
+        "REF":		{"SoundCardIndex": 0,	"Channel": 2},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_DEFAULT.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_DEFAULT.qcf"    
+    },
+	
+    "Embedded_Fiat520_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_Fiat330_LHD.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_Fiat330_LHD.qcf"    
+    },
+	
+    "Embedded_Fiat940_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_Fiat330_LHD.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_Fiat330_LHD.qcf"    
+    },
+	
+    "Embedded_Fiat330_LHD": {
+        "SoundCards": 
+		[
+            {"index": 0,	"name": "CabinIn",	"card": 0,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 1,	"name": "CabinOut",	"card": 0,	"device": 1,	"rate": 8000,	"channels": 1,	"direction":"playback",	"voice_matrix":[8]},
+            {"index": 2,	"name": "ScoIn",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,	"direction":"capture"},
+            {"index": 3,	"name": "ScoOut",	"card": 2,	"device": 0,	"rate": 8000,	"channels": 1,  "direction":"playback"} 
+		],
+        "MIC1":		{"SoundCardIndex": 0,	"Channel": 0},
+        "SPEAKER":	{"SoundCardIndex": 1,   "Channel": 0},
+        "BTDL": 	{"SoundCardIndex": 2,	"Channel": 0},
+        "BTUL": 	{"SoundCardIndex": 3,	"Channel": 0},
+		"binCfgFilename":       "Handsfree_Fiat330_LHD.qcf",
+        "binCfgFilenameExtAmp": "Handsfree_Fiat330_LHD.qcf"    
+    }
+}

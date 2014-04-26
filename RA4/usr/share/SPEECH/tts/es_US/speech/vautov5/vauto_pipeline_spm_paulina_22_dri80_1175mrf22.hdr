@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Mexican Spanish/paulina/22/dri80_1175mrf22/text/pcm</BROKERSTRING>
+  <PRIORITY>4262</PRIORITY>
+  <PARAMETERS>
+    <language>Mexican Spanish</language>
+    <langcode>SPM</langcode>
+    <langid>83</langid>
+    <langversion>5.2.3.12247</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Paulina</voice>
+    <voiceversion>5.2.3.11318</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg3</fecfg>
+    <voiceml>no</voiceml>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Paulina</fevoice>
+    <frequencyhz>22050</frequencyhz>
+    <voicemodel>dri80_1175mrf22</voicemodel>
+    <reduction>dri80</reduction>
+    <coder>1175mrf22</coder>
+    <bitrate>1175</bitrate>
+    <overheadframes>02</overheadframes>
+    <audiooutputmimetype>audio/L16;rate=22050</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+  </PARAMETERS>
+  <OBJECTS>
+    <AUDIOFETCHER>audiofetch</AUDIOFETCHER>
+    <DCTEG>dcteg</DCTEG>
+    <DOMAINMNGR>domain_mngr</DOMAINMNGR>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_lid</COMPONENT>
+    <COMPONENT>fe/fe_udwl</COMPONENT>
+    <COMPONENT>fe/fe_clcml</COMPONENT>
+    <COMPONENT>fe/fe_promptoriorth</COMPONENT>
+    <COMPONENT>fe/fe_unixlit</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/fe_promptorth</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_prompt</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>uselect/bet1</COMPONENT>
+    <COMPONENT>synth/bet1b</COMPONENT>
+    <COMPONENT>audioinserter</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/spm
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>

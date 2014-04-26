@@ -1,0 +1,12 @@
+[header]
+language = ENU
+[data]
+/my1vocTag/ --> ""
+/after 3 quarter of a miles/ --> "after 3 quarters of a mile"
+/after poafter 6 miles/ --> "after point 6 miles"
+/drive podrive 6 miles/ --> "drive point 6 miles"
+/in poin 6 miles/ --> "in point 6 miles"
+/one quarter miles/ --> "one quarter of a mile"
+/quarter of a miles/ --> "quarters of a mile"
+/half a miles/ --> "half a mile"
+/ Jr / --> "junior"

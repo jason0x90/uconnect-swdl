@@ -1,0 +1,28 @@
+#
+[header]
+language= enu
+[data]
+
+# rule set for VDA recognition
+# this is only usefull with category person
+
+# Note: To successfully handle entries with " - " there must be a phonetic for  "-"
+# provide in an online.dct as for en_US and de_DE
+
+# exchange the tag by something else
+/\x1b\\([^\\]+)\\/  --> "\x1b☼$1☼"
+# do replacements for / and \ as we do not want the entries splitted there
+/\\/  --> ""
+/\//  --> ""
+# restore the original tag
+/\x1b☼([^☼]+)☼/  --> "\x1b\\$1\\"
+
+# add the multiword tags
+/^(([ ]|\x1b\\[^\\]+\\)*)(.*)$/ --> "$1\x1b\\mw\\$3\x1b\\mw\\"
+
+# remove standalone -
+/([\S])-[\s]/  --> "$1 "
+/[\s]-([\S])/  --> " $1"
+
+
+

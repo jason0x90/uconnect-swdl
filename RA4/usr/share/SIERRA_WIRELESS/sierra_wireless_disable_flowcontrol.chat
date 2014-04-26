@@ -1,0 +1,25 @@
+#---------------------------------
+# sierra_wireless_disable_flowcontrol.file
+# \d == 1 second delay
+
+
+SAY " Send AT \n"
+'' AT\r
+OK \d
+SAY "Disable flow control\n"
+'' at+ifc=0,0\r 
+OK \d
+SAY "Send SMS command CNMI\n"
+'' at+cnmi=2,1,0,1,0\r
+OK \d
+SAY "Clear emergency number list\n"
+'' AT!NVENUM=0\r
+OK \d
+SAY "Set emergency number to 911\n"
+'' AT!NVENUM=1,"911"\r
+OK \d
+SAY "Save Setting\n"
+'' at&w\r
+OK \d
+#---------------------------------
+

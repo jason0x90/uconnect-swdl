@@ -1,0 +1,115 @@
+###############################################################################
+# This is on for cleaning up APPS file. 
+# This file contains the list of files or directories which needs to be removed, 
+# created or establish a 
+# link during software update.
+# example:-
+# [remove] 
+# /fs/etfs/db*
+#
+# [create] 
+# /fs/etfs/sdars/
+# /fs/etfs/VERBOSE_STARTUP
+# 
+# [link]
+# /fs/etfs/sdars/, /fs/etfs/sdars_tmp
+###############################################################################
+
+
+[remove]
+/fs/etfs/bin
+/fs/etfs/lib
+/fs/etfs/root
+/fs/etfs/etc
+/fs/etfs/hmi
+/fs/etfs/var
+/fs/etfs/wicome
+/fs/etfs/usr/var/qdb/mme*
+/fs/etfs/usr/NNG_save/save
+/fs/etfs/NDRToJSON.bin
+/fs/etfs/usr/var/pps/
+# SDARS: Delete the data service databases that
+# are contained within their respective directories.
+/fs/etfs/usr/var/sdars/channelart/*
+/fs/etfs/usr/var/sdars/fuel/*
+/fs/etfs/usr/var/sdars/movies/*
+/fs/etfs/usr/var/sdars/rfd/*
+/fs/etfs/usr/var/sdars/sports/*
+/fs/etfs/usr/var/sdars/sportsservice/*
+/fs/etfs/usr/var/sdars/traffic/*
+/fs/etfs/usr/var/sdars/weather/*
+# SDARS: Delete every sub-directory under DriverA/B.
+# Do not delete the file 'sms.cfg' in DriverA/B
+/fs/etfs/usr/var/sdars/DriverA/channelart
+/fs/etfs/usr/var/sdars/DriverA/fuel
+/fs/etfs/usr/var/sdars/DriverA/movies
+/fs/etfs/usr/var/sdars/DriverA/rfd
+/fs/etfs/usr/var/sdars/DriverA/sports
+/fs/etfs/usr/var/sdars/DriverA/sportsservice
+/fs/etfs/usr/var/sdars/DriverA/traffic
+/fs/etfs/usr/var/sdars/DriverA/weather  
+/fs/etfs/usr/var/sdars/DriverB/channelart
+/fs/etfs/usr/var/sdars/DriverB/fuel
+/fs/etfs/usr/var/sdars/DriverB/movies
+/fs/etfs/usr/var/sdars/DriverB/rfd
+/fs/etfs/usr/var/sdars/DriverB/sports
+/fs/etfs/usr/var/sdars/DriverB/sportsservice
+/fs/etfs/usr/var/sdars/DriverB/traffic
+/fs/etfs/usr/var/sdars/DriverB/weather  
+/fs/etfs/usr/var/speech_service/dialog/grammar/*
+/fs/etfs/usr/var/speechTEFiles/apps/*
+/fs/etfs/usr/var/speechTEFiles/extPhones/*
+/fs/etfs/usr/var/speechTEFiles/mediaOutOfSync/*
+/fs/etfs/usr/var/speechTEFiles/sat/*
+/fs/etfs/usr/var/audioMgt/*
+
+[create]
+/fs/etfs/usr/var/persistence_mgr/
+/fs/etfs/usr/var/trace/ 
+/fs/etfs/usr/var/wicome/ 
+/fs/etfs/usr/var/sdars/channelart/
+/fs/etfs/usr/var/sdars/fuel/
+/fs/etfs/usr/var/sdars/movies/
+/fs/etfs/usr/var/sdars/rfd/
+/fs/etfs/usr/var/sdars/sports/
+/fs/etfs/usr/var/sdars/sportsservice/
+/fs/etfs/usr/var/sdars/traffic/
+/fs/etfs/usr/var/sdars/weather/
+/fs/etfs/usr/var/tuner/
+/fs/etfs/usr/var/dab/
+# Create directories for DriverA and DriverB
+/fs/etfs/usr/var/sdars/DriverA/
+/fs/etfs/usr/var/sdars/DriverB/
+/fs/etfs/usr/var/audioMgt/
+/fs/etfs/SYSTEM_UPDATE_DONE
+
+[link]
+# SDARS: set up soft link for DriverA and DriverB
+# to point to the same common base directories on fs/etfs.
+# For fuel, movies, and weather, point their
+# ref_db file to /fs/mmc0.
+/fs/etfs/usr/var/sdars/fuel/,                     /fs/etfs/usr/var/sdars/DriverA/fuel
+/fs/mmc0/app/share/sdars/fuel/fuel_ref.db,        /fs/etfs/usr/var/sdars/DriverA/fuel/fuel_ref.db  
+/fs/etfs/usr/var/sdars/movies/,                   /fs/etfs/usr/var/sdars/DriverA/movies
+/fs/mmc0/app/share/sdars/movies/movies_ref.db,    /fs/etfs/usr/var/sdars/DriverA/movies/movies_ref.db  
+/fs/etfs/usr/var/sdars/weather/,                  /fs/etfs/usr/var/sdars/DriverA/weather  
+/fs/mmc0/app/share/sdars/weather/weather_ref.db,  /fs/etfs/usr/var/sdars/DriverA/weather/weather_ref.db  
+/fs/etfs/usr/var/sdars/channelart/,               /fs/etfs/usr/var/sdars/DriverA/channelart
+/fs/etfs/usr/var/sdars/sports/,                   /fs/etfs/usr/var/sdars/DriverA/sports
+/fs/etfs/usr/var/sdars/sportsservice/,            /fs/etfs/usr/var/sdars/DriverA/sportsservice
+/fs/etfs/usr/var/sdars/traffic/,                  /fs/etfs/usr/var/sdars/DriverA/traffic
+/fs/etfs/usr/var/sdars/rfd/,                      /fs/etfs/usr/var/sdars/DriverA/rfd
+/fs/etfs/usr/var/sdars/fuel/,                     /fs/etfs/usr/var/sdars/DriverB/fuel
+/fs/mmc0/app/share/sdars/fuel/fuel_ref.db,        /fs/etfs/usr/var/sdars/DriverB/fuel/fuel_ref.db  
+/fs/etfs/usr/var/sdars/movies/,                   /fs/etfs/usr/var/sdars/DriverB/movies
+/fs/mmc0/app/share/sdars/movies/movies_ref.db,    /fs/etfs/usr/var/sdars/DriverB/movies/movies_ref.db  
+/fs/etfs/usr/var/sdars/weather/,                  /fs/etfs/usr/var/sdars/DriverB/weather  
+/fs/mmc0/app/share/sdars/weather/weather_ref.db,  /fs/etfs/usr/var/sdars/DriverB/weather/weather_ref.db  
+/fs/etfs/usr/var/sdars/channelart/,               /fs/etfs/usr/var/sdars/DriverB/channelart
+/fs/etfs/usr/var/sdars/sports/,                   /fs/etfs/usr/var/sdars/DriverB/sports
+/fs/etfs/usr/var/sdars/sportsservice/,            /fs/etfs/usr/var/sdars/DriverB/sportsservice
+/fs/etfs/usr/var/sdars/traffic/,                  /fs/etfs/usr/var/sdars/DriverB/traffic
+/fs/etfs/usr/var/sdars/rfd/,                      /fs/etfs/usr/var/sdars/DriverB/rfd
+
+
+

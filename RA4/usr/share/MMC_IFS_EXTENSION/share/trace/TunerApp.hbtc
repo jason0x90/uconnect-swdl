@@ -1,0 +1,16 @@
+HBTracePersistence 1.1.0
+[TunerApp]
+* 00 01
+DataApi_DataApiClient 22 01
+handler_EPG 22 01
+handler_EPG_CPDabEpgPersistence_CPDabEpgPersistence 62 01
+handler_EPG_CGDabEPGImpl_CGDabEPGImplDSI 62 01
+handler_EPG_CGDabEPGImpl_CGDabEPGImplDataApi 62 01
+handler_EPG_EpgMotManager 62 01
+handler_EPG_EventListener 62 01
+handler_MOTDecoder 22 01
+handler_slideshow 22 01
+handler_tpeg 22 01
+imp_presctrl 62 01
+imp_handler_followingmaster 62 01
+imp_dsi_audio 62 01

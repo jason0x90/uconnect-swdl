@@ -1,0 +1,29 @@
+##===================================================================
+##
+##    Vocalizer for Automotive SDK
+##
+##    (c) 2008 Nuance Communications, Inc. All rights reserved.
+##
+##    Nuance, the Nuance logo and Vocalizer are trademarks and/or
+##    registered trademarks of Nuance Communications, Inc. or its
+##    affiliates in the United States and/or other countries.
+##
+##    prompt correction for en_US
+##
+##===================================================================
+
+[header]
+
+# 3-letter language code as used in user dictionaries
+language = ENU
+
+[data]
+
+
+
+# Phonetic replacement, note the escaped phoneme '$'
+#  multi word left side is replaced by marked up text 
+#
+/(?<!\w)(This\schannel\snumber\sis\s)(invalid)(?!\w)/i   -->   "$1 \e\\toi=lhp\\In\.\"v@\.lId\e\\toi=orth\\"
+
+

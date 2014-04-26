@@ -1,0 +1,14 @@
+#!/bin/ksh
+
+if test -a /tmp/UMTSdebug.pid ; then 
+   connectionPID=`cat /tmp/UMTSdebug.pid`
+   echo "slaying $connectionPID"
+   slay $connectionPID
+   rm /tmp/UMTSdebug.pid
+   slay netcat
+
+   rm /tmp/qxdmstatus
+else
+   echo "no connection running"
+fi
+

@@ -1,0 +1,23 @@
+[header]
+language = SPM
+[data]
+/devolverse por la redoma/ --> "dé vuelta por la glorieta"
+/devuélvase donde sea posible/ --> "dé vuelta donde sea posible"
+/entrar en una redoma/ --> "entrar en una glorieta"
+/de 1.5 kilómetro/ --> "de 1.5 kilómetros"
+/ha llegado al viapoint/ --> "ha llegado al punto medio"
+/llega al viapoint/ --> "llega al punto medio"
+/entre a la redoma/ --> "entre a la glorieta"
+/cruzar la redoma/ --> "cruzar la glorieta"
+/cruce la redoma/ --> "cruce la glorieta"
+/senal del GPS perdida/ --> "señal del GPS perdida"
+/llegar al viapoint/ --> "llegar al punto medio"
+/hacerse a la / --> "recorrerse a la "
+/llegue a la etap/ --> "llegue a la etapa"
+/hágase a la / --> "recórrase a la "
+/en la redoma/ --> "en la glorieta"
+/y tome / --> "y tome la "
+/devolverse/ --> "dé la vuelta"
+/devuélvase/ --> "dé la vuelta"
+/\x1b\\lang=...\\/ --> ""
+/\x1b\\lang=unknown\\/ --> ""
