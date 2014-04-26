@@ -20,6 +20,7 @@ HBTracePersistence 1.1.0
 * 00 01
 amfm_main 62 01
 amfm_pool_modAlways 62 01
+amfm_pool_modTuner_afSwitch 62 01
 amfm_pool_modTuner_alwaysActive 62 01
 amfm_pool_modTuner_hwSensors 62 01
 amfm_pool_modTuner_silabsData 62 01

@@ -2,7 +2,7 @@
 <PackageManifest>
   <Package name="V850"
            description="CMC V850 Application + Bootloader"
-		   version="13.38.1 for app and 13.1.0 for bolo"
+		   version="14.2.0 for app and 13.1.0 for bolo"
            lintable="yes"
            subsystem="system"
            comment="//Chrysler_Fiat/CMC/iocontroller/trunk/">

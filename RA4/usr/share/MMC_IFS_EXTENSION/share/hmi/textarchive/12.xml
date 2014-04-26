@@ -1107,14 +1107,14 @@
 <text id="0x0000ceda" string="Service Mode is not available.&#xA;Vehicle must be in Park or Neutral."/>
 <text id="0x0000ceef" string="Error: Text Message 12 selected."/>
 <text id="0x0000cf04" string="To exit Service Mode, vehicle must not be in motion"/>
-<text id="0x0000cf19" string="Error: Text Message 14 selected."/>
+<text id="0x0000cf19" string="To exit Service Mode, vehicle must be in Park or Neutral"/>
 <text id="0x0000cf2e" string="Press brake pedal &amp; activate brake switch to exit Service Mode."/>
 <text id="0x0000cf43" string="Error: Text Message 16 selected."/>
 <text id="0x0000cf58" string="Error: Text Message 17 selected."/>
 <text id="0x0000cf6d" string="Error: Text Message 18 selected."/>
 <text id="0x0000cf82" string="Error: Text Message 19 selected."/>
 <text id="0x0000cf97" string="Park Brake Retracted. &#xA;To reset, press brake pedal and activate park brake switch"/>
-<text id="0x0000cfac" string="Park Brake Reset.&#xA;Brake service exit complete."/>
+<text id="0x0000cfac" string="Brake service exit complete. Park Brake Reset"/>
 <text id="0x0000cfc1" string="Error: Text Message 22 selected."/>
 <text id="0x0000cfd6" string="Error: Text Message 23 selected."/>
 <text id="0x0000cfeb" string="Error: Text Message 24 selected."/>
@@ -1202,7 +1202,7 @@
 <text id="0x0000e88a" string="Disable"/>
 <text id="0x0000e89f" string="Restore Settings"/>
 <text id="0x0000e9b0" string="No Stations Found"/>
-<text id="0x0000e9c5" string="Enter Zip Code"/>
+<text id="0x0000e9c5" string="Enter Post Code"/>
 <text id="0x0000e9da" string="Announce Safety Camera Warning"/>
 <text id="0x0000e9ef" string="Common Voice Commands"/>
 <text id="0x0000ea04" string="Tune to %c&lt;frequency> FM / AM%c"/>
@@ -1267,9 +1267,453 @@
 <text id="0x0000f63f" string="Sound Horn with Lower"/>
 <text id="0x0000f711" string="Activate&#xA;Launch Control"/>
 <text id="0x0000f726" string="Active&#xA;Launch Mode"/>
-<text id="0x0000f73b" string="The black key is currently in use,&#xA;disabling access to the maximum &#xA;engine power level.  To enable access&#xA;to the maximum engine power level,&#xA;please use the red key."/>
-<text id="0x0000f77a" string="Display Brightness Day"/>
-<text id="0x0000f78f" string="Display Brightness Night"/>
+<text id="0x0000f73b" string="The black key is currently&#xA;in use, disabling access to&#xA;the maximum engine power level.  To enable&#xA;access to the maximum&#xA;engine power level,&#xA;please use the red key."/>
+<text id="0x0000f750" string="Cancel&#xA;Launch Control"/>
+<text id="0x0000f765" string="Cancel&#xA;Launch Mode"/>
+<text id="0x0000f77a" string="Current Mode:"/>
+<text id="0x0000f78f" string="%s&#xA;Mode Set-Up"/>
+<text id="0x0000f7a4" string="%s&#xA;Mode&#xA;Set-Up"/>
+<text id="0x0000f80d" string=""/>
+<text id="0x0000f876" string="Always drive safely and obey all traffic and other laws when operating the vehicle.&#xA;&#xA;You have full responsibility and assume all risks related to the use of the features and applications in this vehicle.&#xA;Only use them when it is safe to do so."/>
+<text id="0x0000f88b" string="IMPORTANT"/>
+<text id="0x0000f8a0" string="Engine/Transmission:"/>
+<text id="0x0000f8b5" string="5th-8th"/>
+<text id="0x0000f8ca" string="1st"/>
+<text id="0x0000f8df" string="4th"/>
+<text id="0x0000f8f4" string="Gear"/>
+<text id="0x0000f909" string="Horsepower:"/>
+<text id="0x0000f91e" string="700 HP: Modifies the horsepower output of the engine to 700&#xA;&#xA;&#xA;500 HP: Modifies the horsepower output of the engine to 500"/>
+<text id="0x0000f933" string="follow instructions in&#xA;cluster to launch"/>
+<text id="0x0000f948" string="Launch&#xA;Control"/>
+<text id="0x0000f95d" string="Launch Control"/>
+<text id="0x0000f972" string="LAUNCH MODE ACTIVATED"/>
+<text id="0x0000f987" string="Launch RPM Set-Up Info"/>
+<text id="0x0000f99c" string="RPM Set-Up can help you&#xA;achieve an optimum&#xA;balance of engine torque&#xA;and tire spin when&#xA;launching."/>
+<text id="0x0000f9b1" string="RPM should be&#xA;increased to account for&#xA;better-gripping tires or&#xA;track surfaces."/>
+<text id="0x0000f9c6" string="Launch RPM Set-Up"/>
+<text id="0x0000f9db" string="Launch&#xA;RPM Set-Up"/>
+<text id="0x0000f9f0" string="Level unavailable in %s Mode.  Select %s Mode to change level."/>
+<text id="0x0000fa05" string="Shift Light shows inside cluster "/>
+<text id="0x0000fa2f" string="Function not available&#xA;while vehicle is in motion"/>
+<text id="0x0000fa44" string="Mode Set-Up not available&#xA;while vehicle is in motion"/>
+<text id="0x0000fa59" string="Paddle Shift:"/>
+<text id="0x0000fa6e" string="Paddle Shifters:"/>
+<text id="0x0000fa83" string="ON: Enable steering wheel paddle shifters&#xA;&#xA;&#xA;OFF: Disable steering wheel paddle shifters"/>
+<text id="0x0000fa98" string="Paddles"/>
+<text id="0x0000faad" string="Pages"/>
+<text id="0x0000fac2" string="Assist Call"/>
+<text id="0x0000fad7" string="Assist call not available when&#xA;mobile phone is in use.&#xA;&#xA;Would you like to transfer your call&#xA;to your phone and start Assist?"/>
+<text id="0x0000faec" string="Performance Control"/>
+<text id="0x0000fb01" string="Performance Pages"/>
+<text id="0x0000fb16" string="Power"/>
+<text id="0x0000fb2b" string="Race Options"/>
+<text id="0x0000fb40" string="A shift light informs the driver of when an up-shift should occur, based on engine RPM.&#xA;&#xA;In track-racing scenarios, an ideal up-shift occurs just before the power curve starts to decline.&#xA;&#xA;RPM values should be decreased if the shift light is nor providing you with enough reaction time to perform an ideal up-shift."/>
+<text id="0x0000fb55" string="The red key is currently&#xA;in use, enabling access to&#xA;the maximum engine&#xA;power level.  To disable&#xA;access to the maximum&#xA;engine power level,&#xA;please use the black key."/>
+<text id="0x0000fb6a" string="Reset&#xA;to&#xA;factory&#xA;default"/>
+<text id="0x0000fb7f" string="2nd"/>
+<text id="0x0000fb94" string="Steering"/>
+<text id="0x0000fba9" string="Paddle Shifters"/>
+<text id="0x0000fbbe" string="Horsepower"/>
+<text id="0x0000fbd3" string="Suspension"/>
+<text id="0x0000fbe8" string="Traction"/>
+<text id="0x0000fbfd" string="Transmission"/>
+<text id="0x0000fc12" string="Shift&#xA;Light"/>
+<text id="0x0000fc7b" string="Turn on Shift Light to use&#xA;Shift Light RPM Set-Up"/>
+<text id="0x0000fc90" string="Shift Light&#xA;Off"/>
+<text id="0x0000fca5" string="Shift Light&#xA;On"/>
+<text id="0x0000fd0e" string="Shift Light RPM Set-Up Info"/>
+<text id="0x0000fd23" string="Shift Light&#xA;RPM Set-Up"/>
+<text id="0x0000fd38" string="Shift Light RPM Set-Up"/>
+<text id="0x0000fd4d" string="Ignition must be in RUN&#xA;position to use %s Modes"/>
+<text id="0x0000fd62" string="Steering:"/>
+<text id="0x0000fd77" string="%s: Fastest possible shift speeds, strongest comfort trade-off&#xA;&#xA;%s: Firmer suspension, speeds, some comfort trade-off&#xA;&#xA;%s: Balance of shift speed and shift comfort"/>
+<text id="0x0000fd8c" string="Susp"/>
+<text id="0x0000fda1" string="Suspension:"/>
+<text id="0x0000fdb6" string="%s: Firmest possible suspension, strongest comfort trade-off&#xA;&#xA;%s: Firmer suspension, some comfort trade-off&#xA;&#xA;%s: Balance of suspension firmness and ride comfort"/>
+<text id="0x0000fdcb" string="3rd"/>
+<text id="0x0000fde0" string="Traction:"/>
+<text id="0x0000fdf5" string="%s: Minimal traction control, minimal stability control&#xA;&#xA;%s: Reduced traction control, reduced stability control&#xA;&#xA;%s: Full traction control, full stability control"/>
+<text id="0x0000fe0a" string="Trans"/>
+<text id="0x0000fe1f" string="Transmission:"/>
+<text id="0x0000fe34" string="Valet"/>
+<text id="0x0000fe49" string="Power cannot&#xA;change while&#xA;foot on gas"/>
+<text id="0x0000fe5e" string="Power cannot change&#xA;while in motion"/>
+<text id="0x0000fe73" string="Power cannot&#xA;change while in&#xA;motion"/>
+<text id="0x0000fe88" string="Power cannot change while foot on gas"/>
+<text id="0x0000fe9d" string="Re-select current&#xA;mode to refresh&#xA;power"/>
+<text id="0x0000feb2" string="Re-select current mode to refresh power"/>
+<text id="0x0000fec7" string="Mode currently&#xA;unable to change"/>
+<text id="0x0000fedc" string="Re-select current mode to refresh power"/>
+<text id="0x0000fef1" string="Level currently unable to change"/>
+<text id="0x0000ff5a" string="Normal"/>
+<text id="0x0000ff6f" string="Sport"/>
+<text id="0x0000ff84" string="Comfort"/>
+<text id="0x0000ff99" string="Power Steering"/>
+<text id="0x0000ffae" string="Display Brightness Night"/>
+<text id="0x0000ffc3" string="Display Brightness Day"/>
+<text id="0x0001002c" string="Say things like:"/>
+<text id="0x00010041" string="Highway Mode"/>
+<text id="0x0000045e" string="AF"/>
+<text id="0x000004b2" string="DAB"/>
+<text id="0x000072c8" string="DAB"/>
+<text id="0x00004e71" string="DAB Tuner Firmware"/>
+<text id="0x0000524c" string="Enable TA Mode"/>
+<text id="0x000029c6" string="On"/>
+<text id="0x000029db" string="Off"/>
+<text id="0x000029b1" string="Regional"/>
+<text id="0x000029f0" string="select AF"/>
+<text id="0x00007e98" string="Alternative Frequency"/>
+<text id="0x00007f2b" string="DAB to DAB Linking"/>
+<text id="0x00007f40" string="DAB to FM Linking"/>
+<text id="0x00007ead" string="Regional"/>
+<text id="0x000072f2" string="Playing Traffic Announcement"/>
+<text id="0x00007307" string="Playing Emergency Alarm"/>
+<text id="0x0000731c" string="Alarm"/>
+<text id="0x000073af" string="Playing Emergency Announcement"/>
+<text id="0x0000dafe" string="ESC:"/>
+<text id="0x0000db13" string="AWD:"/>
+<text id="0x0000db28" string="Steering:"/>
+<text id="0x0000db3d" string="Brakes:"/>
+<text id="0x0000db52" string="SPORT"/>
+<text id="0x0000db67" string="PERFORMANCE"/>
+<text id="0x0000db7c" string="PREFILL"/>
+<text id="0x0000db91" string="NORMAL"/>
+<text id="0x0000dba6" string="AUTO"/>
+<text id="0x0000dbbb" string="COMFORT"/>
+<text id="0x0000dbd0" string="ECO"/>
+<text id="0x0000dbe5" string="Suspension:"/>
+<text id="0x0000dbfa" string="Engine Set Up:"/>
+<text id="0x0000dc0f" string="Gearbox:"/>
+<text id="0x0000dc24" string="TRACTION"/>
+<text id="0x0000dc39" string="CONTROL"/>
+<text id="0x00003a6d" string="Wi-Fi Connection"/>
+<text id="0x00003a97" string="Wi-Fi Hotspot"/>
+<text id="0x00003b69" string="Wi-Fi Hotspot is Off"/>
+<text id="0x00003b7e" string="Wi-Fi Hotspot is On"/>
+<text id="0x00003cce" string="Wi-Fi Network"/>
+<text id="0x00003e5d" string="Wi-Fi Connection in progress."/>
+<text id="0x00005165" string="Wi-Fi AP Test Mode"/>
+<text id="0x00005762" string="Wi-Fi Connection connects the vehicle to the internet via a Wi-Fi network."/>
+<text id="0x0000578c" string="Wi-Fi hotspot shares the Built-In Connection with Wi-Fi devices. This feature requires a subscription. Visit %s"/>
+<text id="0x000058f1" string="Wi-Fi Hotspot requires the Built-In Connection."/>
+<text id="0x00005c8d" string="Wi-Fi"/>
+<text id="0x00005df2" string="Wi-Fi Connection Successful:"/>
+<text id="0x00005e07" string="Wi-Fi Connection Not Successful:"/>
+<text id="0x000073c4" string="Enter a 13 character passphrase."/>
+<text id="0x00007e1a" string="Wi-Fi not Available"/>
+<text id="0x00007e2f" string="Wi-Fi Service is being started.&#xA;Try again later."/>
+<text id="0x00003b54" string="View Connected Devices"/>
+<text id="0x00003c3b" string="View/Edit Password"/>
+<text id="0x00003dca" string="View Connected Devices"/>
+<text id="0x00003ec6" string="View/Edit Passphrase"/>
+<text id="0x0000202d" string="Please Verify Passkey: %s"/>
+<text id="0x00003932" string="Application"/>
+<text id="0x00003947" string="Applications"/>
+<text id="0x00007736" string="Favourite&#xA;Apps"/>
+<text id="0x0000774b" string="All&#xA;Apps"/>
+<text id="0x00007760" string="Running&#xA;Apps"/>
+<text id="0x00007775" string="Media&#xA;Apps"/>
+<text id="0x0000778a" string="Info&#xA;Apps"/>
+<text id="0x0000779f" string="Social&#xA;Apps"/>
+<text id="0x000077b4" string="Tools"/>
+<text id="0x000077c9" string="Assistce&#xA;Apps"/>
+<text id="0x000077de" string="Other&#xA;Apps"/>
+<text id="0x000081cb" string="Stopping %s and starting %s."/>
+<text id="0x000057f5" string="Make this network your favourite?"/>
+<text id="0x00003c65" string="Available Networks"/>
+<text id="0x00003a58" string="Built-In Connection"/>
+<text id="0x0000574d" string="Built-In Connection connects the vehicle to the internet. This connection requires a subscription. Visit %s to manage your subscription."/>
+<text id="0x00003cf8" string="Cannot add network."/>
+<text id="0x00003d0d" string="characters"/>
+<text id="0x00003ad6" string="Connected by Built-In Connection"/>
+<text id="0x00003aeb" string="Connected by Wi-Fi Connection"/>
+<text id="0x00003b00" string="Connected by Bluetooth Connection"/>
+<text id="0x00003b15" string="Connected by Wi-Fi Hotspot"/>
+<text id="0x00003b2a" string="Connected by"/>
+<text id="0x00005906" string="Connecting to the Built-In Connection"/>
+<text id="0x00000fb0" string="Connectivity"/>
+<text id="0x00003a19" string="Connectivity"/>
+<text id="0x000050fc" string="Connection Precedence"/>
+<text id="0x00005e1c" string="Delete Network"/>
+<text id="0x00003ce3" string="Delete Wi-Fi Network?"/>
+<text id="0x0000595a" string="Delete unused networks and try again."/>
+<text id="0x00003b3f" string="%s devices connected to Hotspot"/>
+<text id="0x00003bd2" string="Disable Data Connection"/>
+<text id="0x000056f9" string="Enable Built-In Connection"/>
+<text id="0x0000570e" string="Enable Wi-Fi Connection"/>
+<text id="0x00005738" string="Enable Wi-Fi Hotspot"/>
+<text id="0x00008090" string="DRM check failed."/>
+<text id="0x000080a5" string="DRM check failed for %s."/>
+<text id="0x000080ba" string="Too many apps running.&#xA;Please stop an app."/>
+<text id="0x000080cf" string="Registration is needed.&#xA;Press ignore button to stop reminders."/>
+<text id="0x000080e4" string="Registration has expired.&#xA;Press register to enter your email again.&#xA;Press ignore button to stop reminders."/>
+<text id="0x000044ed" string="Favourite Destinations"/>
+<text id="0x00005945" string="Favourite Networks list is full."/>
+<text id="0x00003c7a" string="Favourite Networks"/>
+<text id="0x00003cb9" string="Hotspot Name"/>
+<text id="0x00003eb1" string="Hotspot"/>
+<text id="0x0000591b" string="Disabling Wi-Fi Hotspot due to change in configuration."/>
+<text id="0x00005930" string="Once configuration change is complete, you will need to enable the hotspot manually."/>
+<text id="0x00005c78" string="Hotspot Passphrase"/>
+<text id="0x00005069" string="Manage Xlets"/>
+<text id="0x00003ca4" string="Network Name"/>
+<text id="0x00005c63" string="Passphrase"/>
+<text id="0x00007fbe" string="Passkey: %s"/>
+<text id="0x00007f16" string="Please confirm displayed PIN&#xA;matches on your device."/>
+<text id="0x00007fa9" string="Please confirm displayed Passkey&#xA;matches on your device."/>
+<text id="0x000074c0" string="Ready!"/>
+<text id="0x000039b0" string="Running"/>
+<text id="0x0000596f" string="Searching for available Wi-Fi Networks."/>
+<text id="0x00003db5" string="Set Up Wi-Fi Hotspot"/>
+<text id="0x00008480" string="No Active Subscription&#xA;&#xA;To use this feature, go to the Uconnect Store and&#xA;renew the %s subscription."/>
+<text id="0x00008417" string="Application initializing"/>
+<text id="0x00009cf2" string="Please wait.&#xA;%s is working.&#xA;Try %s again."/>
+<text id="0x00009d07" string="Feature not available.&#xA;Please try again later."/>
+<text id="0x00009d1c" string="Application Data Reset Initiated.&#xA;After radio resets, all application data will be lost.&#xA;Please Wait."/>
+<text id="0x0000d7a1" string="Added to Favourite Apps"/>
+<text id="0x0000d7b6" string="There was an error in running the app.&#xA;Please try again later."/>
+<text id="0x0000d7cb" string="Welcome to Uconnect Access&#xA;&#xA;To enjoy full benefits,&#xA;please press start to begin."/>
+<text id="0x0000d7e0" string="Remove %s from Favourite Apps?"/>
+<text id="0x0000d7f5" string="Resource Limit Reached"/>
+<text id="0x0000d80a" string="Please close a running app and try again."/>
+<text id="0x0000d81f" string="There are too many apps running, please close a running app and try again."/>
+<text id="0x0000d834" string="Go to Running Apps"/>
+<text id="0x0000dccc" string="Hotspot is currently disabled."/>
+<text id="0x0000dce1" string="Hotspot needs to be disabled to make changes."/>
+<text id="0x0000dd0b" string="Would you like to play content from %s?"/>
+<text id="0x0000e431" string="Would you like to add %s to Favorite Apps?"/>
+<text id="0x0000e446" string="Would you like to remove %s from Favorite Apps?"/>
+<text id="0x0000e45b" string="Reinstalling Apps. Sys. restart imminent."/>
+<text id="0x0000e470" string="Uconnect account removed. Sys. restart imminent."/>
+<text id="0x0000c30d" string="Enter District"/>
+<text id="0x0000c30e" string="Spell District"/>
+<text id="0x0000c30f" string="Spell City OR District"/>
+<text id="0x0000ba97" string="DMB"/>
+<text id="0x0000baac" string="DMB Channel List"/>
+<text id="0x0000bac1" string="All"/>
+<text id="0x0000bad6" string="All Channels"/>
+<text id="0x0000baeb" string="Refresh Setup"/>
+<text id="0x0000bb00" string="Refresh List"/>
+<text id="0x0000bb15" string="Refresh all channels"/>
+<text id="0x0000bb2a" string="Refresh Seoul &amp; Gyeonggi channels only"/>
+<text id="0x0000bb3f" string="Refresh Chungcheong channels only"/>
+<text id="0x0000bb54" string="Refresh Jeolla channels only"/>
+<text id="0x0000bb69" string="Refresh Gyeongsangbuk-do channels only"/>
+<text id="0x0000bb7e" string="Refresh Gyeongsangnam-do channels only"/>
+<text id="0x0000bb93" string="Refresh Gangwan-do channels only"/>
+<text id="0x0000bba8" string="Refresh Jeju-do channels only"/>
+<text id="0x0000bbbd" string="Current Station List will be erased.&#xA;Would you like to continue?"/>
+<text id="0x0000bbd2" string="Addresses"/>
+<text id="0x0000bbe7" string="Enter Address"/>
+<text id="0x0000bbfc" string="New Address Search"/>
+<text id="0x0000bc11" string="Old Address Search"/>
+<text id="0x0000bc26" string="Apartment Name"/>
+<text id="0x0000bc3b" string="House Number"/>
+<text id="0x0000bc50" string="Enter Building Number"/>
+<text id="0x0000bc65" string="Spell City/District/County"/>
+<text id="0x0000bc7a" string="Province / Major City"/>
+<text id="0x0000bc8f" string="Enter Province/Major City"/>
+<text id="0x0000bca4" string="Select Province/Major City"/>
+<text id="0x0000bcb9" string="Enter City/District/County"/>
+<text id="0x0000bcce" string="Select City/District/County"/>
+<text id="0x0000bce3" string="Enter Road Name"/>
+<text id="0x0000bcf8" string="Select Road Name"/>
+<text id="0x0000bd0d" string="RTM Incidents"/>
+<text id="0x0000bd22" string="CTT Speed And Flow"/>
+<text id="0x0000bd37" string="Addresses"/>
+<text id="0x0000bd4c" string="Traffic(RTM)"/>
+<text id="0x0000bd61" string="Previous"/>
+<text id="0x0000bd76" string="Info"/>
+<text id="0x0000bd8b" string="CTT Sum"/>
+<text id="0x0000bda0" string="Add Favorite"/>
+<text id="0x0000bdb5" string="CTT Sum Favorites"/>
+<text id="0x0000bdca" string="Move Up"/>
+<text id="0x0000bddf" string="Move Down"/>
+<text id="0x0000bdf4" string="Do you really want to delete this Favorite?"/>
+<text id="0x0000be09" string="TPEG POI"/>
+<text id="0x0000be1e" string="All Categories"/>
+<text id="0x0000be33" string="Category"/>
+<text id="0x0000be48" string="Phone"/>
+<text id="0x0000be5d" string="Address"/>
+<text id="0x0000be72" string="Description"/>
+<text id="0x0000be87" string="show on map"/>
+<text id="0x0000be9c" string="prev"/>
+<text id="0x0000c697" string="Public Road Text"/>
+<text id="0x0000c6ac" string="Public Road Diagram"/>
+<text id="0x0000c6c1" string="Expressway Text"/>
+<text id="0x0000c6d6" string="Expressway Diagram"/>
+<text id="0x0000c6eb" string="FM Text"/>
+<text id="0x0000c700" string="FM Diagram"/>
+<text id="0x0000c826" string="VICS"/>
+<text id="0x0000c83b" string="Public Road Text"/>
+<text id="0x0000c850" string="Public Road Diagram"/>
+<text id="0x0000c865" string="Expressway Text"/>
+<text id="0x0000c87a" string="Expressway Diagram"/>
+<text id="0x0000c88f" string="FM Diagram"/>
+<text id="0x0000c8a4" string="FM Text"/>
+<text id="0x0000c8b9" string="VICS"/>
+<text id="0x0000c8ce" string="VICS Traffic Incidents"/>
+<text id="0x0000c8e3" string="VICS Parking Info"/>
+<text id="0x0000c8f8" string="FM Tuner Mode"/>
+<text id="0x0000c90d" string="Frequency"/>
+<text id="0x0000c922" string="List"/>
+<text id="0x0000c937" string="Beacon Immediate Display"/>
+<text id="0x0000c94c" string="Display Time"/>
+<text id="0x0000c961" string="TTS Reading"/>
+<text id="0x0000c976" string="DSRC Uplink"/>
+<text id="0x0000cbe6" string="Enter Road Name"/>
+<text id="0x0000cbfb" string="Enter Building Number"/>
+<text id="0x0000cc10" string="Select Road Name"/>
+<text id="0x0000cc25" string="Select Building Number"/>
+<text id="0x0000cc3a" string="&#xA;Changing for channels&#xA;&#xA;Please wait."/>
+<text id="0x0000cc4f" string="&#xA;Scanning for channels&#xA;Please wait."/>
+<text id="0x0000cc64" string="Enter Mountain House Number"/>
+<text id="0x0000d28b" string="Map Information"/>
+<text id="0x0000d2a0" string="Map Supplier"/>
+<text id="0x0000d2b5" string="Publishing House"/>
+<text id="0x0000d2ca" string="ISBN Number"/>
+<text id="0x0000d2df" string="Censor Number"/>
+<text id="0x0000d2f4" string="Publication Date"/>
+<text id="0x0000d372" string="MAX A/C"/>
+<text id="0x0000d405" string="auto"/>
+<text id="0x0000d41a" string="ETC"/>
+<text id="0x0000d42f" string="ETC Settings"/>
+<text id="0x0000d444" string="ETC History"/>
+<text id="0x0000d459" string="ETC Voice Announcement"/>
+<text id="0x0000d46e" string="ETC Pop-Ups"/>
+<text id="0x0000d483" string="ETC Card Expy Date"/>
+<text id="0x0000d498" string="ETC card inserted"/>
+<text id="0x0000d4ad" string="No ETC card inserted"/>
+<text id="0x0000d4c2" string="ETC card cannot be read"/>
+<text id="0x0000d4d7" string="ETC card has expired"/>
+<text id="0x0000d4ec" string="ETC card will expire in %s  days(s)"/>
+<text id="0x0000d501" string="ETC device error"/>
+<text id="0x0000d516" string="No ETC history"/>
+<text id="0x0000d52b" string="ETC communication error"/>
+<text id="0x0000d540" string="The ETC device is not setup"/>
+<text id="0x0000d555" string="sec"/>
+<text id="0x0000d56a" string="VICS Speed and Flow"/>
+<text id="0x0000d57f" string="Manual"/>
+<text id="0x0000d594" string="Interrupt Text"/>
+<text id="0x0000d5a9" string="Interrupt Diagram"/>
+<text id="0x0000d5be" string="DSRC Device Information"/>
+<text id="0x0000d5d3" string="DSRC Device No."/>
+<text id="0x0000d5e8" string="Date"/>
+<text id="0x0000d5fd" string="Time"/>
+<text id="0x0000d612" string="Entrance"/>
+<text id="0x0000d627" string="The DSRC device is busy."/>
+<text id="0x0000d63c" string="Exit"/>
+<text id="0x0000d651" string="Fee"/>
+<text id="0x0000d738" string="Map View 2D"/>
+<text id="0x0000d74d" string="Map View 3D"/>
+<text id="0x0000d762" string="No matching address found."/>
+<text id="0x0000d849" string="Check the ETC card."/>
+<text id="0x0000d85e" string="Check the status of the inserted ETC card."/>
+<text id="0x0000d873" string="Check the ETC device."/>
+<text id="0x0000d999" string="Feature unavailable while vehicle is in motion."/>
+<text id="0x0000d9ae" string="No DMB signal."/>
+<text id="0x0000d9c3" string="DMB is being activated."/>
+<text id="0x0000dabf" string="Route to Center"/>
+<text id="0x0000dad4" string="Add Favorite"/>
+<text id="0x0000dae9" string="Feature unavailable while vehicle is in motion."/>
+<text id="0x0000e41c" string="Scanning for channels&#xA;Please wait."/>
+<text id="0x0000e4af" string="Address"/>
+<text id="0x0000e4c4" string=""/>
+<text id="0x0000e6bc" string=""/>
+<text id="0x0000e779" string="Occupancy"/>
+<text id="0x0000e78e" string="Capacity"/>
+<text id="0x0000e7a3" string="Wait Time"/>
+<text id="0x0000e7b8" string="Operating hours"/>
+<text id="0x0000e7cd" string="Limit car type"/>
+<text id="0x0000e7e2" string="Height Limit"/>
+<text id="0x0000e7f7" string="Restriction"/>
+<text id="0x0000e80c" string="Reason"/>
+<text id="0x0000e821" string="Section"/>
+<text id="0x0000e836" string="Term"/>
+<text id="0x0000e84b" string="Selected"/>
+<text id="0x0000e860" string="No Station"/>
+<text id="0x0000e875" string="Searching"/>
+<text id="0x0000e8b4" string="Select District"/>
+<text id="0x0000ec13" string=""/>
+<text id="0x0000ec28" string=""/>
+<text id="0x0000f5ac" string=""/>
+<text id="0x0000f5c1" string=""/>
+<text id="0x0000f600" string=""/>
+<text id="0x0000f6d2" string=""/>
+<text id="0x0000cca3" string="Add Device"/>
+<text id="0x0000ccb8" string="Change PIN"/>
+<text id="0x0000cccd" string="Always obey traffic laws and pay attention to the road.&#xA;Some features are limited while the vehicle is in motion.&#xA;Please read the owner's manual for full details."/>
+<text id="0x0000de9d" string="Device Unplayable"/>
+<text id="0x0000deb2" string="Audiobooks"/>
+<text id="0x0000dec7" string="Presets"/>
+<text id="0x0000dedc" string="Info"/>
+<text id="0x0000def1" string="select&#xA;source"/>
+<text id="0x0000df06" string="Playlists"/>
+<text id="0x0000df1b" string="Aux Input"/>
+<text id="0x0000df30" string="Settings"/>
+<text id="0x0000df45" string="Information"/>
+<text id="0x0000df5a" string="Repeat"/>
+<text id="0x0000df6f" string="Where To?"/>
+<text id="0x0000df84" string="List"/>
+<text id="0x0000df99" string="phonebook"/>
+<text id="0x0000dfae" string="recent calls"/>
+<text id="0x0000dfc3" string="Paired&#xA;Phones"/>
+<text id="0x0000dfd8" string="Paired&#xA;Audio&#xA;Sources"/>
+<text id="0x0000dfed" string="Delete Device"/>
+<text id="0x0000e002" string="Station"/>
+<text id="0x0000e017" string="Info"/>
+<text id="0x0000e02c" string="Genre"/>
+<text id="0x0000e041" string="Missed&#xA;Calls"/>
+<text id="0x0000e056" string="Outgoing&#xA;Calls"/>
+<text id="0x0000e06b" string="Incoming&#xA;Calls"/>
+<text id="0x0000e080" string="All&#xA;Calls"/>
+<text id="0x0000e2e1" string="Rain Sensor Level"/>
+<text id="0x0000e2f6" string="Consumption"/>
+<text id="0x0000e30b" string="MI"/>
+<text id="0x0000e320" string="KM"/>
+<text id="0x0000e335" string="MPG"/>
+<text id="0x0000e34a" string="Litres&#xA;100km"/>
+<text id="0x0000e35f" string="Km/L"/>
+<text id="0x0000e374" string="SD Card"/>
+<text id="0x0000dc63" string="Set Month"/>
+<text id="0x0000dc78" string="Set Year"/>
+<text id="0x0000dc4e" string="Set Day"/>
+<text id="0x0000e5c0" string="Restore Settings Defaults"/>
+<text id="0x0000e5d5" string="Are you sure you want to reset your settings to default?"/>
+<text id="0x0000e5ea" string="Settings restored to default."/>
+<text id="0x0000e6d1" string="Settings reset to default."/>
+<text id="0x0000e63e" string="Clear Personal Data"/>
+<text id="0x0000e653" string="Are you sure you want to clear all personal data?"/>
+<text id="0x0000e668" string="Personal data cleared."/>
+<text id="0x0000e725" string="Auto-On Radio"/>
+<text id="0x0000e932" string="Radio automatically turns on when&#xA;vehicle is in run or will recall whether&#xA;it was on or off at last ignition off."/>
+<text id="0x0000e971" string="Speed&#xA;Adjusted Vol."/>
+<text id="0x0000eb3f" string="Stations Unavailable"/>
+<text id="0x0000ebd2" string="FAILED"/>
+<text id="0x0000ed78" string="Direct&#xA;Dialing"/>
+<text id="0x0000edb7" string="Flash Lights with Lock"/>
+<text id="0x0000ee0b" string="Avg Speed"/>
+<text id="0x0000ee20" string="Travel Distance"/>
+<text id="0x0000ee35" string="Travel Time"/>
+<text id="0x0000ee4a" string="Hold %s to Reset"/>
+<text id="0x0000ee89" string=""/>
+<text id="0x0000ee9e" string=""/>
+<text id="0x0000eedd" string=""/>
+<text id="0x0000ef1c" string=""/>
+<text id="0x0000ef31" string=""/>
+<text id="0x0000ef70" string=""/>
+<text id="0x0000ef85" string=""/>
+<text id="0x0000ef9a" string=""/>
+<text id="0x0000efaf" string=""/>
+<text id="0x0000efc4" string=""/>
+<text id="0x0000efd9" string=""/>
+<text id="0x0000f114" string="HOLD to set"/>
+<text id="0x0000f129" string="Nav Volume Adjustment"/>
+<text id="0x0000f558" string=""/>
+<text id="0x0000f67e" string="Loudness"/>
+<text id="0x0000f693" string="Improves sound quality at lower volumes"/>
+<text id="0x0000e8c9" string="Traffic"/>
+<text id="0x0000e8de" string="Alarm"/>
 <text id="0x00007832" string="mph"/>
 <text id="0x00000323" string=""/>
 <text id="0x00005ed9" string=""/>
@@ -1942,365 +2386,4 @@
 <text id="0x0000d723" string=""/>
 <text id="0x0000da6b" string=""/>
 <text id="0x0000da80" string=""/>
-<text id="0x0000045e" string="AF"/>
-<text id="0x000004b2" string="DAB"/>
-<text id="0x000072c8" string="DAB"/>
-<text id="0x00004e71" string="DAB Tuner Firmware"/>
-<text id="0x0000524c" string="Enable TA Mode"/>
-<text id="0x000029c6" string="On"/>
-<text id="0x000029db" string="Off"/>
-<text id="0x000029b1" string="Regional"/>
-<text id="0x000029f0" string="select AF"/>
-<text id="0x00007e98" string="Alternative Frequency"/>
-<text id="0x00007f2b" string="DAB to DAB Linking"/>
-<text id="0x00007f40" string="DAB to FM Linking"/>
-<text id="0x00007ead" string="Regional"/>
-<text id="0x000072f2" string="Playing Traffic Announcement"/>
-<text id="0x00007307" string="Playing Emergency Alarm"/>
-<text id="0x0000731c" string="Alarm"/>
-<text id="0x000073af" string="Playing Emergency Announcement"/>
-<text id="0x0000dafe" string="ESC:"/>
-<text id="0x0000db13" string="AWD:"/>
-<text id="0x0000db28" string="Steering:"/>
-<text id="0x0000db3d" string="Brakes:"/>
-<text id="0x0000db52" string="SPORT"/>
-<text id="0x0000db67" string="PERFORMANCE"/>
-<text id="0x0000db7c" string="PREFILL"/>
-<text id="0x0000db91" string="NORMAL"/>
-<text id="0x0000dba6" string="AUTO"/>
-<text id="0x0000dbbb" string="COMFORT"/>
-<text id="0x0000dbd0" string="ECO"/>
-<text id="0x0000dbe5" string="Suspension:"/>
-<text id="0x0000dbfa" string="Engine Set Up:"/>
-<text id="0x0000dc0f" string="Gearbox:"/>
-<text id="0x0000dc24" string="TRACTION"/>
-<text id="0x0000dc39" string="CONTROL"/>
-<text id="0x00003a6d" string="Wi-Fi Connection"/>
-<text id="0x00003a97" string="Wi-Fi Hotspot"/>
-<text id="0x00003b69" string="Wi-Fi Hotspot is Off"/>
-<text id="0x00003b7e" string="Wi-Fi Hotspot is On"/>
-<text id="0x00003cce" string="Wi-Fi Network"/>
-<text id="0x00003e5d" string="Wi-Fi Connection in progress."/>
-<text id="0x00005165" string="Wi-Fi AP Test Mode"/>
-<text id="0x00005762" string="Wi-Fi Connection connects the vehicle to the internet via a Wi-Fi network."/>
-<text id="0x0000578c" string="Wi-Fi hotspot shares the Built-In Connection with Wi-Fi devices. This feature requires a subscription. Visit %s"/>
-<text id="0x000058f1" string="Wi-Fi Hotspot requires the Built-In Connection."/>
-<text id="0x00005c8d" string="Wi-Fi"/>
-<text id="0x00005df2" string="Wi-Fi Connection Successful:"/>
-<text id="0x00005e07" string="Wi-Fi Connection Not Successful:"/>
-<text id="0x000073c4" string="Enter a 13 character passphrase."/>
-<text id="0x00007e1a" string="Wi-Fi not Available"/>
-<text id="0x00007e2f" string="Wi-Fi Service is being started.&#xA;Try again later."/>
-<text id="0x00003b54" string="View Connected Devices"/>
-<text id="0x00003c3b" string="View/Edit Password"/>
-<text id="0x00003dca" string="View Connected Devices"/>
-<text id="0x00003ec6" string="View/Edit Passphrase"/>
-<text id="0x0000202d" string="Please Verify Passkey: %s"/>
-<text id="0x00003932" string="Application"/>
-<text id="0x00003947" string="Applications"/>
-<text id="0x00007736" string="Favourite&#xA;Apps"/>
-<text id="0x0000774b" string="All&#xA;Apps"/>
-<text id="0x00007760" string="Running&#xA;Apps"/>
-<text id="0x00007775" string="Media&#xA;Apps"/>
-<text id="0x0000778a" string="Info&#xA;Apps"/>
-<text id="0x0000779f" string="Social&#xA;Apps"/>
-<text id="0x000077b4" string="Tools"/>
-<text id="0x000077c9" string="Assistce&#xA;Apps"/>
-<text id="0x000077de" string="Other&#xA;Apps"/>
-<text id="0x000081cb" string="Stopping %s and starting %s."/>
-<text id="0x000057f5" string="Make this network your favourite?"/>
-<text id="0x00003c65" string="Available Networks"/>
-<text id="0x00003a58" string="Built-In Connection"/>
-<text id="0x0000574d" string="Built-In Connection connects the vehicle to the internet. This connection requires a subscription. Visit %s to manage your subscription."/>
-<text id="0x00003cf8" string="Cannot add network."/>
-<text id="0x00003d0d" string="characters"/>
-<text id="0x00003ad6" string="Connected by Built-In Connection"/>
-<text id="0x00003aeb" string="Connected by Wi-Fi Connection"/>
-<text id="0x00003b00" string="Connected by Bluetooth Connection"/>
-<text id="0x00003b15" string="Connected by Wi-Fi Hotspot"/>
-<text id="0x00003b2a" string="Connected by"/>
-<text id="0x00005906" string="Connecting to the Built-In Connection"/>
-<text id="0x00000fb0" string="Connectivity"/>
-<text id="0x00003a19" string="Connectivity"/>
-<text id="0x000050fc" string="Connection Precedence"/>
-<text id="0x00005e1c" string="Delete Network"/>
-<text id="0x00003ce3" string="Delete Wi-Fi Network?"/>
-<text id="0x0000595a" string="Delete unused networks and try again."/>
-<text id="0x00003b3f" string="%s devices connected to Hotspot"/>
-<text id="0x00003bd2" string="Disable Data Connection"/>
-<text id="0x000056f9" string="Enable Built-In Connection"/>
-<text id="0x0000570e" string="Enable Wi-Fi Connection"/>
-<text id="0x00005738" string="Enable Wi-Fi Hotspot"/>
-<text id="0x00008090" string="DRM check failed."/>
-<text id="0x000080a5" string="DRM check failed for %s."/>
-<text id="0x000080ba" string="Too many apps running.&#xA;Please stop an app."/>
-<text id="0x000080cf" string="Registration is needed.&#xA;Press ignore button to stop reminders."/>
-<text id="0x000080e4" string="Registration has expired.&#xA;Press register to enter your email again.&#xA;Press ignore button to stop reminders."/>
-<text id="0x000044ed" string="Favourite Destinations"/>
-<text id="0x00005945" string="Favourite Networks list is full."/>
-<text id="0x00003c7a" string="Favourite Networks"/>
-<text id="0x00003cb9" string="Hotspot Name"/>
-<text id="0x00003eb1" string="Hotspot"/>
-<text id="0x0000591b" string="Disabling Wi-Fi Hotspot due to change in configuration."/>
-<text id="0x00005930" string="Once configuration change is complete, you will need to enable the hotspot manually."/>
-<text id="0x00005c78" string="Hotspot Passphrase"/>
-<text id="0x00005069" string="Manage Xlets"/>
-<text id="0x00003ca4" string="Network Name"/>
-<text id="0x00005c63" string="Passphrase"/>
-<text id="0x00007fbe" string="Passkey: %s"/>
-<text id="0x00007f16" string="Please confirm displayed PIN&#xA;matches on your device."/>
-<text id="0x00007fa9" string="Please confirm displayed Passkey&#xA;matches on your device."/>
-<text id="0x000074c0" string="Ready!"/>
-<text id="0x000039b0" string="Running"/>
-<text id="0x0000596f" string="Searching for available Wi-Fi Networks."/>
-<text id="0x00003db5" string="Set Up Wi-Fi Hotspot"/>
-<text id="0x00008480" string="No Active Subscription&#xA;&#xA;To use this feature, go to the Uconnect Store and&#xA;renew the %s subscription."/>
-<text id="0x00008417" string="Application initializing"/>
-<text id="0x00009cf2" string="Please wait.&#xA;%s is working.&#xA;Try %s again."/>
-<text id="0x00009d07" string="Feature not available.&#xA;Please try again later."/>
-<text id="0x00009d1c" string="Application Data Reset Initiated.&#xA;After radio resets, all application data will be lost.&#xA;Please Wait."/>
-<text id="0x0000d7a1" string="Added to Favourite Apps"/>
-<text id="0x0000d7b6" string="There was an error in running the app.&#xA;Please try again later."/>
-<text id="0x0000d7cb" string="Welcome to Uconnect Access&#xA;&#xA;To enjoy full benefits,&#xA;please press start to begin."/>
-<text id="0x0000d7e0" string="Remove %s from Favourite Apps?"/>
-<text id="0x0000d7f5" string="Resource Limit Reached"/>
-<text id="0x0000d80a" string="Please close a running app and try again."/>
-<text id="0x0000d81f" string="There are too many apps running, please close a running app and try again."/>
-<text id="0x0000d834" string="Go to Running Apps"/>
-<text id="0x0000dccc" string="Hotspot is currently disabled."/>
-<text id="0x0000dce1" string="Hotspot needs to be disabled to make changes."/>
-<text id="0x0000dd0b" string="Would you like to play content from %s?"/>
-<text id="0x0000e431" string="Would you like to add %s to Favorite Apps?"/>
-<text id="0x0000e446" string="Would you like to remove %s from Favorite Apps?"/>
-<text id="0x0000e45b" string="Reinstalling Apps. Sys. restart imminent."/>
-<text id="0x0000e470" string="Uconnect account removed. Sys. restart imminent."/>
-<text id="0x0000c30d" string="Enter District"/>
-<text id="0x0000c30e" string="Spell District"/>
-<text id="0x0000c30f" string="Spell City OR District"/>
-<text id="0x0000ba97" string="DMB"/>
-<text id="0x0000baac" string="DMB Channel List"/>
-<text id="0x0000bac1" string="All"/>
-<text id="0x0000bad6" string="All Channels"/>
-<text id="0x0000baeb" string="Refresh Setup"/>
-<text id="0x0000bb00" string="Refresh List"/>
-<text id="0x0000bb15" string="Refresh all channels"/>
-<text id="0x0000bb2a" string="Refresh Seoul &amp; Gyeonggi channels only"/>
-<text id="0x0000bb3f" string="Refresh Chungcheong channels only"/>
-<text id="0x0000bb54" string="Refresh Jeolla channels only"/>
-<text id="0x0000bb69" string="Refresh Gyeongsangbuk-do channels only"/>
-<text id="0x0000bb7e" string="Refresh Gyeongsangnam-do channels only"/>
-<text id="0x0000bb93" string="Refresh Gangwan-do channels only"/>
-<text id="0x0000bba8" string="Refresh Jeju-do channels only"/>
-<text id="0x0000bbbd" string="Current Station List will be erased.&#xA;Would you like to continue?"/>
-<text id="0x0000bbd2" string="Addresses"/>
-<text id="0x0000bbe7" string="Enter Address"/>
-<text id="0x0000bbfc" string="New Address Search"/>
-<text id="0x0000bc11" string="Old Address Search"/>
-<text id="0x0000bc26" string="Apartment Name"/>
-<text id="0x0000bc3b" string="House Number"/>
-<text id="0x0000bc50" string="Enter Building Number"/>
-<text id="0x0000bc65" string="Spell City/District/County"/>
-<text id="0x0000bc7a" string="Province / Major City"/>
-<text id="0x0000bc8f" string="Enter Province/Major City"/>
-<text id="0x0000bca4" string="Select Province/Major City"/>
-<text id="0x0000bcb9" string="Enter City/District/County"/>
-<text id="0x0000bcce" string="Select City/District/County"/>
-<text id="0x0000bce3" string="Enter Road Name"/>
-<text id="0x0000bcf8" string="Select Road Name"/>
-<text id="0x0000bd0d" string="RTM Incidents"/>
-<text id="0x0000bd22" string="CTT Speed And Flow"/>
-<text id="0x0000bd37" string="Addresses"/>
-<text id="0x0000bd4c" string="Traffic(RTM)"/>
-<text id="0x0000bd61" string="Previous"/>
-<text id="0x0000bd76" string="Info"/>
-<text id="0x0000bd8b" string="CTT Sum"/>
-<text id="0x0000bda0" string="Add Favorite"/>
-<text id="0x0000bdb5" string="CTT Sum Favorites"/>
-<text id="0x0000bdca" string="Move Up"/>
-<text id="0x0000bddf" string="Move Down"/>
-<text id="0x0000bdf4" string="Do you really want to delete this Favorite?"/>
-<text id="0x0000be09" string="TPEG POI"/>
-<text id="0x0000be1e" string="All Categories"/>
-<text id="0x0000be33" string="Category"/>
-<text id="0x0000be48" string="Phone"/>
-<text id="0x0000be5d" string="Address"/>
-<text id="0x0000be72" string="Description"/>
-<text id="0x0000be87" string="show on map"/>
-<text id="0x0000be9c" string="prev"/>
-<text id="0x0000c697" string="Public Road Text"/>
-<text id="0x0000c6ac" string="Public Road Diagram"/>
-<text id="0x0000c6c1" string="Expressway Text"/>
-<text id="0x0000c6d6" string="Expressway Diagram"/>
-<text id="0x0000c6eb" string="FM Text"/>
-<text id="0x0000c700" string="FM Diagram"/>
-<text id="0x0000c826" string="VICS"/>
-<text id="0x0000c83b" string="Public Road Text"/>
-<text id="0x0000c850" string="Public Road Diagram"/>
-<text id="0x0000c865" string="Expressway Text"/>
-<text id="0x0000c87a" string="Expressway Diagram"/>
-<text id="0x0000c88f" string="FM Diagram"/>
-<text id="0x0000c8a4" string="FM Text"/>
-<text id="0x0000c8b9" string="VICS"/>
-<text id="0x0000c8ce" string="VICS Traffic Incidents"/>
-<text id="0x0000c8e3" string="VICS Parking Info"/>
-<text id="0x0000c8f8" string="FM Tuner Mode"/>
-<text id="0x0000c90d" string="Frequency"/>
-<text id="0x0000c922" string="List"/>
-<text id="0x0000c937" string="Beacon Immediate Display"/>
-<text id="0x0000c94c" string="Display Time"/>
-<text id="0x0000c961" string="TTS Reading"/>
-<text id="0x0000c976" string="DSRC Uplink"/>
-<text id="0x0000cbe6" string="Enter Road Name"/>
-<text id="0x0000cbfb" string="Enter Building Number"/>
-<text id="0x0000cc10" string="Select Road Name"/>
-<text id="0x0000cc25" string="Select Building Number"/>
-<text id="0x0000cc3a" string="&#xA;Changing for channels&#xA;&#xA;Please wait."/>
-<text id="0x0000cc4f" string="&#xA;Scanning for channels&#xA;Please wait."/>
-<text id="0x0000cc64" string="Enter Mountain House Number"/>
-<text id="0x0000d28b" string="Map Information"/>
-<text id="0x0000d2a0" string="Map Supplier"/>
-<text id="0x0000d2b5" string="Publishing House"/>
-<text id="0x0000d2ca" string="ISBN Number"/>
-<text id="0x0000d2df" string="Censor Number"/>
-<text id="0x0000d2f4" string="Publication Date"/>
-<text id="0x0000d372" string="MAX A/C"/>
-<text id="0x0000d405" string="auto"/>
-<text id="0x0000d41a" string="ETC"/>
-<text id="0x0000d42f" string="ETC Settings"/>
-<text id="0x0000d444" string="ETC History"/>
-<text id="0x0000d459" string="ETC Voice Announcement"/>
-<text id="0x0000d46e" string="ETC Pop-Ups"/>
-<text id="0x0000d483" string="ETC Card Expy Date"/>
-<text id="0x0000d498" string="ETC card inserted"/>
-<text id="0x0000d4ad" string="No ETC card inserted"/>
-<text id="0x0000d4c2" string="ETC card cannot be read"/>
-<text id="0x0000d4d7" string="ETC card has expired"/>
-<text id="0x0000d4ec" string="ETC card will expire in %s  days(s)"/>
-<text id="0x0000d501" string="ETC device error"/>
-<text id="0x0000d516" string="No ETC history"/>
-<text id="0x0000d52b" string="ETC communication error"/>
-<text id="0x0000d540" string="The ETC device is not setup"/>
-<text id="0x0000d555" string="sec"/>
-<text id="0x0000d56a" string="VICS Speed and Flow"/>
-<text id="0x0000d57f" string="Manual"/>
-<text id="0x0000d594" string="Interrupt Text"/>
-<text id="0x0000d5a9" string="Interrupt Diagram"/>
-<text id="0x0000d5be" string="DSRC Device Information"/>
-<text id="0x0000d5d3" string="DSRC Device No."/>
-<text id="0x0000d5e8" string="Date"/>
-<text id="0x0000d5fd" string="Time"/>
-<text id="0x0000d612" string="Entrance"/>
-<text id="0x0000d627" string="The DSRC device is busy."/>
-<text id="0x0000d63c" string="Exit"/>
-<text id="0x0000d651" string="Fee"/>
-<text id="0x0000d738" string="Map View 2D"/>
-<text id="0x0000d74d" string="Map View 3D"/>
-<text id="0x0000d762" string="No matching address found."/>
-<text id="0x0000d849" string="Check the ETC card."/>
-<text id="0x0000d85e" string="Check the status of the inserted ETC card."/>
-<text id="0x0000d873" string="Check the ETC device."/>
-<text id="0x0000d999" string="Feature unavailable while vehicle is in motion."/>
-<text id="0x0000d9ae" string="No DMB signal."/>
-<text id="0x0000d9c3" string="DMB is being activated."/>
-<text id="0x0000dabf" string="Route to Center"/>
-<text id="0x0000dad4" string="Add Favorite"/>
-<text id="0x0000dae9" string="Feature unavailable while vehicle is in motion."/>
-<text id="0x0000e41c" string="Scanning for channels&#xA;Please wait."/>
-<text id="0x0000e4af" string="Address"/>
-<text id="0x0000e4c4" string=""/>
-<text id="0x0000e6bc" string=""/>
-<text id="0x0000e779" string="Occupancy"/>
-<text id="0x0000e78e" string="Capacity"/>
-<text id="0x0000e7a3" string="Wait Time"/>
-<text id="0x0000e7b8" string="Operating hours"/>
-<text id="0x0000e7cd" string="Limit car type"/>
-<text id="0x0000e7e2" string="Height Limit"/>
-<text id="0x0000e7f7" string="Restriction"/>
-<text id="0x0000e80c" string="Reason"/>
-<text id="0x0000e821" string="Section"/>
-<text id="0x0000e836" string="Term"/>
-<text id="0x0000e84b" string="Selected"/>
-<text id="0x0000e860" string="No Station"/>
-<text id="0x0000e875" string="Searching"/>
-<text id="0x0000e8b4" string="Select District"/>
-<text id="0x0000ec13" string=""/>
-<text id="0x0000ec28" string=""/>
-<text id="0x0000f5ac" string=""/>
-<text id="0x0000f5c1" string=""/>
-<text id="0x0000f600" string=""/>
-<text id="0x0000f6d2" string=""/>
-<text id="0x0000cca3" string="Add Device"/>
-<text id="0x0000ccb8" string="Change PIN"/>
-<text id="0x0000cccd" string="Always obey traffic laws and pay attention to the road.&#xA;Some features are limited while the vehicle is in motion.&#xA;Please read the owner's manual for full details."/>
-<text id="0x0000de9d" string="Device Unplayable"/>
-<text id="0x0000deb2" string="Audiobooks"/>
-<text id="0x0000dec7" string="Presets"/>
-<text id="0x0000dedc" string="Info"/>
-<text id="0x0000def1" string="select&#xA;source"/>
-<text id="0x0000df06" string="Playlists"/>
-<text id="0x0000df1b" string="Aux Input"/>
-<text id="0x0000df30" string="Settings"/>
-<text id="0x0000df45" string="Information"/>
-<text id="0x0000df5a" string="Repeat"/>
-<text id="0x0000df6f" string="Where To?"/>
-<text id="0x0000df84" string="List"/>
-<text id="0x0000df99" string="phonebook"/>
-<text id="0x0000dfae" string="recent calls"/>
-<text id="0x0000dfc3" string="Paired&#xA;Phones"/>
-<text id="0x0000dfd8" string="Paired&#xA;Audio&#xA;Sources"/>
-<text id="0x0000dfed" string="Delete Device"/>
-<text id="0x0000e002" string="Station"/>
-<text id="0x0000e017" string="Info"/>
-<text id="0x0000e02c" string="Genre"/>
-<text id="0x0000e041" string="Missed&#xA;Calls"/>
-<text id="0x0000e056" string="Outgoing&#xA;Calls"/>
-<text id="0x0000e06b" string="Incoming&#xA;Calls"/>
-<text id="0x0000e080" string="All&#xA;Calls"/>
-<text id="0x0000e2e1" string="Rain Sensor Level"/>
-<text id="0x0000e2f6" string="Consumption"/>
-<text id="0x0000e30b" string="MI"/>
-<text id="0x0000e320" string="KM"/>
-<text id="0x0000e335" string="MPG"/>
-<text id="0x0000e34a" string="Litres&#xA;100km"/>
-<text id="0x0000e35f" string="Km/L"/>
-<text id="0x0000e374" string="SD Card"/>
-<text id="0x0000dc63" string="Set Month"/>
-<text id="0x0000dc78" string="Set Year"/>
-<text id="0x0000dc4e" string="Set Day"/>
-<text id="0x0000e5c0" string="Restore Settings Defaults"/>
-<text id="0x0000e5d5" string="Are you sure you want to reset your settings to default?"/>
-<text id="0x0000e5ea" string="Settings restored to default."/>
-<text id="0x0000e6d1" string="Settings reset to default."/>
-<text id="0x0000e63e" string="Clear Personal Data"/>
-<text id="0x0000e653" string="Are you sure you want to clear all personal data?"/>
-<text id="0x0000e668" string="Personal data cleared."/>
-<text id="0x0000e725" string="Auto-On Radio"/>
-<text id="0x0000e932" string="Radio automatically turns on when&#xA;vehicle is in run or will recall whether&#xA;it was on or off at last ignition off."/>
-<text id="0x0000e971" string="Speed&#xA;Adjusted Vol."/>
-<text id="0x0000eb3f" string="Stations Unavailable"/>
-<text id="0x0000ebd2" string="FAILED"/>
-<text id="0x0000ed78" string="Direct&#xA;Dialing"/>
-<text id="0x0000edb7" string="Flash Lights with Lock"/>
-<text id="0x0000ee0b" string="Avg Speed"/>
-<text id="0x0000ee20" string="Travel Distance"/>
-<text id="0x0000ee35" string="Travel Time"/>
-<text id="0x0000ee4a" string="Hold %s to Reset"/>
-<text id="0x0000ee89" string=""/>
-<text id="0x0000ee9e" string=""/>
-<text id="0x0000eedd" string=""/>
-<text id="0x0000ef1c" string=""/>
-<text id="0x0000ef31" string=""/>
-<text id="0x0000ef70" string=""/>
-<text id="0x0000ef85" string=""/>
-<text id="0x0000ef9a" string=""/>
-<text id="0x0000efaf" string=""/>
-<text id="0x0000efc4" string=""/>
-<text id="0x0000efd9" string=""/>
-<text id="0x0000f114" string="HOLD to set"/>
-<text id="0x0000f129" string="Nav Volume Adjustment"/>
-<text id="0x0000f558" string=""/>
-<text id="0x0000f67e" string="Loudness"/>
-<text id="0x0000f693" string="Improves sound quality at lower volumes"/>
-<text id="0x0000e8c9" string="Traffic"/>
-<text id="0x0000e8de" string="Alarm"/>
 </textresources>

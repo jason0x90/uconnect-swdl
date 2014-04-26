@@ -135,7 +135,7 @@ end
 ----------------------------------------------------------------------
 local function performBackup(line)
     
-    local cmd = "backup \""..line.."\""
+    local cmd = "backup "..line
 
     if ( g_dst_dir ~= nil) then
        cmd = "cd "..g_dst_dir.."; "..cmd
@@ -153,11 +153,9 @@ end
 ----------------------------------------------------------------------
 -- restore directories and files
 --
--- Note - all the work is done in the init. Just include the section
--- in order to get the restore.
 ----------------------------------------------------------------------
-local function initRestore()
-    local cmd = "restore"
+local function performRestore( line)
+    local cmd = "restore "..line
 
     if ( g_dst_dir ~= nil) then
        cmd = "cd "..g_dst_dir.."; "..cmd
@@ -177,7 +175,7 @@ local actionTable =
     ["LINK"]        = { nil, performLink, nil },
     ["CHMOD"]       = { nil, performChmod, nil },
     ["BACKUP"]       = { nil, performBackup, nil },
-    ["RESTORE"]       = { initRestore, nil, nil }
+    ["RESTORE"]       = { nil, performRestore, nil }
 }
 
 ----------------------------------------------------------------------

@@ -292,7 +292,11 @@ fi
 if [ -e /fs/etfs/disableDRM ]; then
   qon -d appManager -s -j -c=/etc/system/config/appManager.cfg --tp=/fs/mmc0/app/share/trace/appManager.hbtc
 else
-  qon -d appManager -s -j -d -c=/etc/system/config/appManager.cfg --tp=/fs/mmc0/app/share/trace/appManager.hbtc
+   if [ $VARIANT_MARKET = "NA" ]; then
+      appManager -s -j -d -c=/etc/system/config/appManager.cfg --tp=/fs/mmc0/app/share/trace/appManager.hbtc &  
+   else
+      appManager -s -j -d -c=/etc/system/config/appManager_nonNA.cfg --tp=/fs/mmc0/app/share/trace/appManager.hbtc &  
+   fi
 fi
 
 if [ $VARIANT_SDARS = "YES" ]; then
@@ -523,7 +527,9 @@ qon omapTempService -d -p 2000
 # Options -v for Verbosity and -p for priority
 qon image_rot_fixer -v 6 -p 9
 
+
 qon -d lua -s -b /usr/bin/cmc/service/platform/platform_ams_restart.lua > $CONSOLE_DEVICE
+
 
 if [ ! -e /fs/etfs/BOX_INITIALIZED ]; then
     # script to perform factory initialization (reset requred for changes to be effective)

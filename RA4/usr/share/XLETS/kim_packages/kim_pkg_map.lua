@@ -61,6 +61,8 @@ kim_pkg_map["68164641"] = "KIM1" -- MY14 VP4 NA
 kim_pkg_map["68164643"] = "KIM2" -- MY14 VP4 ROW
 kim_pkg_map["68193004"] = "KIM2" -- MY14 VP3 CAN
 kim_pkg_map["68193005"] = "KIM2" -- MY14 VP4 CAN
+kim_pkg_map["68224533"] = "KIM2" -- MY14 VP3 EU
+kim_pkg_map["68224530"] = "KIM2" -- MY14 VP4 EU
 
 -- MY 14 DS/WK/ZD
 kim_pkg_map["68224534"] = "KIM2" -- MY14 VP3 MEX

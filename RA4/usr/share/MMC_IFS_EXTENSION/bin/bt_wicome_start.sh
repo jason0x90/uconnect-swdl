@@ -51,11 +51,7 @@ if [ -a /dev/wicome ] ; then
    qon io-fs-media -dmediabt,wicome=/dev/wicome,verbose=2
    qon -d btservice -s /usr/bin/cmc/service/Bluetooth/main.lua -- --bp /usr/var/trace --tp=/HBpersistence/Bluetooth.hbtc
    LD_LIBRARY_PATH=:/fs/mmc0/app/lib/handsfree:$LD_LIBRARY_PATH
-   if [ -e /fs/etfs/useQWALive ]; then
-      qon -d ecnr -d -r -c /fs/mmc0/app/share/handsfree/config -p 65
-   else
-      qon -d ecnr -d -c /fs/mmc0/app/share/handsfree/config -p 65
-   fi
+	qon -d -p 210 psse -f /fs/mmc0/app/share/handsfree/config/config.txt
 fi
 
 

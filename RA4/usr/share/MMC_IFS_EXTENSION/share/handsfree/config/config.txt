@@ -10,7 +10,7 @@
 # ####################################################################################################
 
 # ***********************************
-[Handsfree_0_1]
+[Handsfree_NONE_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -65,13 +65,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_1_1]
+[Handsfree_WK_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -126,13 +127,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_1.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_WK.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_2_1]
+[Handsfree_LX_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -187,13 +189,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_2.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_LX.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_22_1]
+[Handsfree_JC_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -248,13 +251,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_22.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_JC.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_29_1]
+[Handsfree_DS_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -309,13 +313,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_29.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_DS.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_31_1]
+[Handsfree_D2_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -370,13 +375,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_32_1]
+[Handsfree_DD_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -431,13 +437,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_33_1]
+[Handsfree_DP_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -492,13 +499,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_34_1]
+[Handsfree_DJ_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -553,13 +561,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_35_1]
+[Handsfree_WD_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -614,14 +623,15 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_35.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_WD.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 
 # ***********************************
-[Handsfree_39_1]
+[Handsfree_DX_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -676,13 +686,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_39.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_DX.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_41_1]
+[Handsfree_LD_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -737,13 +748,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_42_1]
+[Handsfree_M156_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -798,13 +810,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_43_1]
+[Handsfree_ZD_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -859,13 +872,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_43.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_ZD.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_44_1]
+[Handsfree_LA_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -920,13 +934,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_45_1]
+[Handsfree_RU_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -981,13 +996,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_46_1]
+[Handsfree_WM_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1042,13 +1058,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_47_1]
+[Handsfree_WS_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1103,13 +1120,75 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+# ***********************************
+[Handsfree_M157_LHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput1,MicrophoneInput2
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC1D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC1D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_48_1]
+[Handsfree_PF_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1164,13 +1243,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_49_1]
+[Handsfree_KL_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1225,13 +1305,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_KL.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_50_1]
+[Handsfree_UF_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1286,13 +1367,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_80_1]
+[Handsfree_UT_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1347,13 +1429,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_81_1]
+[Handsfree_F137_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1408,13 +1491,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_81.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_82_1]
+[Handsfree_F141_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1469,13 +1553,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_83_1]
+[Handsfree_F142_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1530,13 +1615,324 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Handsfree_M139_LHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput1,MicrophoneInput2
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC1D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC1D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Handsfree_F149_LHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput1,MicrophoneInput2
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC1D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC1D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Handsfree_F151_LHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput1,MicrophoneInput2
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC1D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC1D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Handsfree_F152_LHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput1,MicrophoneInput2
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC1D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC1D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Handsfree_F150_LHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput1,MicrophoneInput2
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC1D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC1D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # **********  1-microphone config (Fiat) *************************
-[Handsfree_253_1]
+[Handsfree_Fiat520_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1591,13 +1987,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_253.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default1Mic.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # **********  1-microphone config (Fiat) *************************
-[Handsfree_254_1]
+[Handsfree_Fiat940_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1652,14 +2049,77 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_254.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Fiat940.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# **********  1-microphone config (Fiat) *************************
+[Handsfree_Fiat330_LHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC1D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC1D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Fiat330.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 
 # ***********************************
-[Handsfree_255_1]
+[Handsfree_SNA_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1714,9 +2174,10 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ####################################################################################################
@@ -1724,7 +2185,7 @@ FrameShift    = 128
 # ####################################################################################################
 
 # ***********************************
-[Handsfree_0_2]
+[Handsfree_NONE_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1779,13 +2240,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_1_2]
+[Handsfree_WK_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1840,13 +2302,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_1.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_WK.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_2_2]
+[Handsfree_LX_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1901,13 +2364,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_2.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_LX.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_22_2]
+[Handsfree_JC_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -1962,13 +2426,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_22.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_JC.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_29_2]
+[Handsfree_DS_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2023,13 +2488,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_29.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_DS.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_31_2]
+[Handsfree_D2_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2084,13 +2550,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_32_2]
+[Handsfree_DD_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2145,13 +2612,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_33_2]
+[Handsfree_DP_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2206,13 +2674,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_34_2]
+[Handsfree_DJ_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2267,13 +2736,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_35_2]
+[Handsfree_WD_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2328,13 +2798,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_35.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_WD.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_39_2]
+[Handsfree_DX_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2389,13 +2860,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_39.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_DX.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_41_2]
+[Handsfree_LD_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2450,13 +2922,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_42_2]
+[Handsfree_M156_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2511,13 +2984,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_43_2]
+[Handsfree_ZD_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2572,13 +3046,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_43.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_ZD.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_44_2]
+[Handsfree_LA_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2633,13 +3108,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_45_2]
+[Handsfree_RU_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2694,13 +3170,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_46_2]
+[Handsfree_WM_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2755,13 +3232,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_47_2]
+[Handsfree_WS_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2816,13 +3294,75 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+# ***********************************
+[Handsfree_M157_RHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput2,MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC1D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC1D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_48_2]
+[Handsfree_PF_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2877,13 +3417,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_49_2]
+[Handsfree_KL_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2938,13 +3479,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_KL.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_50_2]
+[Handsfree_UF_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -2999,13 +3541,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Handsfree_80_2]
+[Handsfree_UT_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3060,13 +3603,13 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
-# ***********************************
-[Handsfree_81_2]
+[Handsfree_F137_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3121,13 +3664,13 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_81.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
-# ***********************************
-[Handsfree_82_2]
+[Handsfree_F141_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3182,13 +3725,13 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
-# ***********************************
-[Handsfree_83_2]
+[Handsfree_F142_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3243,13 +3786,319 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+[Handsfree_M139_RHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput2,MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC1D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC1D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+[Handsfree_F149_RHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput2,MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC1D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC1D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+[Handsfree_F151_RHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput2,MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC1D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC1D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+[Handsfree_F152_RHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput2,MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC1D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC1D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+[Handsfree_F150_RHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput2,MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC1D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC1D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ************  1-microphone configuration (Fiat) ***********************
-[Handsfree_253_2]
+[Handsfree_Fiat520_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3304,13 +4153,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_253.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default1Mic.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ************  1-microphone configuration (Fiat) ***********************
-[Handsfree_254_2]
+[Handsfree_Fiat940_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3365,14 +4215,77 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_254.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Fiat940.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ************  1-microphone configuration (Fiat) ***********************
+[Handsfree_Fiat330_RHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC1D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC1D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Fiat330.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 
 # ***********************************
-[Handsfree_255_2]
+[Handsfree_SNA_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3427,9 +4340,10 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # #######################################################
@@ -3446,7 +4360,7 @@ FrameShift    = 128
 # ####################################################################################################
 
 # ***********************************
-[Embedded_0_1]
+[Embedded_NONE_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3501,13 +4415,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_1_1]
+[Embedded_WK_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3562,13 +4477,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_1.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_WK.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_2_1]
+[Embedded_LX_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3623,13 +4539,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_2.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_LX.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_22_1]
+[Embedded_JC_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3684,13 +4601,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_22.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_JC.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_29_1]
+[Embedded_DS_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3745,13 +4663,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_29.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_DS.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_31_1]
+[Embedded_D2_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3806,13 +4725,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_32_1]
+[Embedded_DD_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3867,13 +4787,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_33_1]
+[Embedded_DP_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3928,13 +4849,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_34_1]
+[Embedded_DJ_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -3989,13 +4911,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_35_1]
+[Embedded_WD_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4050,13 +4973,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_35.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_WD.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_39_1]
+[Embedded_DX_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4111,13 +5035,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_DX.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_41_1]
+[Embedded_LD_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4172,13 +5097,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_42_1]
+[Embedded_M156_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4233,13 +5159,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_43_1]
+[Embedded_ZD_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4294,13 +5221,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_43.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_ZD.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_44_1]
+[Embedded_LA_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4355,13 +5283,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_45_1]
+[Embedded_RU_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4416,13 +5345,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_46_1]
+[Embedded_WM_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4477,13 +5407,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_47_1]
+[Embedded_WS_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4538,13 +5469,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_48_1]
+[Embedded_M157_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4599,13 +5531,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_49_1]
+[Embedded_PF_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4660,13 +5593,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_50_1]
+[Embedded_KL_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4721,13 +5655,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_KL.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_80_1]
+[Embedded_UF_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4782,13 +5717,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_81_1]
+[Embedded_UT_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4843,13 +5779,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_81.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_82_1]
+[Embedded_F137_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4904,13 +5841,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_83_1]
+[Embedded_F141_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -4965,13 +5903,386 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Embedded_F142_LHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput1,MicrophoneInput2
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC2D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC2D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Embedded_M139_LHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput1,MicrophoneInput2
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC2D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC2D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Embedded_F149_LHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput1,MicrophoneInput2
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC2D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC2D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Embedded_F151_LHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput1,MicrophoneInput2
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC2D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC2D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Embedded_F152_LHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput1,MicrophoneInput2
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC2D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC2D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Embedded_F150_LHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput1,MicrophoneInput2
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC2D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC2D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # **********  1-microphone config (Fiat) *************************
-[Embedded_253_1]
+[Embedded_Fiat520_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5026,13 +6337,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_253.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default1Mic.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # **********  1-microphone config (Fiat) *************************
-[Embedded_254_1]
+[Embedded_Fiat940_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5087,13 +6399,76 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_254.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Fiat940.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# **********  1-microphone config (Fiat) *************************
+[Embedded_Fiat330_LHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC2D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC2D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Fiat330.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_255_1]
+[Embedded_SNA_LHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5148,9 +6523,10 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ####################################################################################################
@@ -5158,7 +6534,7 @@ FrameShift    = 128
 # ####################################################################################################
 
 # ***********************************
-[Embedded_0_2]
+[Embedded_NONE_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5213,13 +6589,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_1_2]
+[Embedded_WK_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5274,13 +6651,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_1.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_WK.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_2_2]
+[Embedded_LX_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5335,13 +6713,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_2.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_LX.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_22_2]
+[Embedded_JC_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5396,13 +6775,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_22.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_JC.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_29_2]
+[Embedded_DS_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5457,13 +6837,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_29.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_DS.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_31_2]
+[Embedded_D2_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5518,13 +6899,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_32_2]
+[Embedded_DD_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5579,13 +6961,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_33_2]
+[Embedded_DP_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5640,13 +7023,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_34_2]
+[Embedded_DJ_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5701,13 +7085,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_35_2]
+[Embedded_WD_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5762,13 +7147,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_35.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_WD.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_39_2]
+[Embedded_DX_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5823,13 +7209,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_DX.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_41_2]
+[Embedded_LD_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5884,13 +7271,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_42_2]
+[Embedded_M156_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -5945,13 +7333,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_43_2]
+[Embedded_ZD_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -6006,13 +7395,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_43.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_ZD.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_44_2]
+[Embedded_LA_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -6067,13 +7457,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_45_2]
+[Embedded_RU_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -6128,13 +7519,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_46_2]
+[Embedded_WM_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -6189,13 +7581,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_47_2]
+[Embedded_WS_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -6250,13 +7643,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_48_2]
+[Embedded_M157_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -6311,13 +7705,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_49_2]
+[Embedded_PF_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -6372,13 +7767,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_50_2]
+[Embedded_KL_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -6433,13 +7829,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_KL.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_80_2]
+[Embedded_UF_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -6494,13 +7891,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_81_2]
+[Embedded_UT_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -6555,13 +7953,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_81.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_82_2]
+[Embedded_F137_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -6616,13 +8015,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_83_2]
+[Embedded_F141_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -6677,13 +8077,386 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Embedded_F142_RHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput2,MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC2D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC2D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Embedded_M139_RHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput2,MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC2D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC2D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Embedded_F149_RHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput2,MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC2D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC2D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Embedded_F151_RHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput2,MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC2D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC2D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Embedded_F152_RHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput2,MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC2D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC2D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# ***********************************
+[Embedded_F150_RHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 2
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1,PhysicalChannel2
+StreamName             = MicrophoneInput2,MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC2D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC2D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default2.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # **********  1-microphone config (Fiat) *************************
-[Embedded_253_2]
+[Embedded_Fiat520_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -6738,13 +8511,14 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_253.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default1Mic.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # **********  1-microphone config (Fiat) *************************
-[Embedded_254_2]
+[Embedded_Fiat940_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -6799,13 +8573,76 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_254.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Fiat940.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
+
+
+# **********  1-microphone config (Fiat) *************************
+[Embedded_Fiat330_RHD]
+
+<Device = Nuance_Mic#pcmC0D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_DnLnk#pcmC2D0c>
+DeviceType             = Capture
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveInput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 0
+NumberWrittenZerosBlocksAtStartup  = 0
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x0
+
+<Device = Nuance_BT_UpLnk#pcmC2D0p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = MicrophoneOutput1 
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x3
+
+<Device = Nuance_BT_Spkr#pcmC0D1p>
+DeviceType             = Playback
+NumberChannels         = 1
+SampleRate             = 8000
+SamplesPerChannel      = 128
+PhysicalChannelMapping = PhysicalChannel1
+StreamName             = ReceiveOutput1
+NumberGeneratedZeroBlocksAvailableAtStartup = 5
+NumberWrittenZerosBlocksAtStartup  = 2
+MaxNumberBlocksQueueing            = 30
+QueueingBlocksErrorWatermark       = 5
+AudioPlatformSpecificConfiguration = 0x8
+
+<SSE>
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Fiat330.bsd
+SampleRate    = 8000
+FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
-[Embedded_255_2]
+[Embedded_SNA_RHD]
 
 <Device = Nuance_Mic#pcmC0D0c>
 DeviceType             = Capture
@@ -6860,9 +8697,10 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so
 
 
 # ***********************************
@@ -6923,6 +8761,7 @@ QueueingBlocksErrorWatermark       = 5
 AudioPlatformSpecificConfiguration = 0x8
 
 <SSE>
-BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_255.bsd
+BSDFile       = /fs/mmc0/app/share/handsfree/config/cmc_sse_hf_Default.bsd
 SampleRate    = 8000
 FrameShift    = 128
+SharedObjFile = /fs/mmc0/app/lib/handsfree/libsse_int.so

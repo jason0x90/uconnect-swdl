@@ -88,108 +88,132 @@ function install(unit,progress, mountpath)
     end
     printLog(string.format(" System Product matches"))
 
+   local fname= string.format("%s/swdl.iso", os.getenv("USB_STICK") or "/fs/usb0")
+   local FLAGPOS=128
 
-    -- Start full-ISO Authentication
-    local cmd = ""
-    local isoSigFile = "/tmp/isoSigHash"  -- this is the full signed-hash of the full-ISO
-    local isoHashFile = "/tmp/isoHash"    -- this is where we'll have openssl put the verified hash
-    local calcHashFile = "/tmp/calcHash"  -- this is where we'll store our own generated hash
-    local iso_path = string.format("%s/swdl.iso", os.getenv("USB_STICK") or "/fs/usb0")
-
-    -- Step 1: Extract the FULL-ISO signed-hash from the iso (skipping past the digest signature)
-    cmd = "inject -e -i "..iso_path.." -f "..isoSigFile.." -o 64 -s 64"
-    print(cmd)
-    os.execute(cmd)
-
-    -- Step 2: Now extract the original hash from this signature (adapted from loader.lua) 
-    --        (using each public key found in the keysdir, until the first success)
-    local keysdir = "/etc/keys"
-    local key_file = ""
-    local flag = 0
-    if ((lfs.attributes(keysdir)) == nil) then 
-        return false, "Authentication key directory could not be found", STOP_SWDL_CLEAR_UPDATE 
-    end
-    for file in lfs.dir(keysdir) do
-        if (flag == 1) then 
-            break
-        end    
-        if file ~= "." and file ~= ".." then
-            local key_file = keysdir..'/'..file          
-            local attr = lfs.attributes (key_file)
-            assert (type(attr) == "table")
-            if attr.mode == "directory" then
-                print(" directory "..key_file.." not expected at "..keysdir)
-                return false, "Unable to find authentication keys", STOP_SWDL_CLEAR_UPDATE           
+   local f = io.open(fname, "rb")
+   if f then
+      local r, e = f:seek("set", FLAGPOS)
+      if r and (r == FLAGPOS) then
+         local x = f:read(1)
+         if x then
+            if x == "S" then 
+               print("system_module_check: skip ISO integrity check")
             else
-                -- authenticate iso
-                print("key_file "..key_file)
-                cmd = string.format("openssl rsautl -verify -inkey %s -in %s -pubin -out %s >/dev/null 2>/dev/null; echo $?;", 
-                                    key_file, isoSigFile, isoHashFile) 
-                print(cmd)
-                local f = assert (io.popen (cmd, "r"))  
-                for line in f:lines() do
-                    print(line)
-                    if (string.match(line,"^%s*%d") ~= nil) then
-                       local result = tonumber(line)
-                       if (result == 0) then  -- openssl returns status 0 upon success
-                          flag = 1
-                          break
-                       end
-                    end
-                end 
-                f:close()
+               -- Start full-ISO Authentication
+               local cmd = ""
+               local isoSigFile = "/tmp/isoSigHash"  -- this is the full signed-hash of the full-ISO
+               local isoHashFile = "/tmp/isoHash"    -- this is where we'll have openssl put the verified hash
+               local calcHashFile = "/tmp/calcHash"  -- this is where we'll store our own generated hash
+               local iso_path = string.format("%s/swdl.iso", os.getenv("USB_STICK") or "/fs/usb0")
+
+               -- Step 1: Extract the FULL-ISO signed-hash from the iso (skipping past the digest signature)
+               cmd = "inject -e -i "..iso_path.." -f "..isoSigFile.." -o 64 -s 64"
+               print(cmd)
+               os.execute(cmd)
+
+               -- Step 2: Now extract the original hash from this signature (adapted from loader.lua) 
+               --        (using each public key found in the keysdir, until the first success)
+               local keysdir = "/etc/keys"
+               local key_file = ""
+               local flag = 0
+               if ((lfs.attributes(keysdir)) == nil) then 
+                 return false, "Authentication key directory could not be found", STOP_SWDL_CLEAR_UPDATE 
+               end
+               for file in lfs.dir(keysdir) do
+                 if (flag == 1) then 
+                     break
+                 end    
+                 if file ~= "." and file ~= ".." then
+                     local key_file = keysdir..'/'..file          
+                     local attr = lfs.attributes (key_file)
+                     assert (type(attr) == "table")
+                     if attr.mode == "directory" then
+                         print(" directory "..key_file.." not expected at "..keysdir)
+                         return false, "Unable to find authentication keys", STOP_SWDL_CLEAR_UPDATE           
+                     else
+                         -- authenticate iso
+                         print("key_file "..key_file)
+                         cmd = string.format("openssl rsautl -verify -inkey %s -in %s -pubin -out %s >/dev/null 2>/dev/null; echo $?;", 
+                                             key_file, isoSigFile, isoHashFile) 
+                         print(cmd)
+                         local f = assert (io.popen (cmd, "r"))  
+                         for line in f:lines() do
+                             print(line)
+                             if (string.match(line,"^%s*%d") ~= nil) then
+                                local result = tonumber(line)
+                                if (result == 0) then  -- openssl returns status 0 upon success
+                                   flag = 1
+                                   break
+                                end
+                             end
+                         end 
+                         f:close()
+                     end
+                 end
+               end     
+               if (flag ~= 1) then
+                 return false, "Failed to authenticate ISO signature", STOP_SWDL_CLEAR_UPDATE
+               end
+
+               -- Step 3: Calculate our own FULL-ISO hash w/hashFile utility (skips first 32 KB; and provides progress output)
+               cmd = "hashFile "..unit.iso_full_hash_type.." "..iso_path.." "..calcHashFile.." 32768"
+               print(cmd)
+               local f, error = io.popen (cmd, "r")
+               if (f == nil) or (error ~= nil) then
+                print(string.format("ERROR: could not execute cmd:[%s], error:[%s]", cmd, error))
+                return false, "ISO Authentication utility could not be run", STOP_SWDL_CLEAR_UPDATE
+               end
+               for line in f:lines() do
+                 --print(line)
+                 if (string.match(line,"^%s*%d") ~= nil) then
+                     local pcnt = tonumber(line)
+                     if (pcnt and pcnt ~= 0) then
+                         percent = pcnt
+                         progress(unit, percent)
+                     end
+                 end
+                 -- if case of error
+                 if ( string.match(string.upper(line), "^%s*ERROR" ) ~= nil) then
+                     printLog(line,"\nISO Authentication error")
+                     return false, "ISO Authentication error", STOP_SWDL_CLEAR_UPDATE
+                 end
+               end
+               f:close()
+
+               -- Step 4: Compare the ISO-verified and calculated hashes; if the same, then PASS, otherwise fail
+               cmd = "cmp -s "..isoHashFile.." "..calcHashFile.." ; echo $?;"
+               print(cmd)
+               local f, error = io.popen (cmd, "r")
+               if (f == nil) or (error ~= nil) then
+                 print(string.format("ERROR: could not execute cmd:[%s], error:[%s]", cmd, error))
+                 return false, "ISO Authentication cmp could not be run", STOP_SWDL_CLEAR_UPDATE
+               end
+               for line in f:lines() do
+                 --print(line)
+                 if (string.match(line,"^%s*%d") ~= nil) then
+                     local result = tonumber(line)
+                     if (result ~= 0) then
+                         return false, "ISO Authentication failed", STOP_SWDL_CLEAR_UPDATE
+                     end
+                 end
+               end
+               f:close()
             end
-        end
-    end     
-    if (flag ~= 1) then
-        return false, "Failed to authenticate ISO signature", STOP_SWDL_CLEAR_UPDATE
-    end
+         else
+             io.output(stderr):write("system_module_check: Error - Unable to read byte")
+         end
+      else
+         io.output(stderr):write("system_module_check: Error - Unable to seek to byte")
+         io.output(stderr):write(e)
+      end
+
+      f:close()
+   else
+      io.output(stderr):write("system_module_check: Error - Unable to open ISO for read")
+   end
     
-    -- Step 3: Calculate our own FULL-ISO hash w/hashFile utility (skips first 32 KB; and provides progress output)
-    cmd = "hashFile "..unit.iso_full_hash_type.." "..iso_path.." "..calcHashFile.." 32768"
-    print(cmd)
-    local f, error = io.popen (cmd, "r")
-    if (f == nil) or (error ~= nil) then
-       print(string.format("ERROR: could not execute cmd:[%s], error:[%s]", cmd, error))
-       return false, "ISO Authentication utility could not be run", STOP_SWDL_CLEAR_UPDATE
-    end
-    for line in f:lines() do
-        --print(line)
-        if (string.match(line,"^%s*%d") ~= nil) then
-            local pcnt = tonumber(line)
-            if (pcnt and pcnt ~= 0) then
-                percent = pcnt
-                progress(unit, percent)
-            end
-        end
-        -- if case of error
-        if ( string.match(string.upper(line), "^%s*ERROR" ) ~= nil) then
-            printLog(line,"\nISO Authentication error")
-            return false, "ISO Authentication error", STOP_SWDL_CLEAR_UPDATE
-        end
-    end
-    f:close()
-   
-    -- Step 4: Compare the ISO-verified and calculated hashes; if the same, then PASS, otherwise fail
-    cmd = "cmp -s "..isoHashFile.." "..calcHashFile.." ; echo $?;"
-    print(cmd)
-    local f, error = io.popen (cmd, "r")
-    if (f == nil) or (error ~= nil) then
-        print(string.format("ERROR: could not execute cmd:[%s], error:[%s]", cmd, error))
-        return false, "ISO Authentication cmp could not be run", STOP_SWDL_CLEAR_UPDATE
-    end
-    for line in f:lines() do
-        --print(line)
-        if (string.match(line,"^%s*%d") ~= nil) then
-            local result = tonumber(line)
-            if (result ~= 0) then
-                return false, "ISO Authentication failed", STOP_SWDL_CLEAR_UPDATE
-            end
-        end
-    end
-    f:close()
-   
-    progress(unit, 100)
+   progress(unit, 100)
     
-    return true
+   return true
 end

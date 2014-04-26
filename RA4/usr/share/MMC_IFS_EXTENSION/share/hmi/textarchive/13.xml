@@ -1107,14 +1107,14 @@
 <text id="0x0000ceda" string="“服务模式”不可用。&#xA;车辆必须处于驻车档或空档。"/>
 <text id="0x0000ceef" string="Error: Text Message 12 selected."/>
 <text id="0x0000cf04" string="To exit Service Mode, vehicle must not be in motion"/>
-<text id="0x0000cf19" string="Error: Text Message 14 selected."/>
+<text id="0x0000cf19" string="To exit Service Mode, vehicle must be in Park or Neutral"/>
 <text id="0x0000cf2e" string="踩下制动踏板并启用手刹，以退出“服务模式”。"/>
 <text id="0x0000cf43" string="Error: Text Message 16 selected."/>
 <text id="0x0000cf58" string="Error: Text Message 17 selected."/>
 <text id="0x0000cf6d" string="Error: Text Message 18 selected."/>
 <text id="0x0000cf82" string="Error: Text Message 19 selected."/>
 <text id="0x0000cf97" string="手刹已缩回。&#xA;要复位，请踩下刹车踏板并启用手刹开关。"/>
-<text id="0x0000cfac" string="手刹复位。&#xA;制动服务退出完成。"/>
+<text id="0x0000cfac" string="Brake service exit complete. Park Brake Reset"/>
 <text id="0x0000cfc1" string="Error: Text Message 22 selected."/>
 <text id="0x0000cfd6" string="Error: Text Message 23 selected."/>
 <text id="0x0000cfeb" string="Error: Text Message 24 selected."/>
@@ -1145,8 +1145,8 @@
 <text id="0x0000d777" string="通话时间:"/>
 <text id="0x0000d78c" string="错误：&#xA;检测到多个 USB 设备。 请移除所有设备，然后仅插入更新设备。"/>
 <text id="0x0000d888" string="后ParkSense雷达泊车制动辅助"/>
-<text id="0x0000d89d" string=""/>
-<text id="0x0000d8b2" string=""/>
+<text id="0x0000d89d" string="全部"/>
+<text id="0x0000d8b2" string="远程"/>
 <text id="0x0000d8c7" string=""/>
 <text id="0x0000d8dc" string=""/>
 <text id="0x0000d8f1" string=""/>
@@ -1202,7 +1202,7 @@
 <text id="0x0000e88a" string="禁用"/>
 <text id="0x0000e89f" string=""/>
 <text id="0x0000e9b0" string=""/>
-<text id="0x0000e9c5" string=""/>
+<text id="0x0000e9c5" string="输入邮编"/>
 <text id="0x0000e9da" string=""/>
 <text id="0x0000e9ef" string="常见的语音命令"/>
 <text id="0x0000ea04" string="'调至 %cFM / AM &lt;频率>%c"/>
@@ -1267,9 +1267,453 @@
 <text id="0x0000f63f" string="遥控降低时喇叭鸣响"/>
 <text id="0x0000f711" string="Activate&#xA;Launch Control"/>
 <text id="0x0000f726" string="Active&#xA;Launch Mode"/>
-<text id="0x0000f73b" string="The black key is currently in use,&#xA;disabling access to the maximum &#xA;engine power level.  To enable access&#xA;to the maximum engine power level,&#xA;please use the red key."/>
-<text id="0x0000f77a" string="白天显示屏亮度"/>
-<text id="0x0000f78f" string="夜晚显示屏亮度"/>
+<text id="0x0000f73b" string="The black key is currently&#xA;in use, disabling access to&#xA;the maximum engine power level.  To enable&#xA;access to the maximum&#xA;engine power level,&#xA;please use the red key."/>
+<text id="0x0000f750" string="Cancel&#xA;Launch Control"/>
+<text id="0x0000f765" string="Cancel&#xA;Launch Mode"/>
+<text id="0x0000f77a" string="Current Mode:"/>
+<text id="0x0000f78f" string="%s&#xA;Mode Set-Up"/>
+<text id="0x0000f7a4" string="%s&#xA;Mode&#xA;Set-Up"/>
+<text id="0x0000f80d" string=""/>
+<text id="0x0000f876" string="Always drive safely and obey all traffic and other laws when operating the vehicle.&#xA;&#xA;You have full responsibility and assume all risks related to the use of the features and applications in this vehicle.&#xA;Only use them when it is safe to do so."/>
+<text id="0x0000f88b" string="重要"/>
+<text id="0x0000f8a0" string="Engine/Transmission:"/>
+<text id="0x0000f8b5" string="5th-8th"/>
+<text id="0x0000f8ca" string="1st"/>
+<text id="0x0000f8df" string="4th"/>
+<text id="0x0000f8f4" string="Gear"/>
+<text id="0x0000f909" string="Horsepower:"/>
+<text id="0x0000f91e" string="700 HP: Modifies the horsepower output of the engine to 700&#xA;&#xA;&#xA;500 HP: Modifies the horsepower output of the engine to 500"/>
+<text id="0x0000f933" string="follow instructions in&#xA;cluster to launch"/>
+<text id="0x0000f948" string="Launch&#xA;Control"/>
+<text id="0x0000f95d" string="Launch Control"/>
+<text id="0x0000f972" string="LAUNCH MODE ACTIVATED"/>
+<text id="0x0000f987" string="Launch RPM Set-Up Info"/>
+<text id="0x0000f99c" string="RPM Set-Up can help you&#xA;achieve an optimum&#xA;balance of engine torque&#xA;and tire spin when&#xA;launching."/>
+<text id="0x0000f9b1" string="RPM should be&#xA;increased to account for&#xA;better-gripping tires or&#xA;track surfaces."/>
+<text id="0x0000f9c6" string="Launch RPM Set-Up"/>
+<text id="0x0000f9db" string="Launch&#xA;RPM Set-Up"/>
+<text id="0x0000f9f0" string="Level unavailable in %s Mode.  Select %s Mode to change level."/>
+<text id="0x0000fa05" string="Shift Light shows inside cluster "/>
+<text id="0x0000fa2f" string="Function not available&#xA;while vehicle is in motion"/>
+<text id="0x0000fa44" string="Mode Set-Up not available&#xA;while vehicle is in motion"/>
+<text id="0x0000fa59" string="Paddle Shift:"/>
+<text id="0x0000fa6e" string="Paddle Shifters:"/>
+<text id="0x0000fa83" string="ON: Enable steering wheel paddle shifters&#xA;&#xA;&#xA;OFF: Disable steering wheel paddle shifters"/>
+<text id="0x0000fa98" string="Paddles"/>
+<text id="0x0000faad" string="Pages"/>
+<text id="0x0000fac2" string="Assist Call"/>
+<text id="0x0000fad7" string="Assist call not available when&#xA;mobile phone is in use.&#xA;&#xA;Would you like to transfer your call&#xA;to your phone and start Assist?"/>
+<text id="0x0000faec" string="Performance Control"/>
+<text id="0x0000fb01" string="Performance Pages"/>
+<text id="0x0000fb16" string="Power"/>
+<text id="0x0000fb2b" string="Race Options"/>
+<text id="0x0000fb40" string="A shift light informs the driver of when an up-shift should occur, based on engine RPM.&#xA;&#xA;In track-racing scenarios, an ideal up-shift occurs just before the power curve starts to decline.&#xA;&#xA;RPM values should be decreased if the shift light is nor providing you with enough reaction time to perform an ideal up-shift."/>
+<text id="0x0000fb55" string="The red key is currently&#xA;in use, enabling access to&#xA;the maximum engine&#xA;power level.  To disable&#xA;access to the maximum&#xA;engine power level,&#xA;please use the black key."/>
+<text id="0x0000fb6a" string="Reset&#xA;to&#xA;factory&#xA;default"/>
+<text id="0x0000fb7f" string="2nd"/>
+<text id="0x0000fb94" string="Steering"/>
+<text id="0x0000fba9" string="Paddle Shifters"/>
+<text id="0x0000fbbe" string="Horsepower"/>
+<text id="0x0000fbd3" string="Suspension"/>
+<text id="0x0000fbe8" string="Traction"/>
+<text id="0x0000fbfd" string="Transmission"/>
+<text id="0x0000fc12" string="Shift&#xA;Light"/>
+<text id="0x0000fc7b" string="Turn on Shift Light to use&#xA;Shift Light RPM Set-Up"/>
+<text id="0x0000fc90" string="Shift Light&#xA;Off"/>
+<text id="0x0000fca5" string="Shift Light&#xA;On"/>
+<text id="0x0000fd0e" string="Shift Light RPM Set-Up Info"/>
+<text id="0x0000fd23" string="Shift Light&#xA;RPM Set-Up"/>
+<text id="0x0000fd38" string="Shift Light RPM Set-Up"/>
+<text id="0x0000fd4d" string="Ignition must be in RUN&#xA;position to use %s Modes"/>
+<text id="0x0000fd62" string="Steering:"/>
+<text id="0x0000fd77" string="%s: Fastest possible shift speeds, strongest comfort trade-off&#xA;&#xA;%s: Firmer suspension, speeds, some comfort trade-off&#xA;&#xA;%s: Balance of shift speed and shift comfort"/>
+<text id="0x0000fd8c" string="Susp"/>
+<text id="0x0000fda1" string="Suspension:"/>
+<text id="0x0000fdb6" string="%s: Firmest possible suspension, strongest comfort trade-off&#xA;&#xA;%s: Firmer suspension, some comfort trade-off&#xA;&#xA;%s: Balance of suspension firmness and ride comfort"/>
+<text id="0x0000fdcb" string="3rd"/>
+<text id="0x0000fde0" string="Traction:"/>
+<text id="0x0000fdf5" string="%s: Minimal traction control, minimal stability control&#xA;&#xA;%s: Reduced traction control, reduced stability control&#xA;&#xA;%s: Full traction control, full stability control"/>
+<text id="0x0000fe0a" string="Trans"/>
+<text id="0x0000fe1f" string="Transmission:"/>
+<text id="0x0000fe34" string="Valet"/>
+<text id="0x0000fe49" string="Power cannot&#xA;change while&#xA;foot on gas"/>
+<text id="0x0000fe5e" string="Power cannot change&#xA;while in motion"/>
+<text id="0x0000fe73" string="Power cannot&#xA;change while in&#xA;motion"/>
+<text id="0x0000fe88" string="Power cannot change while foot on gas"/>
+<text id="0x0000fe9d" string="Re-select current&#xA;mode to refresh&#xA;power"/>
+<text id="0x0000feb2" string="Re-select current mode to refresh power"/>
+<text id="0x0000fec7" string="Mode currently&#xA;unable to change"/>
+<text id="0x0000fedc" string="Re-select current mode to refresh power"/>
+<text id="0x0000fef1" string="Level currently unable to change"/>
+<text id="0x0000ff5a" string="正常"/>
+<text id="0x0000ff6f" string="运动"/>
+<text id="0x0000ff84" string="Comfort"/>
+<text id="0x0000ff99" string="Power Steering"/>
+<text id="0x0000ffae" string="夜晚显示屏亮度"/>
+<text id="0x0000ffc3" string="白天显示屏亮度"/>
+<text id="0x0001002c" string="Say things like:"/>
+<text id="0x00010041" string="Highway Mode"/>
+<text id="0x0000045e" string="AF"/>
+<text id="0x000004b2" string="DAB"/>
+<text id="0x000072c8" string="DAB"/>
+<text id="0x00004e71" string="DAB 调谐器固件"/>
+<text id="0x0000524c" string="启用 TA 模型"/>
+<text id="0x000029c6" string="打开"/>
+<text id="0x000029db" string="关闭"/>
+<text id="0x000029b1" string="区域"/>
+<text id="0x000029f0" string="选择 AF"/>
+<text id="0x00007e98" string="使用备用频率"/>
+<text id="0x00007f2b" string=""/>
+<text id="0x00007f40" string=""/>
+<text id="0x00007ead" string="使用区域限定"/>
+<text id="0x000072f2" string=""/>
+<text id="0x00007307" string=""/>
+<text id="0x0000731c" string=""/>
+<text id="0x000073af" string=""/>
+<text id="0x0000dafe" string=""/>
+<text id="0x0000db13" string=""/>
+<text id="0x0000db28" string=""/>
+<text id="0x0000db3d" string=""/>
+<text id="0x0000db52" string=""/>
+<text id="0x0000db67" string=""/>
+<text id="0x0000db7c" string=""/>
+<text id="0x0000db91" string=""/>
+<text id="0x0000dba6" string=""/>
+<text id="0x0000dbbb" string=""/>
+<text id="0x0000dbd0" string=""/>
+<text id="0x0000dbe5" string=""/>
+<text id="0x0000dbfa" string=""/>
+<text id="0x0000dc0f" string=""/>
+<text id="0x0000dc24" string=""/>
+<text id="0x0000dc39" string=""/>
+<text id="0x00003a6d" string="Wi-Fi 连接"/>
+<text id="0x00003a97" string="Wi-Fi 热点"/>
+<text id="0x00003b69" string="Wi-Fi 热点关闭"/>
+<text id="0x00003b7e" string="Wi-Fi 热点开启"/>
+<text id="0x00003cce" string="Wi-Fi 网络"/>
+<text id="0x00003e5d" string="正在进行 Wi-Fi 连接。"/>
+<text id="0x00005165" string="Wi-Fi AP 测试模型"/>
+<text id="0x00005762" string="Wi-Fi 连接经由 Wi-Fi 网络将车辆与互联网连接。"/>
+<text id="0x0000578c" string="Wi-Fi 热点与 Wi-Fi 设备共享了内置连接。 此功能要求订购。 访问 %s"/>
+<text id="0x000058f1" string="Wi-Fi 热点要求内置连接。"/>
+<text id="0x00005c8d" string="Wi-Fi"/>
+<text id="0x00005df2" string="Wi-Fi 连接成功:"/>
+<text id="0x00005e07" string="Wi-Fi 连接失败:"/>
+<text id="0x000073c4" string=""/>
+<text id="0x00007e1a" string=""/>
+<text id="0x00007e2f" string=""/>
+<text id="0x00003b54" string="查看已连接的设备"/>
+<text id="0x00003c3b" string="查看/编辑密码"/>
+<text id="0x00003dca" string="查看已连接的设备"/>
+<text id="0x00003ec6" string="查看/编辑通行码"/>
+<text id="0x0000202d" string="请验证传送键： %s"/>
+<text id="0x00003932" string="应用"/>
+<text id="0x00003947" string="应用"/>
+<text id="0x00007736" string=""/>
+<text id="0x0000774b" string=""/>
+<text id="0x00007760" string=""/>
+<text id="0x00007775" string=""/>
+<text id="0x0000778a" string=""/>
+<text id="0x0000779f" string=""/>
+<text id="0x000077b4" string=""/>
+<text id="0x000077c9" string=""/>
+<text id="0x000077de" string=""/>
+<text id="0x000081cb" string=""/>
+<text id="0x000057f5" string="收藏此网络吗？"/>
+<text id="0x00003c65" string="可用网络"/>
+<text id="0x00003a58" string="内置连接"/>
+<text id="0x0000574d" string="内置连接将车辆连接到互联网。 该连接要求订购。 访问 %s 管理您的订购。"/>
+<text id="0x00003cf8" string="无法添加网络。"/>
+<text id="0x00003d0d" string="字符"/>
+<text id="0x00003ad6" string="连接内置连接"/>
+<text id="0x00003aeb" string="连接 Wi-Fi 连接"/>
+<text id="0x00003b00" string="连接蓝牙连接"/>
+<text id="0x00003b15" string="连接 Wi-Fi 热点"/>
+<text id="0x00003b2a" string="连接通过"/>
+<text id="0x00005906" string="连接到内置连接"/>
+<text id="0x00000fb0" string="连接性"/>
+<text id="0x00003a19" string="连接性"/>
+<text id="0x000050fc" string="优先连接"/>
+<text id="0x00005e1c" string="删除网络"/>
+<text id="0x00003ce3" string="删除 Wi-Fi 网络吗?"/>
+<text id="0x0000595a" string="删除未用过的网络并且再试一次。"/>
+<text id="0x00003b3f" string="%s 设备连接到热点"/>
+<text id="0x00003bd2" string="禁用数据连接"/>
+<text id="0x000056f9" string="启用内置连接"/>
+<text id="0x0000570e" string="启用 Wi-Fi 连接"/>
+<text id="0x00005738" string="启用 Wi-Fi 热点"/>
+<text id="0x00008090" string=""/>
+<text id="0x000080a5" string=""/>
+<text id="0x000080ba" string=""/>
+<text id="0x000080cf" string=""/>
+<text id="0x000080e4" string=""/>
+<text id="0x000044ed" string="收藏的目的地"/>
+<text id="0x00005945" string="收藏的网络列表已满。"/>
+<text id="0x00003c7a" string="收藏的网络"/>
+<text id="0x00003cb9" string="热点名称"/>
+<text id="0x00003eb1" string="热点"/>
+<text id="0x0000591b" string="由于配件的更改导致禁用 Wi-Fi 热点。"/>
+<text id="0x00005930" string="一旦配置更改完成，您将需要手动启动热点。"/>
+<text id="0x00005c78" string="热点通行码"/>
+<text id="0x00005069" string="管理 Xlets"/>
+<text id="0x00003ca4" string="网络名称"/>
+<text id="0x00005c63" string="通行码"/>
+<text id="0x00007fbe" string=""/>
+<text id="0x00007f16" string=""/>
+<text id="0x00007fa9" string="请将此与蓝牙设备中显示的数字相比较"/>
+<text id="0x000074c0" string=""/>
+<text id="0x000039b0" string="正在运行"/>
+<text id="0x0000596f" string="搜索可用的 Wi-Fi 网络。"/>
+<text id="0x00003db5" string="设置 Wi-Fi 热点"/>
+<text id="0x00008480" string=""/>
+<text id="0x00008417" string=""/>
+<text id="0x00009cf2" string=""/>
+<text id="0x00009d07" string=""/>
+<text id="0x00009d1c" string=""/>
+<text id="0x0000d7a1" string="Added to Favorite Apps"/>
+<text id="0x0000d7b6" string="There was an error in running the app.&#xA;Please try again later."/>
+<text id="0x0000d7cb" string="Welcome to Uconnect Access&#xA;&#xA;To enjoy full benefits,&#xA;please press start to begin."/>
+<text id="0x0000d7e0" string="Remove %s from Favorite Apps?"/>
+<text id="0x0000d7f5" string="Resource Limit Reached"/>
+<text id="0x0000d80a" string="Please close a running app and try again."/>
+<text id="0x0000d81f" string="There are too many apps currently running, please close a running app and try again."/>
+<text id="0x0000d834" string="Go to Running Apps"/>
+<text id="0x0000dccc" string=""/>
+<text id="0x0000dce1" string=""/>
+<text id="0x0000dd0b" string=""/>
+<text id="0x0000e431" string=""/>
+<text id="0x0000e446" string=""/>
+<text id="0x0000e45b" string=""/>
+<text id="0x0000e470" string=""/>
+<text id="0x0000c30d" string="输入行政区"/>
+<text id="0x0000c30e" string="输入行政区"/>
+<text id="0x0000c30f" string="拼写城市或行政区"/>
+<text id="0x0000ba97" string="DMB"/>
+<text id="0x0000baac" string="DMB 频道列表"/>
+<text id="0x0000bac1" string="所有"/>
+<text id="0x0000bad6" string="所有频道"/>
+<text id="0x0000baeb" string="刷新设置"/>
+<text id="0x0000bb00" string="刷新列表"/>
+<text id="0x0000bb15" string="刷新所有频道"/>
+<text id="0x0000bb2a" string="仅刷新汉城和京畿道频道"/>
+<text id="0x0000bb3f" string="仅刷新忠清道频道"/>
+<text id="0x0000bb54" string="仅刷新全罗道频道"/>
+<text id="0x0000bb69" string="仅刷新庆尚北道频道"/>
+<text id="0x0000bb7e" string="仅刷新庆尚南道频道"/>
+<text id="0x0000bb93" string="仅刷新江原道频道"/>
+<text id="0x0000bba8" string="仅刷新济州道频道"/>
+<text id="0x0000bbbd" string="当前电台列表将被清除。&#xA;您是否希望继续？"/>
+<text id="0x0000bbd2" string="地址"/>
+<text id="0x0000bbe7" string="输入地址"/>
+<text id="0x0000bbfc" string="新风格"/>
+<text id="0x0000bc11" string="老风格"/>
+<text id="0x0000bc26" string="公寓名称"/>
+<text id="0x0000bc3b" string="门牌号"/>
+<text id="0x0000bc50" string=""/>
+<text id="0x0000bc65" string="拼写城市/行政区/县"/>
+<text id="0x0000bc7a" string="省 / 主要城市"/>
+<text id="0x0000bc8f" string="输入省/主要城市"/>
+<text id="0x0000bca4" string="选择省/主要城市"/>
+<text id="0x0000bcb9" string="输入城市/行政区/县"/>
+<text id="0x0000bcce" string="选择城市/行政区/县"/>
+<text id="0x0000bce3" string="输入街道"/>
+<text id="0x0000bcf8" string="选择街道"/>
+<text id="0x0000bd0d" string="RTM 事件"/>
+<text id="0x0000bd22" string="CTT 速度和流量"/>
+<text id="0x0000bd37" string=""/>
+<text id="0x0000bd4c" string="流量 (RTM)"/>
+<text id="0x0000bd61" string="上一页"/>
+<text id="0x0000bd76" string="信息"/>
+<text id="0x0000bd8b" string="CTT 总计"/>
+<text id="0x0000bda0" string="添加收藏项"/>
+<text id="0x0000bdb5" string="CTT 收藏项汇总"/>
+<text id="0x0000bdca" string="向上移动"/>
+<text id="0x0000bddf" string="向下移动"/>
+<text id="0x0000bdf4" string="确定要删除此收藏项？"/>
+<text id="0x0000be09" string="TPEG POI"/>
+<text id="0x0000be1e" string="所有类别"/>
+<text id="0x0000be33" string="类别"/>
+<text id="0x0000be48" string="电话"/>
+<text id="0x0000be5d" string="地址"/>
+<text id="0x0000be72" string="说明"/>
+<text id="0x0000be87" string="在地图上显示"/>
+<text id="0x0000be9c" string="上一页"/>
+<text id="0x0000c697" string=""/>
+<text id="0x0000c6ac" string=""/>
+<text id="0x0000c6c1" string=""/>
+<text id="0x0000c6d6" string=""/>
+<text id="0x0000c6eb" string=""/>
+<text id="0x0000c700" string=""/>
+<text id="0x0000c826" string=""/>
+<text id="0x0000c83b" string=""/>
+<text id="0x0000c850" string=""/>
+<text id="0x0000c865" string=""/>
+<text id="0x0000c87a" string=""/>
+<text id="0x0000c88f" string=""/>
+<text id="0x0000c8a4" string=""/>
+<text id="0x0000c8b9" string=""/>
+<text id="0x0000c8ce" string=""/>
+<text id="0x0000c8e3" string=""/>
+<text id="0x0000c8f8" string=""/>
+<text id="0x0000c90d" string=""/>
+<text id="0x0000c922" string=""/>
+<text id="0x0000c937" string=""/>
+<text id="0x0000c94c" string=""/>
+<text id="0x0000c961" string=""/>
+<text id="0x0000c976" string=""/>
+<text id="0x0000cbe6" string=""/>
+<text id="0x0000cbfb" string=""/>
+<text id="0x0000cc10" string=""/>
+<text id="0x0000cc25" string=""/>
+<text id="0x0000cc3a" string=""/>
+<text id="0x0000cc4f" string=""/>
+<text id="0x0000cc64" string=""/>
+<text id="0x0000d28b" string="地图信息"/>
+<text id="0x0000d2a0" string="地图供应商"/>
+<text id="0x0000d2b5" string="出版社"/>
+<text id="0x0000d2ca" string="出版号"/>
+<text id="0x0000d2df" string="审图号"/>
+<text id="0x0000d2f4" string="出版日期"/>
+<text id="0x0000d372" string="最大 A/C"/>
+<text id="0x0000d405" string="自动"/>
+<text id="0x0000d41a" string=""/>
+<text id="0x0000d42f" string=""/>
+<text id="0x0000d444" string=""/>
+<text id="0x0000d459" string=""/>
+<text id="0x0000d46e" string=""/>
+<text id="0x0000d483" string=""/>
+<text id="0x0000d498" string=""/>
+<text id="0x0000d4ad" string=""/>
+<text id="0x0000d4c2" string=""/>
+<text id="0x0000d4d7" string=""/>
+<text id="0x0000d4ec" string=""/>
+<text id="0x0000d501" string=""/>
+<text id="0x0000d516" string=""/>
+<text id="0x0000d52b" string=""/>
+<text id="0x0000d540" string=""/>
+<text id="0x0000d555" string=""/>
+<text id="0x0000d56a" string=""/>
+<text id="0x0000d57f" string=""/>
+<text id="0x0000d594" string=""/>
+<text id="0x0000d5a9" string=""/>
+<text id="0x0000d5be" string=""/>
+<text id="0x0000d5d3" string=""/>
+<text id="0x0000d5e8" string=""/>
+<text id="0x0000d5fd" string="时间"/>
+<text id="0x0000d612" string=""/>
+<text id="0x0000d627" string=""/>
+<text id="0x0000d63c" string=""/>
+<text id="0x0000d651" string=""/>
+<text id="0x0000d738" string="2D视图"/>
+<text id="0x0000d74d" string="3D视图"/>
+<text id="0x0000d762" string="未能找到匹配的地址"/>
+<text id="0x0000d849" string=""/>
+<text id="0x0000d85e" string=""/>
+<text id="0x0000d873" string=""/>
+<text id="0x0000d999" string=""/>
+<text id="0x0000d9ae" string=""/>
+<text id="0x0000d9c3" string=""/>
+<text id="0x0000dabf" string=""/>
+<text id="0x0000dad4" string=""/>
+<text id="0x0000dae9" string=""/>
+<text id="0x0000e41c" string=""/>
+<text id="0x0000e4af" string=""/>
+<text id="0x0000e4c4" string=""/>
+<text id="0x0000e6bc" string="空气悬架"/>
+<text id="0x0000e779" string=""/>
+<text id="0x0000e78e" string=""/>
+<text id="0x0000e7a3" string=""/>
+<text id="0x0000e7b8" string=""/>
+<text id="0x0000e7cd" string=""/>
+<text id="0x0000e7e2" string=""/>
+<text id="0x0000e7f7" string=""/>
+<text id="0x0000e80c" string=""/>
+<text id="0x0000e821" string=""/>
+<text id="0x0000e836" string=""/>
+<text id="0x0000e84b" string=""/>
+<text id="0x0000e860" string=""/>
+<text id="0x0000e875" string=""/>
+<text id="0x0000e8b4" string="选择行政区"/>
+<text id="0x0000ec13" string=""/>
+<text id="0x0000ec28" string=""/>
+<text id="0x0000f5ac" string="路径信息"/>
+<text id="0x0000f5c1" string="避让前"/>
+<text id="0x0000f600" string="避让后"/>
+<text id="0x0000f6d2" string="事件列表"/>
+<text id="0x0000cca3" string="添加设备"/>
+<text id="0x0000ccb8" string="更改 PIN"/>
+<text id="0x0000cccd" string="始终遵守交通法规并且注意路段。&#xA;车辆在运行时某些功能受限。&#xA;请阅读用户手册以获取完整信息。"/>
+<text id="0x0000de9d" string=""/>
+<text id="0x0000deb2" string="有声读物"/>
+<text id="0x0000dec7" string=""/>
+<text id="0x0000dedc" string="信息"/>
+<text id="0x0000def1" string=""/>
+<text id="0x0000df06" string=""/>
+<text id="0x0000df1b" string=""/>
+<text id="0x0000df30" string=""/>
+<text id="0x0000df45" string=""/>
+<text id="0x0000df5a" string=""/>
+<text id="0x0000df6f" string=""/>
+<text id="0x0000df84" string=""/>
+<text id="0x0000df99" string=""/>
+<text id="0x0000dfae" string=""/>
+<text id="0x0000dfc3" string=""/>
+<text id="0x0000dfd8" string=""/>
+<text id="0x0000dfed" string=""/>
+<text id="0x0000e002" string=""/>
+<text id="0x0000e017" string=""/>
+<text id="0x0000e02c" string=""/>
+<text id="0x0000e041" string=""/>
+<text id="0x0000e056" string=""/>
+<text id="0x0000e06b" string=""/>
+<text id="0x0000e080" string=""/>
+<text id="0x0000e2e1" string=""/>
+<text id="0x0000e2f6" string=""/>
+<text id="0x0000e30b" string=""/>
+<text id="0x0000e320" string=""/>
+<text id="0x0000e335" string=""/>
+<text id="0x0000e34a" string=""/>
+<text id="0x0000e35f" string=""/>
+<text id="0x0000e374" string=""/>
+<text id="0x0000dc63" string=""/>
+<text id="0x0000dc78" string=""/>
+<text id="0x0000dc4e" string=""/>
+<text id="0x0000e5c0" string="Restore Settings Defaults"/>
+<text id="0x0000e5d5" string="Are you sure you want to reset your settings to default?"/>
+<text id="0x0000e5ea" string="Settings restored to default."/>
+<text id="0x0000e6d1" string="Settings reset to default."/>
+<text id="0x0000e63e" string="Clear Personal Data"/>
+<text id="0x0000e653" string="Are you sure you want to clear all personal data?"/>
+<text id="0x0000e668" string="Personal data cleared."/>
+<text id="0x0000e725" string=""/>
+<text id="0x0000e932" string=""/>
+<text id="0x0000e971" string=""/>
+<text id="0x0000eb3f" string=""/>
+<text id="0x0000ebd2" string=""/>
+<text id="0x0000ed78" string=""/>
+<text id="0x0000edb7" string=""/>
+<text id="0x0000ee0b" string=""/>
+<text id="0x0000ee20" string=""/>
+<text id="0x0000ee35" string=""/>
+<text id="0x0000ee4a" string=""/>
+<text id="0x0000ee89" string=""/>
+<text id="0x0000ee9e" string=""/>
+<text id="0x0000eedd" string=""/>
+<text id="0x0000ef1c" string=""/>
+<text id="0x0000ef31" string=""/>
+<text id="0x0000ef70" string=""/>
+<text id="0x0000ef85" string=""/>
+<text id="0x0000ef9a" string=""/>
+<text id="0x0000efaf" string=""/>
+<text id="0x0000efc4" string=""/>
+<text id="0x0000efd9" string=""/>
+<text id="0x0000f114" string="按住以设置"/>
+<text id="0x0000f129" string="导航音量调整"/>
+<text id="0x0000f558" string=""/>
+<text id="0x0000f67e" string=""/>
+<text id="0x0000f693" string=""/>
+<text id="0x0000e8c9" string="交通"/>
+<text id="0x0000e8de" string=""/>
 <text id="0x00007832" string="mph"/>
 <text id="0x00000323" string="整理您的音乐文档以优化音乐导航"/>
 <text id="0x00005ed9" string="回答“显示配对音频源”或“显示配对电话”"/>
@@ -1942,365 +2386,4 @@
 <text id="0x0000d723" string=""/>
 <text id="0x0000da6b" string=""/>
 <text id="0x0000da80" string=""/>
-<text id="0x0000045e" string="AF"/>
-<text id="0x000004b2" string="DAB"/>
-<text id="0x000072c8" string="DAB"/>
-<text id="0x00004e71" string="DAB 调谐器固件"/>
-<text id="0x0000524c" string="启用 TA 模型"/>
-<text id="0x000029c6" string="打开"/>
-<text id="0x000029db" string="关闭"/>
-<text id="0x000029b1" string="区域"/>
-<text id="0x000029f0" string="选择 AF"/>
-<text id="0x00007e98" string="使用备用频率"/>
-<text id="0x00007f2b" string=""/>
-<text id="0x00007f40" string=""/>
-<text id="0x00007ead" string="使用区域限定"/>
-<text id="0x000072f2" string=""/>
-<text id="0x00007307" string=""/>
-<text id="0x0000731c" string=""/>
-<text id="0x000073af" string=""/>
-<text id="0x0000dafe" string=""/>
-<text id="0x0000db13" string=""/>
-<text id="0x0000db28" string=""/>
-<text id="0x0000db3d" string=""/>
-<text id="0x0000db52" string=""/>
-<text id="0x0000db67" string=""/>
-<text id="0x0000db7c" string=""/>
-<text id="0x0000db91" string=""/>
-<text id="0x0000dba6" string=""/>
-<text id="0x0000dbbb" string=""/>
-<text id="0x0000dbd0" string=""/>
-<text id="0x0000dbe5" string=""/>
-<text id="0x0000dbfa" string=""/>
-<text id="0x0000dc0f" string=""/>
-<text id="0x0000dc24" string=""/>
-<text id="0x0000dc39" string=""/>
-<text id="0x00003a6d" string="Wi-Fi 连接"/>
-<text id="0x00003a97" string="Wi-Fi 热点"/>
-<text id="0x00003b69" string="Wi-Fi 热点关闭"/>
-<text id="0x00003b7e" string="Wi-Fi 热点开启"/>
-<text id="0x00003cce" string="Wi-Fi 网络"/>
-<text id="0x00003e5d" string="正在进行 Wi-Fi 连接。"/>
-<text id="0x00005165" string="Wi-Fi AP 测试模型"/>
-<text id="0x00005762" string="Wi-Fi 连接经由 Wi-Fi 网络将车辆与互联网连接。"/>
-<text id="0x0000578c" string="Wi-Fi 热点与 Wi-Fi 设备共享了内置连接。 此功能要求订购。 访问 %s"/>
-<text id="0x000058f1" string="Wi-Fi 热点要求内置连接。"/>
-<text id="0x00005c8d" string="Wi-Fi"/>
-<text id="0x00005df2" string="Wi-Fi 连接成功:"/>
-<text id="0x00005e07" string="Wi-Fi 连接失败:"/>
-<text id="0x000073c4" string=""/>
-<text id="0x00007e1a" string=""/>
-<text id="0x00007e2f" string=""/>
-<text id="0x00003b54" string="查看已连接的设备"/>
-<text id="0x00003c3b" string="查看/编辑密码"/>
-<text id="0x00003dca" string="查看已连接的设备"/>
-<text id="0x00003ec6" string="查看/编辑通行码"/>
-<text id="0x0000202d" string="请验证传送键： %s"/>
-<text id="0x00003932" string="应用"/>
-<text id="0x00003947" string="应用"/>
-<text id="0x00007736" string=""/>
-<text id="0x0000774b" string=""/>
-<text id="0x00007760" string=""/>
-<text id="0x00007775" string=""/>
-<text id="0x0000778a" string=""/>
-<text id="0x0000779f" string=""/>
-<text id="0x000077b4" string=""/>
-<text id="0x000077c9" string=""/>
-<text id="0x000077de" string=""/>
-<text id="0x000081cb" string=""/>
-<text id="0x000057f5" string="收藏此网络吗？"/>
-<text id="0x00003c65" string="可用网络"/>
-<text id="0x00003a58" string="内置连接"/>
-<text id="0x0000574d" string="内置连接将车辆连接到互联网。 该连接要求订购。 访问 %s 管理您的订购。"/>
-<text id="0x00003cf8" string="无法添加网络。"/>
-<text id="0x00003d0d" string="字符"/>
-<text id="0x00003ad6" string="连接内置连接"/>
-<text id="0x00003aeb" string="连接 Wi-Fi 连接"/>
-<text id="0x00003b00" string="连接蓝牙连接"/>
-<text id="0x00003b15" string="连接 Wi-Fi 热点"/>
-<text id="0x00003b2a" string="连接通过"/>
-<text id="0x00005906" string="连接到内置连接"/>
-<text id="0x00000fb0" string="连接性"/>
-<text id="0x00003a19" string="连接性"/>
-<text id="0x000050fc" string="优先连接"/>
-<text id="0x00005e1c" string="删除网络"/>
-<text id="0x00003ce3" string="删除 Wi-Fi 网络吗?"/>
-<text id="0x0000595a" string="删除未用过的网络并且再试一次。"/>
-<text id="0x00003b3f" string="%s 设备连接到热点"/>
-<text id="0x00003bd2" string="禁用数据连接"/>
-<text id="0x000056f9" string="启用内置连接"/>
-<text id="0x0000570e" string="启用 Wi-Fi 连接"/>
-<text id="0x00005738" string="启用 Wi-Fi 热点"/>
-<text id="0x00008090" string=""/>
-<text id="0x000080a5" string=""/>
-<text id="0x000080ba" string=""/>
-<text id="0x000080cf" string=""/>
-<text id="0x000080e4" string=""/>
-<text id="0x000044ed" string="收藏的目的地"/>
-<text id="0x00005945" string="收藏的网络列表已满。"/>
-<text id="0x00003c7a" string="收藏的网络"/>
-<text id="0x00003cb9" string="热点名称"/>
-<text id="0x00003eb1" string="热点"/>
-<text id="0x0000591b" string="由于配件的更改导致禁用 Wi-Fi 热点。"/>
-<text id="0x00005930" string="一旦配置更改完成，您将需要手动启动热点。"/>
-<text id="0x00005c78" string="热点通行码"/>
-<text id="0x00005069" string="管理 Xlets"/>
-<text id="0x00003ca4" string="网络名称"/>
-<text id="0x00005c63" string="通行码"/>
-<text id="0x00007fbe" string=""/>
-<text id="0x00007f16" string=""/>
-<text id="0x00007fa9" string="请将此与蓝牙设备中显示的数字相比较"/>
-<text id="0x000074c0" string=""/>
-<text id="0x000039b0" string="正在运行"/>
-<text id="0x0000596f" string="搜索可用的 Wi-Fi 网络。"/>
-<text id="0x00003db5" string="设置 Wi-Fi 热点"/>
-<text id="0x00008480" string=""/>
-<text id="0x00008417" string=""/>
-<text id="0x00009cf2" string=""/>
-<text id="0x00009d07" string=""/>
-<text id="0x00009d1c" string=""/>
-<text id="0x0000d7a1" string="Added to Favorite Apps"/>
-<text id="0x0000d7b6" string="There was an error in running the app.&#xA;Please try again later."/>
-<text id="0x0000d7cb" string="Welcome to Uconnect Access&#xA;&#xA;To enjoy full benefits,&#xA;please press start to begin."/>
-<text id="0x0000d7e0" string="Remove %s from Favorite Apps?"/>
-<text id="0x0000d7f5" string="Resource Limit Reached"/>
-<text id="0x0000d80a" string="Please close a running app and try again."/>
-<text id="0x0000d81f" string="There are too many apps currently running, please close a running app and try again."/>
-<text id="0x0000d834" string="Go to Running Apps"/>
-<text id="0x0000dccc" string=""/>
-<text id="0x0000dce1" string=""/>
-<text id="0x0000dd0b" string=""/>
-<text id="0x0000e431" string=""/>
-<text id="0x0000e446" string=""/>
-<text id="0x0000e45b" string=""/>
-<text id="0x0000e470" string=""/>
-<text id="0x0000c30d" string="输入行政区"/>
-<text id="0x0000c30e" string="输入行政区"/>
-<text id="0x0000c30f" string="拼写城市或行政区"/>
-<text id="0x0000ba97" string="DMB"/>
-<text id="0x0000baac" string="DMB 频道列表"/>
-<text id="0x0000bac1" string="所有"/>
-<text id="0x0000bad6" string="所有频道"/>
-<text id="0x0000baeb" string="刷新设置"/>
-<text id="0x0000bb00" string="刷新列表"/>
-<text id="0x0000bb15" string="刷新所有频道"/>
-<text id="0x0000bb2a" string="仅刷新汉城和京畿道频道"/>
-<text id="0x0000bb3f" string="仅刷新忠清道频道"/>
-<text id="0x0000bb54" string="仅刷新全罗道频道"/>
-<text id="0x0000bb69" string="仅刷新庆尚北道频道"/>
-<text id="0x0000bb7e" string="仅刷新庆尚南道频道"/>
-<text id="0x0000bb93" string="仅刷新江原道频道"/>
-<text id="0x0000bba8" string="仅刷新济州道频道"/>
-<text id="0x0000bbbd" string="当前电台列表将被清除。&#xA;您是否希望继续？"/>
-<text id="0x0000bbd2" string="地址"/>
-<text id="0x0000bbe7" string="输入地址"/>
-<text id="0x0000bbfc" string="新风格"/>
-<text id="0x0000bc11" string="老风格"/>
-<text id="0x0000bc26" string="公寓名称"/>
-<text id="0x0000bc3b" string="门牌号"/>
-<text id="0x0000bc50" string=""/>
-<text id="0x0000bc65" string="拼写城市/行政区/县"/>
-<text id="0x0000bc7a" string="省 / 主要城市"/>
-<text id="0x0000bc8f" string="输入省/主要城市"/>
-<text id="0x0000bca4" string="选择省/主要城市"/>
-<text id="0x0000bcb9" string="输入城市/行政区/县"/>
-<text id="0x0000bcce" string="选择城市/行政区/县"/>
-<text id="0x0000bce3" string="输入街道"/>
-<text id="0x0000bcf8" string="选择街道"/>
-<text id="0x0000bd0d" string="RTM 事件"/>
-<text id="0x0000bd22" string="CTT 速度和流量"/>
-<text id="0x0000bd37" string=""/>
-<text id="0x0000bd4c" string="流量 (RTM)"/>
-<text id="0x0000bd61" string="上一页"/>
-<text id="0x0000bd76" string="信息"/>
-<text id="0x0000bd8b" string="CTT 总计"/>
-<text id="0x0000bda0" string="添加收藏项"/>
-<text id="0x0000bdb5" string="CTT 收藏项汇总"/>
-<text id="0x0000bdca" string="向上移动"/>
-<text id="0x0000bddf" string="向下移动"/>
-<text id="0x0000bdf4" string="确定要删除此收藏项？"/>
-<text id="0x0000be09" string="TPEG POI"/>
-<text id="0x0000be1e" string="所有类别"/>
-<text id="0x0000be33" string="类别"/>
-<text id="0x0000be48" string="电话"/>
-<text id="0x0000be5d" string="地址"/>
-<text id="0x0000be72" string="说明"/>
-<text id="0x0000be87" string="在地图上显示"/>
-<text id="0x0000be9c" string="上一页"/>
-<text id="0x0000c697" string=""/>
-<text id="0x0000c6ac" string=""/>
-<text id="0x0000c6c1" string=""/>
-<text id="0x0000c6d6" string=""/>
-<text id="0x0000c6eb" string=""/>
-<text id="0x0000c700" string=""/>
-<text id="0x0000c826" string=""/>
-<text id="0x0000c83b" string=""/>
-<text id="0x0000c850" string=""/>
-<text id="0x0000c865" string=""/>
-<text id="0x0000c87a" string=""/>
-<text id="0x0000c88f" string=""/>
-<text id="0x0000c8a4" string=""/>
-<text id="0x0000c8b9" string=""/>
-<text id="0x0000c8ce" string=""/>
-<text id="0x0000c8e3" string=""/>
-<text id="0x0000c8f8" string=""/>
-<text id="0x0000c90d" string=""/>
-<text id="0x0000c922" string=""/>
-<text id="0x0000c937" string=""/>
-<text id="0x0000c94c" string=""/>
-<text id="0x0000c961" string=""/>
-<text id="0x0000c976" string=""/>
-<text id="0x0000cbe6" string=""/>
-<text id="0x0000cbfb" string=""/>
-<text id="0x0000cc10" string=""/>
-<text id="0x0000cc25" string=""/>
-<text id="0x0000cc3a" string=""/>
-<text id="0x0000cc4f" string=""/>
-<text id="0x0000cc64" string=""/>
-<text id="0x0000d28b" string="地图信息"/>
-<text id="0x0000d2a0" string="地图供应商"/>
-<text id="0x0000d2b5" string="出版社"/>
-<text id="0x0000d2ca" string="出版号"/>
-<text id="0x0000d2df" string="审图号"/>
-<text id="0x0000d2f4" string="出版日期"/>
-<text id="0x0000d372" string="最大 A/C"/>
-<text id="0x0000d405" string="自动"/>
-<text id="0x0000d41a" string=""/>
-<text id="0x0000d42f" string=""/>
-<text id="0x0000d444" string=""/>
-<text id="0x0000d459" string=""/>
-<text id="0x0000d46e" string=""/>
-<text id="0x0000d483" string=""/>
-<text id="0x0000d498" string=""/>
-<text id="0x0000d4ad" string=""/>
-<text id="0x0000d4c2" string=""/>
-<text id="0x0000d4d7" string=""/>
-<text id="0x0000d4ec" string=""/>
-<text id="0x0000d501" string=""/>
-<text id="0x0000d516" string=""/>
-<text id="0x0000d52b" string=""/>
-<text id="0x0000d540" string=""/>
-<text id="0x0000d555" string=""/>
-<text id="0x0000d56a" string=""/>
-<text id="0x0000d57f" string=""/>
-<text id="0x0000d594" string=""/>
-<text id="0x0000d5a9" string=""/>
-<text id="0x0000d5be" string=""/>
-<text id="0x0000d5d3" string=""/>
-<text id="0x0000d5e8" string=""/>
-<text id="0x0000d5fd" string="时间"/>
-<text id="0x0000d612" string=""/>
-<text id="0x0000d627" string=""/>
-<text id="0x0000d63c" string=""/>
-<text id="0x0000d651" string=""/>
-<text id="0x0000d738" string="2D视图"/>
-<text id="0x0000d74d" string="3D视图"/>
-<text id="0x0000d762" string="未能找到匹配的地址"/>
-<text id="0x0000d849" string=""/>
-<text id="0x0000d85e" string=""/>
-<text id="0x0000d873" string=""/>
-<text id="0x0000d999" string=""/>
-<text id="0x0000d9ae" string=""/>
-<text id="0x0000d9c3" string=""/>
-<text id="0x0000dabf" string=""/>
-<text id="0x0000dad4" string=""/>
-<text id="0x0000dae9" string=""/>
-<text id="0x0000e41c" string=""/>
-<text id="0x0000e4af" string=""/>
-<text id="0x0000e4c4" string=""/>
-<text id="0x0000e6bc" string="空气悬架"/>
-<text id="0x0000e779" string=""/>
-<text id="0x0000e78e" string=""/>
-<text id="0x0000e7a3" string=""/>
-<text id="0x0000e7b8" string=""/>
-<text id="0x0000e7cd" string=""/>
-<text id="0x0000e7e2" string=""/>
-<text id="0x0000e7f7" string=""/>
-<text id="0x0000e80c" string=""/>
-<text id="0x0000e821" string=""/>
-<text id="0x0000e836" string=""/>
-<text id="0x0000e84b" string=""/>
-<text id="0x0000e860" string=""/>
-<text id="0x0000e875" string=""/>
-<text id="0x0000e8b4" string="选择行政区"/>
-<text id="0x0000ec13" string=""/>
-<text id="0x0000ec28" string=""/>
-<text id="0x0000f5ac" string="路径信息"/>
-<text id="0x0000f5c1" string="避让前"/>
-<text id="0x0000f600" string="避让后"/>
-<text id="0x0000f6d2" string="事件列表"/>
-<text id="0x0000cca3" string="添加设备"/>
-<text id="0x0000ccb8" string="更改 PIN"/>
-<text id="0x0000cccd" string="始终遵守交通法规并且注意路段。&#xA;车辆在运行时某些功能受限。&#xA;请阅读用户手册以获取完整信息。"/>
-<text id="0x0000de9d" string=""/>
-<text id="0x0000deb2" string="有声读物"/>
-<text id="0x0000dec7" string=""/>
-<text id="0x0000dedc" string="信息"/>
-<text id="0x0000def1" string=""/>
-<text id="0x0000df06" string=""/>
-<text id="0x0000df1b" string=""/>
-<text id="0x0000df30" string=""/>
-<text id="0x0000df45" string=""/>
-<text id="0x0000df5a" string=""/>
-<text id="0x0000df6f" string=""/>
-<text id="0x0000df84" string=""/>
-<text id="0x0000df99" string=""/>
-<text id="0x0000dfae" string=""/>
-<text id="0x0000dfc3" string=""/>
-<text id="0x0000dfd8" string=""/>
-<text id="0x0000dfed" string=""/>
-<text id="0x0000e002" string=""/>
-<text id="0x0000e017" string=""/>
-<text id="0x0000e02c" string=""/>
-<text id="0x0000e041" string=""/>
-<text id="0x0000e056" string=""/>
-<text id="0x0000e06b" string=""/>
-<text id="0x0000e080" string=""/>
-<text id="0x0000e2e1" string=""/>
-<text id="0x0000e2f6" string=""/>
-<text id="0x0000e30b" string=""/>
-<text id="0x0000e320" string=""/>
-<text id="0x0000e335" string=""/>
-<text id="0x0000e34a" string=""/>
-<text id="0x0000e35f" string=""/>
-<text id="0x0000e374" string=""/>
-<text id="0x0000dc63" string=""/>
-<text id="0x0000dc78" string=""/>
-<text id="0x0000dc4e" string=""/>
-<text id="0x0000e5c0" string="Restore Settings Defaults"/>
-<text id="0x0000e5d5" string="Are you sure you want to reset your settings to default?"/>
-<text id="0x0000e5ea" string="Settings restored to default."/>
-<text id="0x0000e6d1" string="Settings reset to default."/>
-<text id="0x0000e63e" string="Clear Personal Data"/>
-<text id="0x0000e653" string="Are you sure you want to clear all personal data?"/>
-<text id="0x0000e668" string="Personal data cleared."/>
-<text id="0x0000e725" string=""/>
-<text id="0x0000e932" string=""/>
-<text id="0x0000e971" string=""/>
-<text id="0x0000eb3f" string=""/>
-<text id="0x0000ebd2" string=""/>
-<text id="0x0000ed78" string=""/>
-<text id="0x0000edb7" string=""/>
-<text id="0x0000ee0b" string=""/>
-<text id="0x0000ee20" string=""/>
-<text id="0x0000ee35" string=""/>
-<text id="0x0000ee4a" string=""/>
-<text id="0x0000ee89" string=""/>
-<text id="0x0000ee9e" string=""/>
-<text id="0x0000eedd" string=""/>
-<text id="0x0000ef1c" string=""/>
-<text id="0x0000ef31" string=""/>
-<text id="0x0000ef70" string=""/>
-<text id="0x0000ef85" string=""/>
-<text id="0x0000ef9a" string=""/>
-<text id="0x0000efaf" string=""/>
-<text id="0x0000efc4" string=""/>
-<text id="0x0000efd9" string=""/>
-<text id="0x0000f114" string="按住以设置"/>
-<text id="0x0000f129" string="导航音量调整"/>
-<text id="0x0000f558" string=""/>
-<text id="0x0000f67e" string=""/>
-<text id="0x0000f693" string=""/>
-<text id="0x0000e8c9" string="交通"/>
-<text id="0x0000e8de" string=""/>
 </textresources>

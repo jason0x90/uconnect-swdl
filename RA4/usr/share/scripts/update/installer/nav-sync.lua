@@ -401,7 +401,25 @@ function copyNavFileList( unit, progress, copyFileList )
       -- read the progress notification
       while 1 do
          qkcpStatus = get_qkcp_status( "/tmp/"..qkcp_progress )
+         if (qkcpStatus[ "error" ]) then
+              printLog( string.format( "qkcpStatus error = %s", qkcpStatus[ "error" ] ) )
 
+              printLog( "qkcp error - attempting to use CP to copy file" )
+              local cmd = "cp -Mqnx -R -f "..v.fromPath.." "..toDir
+              print (cmd)
+              local f = assert (io.popen (cmd..' 2>&1; echo "-retcode:$?"', 'r'))
+              local l = f:read'*a'
+              f:close()
+
+              local i1,i2,ret = l:find('%-retcode:(%d+)\n$')
+
+              -- in case of error 
+              if ( ret == '1' ) then  
+                  printLog(" Error when copying file")
+                  error_flag = 1
+              end  
+              break
+         end
          printLog ( string.format( "%s: percent:%d%% phase:%d:%s status:%d:%s",
                v.fromPath,
                qkcpStatus["percent"],
@@ -415,8 +433,16 @@ function copyNavFileList( unit, progress, copyFileList )
             break
          end
 
+         printLog(string.format("qkcp: filesize %d",v.fileSize))
          -- Identify file completion and skip to next file
-         if qkcpStatus.phase.value == 3 then
+         -- qkcp neverupdates shared memory if filesize is 0 
+         -- qkcp completes, but status in shared memory is never updated.  
+         -- This is a special case in qkcp - therefore check if filesize is 0 - then exit
+         if (qkcpStatus.phase.value == 3 or v.fileSize == 0) then
+             if (v.fileSize == 0) then
+                 printLog( string.format( "Filesize of %s is 0", v.fromPath ) )
+             end 
+
             printLog(string.format( "qkcp done: %s", v.fromPath ) )
             break
          end
@@ -430,6 +456,11 @@ function copyNavFileList( unit, progress, copyFileList )
          os.sleep(1)
 
          
+      end
+
+      if error_flag == 1 then
+         printLog("Error Detected in qkcp: breaking out of copy loop")
+         break
       end
 
       -- calculate the between file copy progress

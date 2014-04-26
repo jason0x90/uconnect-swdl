@@ -118,8 +118,8 @@
 <text id="0x00000d3a" string="éléments dans liste"/>
 <text id="0x00000d4f" string="élément dans liste"/>
 <text id="0x00000d64" string="Mode Affichage"/>
-<text id="0x00000d79" string="Luminosité de l’affichage avec phares allumés"/>
-<text id="0x00000d8e" string="Luminosité de l’affichage avec phares éteints"/>
+<text id="0x00000d79" string="Display Brightness with Headlights On"/>
+<text id="0x00000d8e" string="Display Brightness with Headlights Off"/>
 <text id="0x00000da3" string="Configurer Langue"/>
 <text id="0x00000db8" string="Unités"/>
 <text id="0x00000dcd" string="Durée de la Réponse Vocale"/>
@@ -926,7 +926,7 @@
 <text id="0x00007ad2" string="Circulation de la route"/>
 <text id="0x00007ae7" string="Vérifier tous les alentours"/>
 <text id="0x00007afc" string="Insérer Disque"/>
-<text id="0x00007b11" string="Connecter"/>
+<text id="0x00007b11" string="Connecter Appareil"/>
 <text id="0x00007b26" string="Insérer Carte SD"/>
 <text id="0x00007b3b" string="Chargement Média"/>
 <text id="0x00007b50" string="Lecture Média"/>
@@ -1107,14 +1107,14 @@
 <text id="0x0000ceda" string="Le Mode Service n'est pas disponible.&#xA;La transmission doit être sur stationnement ou point mort."/>
 <text id="0x0000ceef" string="Error: Text Message 12 selected."/>
 <text id="0x0000cf04" string="To exit Service Mode, vehicle must not be in motion"/>
-<text id="0x0000cf19" string="Error: Text Message 14 selected."/>
+<text id="0x0000cf19" string="To exit Service Mode, vehicle must be in Park or Neutral"/>
 <text id="0x0000cf2e" string="Appuyez sur frein &amp; activez commutateur frein pr sortir du mode."/>
 <text id="0x0000cf43" string="Error: Text Message 16 selected."/>
 <text id="0x0000cf58" string="Error: Text Message 17 selected."/>
 <text id="0x0000cf6d" string="Error: Text Message 18 selected."/>
 <text id="0x0000cf82" string="Error: Text Message 19 selected."/>
 <text id="0x0000cf97" string="Park Brake désactivé.&#xA;Pour réinitialiser, appuyez sur la pédale de frein et activez le commutateur du Park Brake."/>
-<text id="0x0000cfac" string="Park Brake réinitalisé.&#xA;Sortie du service de freinage terminée."/>
+<text id="0x0000cfac" string="Brake service exit complete. Park Brake Reset"/>
 <text id="0x0000cfc1" string="Error: Text Message 22 selected."/>
 <text id="0x0000cfd6" string="Error: Text Message 23 selected."/>
 <text id="0x0000cfeb" string="Error: Text Message 24 selected."/>
@@ -1202,7 +1202,7 @@
 <text id="0x0000e88a" string="Désactivé"/>
 <text id="0x0000e89f" string="Rétablir paramètres"/>
 <text id="0x0000e9b0" string="No Stations Found"/>
-<text id="0x0000e9c5" string="Enter Zip Code"/>
+<text id="0x0000e9c5" string="Entrez le code postal"/>
 <text id="0x0000e9da" string="Announce Safety Camera Warning"/>
 <text id="0x0000e9ef" string="Commandes Vocales Communes"/>
 <text id="0x0000ea04" string="Régler sur %c&lt;fréquence> FM / AM%c"/>
@@ -1267,9 +1267,453 @@
 <text id="0x0000f63f" string="Klaxonner avec activation faible"/>
 <text id="0x0000f711" string="Activate&#xA;Launch Control"/>
 <text id="0x0000f726" string="Active&#xA;Launch Mode"/>
-<text id="0x0000f73b" string="The black key is currently in use,&#xA;disabling access to the maximum &#xA;engine power level.  To enable access&#xA;to the maximum engine power level,&#xA;please use the red key."/>
-<text id="0x0000f77a" string="Luminosité de l’Affichage de Jour"/>
-<text id="0x0000f78f" string="Luminosité de l’Affichage de Nuit"/>
+<text id="0x0000f73b" string="The black key is currently&#xA;in use, disabling access to&#xA;the maximum engine power level.  To enable&#xA;access to the maximum&#xA;engine power level,&#xA;please use the red key."/>
+<text id="0x0000f750" string="Cancel&#xA;Launch Control"/>
+<text id="0x0000f765" string="Cancel&#xA;Launch Mode"/>
+<text id="0x0000f77a" string="Current Mode:"/>
+<text id="0x0000f78f" string="%s&#xA;Mode Set-Up"/>
+<text id="0x0000f7a4" string="%s&#xA;Mode&#xA;Set-Up"/>
+<text id="0x0000f80d" string=""/>
+<text id="0x0000f876" string="Always drive safely and obey all traffic and other laws when operating the vehicle.&#xA;&#xA;You have full responsibility and assume all risks related to the use of the features and applications in this vehicle.&#xA;Only use them when it is safe to do so."/>
+<text id="0x0000f88b" string="IMPORTANT"/>
+<text id="0x0000f8a0" string="Engine/Transmission:"/>
+<text id="0x0000f8b5" string="5th-8th"/>
+<text id="0x0000f8ca" string="1st"/>
+<text id="0x0000f8df" string="4th"/>
+<text id="0x0000f8f4" string="Gear"/>
+<text id="0x0000f909" string="Horsepower:"/>
+<text id="0x0000f91e" string="700 HP: Modifies the horsepower output of the engine to 700&#xA;&#xA;&#xA;500 HP: Modifies the horsepower output of the engine to 500"/>
+<text id="0x0000f933" string="follow instructions in&#xA;cluster to launch"/>
+<text id="0x0000f948" string="Launch&#xA;Control"/>
+<text id="0x0000f95d" string="Launch Control"/>
+<text id="0x0000f972" string="LAUNCH MODE ACTIVATED"/>
+<text id="0x0000f987" string="Launch RPM Set-Up Info"/>
+<text id="0x0000f99c" string="RPM Set-Up can help you&#xA;achieve an optimum&#xA;balance of engine torque&#xA;and tire spin when&#xA;launching."/>
+<text id="0x0000f9b1" string="RPM should be&#xA;increased to account for&#xA;better-gripping tires or&#xA;track surfaces."/>
+<text id="0x0000f9c6" string="Launch RPM Set-Up"/>
+<text id="0x0000f9db" string="Launch&#xA;RPM Set-Up"/>
+<text id="0x0000f9f0" string="Level unavailable in %s Mode.  Select %s Mode to change level."/>
+<text id="0x0000fa05" string="Shift Light shows inside cluster "/>
+<text id="0x0000fa2f" string="Function not available&#xA;while vehicle is in motion"/>
+<text id="0x0000fa44" string="Mode Set-Up not available&#xA;while vehicle is in motion"/>
+<text id="0x0000fa59" string="Paddle Shift:"/>
+<text id="0x0000fa6e" string="Paddle Shifters:"/>
+<text id="0x0000fa83" string="ON: Enable steering wheel paddle shifters&#xA;&#xA;&#xA;OFF: Disable steering wheel paddle shifters"/>
+<text id="0x0000fa98" string="Paddles"/>
+<text id="0x0000faad" string="Pages"/>
+<text id="0x0000fac2" string="Assist Call"/>
+<text id="0x0000fad7" string="Assist call not available when&#xA;mobile phone is in use.&#xA;&#xA;Would you like to transfer your call&#xA;to your phone and start Assist?"/>
+<text id="0x0000faec" string="Performance Control"/>
+<text id="0x0000fb01" string="Performance Pages"/>
+<text id="0x0000fb16" string="Power"/>
+<text id="0x0000fb2b" string="Race Options"/>
+<text id="0x0000fb40" string="A shift light informs the driver of when an up-shift should occur, based on engine RPM.&#xA;&#xA;In track-racing scenarios, an ideal up-shift occurs just before the power curve starts to decline.&#xA;&#xA;RPM values should be decreased if the shift light is nor providing you with enough reaction time to perform an ideal up-shift."/>
+<text id="0x0000fb55" string="The red key is currently&#xA;in use, enabling access to&#xA;the maximum engine&#xA;power level.  To disable&#xA;access to the maximum&#xA;engine power level,&#xA;please use the black key."/>
+<text id="0x0000fb6a" string="Reset&#xA;to&#xA;factory&#xA;default"/>
+<text id="0x0000fb7f" string="2nd"/>
+<text id="0x0000fb94" string="Steering"/>
+<text id="0x0000fba9" string="Paddle Shifters"/>
+<text id="0x0000fbbe" string="Horsepower"/>
+<text id="0x0000fbd3" string="Suspension"/>
+<text id="0x0000fbe8" string="Traction"/>
+<text id="0x0000fbfd" string="Transmission"/>
+<text id="0x0000fc12" string="Shift&#xA;Light"/>
+<text id="0x0000fc7b" string="Turn on Shift Light to use&#xA;Shift Light RPM Set-Up"/>
+<text id="0x0000fc90" string="Shift Light&#xA;Off"/>
+<text id="0x0000fca5" string="Shift Light&#xA;On"/>
+<text id="0x0000fd0e" string="Shift Light RPM Set-Up Info"/>
+<text id="0x0000fd23" string="Shift Light&#xA;RPM Set-Up"/>
+<text id="0x0000fd38" string="Shift Light RPM Set-Up"/>
+<text id="0x0000fd4d" string="Ignition must be in RUN&#xA;position to use %s Modes"/>
+<text id="0x0000fd62" string="Steering:"/>
+<text id="0x0000fd77" string="%s: Fastest possible shift speeds, strongest comfort trade-off&#xA;&#xA;%s: Firmer suspension, speeds, some comfort trade-off&#xA;&#xA;%s: Balance of shift speed and shift comfort"/>
+<text id="0x0000fd8c" string="Susp"/>
+<text id="0x0000fda1" string="Suspension:"/>
+<text id="0x0000fdb6" string="%s: Firmest possible suspension, strongest comfort trade-off&#xA;&#xA;%s: Firmer suspension, some comfort trade-off&#xA;&#xA;%s: Balance of suspension firmness and ride comfort"/>
+<text id="0x0000fdcb" string="3rd"/>
+<text id="0x0000fde0" string="Traction:"/>
+<text id="0x0000fdf5" string="%s: Minimal traction control, minimal stability control&#xA;&#xA;%s: Reduced traction control, reduced stability control&#xA;&#xA;%s: Full traction control, full stability control"/>
+<text id="0x0000fe0a" string="Trans"/>
+<text id="0x0000fe1f" string="Transmission:"/>
+<text id="0x0000fe34" string="Valet"/>
+<text id="0x0000fe49" string="Power cannot&#xA;change while&#xA;foot on gas"/>
+<text id="0x0000fe5e" string="Power cannot change&#xA;while in motion"/>
+<text id="0x0000fe73" string="Power cannot&#xA;change while in&#xA;motion"/>
+<text id="0x0000fe88" string="Power cannot change while foot on gas"/>
+<text id="0x0000fe9d" string="Re-select current&#xA;mode to refresh&#xA;power"/>
+<text id="0x0000feb2" string="Re-select current mode to refresh power"/>
+<text id="0x0000fec7" string="Mode currently&#xA;unable to change"/>
+<text id="0x0000fedc" string="Re-select current mode to refresh power"/>
+<text id="0x0000fef1" string="Level currently unable to change"/>
+<text id="0x0000ff5a" string="Normal"/>
+<text id="0x0000ff6f" string="Sport"/>
+<text id="0x0000ff84" string="Comfort"/>
+<text id="0x0000ff99" string="Power Steering"/>
+<text id="0x0000ffae" string="Luminosité de l’Affichage de Nuit"/>
+<text id="0x0000ffc3" string="Luminosité de l’Affichage de Jour"/>
+<text id="0x0001002c" string="Say things like:"/>
+<text id="0x00010041" string="Highway Mode"/>
+<text id="0x0000045e" string="AF"/>
+<text id="0x000004b2" string="DAB"/>
+<text id="0x000072c8" string="DAB"/>
+<text id="0x00004e71" string="Microprogramme tuner DAB"/>
+<text id="0x0000524c" string="Activer mode TA"/>
+<text id="0x000029c6" string="On"/>
+<text id="0x000029db" string="Off"/>
+<text id="0x000029b1" string="Régional"/>
+<text id="0x000029f0" string="sélect AF"/>
+<text id="0x00007e98" string=""/>
+<text id="0x00007f2b" string=""/>
+<text id="0x00007f40" string=""/>
+<text id="0x00007ead" string=""/>
+<text id="0x000072f2" string="Jouer l'annonce traffic"/>
+<text id="0x00007307" string="Jouer l’alarme d’urgence"/>
+<text id="0x0000731c" string="Alarme"/>
+<text id="0x000073af" string="Jouer l’annonce d’urgence"/>
+<text id="0x0000dafe" string=""/>
+<text id="0x0000db13" string=""/>
+<text id="0x0000db28" string=""/>
+<text id="0x0000db3d" string=""/>
+<text id="0x0000db52" string=""/>
+<text id="0x0000db67" string=""/>
+<text id="0x0000db7c" string=""/>
+<text id="0x0000db91" string=""/>
+<text id="0x0000dba6" string=""/>
+<text id="0x0000dbbb" string=""/>
+<text id="0x0000dbd0" string=""/>
+<text id="0x0000dbe5" string="Suspension:"/>
+<text id="0x0000dbfa" string=""/>
+<text id="0x0000dc0f" string=""/>
+<text id="0x0000dc24" string=""/>
+<text id="0x0000dc39" string=""/>
+<text id="0x00003a6d" string="Connexion sans fil"/>
+<text id="0x00003a97" string="Point d`Accès Sans Fil"/>
+<text id="0x00003b69" string="Pt d’accès sans fil Off"/>
+<text id="0x00003b7e" string="Pt d’accès sans fil On"/>
+<text id="0x00003cce" string="Réseau sans fil"/>
+<text id="0x00003e5d" string="Connexion sans fil en cours"/>
+<text id="0x00005165" string="Mode test AP sans fil"/>
+<text id="0x00005762" string="La connexion sans fil connecte le véhicule à internet par un réseau sans fil."/>
+<text id="0x0000578c" string="Pt d’accès ss fil partage connexion intégrée avec appareils à connexion ss fil. Nécessite abonnement. Voyez %s"/>
+<text id="0x000058f1" string="Le point d’accès sans fil nécessite la connexion intégrée."/>
+<text id="0x00005c8d" string="Sans fil"/>
+<text id="0x00005df2" string="Connexion sans fil réussie"/>
+<text id="0x00005e07" string="La connexion sans fil a échoué."/>
+<text id="0x000073c4" string="Saisissez une phrase de passe de 13 caractères."/>
+<text id="0x00007e1a" string="Connexion sans-fil non disponible"/>
+<text id="0x00007e2f" string="Le service sans-fil est en cours de démarrage.&#xA;Essayez à nouveau ultérieurement."/>
+<text id="0x00003b54" string="Voir Appareils Connectés"/>
+<text id="0x00003c3b" string="Voir/Éditer mot de passe"/>
+<text id="0x00003dca" string="Voir Appareils Connectés"/>
+<text id="0x00003ec6" string="Voir/Éditer mot de passe"/>
+<text id="0x0000202d" string="Vérifiez le mot de passe: %s"/>
+<text id="0x00003932" string="Application"/>
+<text id="0x00003947" string="Applications"/>
+<text id="0x00007736" string="Apps&#xA;favoris"/>
+<text id="0x0000774b" string="Toutes&#xA;les apps"/>
+<text id="0x00007760" string="Apps&#xA;fonctnnt."/>
+<text id="0x00007775" string="Apps&#xA;media"/>
+<text id="0x0000778a" string="Apps&#xA;inform."/>
+<text id="0x0000779f" string="Apps&#xA;sociales"/>
+<text id="0x000077b4" string="Outils"/>
+<text id="0x000077c9" string="Apps&#xA;Assist."/>
+<text id="0x000077de" string="Autres&#xA;Apps"/>
+<text id="0x000081cb" string="Arrêt de %s et démarrage de %s."/>
+<text id="0x000057f5" string="Faire de ce réseau votre favori?"/>
+<text id="0x00003c65" string="Réseaux dispo"/>
+<text id="0x00003a58" string="Connexion intégréé"/>
+<text id="0x0000574d" string="La connexion intégrée connecte le véhicule à internet. Cette connexion nécessite un abonnement. Visiter %s pour gérer votre abonnement."/>
+<text id="0x00003cf8" string="Ne peut pas ajouter de réseau"/>
+<text id="0x00003d0d" string="caractères"/>
+<text id="0x00003ad6" string="Connecté par connexion intégrée"/>
+<text id="0x00003aeb" string="Connecté par connexion sans fil"/>
+<text id="0x00003b00" string="Connecté par connexion Bluetooth"/>
+<text id="0x00003b15" string="Connecté par points d’accès sans fil"/>
+<text id="0x00003b2a" string="Connecté par"/>
+<text id="0x00005906" string="Connexion à la connexion intégrée"/>
+<text id="0x00000fb0" string="Connectivité"/>
+<text id="0x00003a19" string="Connectivité"/>
+<text id="0x000050fc" string="Précédence de connexion"/>
+<text id="0x00005e1c" string="Supprimer réseau"/>
+<text id="0x00003ce3" string="Supprimer réseau sans fil?"/>
+<text id="0x0000595a" string="Supprimer les réseaux inutilisés et réessayer."/>
+<text id="0x00003b3f" string="%s appareils connectés au pt d’accès"/>
+<text id="0x00003bd2" string="Désactiver connexion de données"/>
+<text id="0x000056f9" string="Activer connexion intégrée"/>
+<text id="0x0000570e" string="Activer connexion sans fil"/>
+<text id="0x00005738" string="Activer point d'accès sans fil "/>
+<text id="0x00008090" string="Échec de la vérification de DRM."/>
+<text id="0x000080a5" string="Échec vérification de DRM pour %s."/>
+<text id="0x000080ba" string="Trop d'apps ouvertes.&#xA;Veuillez arrêter une app."/>
+<text id="0x000080cf" string="Abonnement nécessaire. Appuyez sur&#xA;le bouton ignorer pour arrêter les rappels."/>
+<text id="0x000080e4" string="Abonnement expiré. Appuyez sur Abonner&#xA;pour entrer votre email à nouveau. Appuyez&#xA;sur le bouton ignorer pour arrêter les rappels."/>
+<text id="0x000044ed" string="Destinations favorites"/>
+<text id="0x00005945" string="La liste des réseaux favoris est remplie."/>
+<text id="0x00003c7a" string="Réseaux favoris"/>
+<text id="0x00003cb9" string="Nom point d’accès"/>
+<text id="0x00003eb1" string="Point d’accès"/>
+<text id="0x0000591b" string="Désactivation point d’accès sans fil raison d'un changement dans configuration."/>
+<text id="0x00005930" string="Une fois que le changement de config. est terminé, vous aurez besoin d’activer."/>
+<text id="0x00005c78" string="Phrase de passe du point d’accès"/>
+<text id="0x00005069" string="Gérer Xlets"/>
+<text id="0x00003ca4" string="Nom réseau"/>
+<text id="0x00005c63" string="Phrasepass"/>
+<text id="0x00007fbe" string="Mot de passe: %s"/>
+<text id="0x00007f16" string="Veuillez confirmer que le PIN&#xA;affiché correspond à votre appareil."/>
+<text id="0x00007fa9" string="Veuillez confirmer que le mot de passe&#xA;affiché correspond à votre appareil."/>
+<text id="0x000074c0" string="Prêt!"/>
+<text id="0x000039b0" string="Marche"/>
+<text id="0x0000596f" string="Recherche réseaux sans fil disponibles."/>
+<text id="0x00003db5" string="Config. point d’accès"/>
+<text id="0x00008480" string="Pas d'abonnement actif&#xA;&#xA;Pour utiliser cette fonction, aller au magazin Uconnect&#xA;et renouveller l'abonnement %s."/>
+<text id="0x00008417" string="Initialisation de l'Application"/>
+<text id="0x00009cf2" string="Veuillez patienter.&#xA;%s fonctionne.&#xA;Essayez %s à nouveau."/>
+<text id="0x00009d07" string="Fonction non disponible.&#xA;Veuillez essayer ultérieurement."/>
+<text id="0x00009d1c" string="Réinitialiser des Données de l'Application en cours Initié.&#xA;Après la réinitialisation de la radio, toutes les données de l'application seront perdues.&#xA;Veuillez patienter."/>
+<text id="0x0000d7a1" string="Ajouté aux applic. préférées"/>
+<text id="0x0000d7b6" string="Une erreur est survenue lors de&#xA;l'exécution de l'application.&#xA;Essayer à nouveau plus tard."/>
+<text id="0x0000d7cb" string="Bienvenue sur Uconnect Access&#xA;&#xA;Pour profiter de l'ensemble des avantages,&#xA;veuillez appuyer sur démarrer."/>
+<text id="0x0000d7e0" string="Supprimer %s des applications favoris?"/>
+<text id="0x0000d7f5" string="Limite des ressources atteinte"/>
+<text id="0x0000d80a" string="Fermez une applic. en cours d'exécution et réessayer."/>
+<text id="0x0000d81f" string="Trop d'applications sont en cours d'exécution. Veuillez fermer une application en cours d'exécution et essayer à nouveau."/>
+<text id="0x0000d834" string="Aller aux applications en cours d'exécution"/>
+<text id="0x0000dccc" string="Le point d'accès au sans fil est désactivé."/>
+<text id="0x0000dce1" string="Le point d'accès doit être désactivé pr changements."/>
+<text id="0x0000dd0b" string="Voulez-vous jouer le contenu de %s?"/>
+<text id="0x0000e431" string="Voulez-vous ajouter %s aux apps préférées?"/>
+<text id="0x0000e446" string="Voulez-vous supprimer %s des apps préférées?"/>
+<text id="0x0000e45b" string="Réinstall. apps. Système va redémarrer sous peu."/>
+<text id="0x0000e470" string="Compte Uconnect supprimé. Syst. va redémarrer sous peu."/>
+<text id="0x0000c30d" string=""/>
+<text id="0x0000c30e" string=""/>
+<text id="0x0000c30f" string=""/>
+<text id="0x0000ba97" string=""/>
+<text id="0x0000baac" string=""/>
+<text id="0x0000bac1" string=""/>
+<text id="0x0000bad6" string=""/>
+<text id="0x0000baeb" string=""/>
+<text id="0x0000bb00" string=""/>
+<text id="0x0000bb15" string=""/>
+<text id="0x0000bb2a" string=""/>
+<text id="0x0000bb3f" string=""/>
+<text id="0x0000bb54" string=""/>
+<text id="0x0000bb69" string=""/>
+<text id="0x0000bb7e" string=""/>
+<text id="0x0000bb93" string=""/>
+<text id="0x0000bba8" string=""/>
+<text id="0x0000bbbd" string=""/>
+<text id="0x0000bbd2" string=""/>
+<text id="0x0000bbe7" string=""/>
+<text id="0x0000bbfc" string=""/>
+<text id="0x0000bc11" string=""/>
+<text id="0x0000bc26" string=""/>
+<text id="0x0000bc3b" string=""/>
+<text id="0x0000bc50" string=""/>
+<text id="0x0000bc65" string=""/>
+<text id="0x0000bc7a" string=""/>
+<text id="0x0000bc8f" string=""/>
+<text id="0x0000bca4" string=""/>
+<text id="0x0000bcb9" string=""/>
+<text id="0x0000bcce" string=""/>
+<text id="0x0000bce3" string=""/>
+<text id="0x0000bcf8" string=""/>
+<text id="0x0000bd0d" string=""/>
+<text id="0x0000bd22" string=""/>
+<text id="0x0000bd37" string=""/>
+<text id="0x0000bd4c" string=""/>
+<text id="0x0000bd61" string=""/>
+<text id="0x0000bd76" string=""/>
+<text id="0x0000bd8b" string=""/>
+<text id="0x0000bda0" string=""/>
+<text id="0x0000bdb5" string=""/>
+<text id="0x0000bdca" string=""/>
+<text id="0x0000bddf" string=""/>
+<text id="0x0000bdf4" string=""/>
+<text id="0x0000be09" string=""/>
+<text id="0x0000be1e" string=""/>
+<text id="0x0000be33" string=""/>
+<text id="0x0000be48" string=""/>
+<text id="0x0000be5d" string=""/>
+<text id="0x0000be72" string=""/>
+<text id="0x0000be87" string=""/>
+<text id="0x0000be9c" string=""/>
+<text id="0x0000c697" string=""/>
+<text id="0x0000c6ac" string=""/>
+<text id="0x0000c6c1" string=""/>
+<text id="0x0000c6d6" string=""/>
+<text id="0x0000c6eb" string=""/>
+<text id="0x0000c700" string=""/>
+<text id="0x0000c826" string=""/>
+<text id="0x0000c83b" string=""/>
+<text id="0x0000c850" string=""/>
+<text id="0x0000c865" string=""/>
+<text id="0x0000c87a" string=""/>
+<text id="0x0000c88f" string=""/>
+<text id="0x0000c8a4" string=""/>
+<text id="0x0000c8b9" string=""/>
+<text id="0x0000c8ce" string=""/>
+<text id="0x0000c8e3" string=""/>
+<text id="0x0000c8f8" string=""/>
+<text id="0x0000c90d" string=""/>
+<text id="0x0000c922" string=""/>
+<text id="0x0000c937" string=""/>
+<text id="0x0000c94c" string=""/>
+<text id="0x0000c961" string=""/>
+<text id="0x0000c976" string=""/>
+<text id="0x0000cbe6" string=""/>
+<text id="0x0000cbfb" string=""/>
+<text id="0x0000cc10" string=""/>
+<text id="0x0000cc25" string=""/>
+<text id="0x0000cc3a" string=""/>
+<text id="0x0000cc4f" string=""/>
+<text id="0x0000cc64" string=""/>
+<text id="0x0000d28b" string=""/>
+<text id="0x0000d2a0" string=""/>
+<text id="0x0000d2b5" string=""/>
+<text id="0x0000d2ca" string=""/>
+<text id="0x0000d2df" string=""/>
+<text id="0x0000d2f4" string=""/>
+<text id="0x0000d372" string=""/>
+<text id="0x0000d405" string=""/>
+<text id="0x0000d41a" string=""/>
+<text id="0x0000d42f" string=""/>
+<text id="0x0000d444" string=""/>
+<text id="0x0000d459" string=""/>
+<text id="0x0000d46e" string=""/>
+<text id="0x0000d483" string=""/>
+<text id="0x0000d498" string=""/>
+<text id="0x0000d4ad" string=""/>
+<text id="0x0000d4c2" string=""/>
+<text id="0x0000d4d7" string=""/>
+<text id="0x0000d4ec" string=""/>
+<text id="0x0000d501" string=""/>
+<text id="0x0000d516" string=""/>
+<text id="0x0000d52b" string=""/>
+<text id="0x0000d540" string=""/>
+<text id="0x0000d555" string=""/>
+<text id="0x0000d56a" string=""/>
+<text id="0x0000d57f" string=""/>
+<text id="0x0000d594" string=""/>
+<text id="0x0000d5a9" string=""/>
+<text id="0x0000d5be" string=""/>
+<text id="0x0000d5d3" string=""/>
+<text id="0x0000d5e8" string=""/>
+<text id="0x0000d5fd" string=""/>
+<text id="0x0000d612" string=""/>
+<text id="0x0000d627" string=""/>
+<text id="0x0000d63c" string=""/>
+<text id="0x0000d651" string=""/>
+<text id="0x0000d738" string=""/>
+<text id="0x0000d74d" string=""/>
+<text id="0x0000d762" string=""/>
+<text id="0x0000d849" string=""/>
+<text id="0x0000d85e" string=""/>
+<text id="0x0000d873" string=""/>
+<text id="0x0000d999" string=""/>
+<text id="0x0000d9ae" string=""/>
+<text id="0x0000d9c3" string=""/>
+<text id="0x0000dabf" string=""/>
+<text id="0x0000dad4" string=""/>
+<text id="0x0000dae9" string=""/>
+<text id="0x0000e41c" string=""/>
+<text id="0x0000e4af" string=""/>
+<text id="0x0000e4c4" string=""/>
+<text id="0x0000e6bc" string=""/>
+<text id="0x0000e779" string=""/>
+<text id="0x0000e78e" string=""/>
+<text id="0x0000e7a3" string=""/>
+<text id="0x0000e7b8" string=""/>
+<text id="0x0000e7cd" string=""/>
+<text id="0x0000e7e2" string=""/>
+<text id="0x0000e7f7" string=""/>
+<text id="0x0000e80c" string=""/>
+<text id="0x0000e821" string=""/>
+<text id="0x0000e836" string=""/>
+<text id="0x0000e84b" string=""/>
+<text id="0x0000e860" string=""/>
+<text id="0x0000e875" string=""/>
+<text id="0x0000e8b4" string=""/>
+<text id="0x0000ec13" string=""/>
+<text id="0x0000ec28" string=""/>
+<text id="0x0000f5ac" string=""/>
+<text id="0x0000f5c1" string=""/>
+<text id="0x0000f600" string=""/>
+<text id="0x0000f6d2" string=""/>
+<text id="0x0000cca3" string="Ajouter Appareil"/>
+<text id="0x0000ccb8" string="Changer PIN"/>
+<text id="0x0000cccd" string="Toujours Obeir aux regles routières and faire attention a la route. &#xA;Certaines options sont limitées durant le fonctionnement du&#xA;véhicule. Se référer au guide du propriétaire pour plus de détails. &#xA;"/>
+<text id="0x0000de9d" string="Appareil injouable"/>
+<text id="0x0000deb2" string="Livr Audio"/>
+<text id="0x0000dec7" string="Prérégl."/>
+<text id="0x0000dedc" string="Info"/>
+<text id="0x0000def1" string="sélectionner&#xA;source"/>
+<text id="0x0000df06" string="Listes"/>
+<text id="0x0000df1b" string="Entrée aux"/>
+<text id="0x0000df30" string="Paramètres"/>
+<text id="0x0000df45" string="Information"/>
+<text id="0x0000df5a" string="Rejouer"/>
+<text id="0x0000df6f" string="Vers où?"/>
+<text id="0x0000df84" string="Liste"/>
+<text id="0x0000df99" string="annuaire"/>
+<text id="0x0000dfae" string="appels réc."/>
+<text id="0x0000dfc3" string="Téléph.&#xA;appair."/>
+<text id="0x0000dfd8" string="Sources&#xA;audio&#xA;appair."/>
+<text id="0x0000dfed" string="Supprimer Appareil"/>
+<text id="0x0000e002" string="Station"/>
+<text id="0x0000e017" string="Info"/>
+<text id="0x0000e02c" string="Genre"/>
+<text id="0x0000e041" string="Appels&#xA;manq."/>
+<text id="0x0000e056" string="Appels&#xA;sortant."/>
+<text id="0x0000e06b" string="Appels&#xA;entr."/>
+<text id="0x0000e080" string="Tous les&#xA;appels"/>
+<text id="0x0000e2e1" string="Niveau capteur de pluie"/>
+<text id="0x0000e2f6" string="Consommation"/>
+<text id="0x0000e30b" string="MI"/>
+<text id="0x0000e320" string="KM"/>
+<text id="0x0000e335" string="MPG"/>
+<text id="0x0000e34a" string="Litres&#xA;100 km"/>
+<text id="0x0000e35f" string="Km/L"/>
+<text id="0x0000e374" string="Carte SD"/>
+<text id="0x0000dc63" string="Régler le mois"/>
+<text id="0x0000dc78" string="Régler l'année"/>
+<text id="0x0000dc4e" string="Régler le jour"/>
+<text id="0x0000e5c0" string="Restaurer les paramètres par défaut"/>
+<text id="0x0000e5d5" string="Êtes-vous sûr de vouloir rétablir les paramètres par défaut?"/>
+<text id="0x0000e5ea" string="Paramètres par défaut restaurés."/>
+<text id="0x0000e6d1" string="Paramètres par défaut rétablis."/>
+<text id="0x0000e63e" string="Effacer les données personnelles"/>
+<text id="0x0000e653" string="Êtes-vous sûr de vouloir effacer ttes données personnelles?"/>
+<text id="0x0000e668" string="Données personnelles effacées."/>
+<text id="0x0000e725" string="Auto-On Radio"/>
+<text id="0x0000e932" string="Radio automatically turns on when&#xA;vehicle is in run or will recall whether&#xA;it was on or off at last ignition off."/>
+<text id="0x0000e971" string="Volume&#xA;Selon Vitesse"/>
+<text id="0x0000eb3f" string="Stations indisponible"/>
+<text id="0x0000ebd2" string="ÉCHEC"/>
+<text id="0x0000ed78" string="Appel&#xA;direct"/>
+<text id="0x0000edb7" string=""/>
+<text id="0x0000ee0b" string=""/>
+<text id="0x0000ee20" string=""/>
+<text id="0x0000ee35" string=""/>
+<text id="0x0000ee4a" string=""/>
+<text id="0x0000ee89" string=""/>
+<text id="0x0000ee9e" string=""/>
+<text id="0x0000eedd" string=""/>
+<text id="0x0000ef1c" string=""/>
+<text id="0x0000ef31" string=""/>
+<text id="0x0000ef70" string=""/>
+<text id="0x0000ef85" string=""/>
+<text id="0x0000ef9a" string=""/>
+<text id="0x0000efaf" string=""/>
+<text id="0x0000efc4" string=""/>
+<text id="0x0000efd9" string=""/>
+<text id="0x0000f114" string="Main pr Conf"/>
+<text id="0x0000f129" string="Réglage du volume de navi"/>
+<text id="0x0000f558" string=""/>
+<text id="0x0000f67e" string="Volume"/>
+<text id="0x0000f693" string="Améliore la qualité&#xA;du son à bas volume"/>
+<text id="0x0000e8c9" string="Trafic"/>
+<text id="0x0000e8de" string="Alarme"/>
 <text id="0x00007832" string="mph"/>
 <text id="0x00000323" string="Organisez vos fichiers musique pour navigation optimale"/>
 <text id="0x00005ed9" string="Dites &quot;Affich sources audio appar&quot; ou &quot;Affich tél appar&quot;"/>
@@ -1942,365 +2386,4 @@
 <text id="0x0000d723" string="Station HD non disponible"/>
 <text id="0x0000da6b" string="Vous êtes maintenant connecté à l'opérateur."/>
 <text id="0x0000da80" string="Envoyer l'emplacement du véhicule. Patienter..."/>
-<text id="0x0000045e" string="AF"/>
-<text id="0x000004b2" string="DAB"/>
-<text id="0x000072c8" string="DAB"/>
-<text id="0x00004e71" string="Microprogramme tuner DAB"/>
-<text id="0x0000524c" string="Activer mode TA"/>
-<text id="0x000029c6" string="On"/>
-<text id="0x000029db" string="Off"/>
-<text id="0x000029b1" string="Régional"/>
-<text id="0x000029f0" string="sélect AF"/>
-<text id="0x00007e98" string=""/>
-<text id="0x00007f2b" string=""/>
-<text id="0x00007f40" string=""/>
-<text id="0x00007ead" string=""/>
-<text id="0x000072f2" string="Jouer l'annonce traffic"/>
-<text id="0x00007307" string="Jouer l’alarme d’urgence"/>
-<text id="0x0000731c" string="Alarme"/>
-<text id="0x000073af" string="Jouer l’annonce d’urgence"/>
-<text id="0x0000dafe" string=""/>
-<text id="0x0000db13" string=""/>
-<text id="0x0000db28" string=""/>
-<text id="0x0000db3d" string=""/>
-<text id="0x0000db52" string=""/>
-<text id="0x0000db67" string=""/>
-<text id="0x0000db7c" string=""/>
-<text id="0x0000db91" string=""/>
-<text id="0x0000dba6" string=""/>
-<text id="0x0000dbbb" string=""/>
-<text id="0x0000dbd0" string=""/>
-<text id="0x0000dbe5" string="Suspension:"/>
-<text id="0x0000dbfa" string=""/>
-<text id="0x0000dc0f" string=""/>
-<text id="0x0000dc24" string=""/>
-<text id="0x0000dc39" string=""/>
-<text id="0x00003a6d" string="Connexion sans fil"/>
-<text id="0x00003a97" string="Point d`Accès Sans Fil"/>
-<text id="0x00003b69" string="Pt d’accès sans fil Off"/>
-<text id="0x00003b7e" string="Pt d’accès sans fil On"/>
-<text id="0x00003cce" string="Réseau sans fil"/>
-<text id="0x00003e5d" string="Connexion sans fil en cours"/>
-<text id="0x00005165" string="Mode test AP sans fil"/>
-<text id="0x00005762" string="La connexion sans fil connecte le véhicule à internet par un réseau sans fil."/>
-<text id="0x0000578c" string="Pt d’accès ss fil partage connexion intégrée avec appareils à connexion ss fil. Nécessite abonnement. Voyez %s"/>
-<text id="0x000058f1" string="Le point d’accès sans fil nécessite la connexion intégrée."/>
-<text id="0x00005c8d" string="Sans fil"/>
-<text id="0x00005df2" string="Connexion sans fil réussie"/>
-<text id="0x00005e07" string="La connexion sans fil a échoué."/>
-<text id="0x000073c4" string="Saisissez une phrase de passe de 13 caractères."/>
-<text id="0x00007e1a" string="Connexion sans-fil non disponible"/>
-<text id="0x00007e2f" string="Le service sans-fil est en cours de démarrage.&#xA;Essayez à nouveau ultérieurement."/>
-<text id="0x00003b54" string="Voir Appareils Connectés"/>
-<text id="0x00003c3b" string="Voir/Éditer mot de passe"/>
-<text id="0x00003dca" string="Voir Appareils Connectés"/>
-<text id="0x00003ec6" string="Voir/Éditer mot de passe"/>
-<text id="0x0000202d" string="Vérifiez le mot de passe: %s"/>
-<text id="0x00003932" string="Application"/>
-<text id="0x00003947" string="Applications"/>
-<text id="0x00007736" string="Apps&#xA;favoris"/>
-<text id="0x0000774b" string="Toutes&#xA;les apps"/>
-<text id="0x00007760" string="Apps&#xA;fonctnnt."/>
-<text id="0x00007775" string="Apps&#xA;media"/>
-<text id="0x0000778a" string="Apps&#xA;inform."/>
-<text id="0x0000779f" string="Apps&#xA;sociales"/>
-<text id="0x000077b4" string="Outils"/>
-<text id="0x000077c9" string="Apps&#xA;Assist."/>
-<text id="0x000077de" string="Autres&#xA;Apps"/>
-<text id="0x000081cb" string="Arrêt de %s et démarrage de %s."/>
-<text id="0x000057f5" string="Faire de ce réseau votre favori?"/>
-<text id="0x00003c65" string="Réseaux dispo"/>
-<text id="0x00003a58" string="Connexion intégréé"/>
-<text id="0x0000574d" string="La connexion intégrée connecte le véhicule à internet. Cette connexion nécessite un abonnement. Visiter %s pour gérer votre abonnement."/>
-<text id="0x00003cf8" string="Ne peut pas ajouter de réseau"/>
-<text id="0x00003d0d" string="caractères"/>
-<text id="0x00003ad6" string="Connecté par connexion intégrée"/>
-<text id="0x00003aeb" string="Connecté par connexion sans fil"/>
-<text id="0x00003b00" string="Connecté par connexion Bluetooth"/>
-<text id="0x00003b15" string="Connecté par points d’accès sans fil"/>
-<text id="0x00003b2a" string="Connecté par"/>
-<text id="0x00005906" string="Connexion à la connexion intégrée"/>
-<text id="0x00000fb0" string="Connectivité"/>
-<text id="0x00003a19" string="Connectivité"/>
-<text id="0x000050fc" string="Précédence de connexion"/>
-<text id="0x00005e1c" string="Supprimer réseau"/>
-<text id="0x00003ce3" string="Supprimer réseau sans fil?"/>
-<text id="0x0000595a" string="Supprimer les réseaux inutilisés et réessayer."/>
-<text id="0x00003b3f" string="%s appareils connectés au pt d’accès"/>
-<text id="0x00003bd2" string="Désactiver connexion de données"/>
-<text id="0x000056f9" string="Activer connexion intégrée"/>
-<text id="0x0000570e" string="Activer connexion sans fil"/>
-<text id="0x00005738" string="Activer point d'accès sans fil "/>
-<text id="0x00008090" string="Échec de la vérification de DRM."/>
-<text id="0x000080a5" string="Échec vérification de DRM pour %s."/>
-<text id="0x000080ba" string="Trop d'apps ouvertes.&#xA;Veuillez arrêter une app."/>
-<text id="0x000080cf" string="Abonnement nécessaire. Appuyez sur&#xA;le bouton ignorer pour arrêter les rappels."/>
-<text id="0x000080e4" string="Abonnement expiré. Appuyez sur Abonner&#xA;pour entrer votre email à nouveau. Appuyez&#xA;sur le bouton ignorer pour arrêter les rappels."/>
-<text id="0x000044ed" string="Destinations favorites"/>
-<text id="0x00005945" string="La liste des réseaux favoris est remplie."/>
-<text id="0x00003c7a" string="Réseaux favoris"/>
-<text id="0x00003cb9" string="Nom point d’accès"/>
-<text id="0x00003eb1" string="Point d’accès"/>
-<text id="0x0000591b" string="Désactivation point d’accès sans fil raison d'un changement dans configuration."/>
-<text id="0x00005930" string="Une fois que le changement de config. est terminé, vous aurez besoin d’activer."/>
-<text id="0x00005c78" string="Phrase de passe du point d’accès"/>
-<text id="0x00005069" string="Gérer Xlets"/>
-<text id="0x00003ca4" string="Nom réseau"/>
-<text id="0x00005c63" string="Phrasepass"/>
-<text id="0x00007fbe" string="Mot de passe: %s"/>
-<text id="0x00007f16" string="Veuillez confirmer que le PIN&#xA;affiché correspond à votre appareil."/>
-<text id="0x00007fa9" string="Veuillez confirmer que le mot de passe&#xA;affiché correspond à votre appareil."/>
-<text id="0x000074c0" string="Prêt!"/>
-<text id="0x000039b0" string="Marche"/>
-<text id="0x0000596f" string="Recherche réseaux sans fil disponibles."/>
-<text id="0x00003db5" string="Config. point d’accès"/>
-<text id="0x00008480" string="Pas d'abonnement actif&#xA;&#xA;Pour utiliser cette fonction, aller au magazin Uconnect&#xA;et renouveller l'abonnement %s."/>
-<text id="0x00008417" string="Initialisation de l'Application"/>
-<text id="0x00009cf2" string="Veuillez patienter.&#xA;%s fonctionne.&#xA;Essayez %s à nouveau."/>
-<text id="0x00009d07" string="Fonction non disponible.&#xA;Veuillez essayer ultérieurement."/>
-<text id="0x00009d1c" string="Réinitialiser des Données de l'Application en cours Initié.&#xA;Après la réinitialisation de la radio, toutes les données de l'application seront perdues.&#xA;Veuillez patienter."/>
-<text id="0x0000d7a1" string="Ajouté aux applic. préférées"/>
-<text id="0x0000d7b6" string="Une erreur est survenue lors de&#xA;l'exécution de l'application.&#xA;Essayer à nouveau plus tard."/>
-<text id="0x0000d7cb" string="Bienvenue sur Uconnect Access&#xA;&#xA;Pour profiter de l'ensemble des avantages,&#xA;veuillez appuyer sur démarrer."/>
-<text id="0x0000d7e0" string="Supprimer %s des applications favoris?"/>
-<text id="0x0000d7f5" string="Limite des ressources atteinte"/>
-<text id="0x0000d80a" string="Fermez une applic. en cours d'exécution et réessayer."/>
-<text id="0x0000d81f" string="Trop d'applications sont en cours d'exécution. Veuillez fermer une application en cours d'exécution et essayer à nouveau."/>
-<text id="0x0000d834" string="Aller aux applications en cours d'exécution"/>
-<text id="0x0000dccc" string="Le point d'accès au sans fil est désactivé."/>
-<text id="0x0000dce1" string="Le point d'accès doit être désactivé pr changements."/>
-<text id="0x0000dd0b" string="Voulez-vous jouer le contenu de %s?"/>
-<text id="0x0000e431" string="Voulez-vous ajouter %s aux apps préférées?"/>
-<text id="0x0000e446" string="Voulez-vous supprimer %s des apps préférées?"/>
-<text id="0x0000e45b" string="Réinstall. apps. Système va redémarrer sous peu."/>
-<text id="0x0000e470" string="Compte Uconnect supprimé. Syst. va redémarrer sous peu."/>
-<text id="0x0000c30d" string=""/>
-<text id="0x0000c30e" string=""/>
-<text id="0x0000c30f" string=""/>
-<text id="0x0000ba97" string=""/>
-<text id="0x0000baac" string=""/>
-<text id="0x0000bac1" string=""/>
-<text id="0x0000bad6" string=""/>
-<text id="0x0000baeb" string=""/>
-<text id="0x0000bb00" string=""/>
-<text id="0x0000bb15" string=""/>
-<text id="0x0000bb2a" string=""/>
-<text id="0x0000bb3f" string=""/>
-<text id="0x0000bb54" string=""/>
-<text id="0x0000bb69" string=""/>
-<text id="0x0000bb7e" string=""/>
-<text id="0x0000bb93" string=""/>
-<text id="0x0000bba8" string=""/>
-<text id="0x0000bbbd" string=""/>
-<text id="0x0000bbd2" string=""/>
-<text id="0x0000bbe7" string=""/>
-<text id="0x0000bbfc" string=""/>
-<text id="0x0000bc11" string=""/>
-<text id="0x0000bc26" string=""/>
-<text id="0x0000bc3b" string=""/>
-<text id="0x0000bc50" string=""/>
-<text id="0x0000bc65" string=""/>
-<text id="0x0000bc7a" string=""/>
-<text id="0x0000bc8f" string=""/>
-<text id="0x0000bca4" string=""/>
-<text id="0x0000bcb9" string=""/>
-<text id="0x0000bcce" string=""/>
-<text id="0x0000bce3" string=""/>
-<text id="0x0000bcf8" string=""/>
-<text id="0x0000bd0d" string=""/>
-<text id="0x0000bd22" string=""/>
-<text id="0x0000bd37" string=""/>
-<text id="0x0000bd4c" string=""/>
-<text id="0x0000bd61" string=""/>
-<text id="0x0000bd76" string=""/>
-<text id="0x0000bd8b" string=""/>
-<text id="0x0000bda0" string=""/>
-<text id="0x0000bdb5" string=""/>
-<text id="0x0000bdca" string=""/>
-<text id="0x0000bddf" string=""/>
-<text id="0x0000bdf4" string=""/>
-<text id="0x0000be09" string=""/>
-<text id="0x0000be1e" string=""/>
-<text id="0x0000be33" string=""/>
-<text id="0x0000be48" string=""/>
-<text id="0x0000be5d" string=""/>
-<text id="0x0000be72" string=""/>
-<text id="0x0000be87" string=""/>
-<text id="0x0000be9c" string=""/>
-<text id="0x0000c697" string=""/>
-<text id="0x0000c6ac" string=""/>
-<text id="0x0000c6c1" string=""/>
-<text id="0x0000c6d6" string=""/>
-<text id="0x0000c6eb" string=""/>
-<text id="0x0000c700" string=""/>
-<text id="0x0000c826" string=""/>
-<text id="0x0000c83b" string=""/>
-<text id="0x0000c850" string=""/>
-<text id="0x0000c865" string=""/>
-<text id="0x0000c87a" string=""/>
-<text id="0x0000c88f" string=""/>
-<text id="0x0000c8a4" string=""/>
-<text id="0x0000c8b9" string=""/>
-<text id="0x0000c8ce" string=""/>
-<text id="0x0000c8e3" string=""/>
-<text id="0x0000c8f8" string=""/>
-<text id="0x0000c90d" string=""/>
-<text id="0x0000c922" string=""/>
-<text id="0x0000c937" string=""/>
-<text id="0x0000c94c" string=""/>
-<text id="0x0000c961" string=""/>
-<text id="0x0000c976" string=""/>
-<text id="0x0000cbe6" string=""/>
-<text id="0x0000cbfb" string=""/>
-<text id="0x0000cc10" string=""/>
-<text id="0x0000cc25" string=""/>
-<text id="0x0000cc3a" string=""/>
-<text id="0x0000cc4f" string=""/>
-<text id="0x0000cc64" string=""/>
-<text id="0x0000d28b" string=""/>
-<text id="0x0000d2a0" string=""/>
-<text id="0x0000d2b5" string=""/>
-<text id="0x0000d2ca" string=""/>
-<text id="0x0000d2df" string=""/>
-<text id="0x0000d2f4" string=""/>
-<text id="0x0000d372" string=""/>
-<text id="0x0000d405" string=""/>
-<text id="0x0000d41a" string=""/>
-<text id="0x0000d42f" string=""/>
-<text id="0x0000d444" string=""/>
-<text id="0x0000d459" string=""/>
-<text id="0x0000d46e" string=""/>
-<text id="0x0000d483" string=""/>
-<text id="0x0000d498" string=""/>
-<text id="0x0000d4ad" string=""/>
-<text id="0x0000d4c2" string=""/>
-<text id="0x0000d4d7" string=""/>
-<text id="0x0000d4ec" string=""/>
-<text id="0x0000d501" string=""/>
-<text id="0x0000d516" string=""/>
-<text id="0x0000d52b" string=""/>
-<text id="0x0000d540" string=""/>
-<text id="0x0000d555" string=""/>
-<text id="0x0000d56a" string=""/>
-<text id="0x0000d57f" string=""/>
-<text id="0x0000d594" string=""/>
-<text id="0x0000d5a9" string=""/>
-<text id="0x0000d5be" string=""/>
-<text id="0x0000d5d3" string=""/>
-<text id="0x0000d5e8" string=""/>
-<text id="0x0000d5fd" string=""/>
-<text id="0x0000d612" string=""/>
-<text id="0x0000d627" string=""/>
-<text id="0x0000d63c" string=""/>
-<text id="0x0000d651" string=""/>
-<text id="0x0000d738" string=""/>
-<text id="0x0000d74d" string=""/>
-<text id="0x0000d762" string=""/>
-<text id="0x0000d849" string=""/>
-<text id="0x0000d85e" string=""/>
-<text id="0x0000d873" string=""/>
-<text id="0x0000d999" string=""/>
-<text id="0x0000d9ae" string=""/>
-<text id="0x0000d9c3" string=""/>
-<text id="0x0000dabf" string=""/>
-<text id="0x0000dad4" string=""/>
-<text id="0x0000dae9" string=""/>
-<text id="0x0000e41c" string=""/>
-<text id="0x0000e4af" string=""/>
-<text id="0x0000e4c4" string=""/>
-<text id="0x0000e6bc" string=""/>
-<text id="0x0000e779" string=""/>
-<text id="0x0000e78e" string=""/>
-<text id="0x0000e7a3" string=""/>
-<text id="0x0000e7b8" string=""/>
-<text id="0x0000e7cd" string=""/>
-<text id="0x0000e7e2" string=""/>
-<text id="0x0000e7f7" string=""/>
-<text id="0x0000e80c" string=""/>
-<text id="0x0000e821" string=""/>
-<text id="0x0000e836" string=""/>
-<text id="0x0000e84b" string=""/>
-<text id="0x0000e860" string=""/>
-<text id="0x0000e875" string=""/>
-<text id="0x0000e8b4" string=""/>
-<text id="0x0000ec13" string=""/>
-<text id="0x0000ec28" string=""/>
-<text id="0x0000f5ac" string=""/>
-<text id="0x0000f5c1" string=""/>
-<text id="0x0000f600" string=""/>
-<text id="0x0000f6d2" string=""/>
-<text id="0x0000cca3" string="Ajouter Appareil"/>
-<text id="0x0000ccb8" string="Changer PIN"/>
-<text id="0x0000cccd" string="Toujours Obeir aux regles routières and faire attention a la route. &#xA;Certaines options sont limitées durant le fonctionnement du&#xA;véhicule. Se référer au guide du propriétaire pour plus de détails. &#xA;"/>
-<text id="0x0000de9d" string="Appareil injouable"/>
-<text id="0x0000deb2" string="Livr Audio"/>
-<text id="0x0000dec7" string="Prérégl."/>
-<text id="0x0000dedc" string="Info"/>
-<text id="0x0000def1" string="sélectionner&#xA;source"/>
-<text id="0x0000df06" string="Listes"/>
-<text id="0x0000df1b" string="Entrée aux"/>
-<text id="0x0000df30" string="Paramètres"/>
-<text id="0x0000df45" string="Information"/>
-<text id="0x0000df5a" string="Rejouer"/>
-<text id="0x0000df6f" string="Vers où?"/>
-<text id="0x0000df84" string="Liste"/>
-<text id="0x0000df99" string="annuaire"/>
-<text id="0x0000dfae" string="appels réc."/>
-<text id="0x0000dfc3" string="Téléph.&#xA;appair."/>
-<text id="0x0000dfd8" string="Sources&#xA;audio&#xA;appair."/>
-<text id="0x0000dfed" string="Supprimer Appareil"/>
-<text id="0x0000e002" string="Station"/>
-<text id="0x0000e017" string="Info"/>
-<text id="0x0000e02c" string="Genre"/>
-<text id="0x0000e041" string="Appels&#xA;manq."/>
-<text id="0x0000e056" string="Appels&#xA;sortant."/>
-<text id="0x0000e06b" string="Appels&#xA;entr."/>
-<text id="0x0000e080" string="Tous les&#xA;appels"/>
-<text id="0x0000e2e1" string="Niveau capteur de pluie"/>
-<text id="0x0000e2f6" string="Consommation"/>
-<text id="0x0000e30b" string="MI"/>
-<text id="0x0000e320" string="KM"/>
-<text id="0x0000e335" string="MPG"/>
-<text id="0x0000e34a" string="Litres&#xA;100 km"/>
-<text id="0x0000e35f" string="Km/L"/>
-<text id="0x0000e374" string="Carte SD"/>
-<text id="0x0000dc63" string="Régler le mois"/>
-<text id="0x0000dc78" string="Régler l'année"/>
-<text id="0x0000dc4e" string="Régler le jour"/>
-<text id="0x0000e5c0" string="Restaurer les paramètres par défaut"/>
-<text id="0x0000e5d5" string="Êtes-vous sûr de vouloir rétablir les paramètres par défaut?"/>
-<text id="0x0000e5ea" string="Paramètres par défaut restaurés."/>
-<text id="0x0000e6d1" string="Paramètres par défaut rétablis."/>
-<text id="0x0000e63e" string="Effacer les données personnelles"/>
-<text id="0x0000e653" string="Êtes-vous sûr de vouloir effacer ttes données personnelles?"/>
-<text id="0x0000e668" string="Données personnelles effacées."/>
-<text id="0x0000e725" string="Auto-On Radio"/>
-<text id="0x0000e932" string="Radio automatically turns on when&#xA;vehicle is in run or will recall whether&#xA;it was on or off at last ignition off."/>
-<text id="0x0000e971" string="Volume&#xA;Selon Vitesse"/>
-<text id="0x0000eb3f" string="Stations indisponible"/>
-<text id="0x0000ebd2" string="ÉCHEC"/>
-<text id="0x0000ed78" string="Appel&#xA;direct"/>
-<text id="0x0000edb7" string=""/>
-<text id="0x0000ee0b" string=""/>
-<text id="0x0000ee20" string=""/>
-<text id="0x0000ee35" string=""/>
-<text id="0x0000ee4a" string=""/>
-<text id="0x0000ee89" string=""/>
-<text id="0x0000ee9e" string=""/>
-<text id="0x0000eedd" string=""/>
-<text id="0x0000ef1c" string=""/>
-<text id="0x0000ef31" string=""/>
-<text id="0x0000ef70" string=""/>
-<text id="0x0000ef85" string=""/>
-<text id="0x0000ef9a" string=""/>
-<text id="0x0000efaf" string=""/>
-<text id="0x0000efc4" string=""/>
-<text id="0x0000efd9" string=""/>
-<text id="0x0000f114" string="Main pr Conf"/>
-<text id="0x0000f129" string="Réglage du volume de navi"/>
-<text id="0x0000f558" string=""/>
-<text id="0x0000f67e" string="Volume"/>
-<text id="0x0000f693" string="Améliore la qualité&#xA;du son à bas volume"/>
-<text id="0x0000e8c9" string="Trafic"/>
-<text id="0x0000e8de" string="Alarme"/>
 </textresources>
